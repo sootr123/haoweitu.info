@@ -7,6 +7,7 @@
 <title>Hao Wei Tu 杜浩瑋 — Communication Designer · Researcher</title>
 <meta content="Communication designer and PhD candidate at Swinburne University of Technology, Melbourne. The first designer from Taiwan and East Asia to win The One Club Young Ones Portfolio Award. Winner of Red Dot, D&amp;AD, ADC, AIGA 365, TDC 72, and DFA Gold." name="description"/>
 <link href="https://haoweitu.info/" rel="canonical"/>
+<link href="https://haoweitu.info/sitemap.xml" rel="sitemap" type="application/xml"/>
 <meta content="Hao Wei Tu" name="author"/>
 <meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name="robots"/>
 <meta content="#f5f5f2" name="theme-color"/>
@@ -736,6 +737,27 @@
   transform: scaleX(0); z-index: 10000;
   will-change: transform;
 }
+
+/* Copy email button */
+.copy-btn {
+  background: none; border: none; cursor: pointer;
+  padding: 2px 4px; margin-left: 4px;
+  color: var(--soft); opacity: .55;
+  transition: opacity .2s, color .15s;
+  vertical-align: middle; display: inline-flex;
+  align-items: center; position: relative;
+}
+.copy-btn:hover { opacity: 1; color: var(--ink); }
+.copy-tip {
+  position: absolute; bottom: calc(100% + 5px); left: 50%;
+  transform: translateX(-50%);
+  background: var(--ink); color: var(--bg);
+  font-size: 10px; letter-spacing: .06em;
+  padding: 3px 7px; border-radius: 3px;
+  white-space: nowrap; pointer-events: none;
+  opacity: 0; transition: opacity .15s;
+}
+.copy-btn.copied .copy-tip { opacity: 1; }
 </style>
 </head>
 <body>
@@ -850,7 +872,7 @@
 </div>
 <div class="sb-block">
 <p class="sb-label">Email</p>
-<p class="sb-val"><a class="ul" href="mailto:sootr123a@gmail.com">sootr123a@gmail.com</a></p>
+<p class="sb-val"><a class="ul" href="mailto:sootr123a@gmail.com">sootr123a@gmail.com</a><button class="copy-btn" data-copy="sootr123a@gmail.com" aria-label="Copy email"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><rect x="4.5" y="4.5" width="7" height="8" rx="1" stroke="currentColor" stroke-width="1.1"/><path d="M1.5 8.5V2a1 1 0 011-1h6" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/></svg><span class="copy-tip">Copied!</span></button></p>
 </div>
 </aside>
 <div class="about-main">
@@ -1246,7 +1268,7 @@
 <p class="sec-label">04</p>
 <h2 class="sec-title"><span class="en">Connect</span><span class="zh">聯繫</span></h2>
 </div>
-<div class="cn-row"><span class="cn-label">Email</span><span class="cn-val"><a class="ul" href="mailto:sootr123a@gmail.com">sootr123a@gmail.com</a></span></div>
+<div class="cn-row"><span class="cn-label">Email</span><span class="cn-val"><a class="ul" href="mailto:sootr123a@gmail.com">sootr123a@gmail.com</a><button class="copy-btn" data-copy="sootr123a@gmail.com" aria-label="Copy email"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><rect x="4.5" y="4.5" width="7" height="8" rx="1" stroke="currentColor" stroke-width="1.1"/><path d="M1.5 8.5V2a1 1 0 011-1h6" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/></svg><span class="copy-tip">Copied!</span></button></span></div>
 <div class="cn-row"><span class="cn-label">LinkedIn</span><span class="cn-val"><a class="ul ext" href="https://www.linkedin.com/in/hao-wei-tu-3a7576250/" rel="noopener" target="_blank">/in/hao-wei-tu</a></span></div>
 <div class="cn-row"><span class="cn-label">Instagram</span><span class="cn-val"><a class="ul ext" href="https://www.instagram.com/haoweitu.info/" rel="noopener" target="_blank">@haoweitu.info</a></span></div>
 <div class="cn-row"><span class="cn-label">Threads</span><span class="cn-val"><a class="ul ext" href="https://www.threads.net/@haoweitu.info" rel="noopener" target="_blank">@haoweitu.info</a></span></div>
@@ -1363,6 +1385,16 @@
   // Close mobile menu when lang is switched
   document.getElementById('btn-en').addEventListener('click', closeMobileMenu);
   document.getElementById('btn-zh').addEventListener('click', closeMobileMenu);
+
+  // Copy email
+  document.querySelectorAll('.copy-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      navigator.clipboard.writeText(btn.dataset.copy).then(() => {
+        btn.classList.add('copied');
+        setTimeout(() => btn.classList.remove('copied'), 1800);
+      });
+    });
+  });
 
   // Scroll reveal — only elements below the fold get animated
   (function () {
