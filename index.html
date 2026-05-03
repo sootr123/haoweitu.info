@@ -233,7 +233,8 @@
       height: 48px;
     }
     .nav-left { display: flex; align-items: center; gap: 40px; }
-    .nav-name { font-size: 13px; font-weight: 500; letter-spacing: -.01em; }
+    .nav-name { font-size: 13px; font-weight: 500; letter-spacing: -.01em; color: inherit; text-decoration: none; cursor: pointer; transition: opacity .2s; }
+    .nav-name:hover { opacity: .55; }
     .nav-links { display: flex; gap: 28px; }
     .nav-links a {
       font-size: 12px; color: var(--mid);
@@ -533,15 +534,20 @@
   
 /* Gallery expand/collapse */
 .gallery-toggle{
-  background:none;border:1px solid rgba(255,255,255,.25);color:inherit;
+  background:none;border:1px solid rgba(0,0,0,.18);color:inherit;
   width:28px;height:28px;border-radius:50%;cursor:pointer;
-  font-size:16px;line-height:1;display:inline-flex;align-items:center;justify-content:center;
-  margin-left:8px;transition:transform .2s;flex-shrink:0;
+  display:inline-flex;align-items:center;justify-content:center;
+  margin-left:8px;transition:transform .3s ease, border-color .2s, opacity .2s;flex-shrink:0;
+  opacity:.5;
 }
-.gallery-toggle.open{transform:rotate(45deg);}
+.gallery-toggle:hover{border-color:rgba(0,0,0,.45);opacity:1;}
+.gallery-toggle.open{transform:rotate(180deg);opacity:1;}
 .gallery-panel{
-  grid-column:1/-1;width:100%;max-width:90%;margin-left:auto;margin-right:auto;padding:16px 0 8px;overflow:hidden;box-sizing:border-box;
+  grid-column:1/-1;width:100%;max-width:90%;margin-left:auto;margin-right:auto;
+  overflow:hidden;box-sizing:border-box;
+  max-height:0;padding:0;transition:max-height .4s ease, padding .4s ease;
 }
+.gallery-panel.open{max-height:3000px;padding:16px 0 8px;}
 .gallery-panel img{
   max-width:100%;height:auto;display:block;border-radius:4px;
 }
@@ -563,16 +569,18 @@
 .sub-row { position: relative; }
 .sub-gallery-toggle {
     background: none; border: none; color: var(--fg);
-    font-size: .85rem; cursor: pointer; opacity: .45;
-    padding: 0 0 0 6px; transition: opacity .2s;
+    cursor: pointer; opacity: .4;
+    padding: 0 0 0 6px; transition: opacity .2s, transform .3s ease;
+    display: inline-flex; align-items: center;
 }
 .sub-gallery-toggle:hover { opacity: 1; }
+.sub-gallery-toggle.open { transform: rotate(180deg); opacity: 1; }
 .sub-gallery-panel {
-    display: none; padding: 10px 0; overflow: hidden;
-    transition: max-height .35s ease;
+    max-height: 0; padding: 0; overflow: hidden;
+    transition: max-height .35s ease, padding .35s ease;
     grid-column: 1 / -1;
 }
-.sub-gallery-panel.open { display: block; }
+.sub-gallery-panel.open { max-height: 2000px; padding: 10px 0; }
 .sub-gallery-panel img {
     width: 100%; max-height: 600px; object-fit: contain;
     border-radius: 4px; margin: 4px 0;
@@ -585,7 +593,7 @@
 <div class="wrap">
 <div class="nav-inner">
 <div class="nav-left">
-<span class="nav-name">Hao Wei Tu 杜浩瑋</span>
+<a class="nav-name" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Hao Wei Tu 杜浩瑋</a>
 <nav class="nav-links">
 <a class="ul" href="#about"><span class="en">About</span><span class="zh">關於</span></a>
 <a class="ul" href="#recognition"><span class="en">Recognition</span><span class="zh">獲獎</span></a>
@@ -756,7 +764,7 @@
 <p class="aw-sub"><span class="en">First recipient from Taiwan and East Asia · The One Club for Creativity, New York</span><span class="zh">台灣與東亞首位得主 · 紐約 The One Club for Creativity</span></p>
 </div>
 <div class="aw-result">Winner ★</div>
-<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.style.display=p.style.display==="none"?"block":"none";'>+</button><div class="gallery-panel" style="display:none;"><img alt="" loading="lazy" src="gallery/young-ones/portfolio-winner.jpg"/></div></div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="" loading="lazy" src="gallery/young-ones/portfolio-winner.jpg"/></div></div>
 <div class="award-row">
 <div class="aw-year">2026</div>
 <div class="aw-main">
@@ -772,7 +780,7 @@
 <p class="aw-sub"><span class="en">Brands &amp; Communication Design · D&amp;AD Exhibition in Taiwan</span><span class="zh">品牌與傳達設計類 · 作品「D&amp;AD 設計展在台灣」</span></p>
 </div>
 <div class="aw-result">Best of the Best</div>
-<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.style.display=p.style.display==="none"?"block":"none";'>+</button><div class="gallery-panel" style="display:none;"><img alt="" loading="lazy" src="gallery/dad-exhibition/red-dot-team.jpg"/></div></div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="" loading="lazy" src="gallery/dad-exhibition/red-dot-team.jpg"/></div></div>
 <div class="award-row">
 <div class="aw-year">2022</div>
 <div class="aw-main">
@@ -862,10 +870,10 @@
 <h3 class="aw-title"><span class="en">Communication Arts</span><span class="zh">美國《Communication Arts》傳達藝術</span></h3>
 <p class="aw-sub"><span class="en">Magazine features and competition recognition</span><span class="zh">雜誌專訪與競賽肯定</span></p>
 <div class="sub-list">
-<div class="sub-row"><span class="sub-yr">2022</span><span class="sub-name"><span class="en">Personal Interview · Interaction Annual 28, p. 64</span><span class="zh">個人專訪 · Interaction Annual 28，第 64 頁</span></span><span class="sub-res"><span class="en">Print</span><span class="zh">實體</span></span><button class="sub-gallery-toggle" onclick='var p=this.nextElementSibling;if(p){p.style.display=p.style.display==="none"||p.style.display===""?"block":"none"}'>+</button><div class="sub-gallery-panel"><img alt="" loading="lazy" src="gallery/communication-art/1.jpg"/></div></div>
-<div class="sub-row"><span class="sub-yr">2022</span><span class="sub-name"><a class="ul" href="https://www.commarts.com/project/33729/graduation-moment" rel="noopener" target="_blank">Graduation Moment</a></span><span class="sub-res">Featured</span><button class="sub-gallery-toggle" onclick='var p=this.nextElementSibling;if(p){p.style.display=p.style.display==="none"||p.style.display===""?"block":"none"}'>+</button><div class="sub-gallery-panel"><img alt="" loading="lazy" src="gallery/communication-art/2.jpg"/></div></div>
-<div class="sub-row"><span class="sub-yr">2020</span><span class="sub-name"><a class="ul" href="https://www.commarts.com/project/33229/islander-s-summer-homework" rel="noopener" target="_blank">Islander's Summer Homework</a></span><span class="sub-res">Featured</span><button class="sub-gallery-toggle" onclick='var p=this.nextElementSibling;if(p){p.style.display=p.style.display==="none"||p.style.display===""?"block":"none"}'>+</button><div class="sub-gallery-panel"><img alt="" loading="lazy" src="gallery/communication-art/3.jpg"/></div></div>
-<div class="sub-row"><span class="sub-yr">2018</span><span class="sub-name"><a class="ul" href="https://www.commarts.com/project/27683/taiwan-international-festival-of-arts" rel="noopener" target="_blank">Taiwan International Festival of Arts</a></span><span class="sub-res">Featured</span><button class="sub-gallery-toggle" onclick='var p=this.nextElementSibling;if(p){p.style.display=p.style.display==="none"||p.style.display===""?"block":"none"}'>+</button><div class="sub-gallery-panel"><img alt="" loading="lazy" src="gallery/communication-art/4.jpg"/></div></div>
+<div class="sub-row"><span class="sub-yr">2022</span><span class="sub-name"><span class="en">Personal Interview · Interaction Annual 28, p. 64</span><span class="zh">個人專訪 · Interaction Annual 28，第 64 頁</span></span><span class="sub-res"><span class="en">Print</span><span class="zh">實體</span></span><button class="sub-gallery-toggle" onclick='this.classList.toggle("open");var p=this.nextElementSibling;if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="sub-gallery-panel"><img alt="" loading="lazy" src="gallery/communication-art/1.jpg"/></div></div>
+<div class="sub-row"><span class="sub-yr">2022</span><span class="sub-name"><a class="ul" href="https://www.commarts.com/project/33729/graduation-moment" rel="noopener" target="_blank">Graduation Moment</a></span><span class="sub-res">Featured</span><button class="sub-gallery-toggle" onclick='this.classList.toggle("open");var p=this.nextElementSibling;if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="sub-gallery-panel"><img alt="" loading="lazy" src="gallery/communication-art/2.jpg"/></div></div>
+<div class="sub-row"><span class="sub-yr">2020</span><span class="sub-name"><a class="ul" href="https://www.commarts.com/project/33229/islander-s-summer-homework" rel="noopener" target="_blank">Islander's Summer Homework</a></span><span class="sub-res">Featured</span><button class="sub-gallery-toggle" onclick='this.classList.toggle("open");var p=this.nextElementSibling;if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="sub-gallery-panel"><img alt="" loading="lazy" src="gallery/communication-art/3.jpg"/></div></div>
+<div class="sub-row"><span class="sub-yr">2018</span><span class="sub-name"><a class="ul" href="https://www.commarts.com/project/27683/taiwan-international-festival-of-arts" rel="noopener" target="_blank">Taiwan International Festival of Arts</a></span><span class="sub-res">Featured</span><button class="sub-gallery-toggle" onclick='this.classList.toggle("open");var p=this.nextElementSibling;if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="sub-gallery-panel"><img alt="" loading="lazy" src="gallery/communication-art/4.jpg"/></div></div>
 <div class="sub-row"><span class="sub-yr">2025</span><span class="sub-name">Communication Arts Design</span><span class="sub-res">Shortlist</span></div>
 </div>
 </div>
@@ -914,7 +922,7 @@
 <p class="aw-sub"><span class="en">Bureau of Cultural Heritage, Ministry of Culture</span><span class="zh">文化部</span></p>
 </div>
 <div class="aw-result">Winner</div>
-<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.style.display=p.style.display==="none"?"block":"none";'>+</button><div class="gallery-panel" style="display:none;"><img alt="" loading="lazy" src="gallery/tigda/ceremony.jpg"/></div></div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="" loading="lazy" src="gallery/tigda/ceremony.jpg"/></div></div>
 <div class="award-row">
 <div class="aw-year">2020</div>
 <div class="aw-main">
@@ -922,7 +930,7 @@
 <p class="aw-sub"><span class="en">Taiwan Design Research Institute · Islander's Summer Homework</span><span class="zh">台灣設計研究院 · 作品「島民的暑假作業」</span></p>
 </div>
 <div class="aw-result">Winner</div>
-<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.style.display=p.style.display==="none"?"block":"none";'>+</button><div class="gallery-panel" style="display:none;">
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel">
 <img alt="" loading="lazy" src="gallery/islanders/1.jpg"/>
 </div></div>
 <!-- ── Practice, Service & Speaking ── -->
@@ -944,7 +952,7 @@
 <p class="aw-sub"><span class="en">Design Institute of Australia</span><span class="zh">澳洲設計協會</span></p>
 </div>
 <div class="aw-result">Juror</div>
-<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.style.display=p.style.display==="none"?"block":"none";'>+</button><div class="gallery-panel" style="display:none;">
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel">
 <img alt="" loading="lazy" src="gallery/dia/1.jpg"/>
 </div></div>
 <div class="award-row">
@@ -962,7 +970,7 @@
 <p class="aw-sub"><span class="en">Australian Graphic Design Association · portfolio mentoring for recent graduates</span><span class="zh">澳洲設計師協會 · 為畢業生提供作品集指導</span></p>
 </div>
 <div class="aw-result">Mentor</div>
-<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.style.display=p.style.display==="none"?"block":"none";'>+</button><div class="gallery-panel" style="display:none;">
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel">
 <img alt="" loading="lazy" src="gallery/agda/1.jpg"/>
 </div></div>
 <div class="award-row">
@@ -972,7 +980,7 @@
 <p class="aw-sub"><span class="en">Melbourne, Australia</span><span class="zh">澳洲墨爾本</span></p>
 </div>
 <div class="aw-result">Speaker</div>
-<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.style.display=p.style.display==="none"?"block":"none";'>+</button><div class="gallery-panel" style="display:none;">
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel">
 <div class="gallery-video">
 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/79GARATpVJs" style="width:100%;aspect-ratio:16/9;border-radius:6px;" title="TEDxSwinburne"></iframe>
 </div>
@@ -984,7 +992,7 @@
 <p class="aw-sub"><span class="en">Conference paper presented in Taipei</span><span class="zh">於台北發表完整論文</span></p>
 </div>
 <div class="aw-result">Paper</div>
-<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.style.display=p.style.display==="none"?"block":"none";'>+</button><div class="gallery-panel" style="display:none;"><img alt="" loading="lazy" src="gallery/iasdr/presentation.jpg"/></div></div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="" loading="lazy" src="gallery/iasdr/presentation.jpg"/></div></div>
 </div>
 </section>
 <!-- ══ PRESS ══ -->
@@ -1003,8 +1011,8 @@
 <div class="pr-year">2025</div>
 <div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.swinburne.edu.au/news/2025/11/Hao-Wei-Tu/" rel="noopener" target="_blank"><span class="en">Hao Wei Tu — PhD Researcher Profile</span><span class="zh">杜浩瑋 — 博士研究員介紹</span></a></p></div>
 <div class="pr-pub">Swinburne</div>
-<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.style.display=p.style.display==="none"?"block":"none";'>+</button>
-<div class="gallery-panel" style="display:none;"><img alt="" loading="lazy" src="gallery/swinburne/1.jpg"/></div></div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div class="gallery-panel"><img alt="" loading="lazy" src="gallery/swinburne/1.jpg"/></div></div>
 <div class="press-row">
 <div class="pr-year">2023</div>
 <div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.cna.com.tw/news/ahel/202311270028.aspx" rel="noopener" target="_blank"><span class="en">Taiwan Tech graduate awarded Swinburne PhD scholarship</span><span class="zh">台科大畢業生獲斯威本博士獎學金</span></a></p></div>
@@ -1054,8 +1062,8 @@
 <div class="pr-year">2018</div>
 <div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.chinatimes.com/newspapers/20181029000220-260301?chdtv" rel="noopener" target="_blank"><span class="en">Chinese Character Creative Works Exhibition — Showcasing Cultural Confidence</span><span class="zh">漢字文創作品展 彰顯文化自信</span></a></p></div>
 <div class="pr-pub"><span class="en">China Times</span><span class="zh">中國時報</span></div>
-<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.style.display=p.style.display==="none"?"block":"none";'>+</button>
-<div class="gallery-panel" style="display:none;"><img alt="" loading="lazy" src="gallery/news-hanzi/chinatimes.jpg"/></div></div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div class="gallery-panel"><img alt="" loading="lazy" src="gallery/news-hanzi/chinatimes.jpg"/></div></div>
 <div class="press-row">
 <div class="pr-year">2018</div>
 <div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.sohu.com/a/271883618_100105130" rel="noopener" target="_blank"><span class="en">Cross-Strait Chinese Character Cultural Creativity Competition Award Exhibition</span><span class="zh">兩岸漢字文化創意競賽獲獎作品展</span></a></p></div>
