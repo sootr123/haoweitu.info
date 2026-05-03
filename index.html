@@ -667,6 +667,17 @@
   .hero-name, .hero-right, .ticker { animation: none; }
 }
 
+/* ── SCROLL REVEAL ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity .65s ease, transform .65s ease;
+}
+.reveal.visible { opacity: 1; transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+
 /* Section offset for sticky nav */
 .section { scroll-margin-top: 64px; }
 
@@ -1307,6 +1318,23 @@
   // Close mobile menu when lang is switched
   document.getElementById('btn-en').addEventListener('click', closeMobileMenu);
   document.getElementById('btn-zh').addEventListener('click', closeMobileMenu);
+
+  // Scroll reveal — only elements below the fold get animated
+  (function () {
+    const els = document.querySelectorAll(
+      '.sec-header, .about-sidebar, .about-main, .logo-strip, .group-title, .press-row'
+    );
+    const vh = window.innerHeight;
+    els.forEach(el => {
+      if (el.getBoundingClientRect().top > vh * 0.88) el.classList.add('reveal');
+    });
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  })();
 </script>
 </body>
 </html>
