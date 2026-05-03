@@ -1325,7 +1325,7 @@
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
 
   document.addEventListener('click', e => {
-    const img = e.target.closest('.gallery-panel img, .gallery-img');
+    const img = e.target.closest('.gallery-panel img, .sub-gallery-panel img, .gallery-img');
     if (img) { e.preventDefault(); openLb(img.src, img.alt); }
   });
 
