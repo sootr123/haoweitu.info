@@ -442,6 +442,7 @@
       transition: background .15s;
     }
     .award-row:hover { background: rgba(10,10,10,.018); }
+    .award-row:has(.gallery-toggle) { cursor: pointer; }
 
     .aw-year {
       font-size: 12px; letter-spacing: .08em;
@@ -493,6 +494,8 @@
       position: relative;
     }
     .press-row:hover { background: rgba(10,10,10,.018); }
+    .press-row:has(.gallery-toggle) { cursor: pointer; }
+    .sub-row:has(.sub-gallery-toggle) { cursor: pointer; }
     .pr-year {
       font-size: 12px; letter-spacing: .08em;
       color: var(--mid); padding-top: 2px;
@@ -1337,6 +1340,25 @@
     });
   }, { rootMargin: '-15% 0px -75% 0px' });
   sections.forEach(s => sectionObserver.observe(s));
+
+  // Row-wide click to toggle gallery
+  document.addEventListener('click', e => {
+    if (e.target.closest('a') || e.target.closest('.gallery-panel') || e.target.closest('.sub-gallery-panel')) return;
+
+    const row = e.target.closest('.award-row, .press-row');
+    if (row && !e.target.closest('.sub-row') && !e.target.closest('.gallery-toggle')) {
+      const toggle = row.querySelector(':scope > .gallery-toggle');
+      const panel  = row.querySelector(':scope > .gallery-panel');
+      if (toggle && panel) { toggle.classList.toggle('open'); panel.classList.toggle('open'); }
+    }
+
+    const subRow = e.target.closest('.sub-row');
+    if (subRow && !e.target.closest('.sub-gallery-toggle')) {
+      const toggle = subRow.querySelector('.sub-gallery-toggle');
+      const panel  = subRow.querySelector('.sub-gallery-panel');
+      if (toggle && panel) { toggle.classList.toggle('open'); panel.classList.toggle('open'); }
+    }
+  });
 
   // Lightbox
   const lb = document.createElement('div');
