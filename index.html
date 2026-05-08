@@ -445,17 +445,32 @@
     }
 
     /* ════════════════════════════
-       CLIENT LOGO GRID — Melbourne
+       CLIENT GRID — Melbourne
     ════════════════════════════ */
+    .mel-ticker {
+      overflow: hidden;
+      white-space: nowrap;
+      padding: 40px 0;
+      border-bottom: 1px solid var(--rule);
+    }
+    .mel-ticker-track {
+      display: inline-flex;
+      align-items: center;
+      animation: ticker 32s linear infinite;
+    }
+    .mel-ticker-track:hover { animation-play-state: paused; }
+    .mel-ticker-track img {
+      height: 76px;
+      width: auto;
+      opacity: .55;
+      filter: grayscale(1);
+      flex-shrink: 0;
+      display: block;
+      margin-right: 60px;
+    }
     .client-logo-wrap {
-      padding: 0 0 32px;
+      padding-bottom: 32px;
     }
-    .client-logo-wrap .logo-icon {
-      max-width: 130px;
-      height: 64px;
-      opacity: .35;
-    }
-    .client-logo-wrap .logo-icon:hover { opacity: .75; }
     .section-credit {
       font-size: 10px;
       letter-spacing: .09em;
@@ -463,59 +478,65 @@
       color: var(--soft);
       margin-top: 7px;
     }
-    .work-row {
+    .client-grid {
       display: grid;
-      grid-template-columns: 80px 1fr auto;
-      gap: 0 20px;
-      padding: 18px 0;
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 20px;
+    }
+    .client-cell {
+      padding: 13px 20px 13px 0;
       border-bottom: 1px solid var(--rule);
-      align-items: baseline;
-      position: relative;
+      cursor: pointer;
     }
-    .work-row:has(.gallery-toggle) { cursor: pointer; }
-    .work-row .gallery-panel { grid-column: 1/-1; max-width: 100%; }
-    .wk-year {
-      font-size: 12px; letter-spacing: .08em;
-      color: var(--mid); padding-top: 2px;
-    }
-    .wk-work {
-      font-size: 15px; font-weight: 500;
-      letter-spacing: -.01em; color: var(--ink);
-    }
-    .wk-client {
-      font-size: 12px; letter-spacing: .02em;
-      color: var(--mid); text-align: right;
-      white-space: nowrap;
-    }
-    .wk-sub {
-      display: block;
-      font-size: 12px; line-height: 1.4;
-      color: var(--mid); font-weight: 400;
-      margin-top: 2px; letter-spacing: 0;
-    }
-    .work-sub {
-      list-style: none;
-      margin: 0;
-      padding: 4px 0 4px 100px;
-    }
-    .work-sub li {
-      display: flex;
-      justify-content: space-between;
+    .client-cell-name {
       font-size: 13px;
-      color: var(--mid);
-      padding: 7px 0;
-      border-top: 1px solid rgba(0,0,0,.05);
+      font-weight: 500;
+      color: var(--ink);
+      letter-spacing: -.01em;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px;
+      transition: opacity .15s;
     }
-    .work-sub li span {
+    .client-cell:hover .client-cell-name { opacity: .5; }
+    .client-cell-name::after {
+      content: '+';
+      font-size: 13px;
       color: var(--soft);
+      font-weight: 300;
+      flex-shrink: 0;
+    }
+    .client-cell.open .client-cell-name::after { content: '−'; }
+    .client-cell-proj {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height .3s ease;
+    }
+    .client-cell.open .client-cell-proj {
+      max-height: 320px;
+    }
+    .client-cell-work {
       font-size: 11px;
-      letter-spacing: .06em;
+      color: var(--mid);
+      margin-top: 8px;
+      font-weight: 400;
+      letter-spacing: .02em;
+    }
+    .client-cell-list {
+      list-style: none;
+      margin: 4px 0 0;
+      padding: 0;
+    }
+    .client-cell-list li {
+      font-size: 11px;
+      color: var(--mid);
+      padding: 3px 0;
+      border-top: 1px solid rgba(0,0,0,.06);
     }
     @media (max-width: 720px) {
-      .client-logo-wrap .logo-icon { max-width: 100px; height: 52px; }
-      .work-row { grid-template-columns: 60px 1fr; }
-      .wk-client { display: none; }
-      .work-sub { padding-left: 60px; }
+      .client-grid { grid-template-columns: repeat(2, 1fr); }
+      .client-cell { padding-right: 10px; }
     }
 
     /* ════════════════════════════
@@ -980,8 +1001,8 @@
 </aside>
 <div class="about-main">
 <p class="about-lede">
-<span class="en">Hao Wei Tu is a communication designer and researcher — a PhD candidate in Design at <strong>Swinburne University of Technology</strong>, working in collaboration with Design Factory Melbourne and the Australian Nuclear Science and Technology Organisation (ANSTO) — and a Senior Graphic Designer at Melbourne studio <strong>D&amp;D Creative</strong>, where he has led major rebrand projects across the CBD including <strong>Midcity Centre</strong> and <strong>Downtown Grocer</strong>. He specialises in brand strategy, visual storytelling and identity systems for both commercial and cultural clients, balancing aesthetics with strategic communication.</span>
-<span class="zh">杜浩瑋是一位傳達設計師暨研究者——斯威本科技大學設計博士候選人，與 Design Factory Melbourne 及澳洲核能科學技術組織（ANSTO）合作進行研究——同時擔任墨爾本設計工作室 <strong>D&amp;D Creative</strong> 資深平面設計師，主導墨爾本市中心多項品牌重塑專案，包含 <strong>Midcity Centre</strong> 與 <strong>Downtown Grocer</strong>。專精於商業與文化機構的品牌策略、視覺敘事與識別系統，於美學與策略性溝通之間取得平衡。</span>
+<span class="en">Hao Wei Tu is a communication designer and researcher — a PhD candidate in Design at <strong>Swinburne University of Technology</strong>, working in collaboration with Design Factory Melbourne and the Australian Nuclear Science and Technology Organisation (ANSTO) — and a Senior Graphic Designer at Melbourne studio <strong>D&amp;D Creative</strong>, where he has led major rebrand projects across the CBD including Midcity Centre and Downtown Grocer. He specialises in brand strategy, visual storytelling and identity systems for both commercial and cultural clients, balancing aesthetics with strategic communication.</span>
+<span class="zh">杜浩瑋是一位傳達設計師暨研究者——斯威本科技大學設計博士候選人，與 Design Factory Melbourne 及澳洲核能科學技術組織（ANSTO）合作進行研究——同時擔任墨爾本設計工作室 <strong>D&amp;D Creative</strong> 資深平面設計師，主導墨爾本市中心多項品牌重塑專案，包含 Midcity Centre 與 Downtown Grocer。專精於商業與文化機構的品牌策略、視覺敘事與識別系統，於美學與策略性溝通之間取得平衡。</span>
 </p>
 <div class="about-body">
 <p>
@@ -1105,42 +1126,33 @@
 <h3><span class="en">Designs in Melbourne</span><span class="zh">墨爾本設計作品</span></h3>
 <p class="section-credit">Designed at D&amp;D Creative · Melbourne, 2022–present</p>
 </div>
-<div class="client-logo-wrap">
-<div class="logo-strip-inner">
-<div class="logo-cell"><img alt="Melbourne Client 1" class="logo-icon" src="LOGOs-01.svg"/></div>
-<div class="logo-cell"><img alt="Melbourne Client 2" class="logo-icon" src="LOGOs-02.svg"/></div>
-<div class="logo-cell"><img alt="Melbourne Client 3" class="logo-icon" src="LOGOs-03.svg"/></div>
-<div class="logo-cell"><img alt="Melbourne Client 4" class="logo-icon" src="LOGOs-04.svg"/></div>
-<div class="logo-cell"><img alt="Melbourne Client 5" class="logo-icon" src="LOGOs-05.svg"/></div>
-<div class="logo-cell"><img alt="Melbourne Client 6" class="logo-icon" src="LOGOs-06.svg"/></div>
-<div class="logo-cell"><img alt="Melbourne Client 7" class="logo-icon" src="LOGOs-07.svg"/></div>
-<div class="logo-cell"><img alt="Melbourne Client 8" class="logo-icon" src="LOGOs-08.svg"/></div>
-<div class="logo-cell"><img alt="Melbourne Client 9" class="logo-icon" src="LOGOs-09.svg"/></div>
-<div class="logo-cell"><img alt="Melbourne Client 10" class="logo-icon" src="LOGOs-10.svg"/></div>
-<div class="logo-cell"><img alt="Melbourne Client 11" class="logo-icon" src="LOGOs-11.svg"/></div>
-<div class="logo-cell"><img alt="Melbourne Client 12" class="logo-icon" src="LOGOs-12.svg"/></div>
+<div class="mel-ticker" aria-hidden="true">
+<div class="mel-ticker-track"><img src="LOGOs-01.svg" alt=""><img src="LOGOs-02.svg" alt=""><img src="LOGOs-03.svg" alt=""><img src="LOGOs-04.svg" alt=""><img src="LOGOs-05.svg" alt=""><img src="LOGOs-06.svg" alt=""><img src="LOGOs-07.svg" alt=""><img src="LOGOs-08.svg" alt=""><img src="LOGOs-09.svg" alt=""><img src="LOGOs-10.svg" alt=""><img src="LOGOs-11.svg" alt=""><img src="LOGOs-12.svg" alt=""><img src="LOGOs-01.svg" alt=""><img src="LOGOs-02.svg" alt=""><img src="LOGOs-03.svg" alt=""><img src="LOGOs-04.svg" alt=""><img src="LOGOs-05.svg" alt=""><img src="LOGOs-06.svg" alt=""><img src="LOGOs-07.svg" alt=""><img src="LOGOs-08.svg" alt=""><img src="LOGOs-09.svg" alt=""><img src="LOGOs-10.svg" alt=""><img src="LOGOs-11.svg" alt=""><img src="LOGOs-12.svg" alt=""></div>
+</div>
+<div class="client-logo-wrap" id="client-logos">
+<div class="client-grid">
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Midcity Centre</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Redesign</p><ul class="client-cell-list"><li>Brand Guideline</li><li>Website Redesign</li></ul></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">JSY Tea</div><div class="client-cell-proj"><p class="client-cell-work">Tea Packaging Series</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Attakai</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Design</p><ul class="client-cell-list"><li>Brand Guideline</li></ul></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">EST</div><div class="client-cell-proj"><ul class="client-cell-list"><li>Brand Identity Redesign — EST Clinic</li><li>Website Redesign — EST Skinlab</li></ul></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Bake Stand</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Extension</p><ul class="client-cell-list"><li>Website Design</li></ul></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Rainbow Town</div><div class="client-cell-proj"><ul class="client-cell-list"><li>Brand Identity Redesign</li><li>Website Redesign</li></ul></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">J&amp;G Fried Chicken</div><div class="client-cell-proj"><p class="client-cell-work">Website Design</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Pisell</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Redesign</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Downtown Grocer</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Redesign</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Forge Group</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Extending</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">HNZ Constructions</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Redesign</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Propis</div><div class="client-cell-proj"><p class="client-cell-work">Website Redesign</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Fishmonger</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Design</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Good Boys Deli</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Design</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Upstairs Cafe</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Design</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Lulu's Char Kway Teow</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Redesign</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Melball</div><div class="client-cell-proj"><p class="client-cell-work">Website Redesign</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">'Pantrē</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Redesign</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">Yo-Mo Frozen Yogurt</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Design</p></div></div>
+<div class="client-cell" onclick='this.classList.toggle("open")'><div class="client-cell-name">The Bund</div><div class="client-cell-proj"><p class="client-cell-work">Brand Identity Design</p></div></div>
 </div>
 </div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2023</div><div class="wk-work">Brand Identity &amp; Website<span class="wk-sub">Logo, brand guideline &amp; website</span></div><div class="wk-client">Midcity Centre</div><button aria-label="Toggle details" class="gallery-toggle" onclick='event.stopPropagation();this.classList.toggle("open");var p=this.closest(".work-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");' ><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><ul class="work-sub"><li>Logo Design<span>2023</span></li><li>Branding Guideline<span>2023</span></li><li>Website<span>2023</span></li></ul></div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2023</div><div class="wk-work">Brand Identity</div><div class="wk-client">EST Clinic</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2023</div><div class="wk-work">Logo Design</div><div class="wk-client">Upstairs Cafe</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2023–25</div><div class="wk-work">Tea Packaging Series<span class="wk-sub">Ongoing series across multiple product lines</span></div><div class="wk-client">JSY Tea</div><button aria-label="Toggle details" class="gallery-toggle" onclick='event.stopPropagation();this.classList.toggle("open");var p=this.closest(".work-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");' ><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><ul class="work-sub"><li>Gift Box &amp; Holiday Packaging<span>2023</span></li><li>Pure Tea Gift Set<span>2024</span></li><li>Japanese Flavoured Tea Series<span>2024</span></li><li>Three Cups One Day Tea Book<span>2025</span></li><li>Three Cups One Day Herbal Tea Gift Set<span>2025</span></li></ul></div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2023</div><div class="wk-work">Logo Design</div><div class="wk-client">The Bund</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2023</div><div class="wk-work">Website Design</div><div class="wk-client">Propis</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2024</div><div class="wk-work">Logo Redesign<span class="wk-sub">Complete identity redesign, Midcity Centre precinct</span></div><div class="wk-client">Downtown Grocer</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2024</div><div class="wk-work">Brand Identity &amp; Visual System<span class="wk-sub">Logo, brand guideline &amp; comprehensive VI package</span></div><div class="wk-client">Attakai</div><button aria-label="Toggle details" class="gallery-toggle" onclick='event.stopPropagation();this.classList.toggle("open");var p=this.closest(".work-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");' ><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><ul class="work-sub"><li>Logo Design<span>2024</span></li><li>Brand Guideline<span>2024</span></li><li>Visual Identity Package<span>2025</span></li><li>Window Graphic — Collins St<span>2025</span></li></ul></div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2024</div><div class="wk-work">Logo Design</div><div class="wk-client">Fishmonger</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2024</div><div class="wk-work">Visual Identity System</div><div class="wk-client">Forge Group</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2024</div><div class="wk-work">Logo &amp; Visual Identity</div><div class="wk-client">HNZ Constructions</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2024</div><div class="wk-work">Logo &amp; Visual Identity</div><div class="wk-client">Good Boys Deli</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2024</div><div class="wk-work">Rebrand</div><div class="wk-client">Lulu’s Group</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2024</div><div class="wk-work">Website Design</div><div class="wk-client">Melball</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2025</div><div class="wk-work">Brand Identity</div><div class="wk-client">Yo-Mo Frozen Yogurt</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2025</div><div class="wk-work">Website Design</div><div class="wk-client">EST Skinlab</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2025</div><div class="wk-work">Website Design</div><div class="wk-client">J&amp;G Fried Chicken</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2025</div><div class="wk-work">Brand Redesign</div><div class="wk-client">Pisell</div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2025</div><div class="wk-work">Extended Brand Identity System<span class="wk-sub">Brand identity, packaging &amp; website — full rollout</span></div><div class="wk-client">Bake Stand</div><button aria-label="Toggle details" class="gallery-toggle" onclick='event.stopPropagation();this.classList.toggle("open");var p=this.closest(".work-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");' ><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><ul class="work-sub"><li>Brand Identity &amp; Guideline<span>2025</span></li><li>Cookie Tin &amp; Jar Packaging<span>2025</span></li><li>Website Design<span>2025</span></li></ul></div></div>
-<div class="work-row" onclick='var b=this.querySelector(".gallery-toggle");if(b){b.classList.toggle("open");var p=this.querySelector(".gallery-panel");if(p)p.classList.toggle("open");}'><div class="wk-year">2025</div><div class="wk-work">Brand Identity &amp; Website</div><div class="wk-client">Rainbow Town</div></div>
 <!-- ── Recognition by Programme ── -->
 <div class="group-title">
 <h3><span class="en">Recognition by Programme</span><span class="zh">各獎項多次獲獎</span></h3>
