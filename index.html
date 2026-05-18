@@ -373,6 +373,8 @@
     }
     .sb-val { font-size: 13px; line-height: 1.55; color: var(--ink); }
     .about-main { padding: 40px 0 40px 48px; border-left: 1px solid var(--rule); }
+    .about-video { position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:6px; margin-bottom:28px; }
+    .about-video iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:0; border-radius:6px; }
     .about-lede {
       font-size: 22px; font-weight: 400;
       line-height: 1.45; color: var(--ink);
@@ -544,51 +546,85 @@
        RECOGNITION — group title
     ════════════════════════════ */
     .group-title {
-      padding: 56px 0 20px;
+      padding: 40px 0 16px;
       border-bottom: 1px solid var(--rule);
     }
+    .group-title.group-toggle { cursor:pointer; user-select:none; }
+    .group-title.group-toggle h3::after { content:' ↓'; font-size:.65em; opacity:.38; margin-left:6px; font-weight:400; }
+    .group-title.group-toggle.open h3::after { content:' ↑'; }
+    .group-body { overflow:hidden; max-height:0; transition:max-height .5s ease; }
+    .group-body.open { max-height:20000px; }
+    /* Press groups */
+    .press-grp-hd { cursor:pointer; user-select:none; }
+    .press-grp-body { overflow:hidden; max-height:0; transition:max-height .45s ease; }
+    .press-grp-body.open { max-height:5000px; }
+    .press-sub { display:flex; justify-content:space-between; align-items:baseline; padding:8px 0 8px 120px; border-top:1px solid var(--rule); gap:16px; }
+    .press-sub a { font-size:13px; color:var(--ink); text-decoration:none; }
+    .press-sub a:hover { text-decoration:underline; }
+    .press-sub-pub { font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--mid); white-space:nowrap; flex-shrink:0; }
+    .pr-count { font-size:11px; color:var(--soft); margin-top:3px; }
+    .press-toggle { cursor:pointer; user-select:none; display:flex; justify-content:space-between; align-items:baseline; }
+    .press-arr { font-size:11px; opacity:.4; padding-left:8px; }
     .group-title h3 {
       font-size: 20px; font-weight: 500;
       letter-spacing: -.015em; color: var(--ink);
       line-height: 1.2;
     }
 
-    /* Award row — clean 3-column, no vertical borders */
+    /* Award row — 4 col: [toggle/empty 28px] [year 92px] [title 1fr] [result 140px] */
     .award-row {
       display: grid;
-      grid-template-columns: 120px 1fr 160px;
-      padding: 28px 0;
+      grid-template-columns: 28px 92px 1fr 140px;
+      padding: 12px 0;
       border-bottom: 1px solid var(--rule);
       transition: background .15s;
     }
     .award-row:hover { background: rgba(10,10,10,.018); }
     .award-row:has(.gallery-toggle) { cursor: pointer; }
+    .award-row:has(.sub-list) { cursor: pointer; }
 
     .aw-year {
+      grid-column: 2; grid-row: 1;
       font-size: 12px; letter-spacing: .08em;
       color: var(--mid);
       padding-top: 3px;
     }
-    .aw-main { padding: 0 32px 0 0; }
+    .aw-main { grid-column: 3; grid-row: 1; padding: 0 32px 0 0; }
     .aw-title {
-      font-size: 17px; font-weight: 500;
+      font-size: 15px; font-weight: 500;
       line-height: 1.3; letter-spacing: -.01em;
       color: var(--ink); margin-bottom: 4px;
     }
     .aw-title a { color: inherit; }
     .aw-sub {
-      font-size: 13px; line-height: 1.5;
+      font-size: 12px; line-height: 1.4;
       color: var(--mid);
     }
     .aw-result {
+      grid-column: 4; grid-row: 1;
       font-size: 10px; font-weight: 500;
       letter-spacing: .12em; text-transform: uppercase;
       color: var(--ink); text-align: right;
       padding-top: 4px;
     }
 
+    /* Scrollable award lists */
+    .intl-scroll {
+      max-height: 350px; overflow-y: scroll;
+      background: #f7f7f7; border: 1px solid #e4e4e4; border-radius: 6px;
+      padding: 0 16px;
+      scrollbar-width: thin; scrollbar-color: #fff #bbb;
+    }
+    .intl-scroll::-webkit-scrollbar { width: 8px; }
+    .intl-scroll::-webkit-scrollbar-track { background: #bbb; border-radius: 4px; }
+    .intl-scroll::-webkit-scrollbar-thumb { background: #fff; border-radius: 4px; }
+    .intl-scroll::-webkit-scrollbar-thumb:hover { background: #e8e8e8; }
+    .intl-scroll .award-row:last-child { border-bottom: none; }
+
     /* Sub-project list */
-    .sub-list { margin-top: 16px; }
+    .sub-list { margin-top: 0; max-height: 0; overflow: hidden; transition: max-height .4s ease, margin-top .4s ease; }
+    .sub-list.open { max-height: 2000px; margin-top: 16px; }
+
     .sub-row {
       display: grid;
       grid-template-columns: 48px 1fr auto;
@@ -607,40 +643,43 @@
     ════════════════════════════ */
     .press-row {
       display: grid;
-      grid-template-columns: 120px 1fr 140px;
-      padding: 20px 0;
+      grid-template-columns: 28px 92px 1fr 110px;
+      padding: 13px 0;
       border-bottom: 1px solid var(--rule);
       transition: background .15s;
-      position: relative;
     }
     .press-row:hover { background: rgba(10,10,10,.018); }
     .press-row:has(.gallery-toggle) { cursor: pointer; }
     .sub-row:has(.sub-gallery-toggle) { cursor: pointer; }
     .pr-year {
+      grid-column: 2; grid-row: 1;
       font-size: 12px; letter-spacing: .08em;
       color: var(--mid); padding-top: 2px;
     }
-    .pr-head { padding: 0 24px 0 0; }
-    .pr-hl { font-size: 15px; line-height: 1.45; color: var(--ink); }
+    .pr-head { grid-column: 3; grid-row: 1; padding: 0 24px 0 0; }
+    .pr-hl { font-size: 13px; line-height: 1.4; color: var(--ink); }
     .pr-hl a { color: inherit; }
     .pr-pub {
+      grid-column: 4; grid-row: 1;
       font-size: 10px; letter-spacing: .12em;
       text-transform: uppercase; color: var(--mid);
-      text-align: right; padding-top: 3px;
-      grid-column: 3;
+      display: flex; justify-content: flex-end; align-items: center;
     }
 
     /* ════════════════════════════
        CONNECT — simple rows
     ════════════════════════════ */
+    .cn-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 48px; }
     .cn-row {
       display: grid;
-      grid-template-columns: 160px 1fr;
-      gap: 24px;
-      padding: 16px 0;
+      grid-template-columns: 140px 1fr;
+      gap: 16px;
+      padding: 14px 0;
       border-bottom: 1px solid var(--rule);
       align-items: baseline;
     }
+    .cn-grid .cn-row:last-child,
+    .cn-grid .cn-row:nth-last-child(2):nth-child(odd) { border-bottom: none; }
     .cn-label {
       font-size: 14px; font-weight: 500;
       color: var(--ink);
@@ -677,7 +716,7 @@
       .about-main { padding-left: 0; border-left: none; padding-top: 28px; }
       .group-title { padding-top: 40px; }
       .group-title h3 { font-size: 17px; }
-      .award-row { grid-template-columns: 72px 1fr; }
+      .award-row { grid-template-columns: 28px 52px 1fr; }
       .aw-result { display: none; }
       .press-row { grid-template-columns: 72px 1fr; }
       .pr-pub { display: none; }
@@ -685,7 +724,9 @@
       .sub-row:has(.sub-gallery-toggle) { grid-template-columns: auto 40px 1fr; padding-left: 0; }
       .sub-gallery-toggle { order: -1; margin-left: 0; margin-right: 4px; }
       .sub-res { display: none; }
+      .cn-grid { grid-template-columns: 1fr; }
       .cn-row { grid-template-columns: 1fr; gap: 2px; }
+      .cn-grid .cn-row:nth-last-child(2):nth-child(odd) { border-bottom: 1px solid var(--rule); }
       .cn-label { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--soft); font-weight: 400; }
       .footer-inner { flex-direction: column; align-items: flex-start; gap: 4px; }
     }
@@ -695,11 +736,19 @@
   background:none;border:none;color:inherit;
   cursor:pointer;padding:4px;
   display:inline-flex;align-items:center;justify-content:center;
-  margin-left:8px;transition:transform .3s ease, opacity .2s;flex-shrink:0;
+  transition:transform .3s ease, opacity .2s;flex-shrink:0;
   opacity:.4;
 }
 .gallery-toggle:hover{opacity:1;}
 .gallery-toggle.open{transform:rotate(180deg);opacity:1;}
+/* award-row: toggle pinned to left column */
+.award-row .gallery-toggle{
+  grid-column:1;grid-row:1;align-self:start;justify-self:center;margin-top:13px;
+}
+.press-row .gallery-toggle{
+  grid-column:1;grid-row:1;align-self:start;justify-self:center;margin-top:13px;
+}
+.press-row .gallery-toggle.open{transform:rotate(180deg);opacity:1;}
 .gallery-panel{
   grid-column:1/-1;width:100%;max-width:90%;margin-left:auto;margin-right:auto;
   overflow:hidden;box-sizing:border-box;
@@ -710,6 +759,9 @@
   max-width:100%;height:auto;display:block;border-radius:4px;
   animation: imgFadeIn .4s ease both;
 }
+.gallery-panel:not(:has(img + img)) img { max-height:480px; width:auto; }
+.gallery-panel:has(img + img){display:flex;gap:4px;align-items:flex-start;}
+.gallery-panel:has(img + img) img{flex:0 0 auto;width:auto;height:360px;}
 @keyframes imgFadeIn { from { opacity:0; } to { opacity:1; } }
 .gallery-grid{
   display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px;
@@ -892,7 +944,7 @@
 <div class="wrap">
 <div class="nav-inner">
 <div class="nav-left">
-<a class="nav-name" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Hao Wei Tu 杜浩瑋</a>
+<a class="nav-name" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;"><span class="en">Hao Wei Tu</span><span class="zh">杜浩瑋</span></a>
 <nav class="nav-links">
 <a class="ul" href="#about"><span class="en">About</span><span class="zh">關於</span></a>
 <a class="ul" href="#recognition"><span class="en">Recognition</span><span class="zh">各方認可</span></a>
@@ -998,13 +1050,14 @@
 </div>
 </aside>
 <div class="about-main">
+<div class="about-video"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" src="https://www.youtube.com/embed/79GARATpVJs" title="TEDxSwinburne University — Hao Wei Tu"></iframe></div>
 <p class="about-lede">
 <span class="en">Hao Wei Tu is a communication designer and researcher — a PhD candidate in Design at <strong>Swinburne University of Technology</strong>, working in collaboration with Design Factory Melbourne and the Australian Nuclear Science and Technology Organisation (ANSTO) — and a Senior Graphic Designer at Melbourne studio <strong>D&amp;D Creative</strong>, where he has led major rebrand projects across the CBD including Midcity Centre and Downtown Grocer. He specialises in brand strategy, visual storytelling and identity systems for both commercial and cultural clients, balancing aesthetics with strategic communication.</span>
 <span class="zh">杜浩瑋是一位傳達設計師暨研究者，<strong>斯威本科技大學設計博士候選人</strong>，與墨爾本設計工廠（SDFM）及澳洲核能科學技術組織（ANSTO）合作進行研究。同時擔任墨爾本設計工作室 <strong>D&amp;D Creative</strong> 資深平面設計師，主導墨爾本市中心多項品牌重塑專案，包含 Midcity Centre 與 Downtown Grocer。專精於商業與文化機構的品牌策略、視覺敘事與識別系統，於美學與策略性溝通之間取得平衡。</span>
 </p>
 <div class="about-body">
 <p>
-<span class="en">In 2022, Hao Wei made history as <strong>the first designer from Taiwan and East Asia to receive The One Club's Young Ones Portfolio Award</strong> in New York. His work has earned multiple international honours, including five Red Dot Communication Design Awards, a Gold at Design for Asia, Silver, Bronze and Merit at The One Club ADC, the AIGA 365 Design Awards, shortlist recognition at D&amp;AD, and Excellence Awards across Communication Arts. His work has been featured multiple times in Communication Arts Magazine and exhibited internationally in Taiwan, Macau, Germany, Japan, and Poland.</span>
+<span class="en">In 2022, Hao Wei made history as <strong>the first designer from Taiwan and East Asia to receive The One Club's Young Ones Portfolio Award</strong> in New York. His work has earned multiple international honours, including six Red Dot Design Awards, a Gold at Design for Asia, Silver, Bronze and Merit at The One Club ADC, the AIGA 365 Design Awards, shortlist recognition at D&amp;AD, and Excellence Awards across Communication Arts. His work has been featured multiple times in Communication Arts Magazine and exhibited internationally in Taiwan, Macau, Germany, Japan, and Poland.</span>
 <span class="zh">2022 年，浩瑋創下歷史，成為<strong>台灣與東亞首位獲得紐約 The One Club 青年作品集大獎（Young Ones Portfolio）的設計師</strong>。作品先後榮獲五座德國紅點傳達設計獎、香港 DFA 亞洲最具影響力設計金獎、紐約 The One Club ADC 銀、銅與 Merit 多項殊榮、美國 AIGA 365 設計獎、英國 D&amp;AD 入選，以及《Communication Arts》多項 Excellence Awards。作品曾多次刊載於《Communication Arts》雜誌，並於台灣、澳門、德國、日本、波蘭等地展出。</span>
 </p>
 <p>
@@ -1060,6 +1113,14 @@
 <h3><span class="en">Major International Honours</span><span class="zh">主要國際獎項</span></h3>
 </div>
 <div class="award-row">
+<div class="aw-year">2026</div>
+<div class="aw-main">
+<h3 class="aw-title"><a class="ul" href="https://www.commarts.com/fresh/hao-wei-tu" rel="noopener" target="_blank"><span class="en">Communication Arts — Feature & Interview</span><span class="zh">美國《Communication Arts》傳達藝術 — 專訪及專文報導</span></a></h3>
+<p class="aw-sub"><span class="en">Invited feature published on website and across platforms · Communication Arts</span><span class="zh">受邀專訪，專文刊登於官網及各平台 · Communication Arts</span></p>
+</div>
+<div class="aw-result">Feature</div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="Communication Arts · Online Feature, 2026" loading="lazy" src="CA1.png"/><img alt="Communication Arts · Online Feature, 2026" loading="lazy" src="CA2.png"/></div></div>
+<div class="award-row">
 <div class="aw-year">2022</div>
 <div class="aw-main">
 <h3 class="aw-title"><a class="ul" href="https://www.oneclub.org/awards/youngones/-award/42419/tu-hao-wei/" rel="noopener" target="_blank"><span class="en">The One Club Young Ones Portfolio Award</span><span class="zh">紐約 The One Club 青年作品集大獎</span></a></h3>
@@ -1067,6 +1128,14 @@
 </div>
 <div class="aw-result">Winner ★</div>
 <button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="The One Club Young Ones Portfolio Award, 2022 · New York" loading="lazy" src="gallery/young-ones/portfolio-winner.jpg"/></div></div>
+<div class="award-row">
+<div class="aw-year">2025</div>
+<div class="aw-main">
+<h3 class="aw-title"><a class="ul" href="https://www.awards.design.org.au/gotya-jurors-2025" rel="noopener" target="_blank"><span class="en">Design Institute of Australia Graduate of the Year Awards</span><span class="zh">澳洲設計協會 年度新銳獎</span></a></h3>
+<p class="aw-sub"><span class="en">Design Institute of Australia</span><span class="zh">澳洲設計協會</span></p>
+</div>
+<div class="aw-result">Juror</div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="Design Institute of Australia Graduate of the Year Awards · Juror, 2025" loading="lazy" src="gallery/dia/1.jpg"/></div></div>
 <div class="award-row">
 <div class="aw-year">2026</div>
 <div class="aw-main">
@@ -1086,37 +1155,10 @@
 <div class="award-row">
 <div class="aw-year">2022</div>
 <div class="aw-main">
-<h3 class="aw-title"><a class="ul" href="https://dfaa.dfaawards.com/en/winner/" rel="noopener" target="_blank"><span class="en">Design for Asia Awards — Gold</span><span class="zh">香港 DFA 亞洲最具影響力設計獎 — 金獎</span></a></h3>
-<p class="aw-sub"><span class="en">Hong Kong Design Centre</span><span class="zh">香港設計中心</span></p>
-</div>
-<div class="aw-result">Gold</div>
-</div>
-<div class="award-row">
-<div class="aw-year">2022</div>
-<div class="aw-main">
 <h3 class="aw-title"><a class="ul" href="https://www.dandad.org/annual/2022/entry/professional/235740" rel="noopener" target="_blank"><span class="en">D&amp;AD Awards</span><span class="zh">英國 D&amp;AD 設計與廣告大獎</span></a></h3>
 <p class="aw-sub"><span class="en">D&amp;AD, London</span><span class="zh">英國倫敦</span></p>
 </div>
 <div class="aw-result">Shortlist</div>
-</div>
-<div class="award-row">
-<div class="aw-year">2022</div>
-<div class="aw-main">
-<h3 class="aw-title"><a class="ul" href="https://aiga-365-design-competition.secure-platform.com/a/gallery/rounds/236/details/52825" rel="noopener" target="_blank"><span class="en">AIGA 365 Design Award</span><span class="zh">美國 AIGA 365 設計獎</span></a></h3>
-<p class="aw-sub"><span class="en">American Institute of Graphic Arts</span><span class="zh">美國平面設計協會</span></p>
-</div>
-<div class="aw-result">Winner</div>
-</div>
-<div class="award-row">
-<div class="aw-year">2023</div>
-<div class="aw-main">
-<h3 class="aw-title"><span class="en">Graphis Poster Annual</span><span class="zh">美國 Graphis 海報年鑑</span></h3>
-<p class="aw-sub">
-<span class="en">Poster &amp; Advertising — <a class="ul" href="https://graphis.com/entry/a2bf0df3-7a54-4a2f-b9cf-3bfb6aa30d3e" rel="noopener" target="_blank">Entry 1</a> · <a class="ul" href="https://graphis.com/entry/0c178ce8-0fb5-4dae-9c84-e3d5870ba465" rel="noopener" target="_blank">Entry 2</a></span>
-<span class="zh">海報與廣告類 — <a class="ul" href="https://graphis.com/entry/a2bf0df3-7a54-4a2f-b9cf-3bfb6aa30d3e" rel="noopener" target="_blank">作品一</a> · <a class="ul" href="https://graphis.com/entry/0c178ce8-0fb5-4dae-9c84-e3d5870ba465" rel="noopener" target="_blank">作品二</a></span>
-</p>
-</div>
-<div class="aw-result">Platinum</div>
 </div>
 <!-- ── Design Work in Melbourne ── -->
 <div class="group-title">
@@ -1154,6 +1196,7 @@
 <div class="group-title">
 <h3><span class="en">Recognition by Programme</span><span class="zh">各獎項多次獲獎</span></h3>
 </div>
+<div>
 <div class="award-row">
 <div class="aw-year">2018–2022</div>
 <div class="aw-main">
@@ -1169,6 +1212,7 @@
 </div>
 </div>
 <div class="aw-result">×6 Wins</div>
+<button aria-label="Toggle" class="gallery-toggle" onclick='this.classList.toggle("open");var sl=this.closest(".award-row").querySelector(".sub-list");if(sl)sl.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 </div>
 <div class="award-row">
 <div class="aw-year">2022</div>
@@ -1183,6 +1227,7 @@
 </div>
 </div>
 <div class="aw-result">Silver / 2× Bronze / Merit</div>
+<button aria-label="Toggle" class="gallery-toggle" onclick='this.classList.toggle("open");var sl=this.closest(".award-row").querySelector(".sub-list");if(sl)sl.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 </div>
 <div class="award-row">
 <div class="aw-year">2019–2022</div>
@@ -1197,6 +1242,7 @@
 </div>
 </div>
 <div class="aw-result">Portfolio Winner + 3× Merit</div>
+<button aria-label="Toggle" class="gallery-toggle" onclick='this.classList.toggle("open");var sl=this.closest(".award-row").querySelector(".sub-list");if(sl)sl.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 </div>
 <div class="award-row">
 <div class="aw-year">2018–2025</div>
@@ -1205,17 +1251,127 @@
 <p class="aw-sub"><span class="en">Magazine features and competition recognition</span><span class="zh">雜誌專訪與競賽肯定</span></p>
 <div class="sub-list">
 <div class="sub-row"><span class="sub-yr">2022</span><span class="sub-name"><span class="en">Personal Interview · Interaction Annual 28, p. 64</span><span class="zh">個人專訪 · Interaction Annual 28，第 64 頁</span></span><span class="sub-res"><span class="en">Print</span><span class="zh">實體</span></span><button class="sub-gallery-toggle" onclick='this.classList.toggle("open");var p=this.nextElementSibling;if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="sub-gallery-panel"><img alt="Communication Arts · Interaction Annual 28, Personal Interview, 2022" loading="lazy" src="gallery/communication-art/1.jpg"/></div></div>
-<div class="sub-row"><span class="sub-yr">2022</span><span class="sub-name"><a class="ul" href="https://www.commarts.com/project/33729/graduation-moment" rel="noopener" target="_blank">Graduation Moment</a></span><span class="sub-res">Featured</span><button class="sub-gallery-toggle" onclick='this.classList.toggle("open");var p=this.nextElementSibling;if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="sub-gallery-panel"><img alt="Communication Arts · Graduation Moment, Featured 2022" loading="lazy" src="gallery/communication-art/2.jpg"/></div></div>
-<div class="sub-row"><span class="sub-yr">2020</span><span class="sub-name"><a class="ul" href="https://www.commarts.com/project/33229/islander-s-summer-homework" rel="noopener" target="_blank">Islander's Summer Homework</a></span><span class="sub-res">Featured</span><button class="sub-gallery-toggle" onclick='this.classList.toggle("open");var p=this.nextElementSibling;if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="sub-gallery-panel"><img alt="Communication Arts · Islander's Summer Homework, Featured 2020" loading="lazy" src="gallery/communication-art/4.jpg"/></div></div>
-<div class="sub-row"><span class="sub-yr">2018</span><span class="sub-name"><a class="ul" href="https://www.commarts.com/project/27683/taiwan-international-festival-of-arts" rel="noopener" target="_blank">Taiwan International Festival of Arts</a></span><span class="sub-res">Featured</span><button class="sub-gallery-toggle" onclick='this.classList.toggle("open");var p=this.nextElementSibling;if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="sub-gallery-panel"><img alt="Communication Arts · Taiwan International Festival of Arts, Featured 2018" loading="lazy" src="gallery/communication-art/3.jpg"/></div></div>
-<div class="sub-row"><span class="sub-yr">2025</span><span class="sub-name">Communication Arts Design</span><span class="sub-res">Shortlist</span></div>
+<div class="sub-row"><span class="sub-yr">2022</span><span class="sub-name"><a class="ul" href="https://www.commarts.com/project/33729/graduation-moment" rel="noopener" target="_blank">Graduation Moment</a></span><span class="sub-res">Typography Annual · Excellence Award</span><button class="sub-gallery-toggle" onclick='this.classList.toggle("open");var p=this.nextElementSibling;if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="sub-gallery-panel"><img alt="Communication Arts · Graduation Moment, Featured 2022" loading="lazy" src="gallery/communication-art/2.jpg"/></div></div>
+<div class="sub-row"><span class="sub-yr">2020</span><span class="sub-name"><a class="ul" href="https://www.commarts.com/project/33229/islander-s-summer-homework" rel="noopener" target="_blank">Islander's Summer Homework</a></span><span class="sub-res">Design Annual · Excellence Award</span><button class="sub-gallery-toggle" onclick='this.classList.toggle("open");var p=this.nextElementSibling;if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="sub-gallery-panel"><img alt="Communication Arts · Islander's Summer Homework, Featured 2020" loading="lazy" src="gallery/communication-art/4.jpg"/></div></div>
+<div class="sub-row"><span class="sub-yr">2018</span><span class="sub-name"><a class="ul" href="https://www.commarts.com/project/27683/taiwan-international-festival-of-arts" rel="noopener" target="_blank">Taiwan International Festival of Arts</a></span><span class="sub-res">Design Annual · Excellence Award</span><button class="sub-gallery-toggle" onclick='this.classList.toggle("open");var p=this.nextElementSibling;if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="sub-gallery-panel"><img alt="Communication Arts · Taiwan International Festival of Arts, Featured 2018" loading="lazy" src="gallery/communication-art/3.jpg"/></div></div>
+<div class="sub-row"><span class="sub-yr">2025</span><span class="sub-name">Innovation 20</span><span class="sub-res">Design Annual · Shortlist</span></div>
 </div>
 </div>
-<div class="aw-result">5× Recognition</div>
+<div class="aw-result">7× Recognition</div>
+<button aria-label="Toggle" class="gallery-toggle" onclick='this.classList.toggle("open");var sl=this.closest(".award-row").querySelector(".sub-list");if(sl)sl.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 </div>
+<div class="award-row">
+<div class="aw-year">2019–2025</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Taiwan International Graphic Design Awards (TiGDA)</span><span class="zh">台灣國際平面設計獎 TiGDA</span></h3>
+<p class="aw-sub"><span class="en">Taiwan Design Research Institute · Ministry of Economic Affairs</span><span class="zh">台灣設計研究院 · 經濟部</span></p>
+<div class="sub-list">
+<div class="sub-row"><span class="sub-yr">2025</span><span class="sub-name"><a class="ul" href="https://www.tigda.org.tw/Post/182676" rel="noopener" target="_blank">Downtown Grocer</a></span><span class="sub-res">Winner</span><button class="sub-gallery-toggle" onclick='this.classList.toggle("open");var p=this.nextElementSibling;if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="sub-gallery-panel"><img alt="Taiwan International Graphic Design Awards · Winner, 2025" loading="lazy" src="gallery/tigda/ceremony.jpg"/></div></div>
+<div class="sub-row"><span class="sub-yr">2023</span><span class="sub-name"><a class="ul" href="https://www.tigda.org.tw/Post/181769" rel="noopener" target="_blank">D&amp;AD Taiwan Exhibition</a></span><span class="sub-res">Silver · Judge Panel Special</span></div>
+<div class="sub-row"><span class="sub-yr">2021</span><span class="sub-name"><a class="ul" href="https://www.tigda.org.tw/Post/180991" rel="noopener" target="_blank">Taiwan Tech Design Week</a></span><span class="sub-res">Distinction</span></div>
+<div class="sub-row"><span class="sub-yr">2021</span><span class="sub-name"><span class="en">Rebuild Taiwan's Traditional Culture</span><span class="zh">重建台灣傳統文化</span></span><span class="sub-res">Distinction</span></div>
+<div class="sub-row"><span class="sub-yr">2019</span><span class="sub-name"><a class="ul" href="https://www.tigda.org.tw/Post/80623" rel="noopener" target="_blank">Taipei Zoo</a></span><span class="sub-res">Youth Award</span></div>
+<div class="sub-row"><span class="sub-yr">2019</span><span class="sub-name"><a class="ul" href="https://www.tigda.org.tw/Post/80621" rel="noopener" target="_blank">Taipei Zoo</a></span><span class="sub-res">TADA Award</span></div>
+</div>
+</div>
+<div class="aw-result">4 Years / 6× Wins</div>
+<button aria-label="Toggle" class="gallery-toggle" onclick='this.classList.toggle("open");var sl=this.closest(".award-row").querySelector(".sub-list");if(sl)sl.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+</div>
+
+<div class="award-row">
+<div class="aw-year">2018–2023</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Taiwan International Student Design / Creative Competition (TISDC)</span><span class="zh">台灣國際學生設計（創意）競賽 TISDC</span></h3>
+<p class="aw-sub"><span class="en">Ministry of Education, Taiwan</span><span class="zh">中華民國教育部</span></p>
+<div class="sub-list">
+<div class="sub-row"><span class="sub-yr">2023</span><span class="sub-name">—</span><span class="sub-res">Finalist</span></div>
+<div class="sub-row"><span class="sub-yr">2022</span><span class="sub-name">—</span><span class="sub-res">Finalist</span></div>
+<div class="sub-row"><span class="sub-yr">2020</span><span class="sub-name">—</span><span class="sub-res">Honourable Mention</span></div>
+<div class="sub-row"><span class="sub-yr">2018</span><span class="sub-name">—</span><span class="sub-res">Bronze</span></div>
+<div class="sub-row"><span class="sub-yr">2018</span><span class="sub-name">—</span><span class="sub-res">Honourable Mention</span></div>
+<div class="sub-row"><span class="sub-yr">2018</span><span class="sub-name">—</span><span class="sub-res">Finalist</span></div>
+</div>
+</div>
+<div class="aw-result">Bronze · 2× Finalist · 3× HM/Nom</div>
+<button aria-label="Toggle" class="gallery-toggle" onclick='this.classList.toggle("open");var sl=this.closest(".award-row").querySelector(".sub-list");if(sl)sl.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+</div>
+</div>
+
 <!-- ── International Exhibitions ── -->
 <div class="group-title">
 <h3><span class="en">International Exhibitions &amp; Competitions</span><span class="zh">國際展覽與競賽</span></h3>
+</div>
+<div class="intl-scroll">
+<div class="award-row">
+<div class="aw-year">2023</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">iF Design Award</span><span class="zh">德國 iF 設計獎</span></h3>
+</div>
+<div class="aw-result">Winner</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2022</div>
+<div class="aw-main">
+<h3 class="aw-title"><a class="ul" href="https://ifdesign.com/en/winner-ranking/project/dad-exhibition-in-taiwan/571705" rel="noopener" target="_blank"><span class="en">iF Design Award</span><span class="zh">德國 iF 設計獎</span></a></h3>
+<p class="aw-sub"><span class="en">iF Design, Hanover · D&amp;AD Exhibition in Taiwan</span><span class="zh">德國 iF Design · 作品「D&amp;AD 設計展在台灣」</span></p>
+</div>
+<div class="aw-result">Winner</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2022</div>
+<div class="aw-main">
+<h3 class="aw-title"><a class="ul" href="https://taipeidaward.taipei/Post/181448" rel="noopener" target="_blank"><span class="en">Taipei Design Award</span><span class="zh">台北設計獎</span></a></h3>
+<p class="aw-sub"><span class="en">Taipei City Government</span><span class="zh">台北市政府</span></p>
+</div>
+<div class="aw-result">Bronze</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2022</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Korea MAD Award</span><span class="zh">韓國 MAD 獎</span></h3>
+<p class="aw-sub"><span class="en">Korea</span><span class="zh">韓國</span></p>
+</div>
+<div class="aw-result">3× Bronze + Crystal</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2022</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Taiwan 4A Creative Award</span><span class="zh">台灣 4A 廣告創意獎</span></h3>
+<p class="aw-sub"><span class="en">4A Association of Taiwan</span><span class="zh">台灣廣告主協會 4A</span></p>
+</div>
+<div class="aw-result">Best Poster Gold · Branding Silver</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2022</div>
+<div class="aw-main">
+<h3 class="aw-title"><a class="ul" href="https://www.designweek.co.uk/design-week-awards-2022-the-shortlist-in-full/" rel="noopener" target="_blank"><span class="en">Design Week Awards</span><span class="zh">英國 Design Week 獎</span></a></h3>
+<p class="aw-sub"><span class="en">Design Week, London</span><span class="zh">英國 Design Week，倫敦</span></p>
+</div>
+<div class="aw-result">Highly Commended</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2022</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Drum Design Awards</span><span class="zh">Drum 設計獎</span></h3>
+<p class="aw-sub"><span class="en">The Drum, UK</span><span class="zh">英國 The Drum</span></p>
+</div>
+<div class="aw-result">Winner</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2022</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">The One Show</span><span class="zh">紐約 The One Show</span></h3>
+<p class="aw-sub"><span class="en">Creative Effectiveness Design · The One Club for Creativity, New York</span><span class="zh">創意效益設計類 · 紐約 The One Club for Creativity</span></p>
+</div>
+<div class="aw-result">Shortlist</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2022</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Longxi Creative Award</span><span class="zh">龍璽獎</span></h3>
+<p class="aw-sub"><span class="en">Design</span><span class="zh">設計類</span></p>
+</div>
+<div class="aw-result">Bronze</div>
 </div>
 <div class="award-row">
 <div class="aw-year">2022</div>
@@ -1224,6 +1380,70 @@
 <p class="aw-sub"><span class="en">Moscow, Russia</span><span class="zh">俄羅斯莫斯科</span></p>
 </div>
 <div class="aw-result">Selected</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2022</div>
+<div class="aw-main">
+<h3 class="aw-title"><a class="ul" href="https://segd.org/projects/dad-exhibition-in-taiwan/" rel="noopener" target="_blank"><span class="en">SEGD Global Design Awards</span><span class="zh">SEGD 國際設計獎</span></a></h3>
+<p class="aw-sub"><span class="en">Society for Experiential Graphic Design</span><span class="zh">體驗式平面設計協會</span></p>
+</div>
+<div class="aw-result">Finalist</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2022</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Communication Arts Typography Annual</span><span class="zh">美國《Communication Arts》字體設計年鑑</span></h3>
+<p class="aw-sub"><span class="en">Communication Arts, USA</span><span class="zh">美國 Communication Arts</span></p>
+</div>
+<div class="aw-result">Excellence Award · Shortlist</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2022</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Communication Arts Student Showcase</span><span class="zh">美國《Communication Arts》學生作品展</span></h3>
+<p class="aw-sub"><span class="en">Communication Arts, USA</span><span class="zh">美國 Communication Arts</span></p>
+</div>
+<div class="aw-result">Selected</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2022</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Graphis Magazine</span><span class="zh">美國 Graphis 雜誌</span></h3>
+<p class="aw-sub"><span class="en">Graphis, New York</span><span class="zh">紐約 Graphis</span></p>
+</div>
+<div class="aw-result">Platinum</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2021</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">London International Awards</span><span class="zh">倫敦國際廣告獎 LIA</span></h3>
+<p class="aw-sub"><span class="en">Chinese Creativity Show · London</span><span class="zh">中文創意類 · 倫敦</span></p>
+</div>
+<div class="aw-result">Bronze</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2021</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">HKDA Global Design Awards</span><span class="zh">香港設計師協會全球設計獎</span></h3>
+<p class="aw-sub"><span class="en">Hong Kong Designers Association</span><span class="zh">香港設計師協會</span></p>
+</div>
+<div class="aw-result">Judges Choice · Excellence</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2021</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Taiwan 4A Creative Award</span><span class="zh">台灣 4A 廣告創意獎</span></h3>
+<p class="aw-sub"><span class="en">4A Association of Taiwan</span><span class="zh">台灣廣告主協會 4A</span></p>
+</div>
+<div class="aw-result">Silver · Bronze · Excellent Work</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2021</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Longxi Creative Award</span><span class="zh">龍璽獎</span></h3>
+<p class="aw-sub"><span class="en">Public Welfare · Outdoor · Design</span><span class="zh">公益 · 戶外 · 設計類</span></p>
+</div>
+<div class="aw-result">Gold · 2× Silver</div>
 </div>
 <div class="award-row">
 <div class="aw-year">2021</div>
@@ -1242,21 +1462,29 @@
 <div class="aw-result">Selected</div>
 </div>
 <div class="award-row">
-<div class="aw-year">2022</div>
+<div class="aw-year">2021</div>
 <div class="aw-main">
-<h3 class="aw-title"><a class="ul" href="https://segd.org/projects/dad-exhibition-in-taiwan/" rel="noopener" target="_blank"><span class="en">SEGD Global Design Awards</span><span class="zh">SEGD 國際設計獎</span></a></h3>
-<p class="aw-sub"><span class="en">Society for Experiential Graphic Design</span><span class="zh">體驗式平面設計協會</span></p>
+<h3 class="aw-title"><span class="en">4A Golden Seal Award</span><span class="zh">4A 金印獎</span></h3>
+<p class="aw-sub"><span class="en">Creative Integration Communication · 4A Association of Taiwan</span><span class="zh">創意整合傳播類 · 台灣廣告主協會 4A</span></p>
 </div>
-<div class="aw-result">Finalist</div>
+<div class="aw-result">Silver</div>
 </div>
 <div class="award-row">
-<div class="aw-year">2025</div>
+<div class="aw-year">2021</div>
 <div class="aw-main">
-<h3 class="aw-title"><a class="ul" href="https://www.tigda.org.tw/Post/182676" rel="noopener" target="_blank"><span class="en">Taiwan International Graphic Design Awards (TiGDA)</span><span class="zh">台灣國際平面設計獎 TiGDA</span></a></h3>
-<p class="aw-sub"><span class="en">Bureau of Cultural Heritage, Ministry of Culture</span><span class="zh">文化部</span></p>
+<h3 class="aw-title"><span class="en">China 4A Creative Award</span><span class="zh">中國4A創意獎</span></h3>
+<p class="aw-sub"><span class="en">China Business Advertisement Association</span><span class="zh">中國商務廣告協會</span></p>
 </div>
 <div class="aw-result">Winner</div>
-<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="Taiwan International Graphic Design Awards · Winner, 2025" loading="lazy" src="gallery/tigda/ceremony.jpg"/></div></div>
+</div>
+<div class="award-row">
+<div class="aw-year">2021</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">iF Social Impact Prize</span><span class="zh">德國 iF 社會影響力獎</span></h3>
+<p class="aw-sub"><span class="en">iF Design, Hanover</span><span class="zh">德國 iF Design，漢諾威</span></p>
+</div>
+<div class="aw-result">Shortlist</div>
+</div>
 <div class="award-row">
 <div class="aw-year">2020</div>
 <div class="aw-main">
@@ -1267,10 +1495,86 @@
 <button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel">
 <img alt="Golden Pin Concept Design Award · Islander's Summer Homework, 2020" loading="lazy" src="gallery/islanders/1.jpg"/>
 </div></div>
+<div class="award-row">
+<div class="aw-year">2020</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Golden Pin Design Award</span><span class="zh">金點設計獎</span></h3>
+<p class="aw-sub"><span class="en">Taiwan Design Research Institute · Islander's Summer Homework</span><span class="zh">台灣設計研究院 · 作品「島民的暑假作業」</span></p>
+</div>
+<div class="aw-result">Selected</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2020</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Golden Pin Young Designer Award</span><span class="zh">金點新秀設計獎</span></h3>
+<p class="aw-sub"><span class="en">Taiwan Design Research Institute · Packaging Design + Sponsor Award + 6× Shortlist</span><span class="zh">台灣設計研究院 · 包裝設計類獲獎 · 廠商贊助獎 · 六項入圍</span></p>
+</div>
+<div class="aw-result">Gold · Sponsor Award · 6× Shortlist</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2020</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Ministry of Culture — Cultural Heritage Creative Season Exhibition</span><span class="zh">文化部文資創意季設計展</span></h3>
+<p class="aw-sub"><span class="en">Ministry of Culture, Taiwan</span><span class="zh">中華民國文化部</span></p>
+</div>
+<div class="aw-result">Visual Communication Gold · 2× Nomination</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2020</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">TCIYDC — Confederation of Indian Industry</span><span class="zh">TCIYDC — 印度工業聯合會</span></h3>
+<p class="aw-sub"><span class="en">Confederation of Indian Industry Special Award</span><span class="zh">印度工業聯合會特別獎</span></p>
+</div>
+<div class="aw-result">Special Award</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2019</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Macau Design Biennial</span><span class="zh">澳門設計雙年展</span></h3>
+<p class="aw-sub"><span class="en">Identity Design category · Macau</span><span class="zh">活動識別類 · 澳門</span></p>
+</div>
+<div class="aw-result">Winner</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2019</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Hiiibrand International Design Competition</span><span class="zh">Hiiibrand 國際設計大賽</span></h3>
+<p class="aw-sub"><span class="en">Packaging Design</span><span class="zh">包裝設計類</span></p>
+</div>
+<div class="aw-result">Bronze</div>
+</div>
+<div class="award-row">
+<div class="aw-year">2019</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Adobe Award</span><span class="zh">Adobe 獎</span></h3>
+<p class="aw-sub"><span class="en">Adobe Inc., USA</span><span class="zh">美國 Adobe Inc.</span></p>
+</div>
+<div class="aw-result">Top Talent</div>
+</div>
+
+<div class="award-row">
+<div class="aw-year">2018</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Cross-Strait Chinese Character Creative Competition</span><span class="zh">兩岸漢字文化創意競賽</span></h3>
+<p class="aw-sub"><span class="en">Taiwan · Cross-Strait cultural exchange competition</span><span class="zh">兩岸文化交流競賽</span></p>
+</div>
+<div class="aw-result">Gold · Excellence Award</div>
+</div>
+</div>
+
 <!-- ── Practice, Service & Speaking ── -->
 <div class="group-title">
 <h3><span class="en">Practice, Service &amp; Speaking</span><span class="zh">實務、服務與演講</span></h3>
 </div>
+<div class="intl-scroll">
+<div class="award-row">
+<div class="aw-year">2026</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">The One Club for Creativity — Creative Week · Online Portfolio Review</span><span class="zh">紐約 The One Club for Creativity — 創意週 · 線上作品集評審</span></h3>
+<p class="aw-sub"><span class="en">Online Portfolio Review · Reviewer · The One Club for Creativity, New York</span><span class="zh">線上作品集評審 · Reviewer · 紐約 The One Club for Creativity</span></p>
+</div>
+<div class="aw-result">Reviewer</div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="The One Club Creative Week · Online Portfolio Review, 2026" loading="lazy" src="Portfolio1.jpg"/><img alt="The One Club Creative Week · Online Portfolio Review, 2026" loading="lazy" src="Portfolio2.jpg"/></div></div>
 <div class="award-row">
 <div class="aw-year">2026</div>
 <div class="aw-main">
@@ -1280,14 +1584,22 @@
 <div class="aw-result">Mentor</div>
 </div>
 <div class="award-row">
+<div class="aw-year">2026</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">RMIT University Taiwanese Students Association — Speaker</span><span class="zh">墨爾本皇家理工學院台灣學生會（RMIT TSA）— 講者</span></h3>
+<p class="aw-sub"><span class="en">Invited speaker · RMIT TSA, Melbourne</span><span class="zh">受邀講者 · RMIT TSA，墨爾本</span></p>
+</div>
+<div class="aw-result">Speaker</div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="RMIT TSA · Speaker, 2026" loading="lazy" src="RTSA2026.JPG"/></div></div>
+<div class="award-row">
 <div class="aw-year">2025</div>
 <div class="aw-main">
-<h3 class="aw-title"><a class="ul" href="https://www.awards.design.org.au/gotya-jurors-2025" rel="noopener" target="_blank"><span class="en">DIA Graduate of the Year Awards</span><span class="zh">澳洲設計協會 年度新銳獎</span></a></h3>
+<h3 class="aw-title"><a class="ul" href="https://www.awards.design.org.au/gotya-jurors-2025" rel="noopener" target="_blank"><span class="en">Design Institute of Australia Graduate of the Year Awards</span><span class="zh">澳洲設計協會 年度新銳獎</span></a></h3>
 <p class="aw-sub"><span class="en">Design Institute of Australia</span><span class="zh">澳洲設計協會</span></p>
 </div>
 <div class="aw-result">Juror</div>
 <button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel">
-<img alt="DIA Graduate of the Year Awards · Juror, 2025" loading="lazy" src="gallery/dia/1.jpg"/>
+<img alt="Design Institute of Australia Graduate of the Year Awards · Juror, 2025" loading="lazy" src="gallery/dia/1.jpg"/>
 </div></div>
 <div class="award-row">
 <div class="aw-year">2025</div>
@@ -1327,6 +1639,31 @@
 </div>
 <div class="aw-result">Paper</div>
 <button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="IASDR 2025 · Conference Paper, Taipei" loading="lazy" src="gallery/iasdr/presentation.jpg"/></div></div>
+<div class="award-row">
+<div class="aw-year">2025</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Taiwan Tech Department of Design Student Association — Invited Speaker</span><span class="zh">國立臺灣科技大學設計系學會講座 — 講者</span></h3>
+<p class="aw-sub"><span class="en">Invited speaker by student association · Taiwan Tech Department of Design, Taipei</span><span class="zh">受邀系學會講座講者 · 國立臺灣科技大學設計系，台北</span></p>
+</div>
+<div class="aw-result">Speaker</div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="Taiwan Tech Department of Design · Guest Lecture, 2025" loading="lazy" src="Taiwan Tech 2025.jpg"/></div></div>
+<div class="award-row">
+<div class="aw-year">2025</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Taiwan Tech Design Week — Portfolio Reviewer</span><span class="zh">國立臺灣科技大學設計系設計週（Taiwan Tech Design Week）— 作品集初審查者</span></h3>
+<p class="aw-sub"><span class="en">Portfolio reviewer · Taiwan Tech Design Week, Taipei</span><span class="zh">作品集初審查者 · 台灣科大設計週，台北</span></p>
+</div>
+<div class="aw-result">Reviewer</div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="gallery-panel"><img alt="Taiwan Tech Design Week · Portfolio Reviewer, 2025" loading="lazy" src="Taiwan Tech Design Week2025.png"/></div></div>
+<div class="award-row">
+<div class="aw-year">2023</div>
+<div class="aw-main">
+<h3 class="aw-title"><span class="en">Taiwan Tech Department of Design Student Association — Invited Speaker</span><span class="zh">國立臺灣科技大學設計系學會講座 — 講者</span></h3>
+<p class="aw-sub"><span class="en">Invited speaker by student association · Taiwan Tech Department of Design, Taipei</span><span class="zh">受邀系學會講座講者 · 國立臺灣科技大學設計系，台北</span></p>
+</div>
+<div class="aw-result">Speaker</div>
+</div></div>
+
 </div>
 </section>
 <!-- ══ PRESS ══ -->
@@ -1335,6 +1672,13 @@
 <div class="sec-header">
 <h2 class="sec-title"><span class="en">Press</span><span class="zh">媒體</span></h2>
 </div>
+<div>
+<div class="press-row">
+<div class="pr-year">2026</div>
+<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.commarts.com/fresh/hao-wei-tu" rel="noopener" target="_blank"><span class="en">Communication Arts — Feature &amp; Interview</span><span class="zh">美國《Communication Arts》傳達藝術 — 專訪及專文報導</span></a></p></div>
+<div class="pr-pub">Communication Arts</div>
+<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div class="gallery-panel"><img alt="Communication Arts · Online Feature, 2026" loading="lazy" src="CA1.png"/><img alt="Communication Arts · Online Feature, 2026" loading="lazy" src="CA2.png"/></div></div>
 <div class="press-row">
 <div class="pr-year">2026</div>
 <div class="pr-head"><p class="pr-hl"><a class="ul" href="https://campaignbrief.com/australia-scores-three-finalists-at-shortlist-stage-of-type-directors-club-tdc72-competition/" rel="noopener" target="_blank"><span class="en">Australia scores three finalists at NY TDC 72</span><span class="zh">澳洲三件作品入圍紐約 TDC 72 大獎</span></a></p></div>
@@ -1346,136 +1690,64 @@
 <div class="pr-pub">Swinburne</div>
 <button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 <div class="gallery-panel"><img alt="Swinburne University · PhD Researcher Profile, 2025" loading="lazy" src="gallery/swinburne/1.jpg"/></div></div>
-<div class="press-row">
+<div class="press-group">
+<div class="press-row press-grp-hd" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open');var t=this.querySelector('.gallery-toggle');if(t)t.classList.toggle('open');">
+<button aria-label="Toggle" class="gallery-toggle"><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 <div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.cna.com.tw/news/ahel/202311270028.aspx" rel="noopener" target="_blank"><span class="en">Taiwan Tech graduate awarded Swinburne PhD scholarship</span><span class="zh">台科大畢業生獲斯威本博士獎學金</span></a></p></div>
-<div class="pr-pub"><span class="en">CNA</span><span class="zh">中央社</span></div>
+<div class="pr-head"><p class="pr-hl"><span class="en">Swinburne University PhD in Design, Innovation and Technology</span><span class="zh">斯威本大學博士全額獎學金 — 各媒體報導</span></p><p class="pr-count"><span class="en">15 media outlets</span><span class="zh">15 家媒體</span></p></div>
 </div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.chinatimes.com/realtimenews/20231127001133-260405" rel="noopener" target="_blank"><span class="en">From Taipei to Melbourne — design graduate's research path</span><span class="zh">從台北到墨爾本：設計畢業生的研究之路</span></a></p></div>
-<div class="pr-pub"><span class="en">China Times</span><span class="zh">中國時報</span></div>
+<div class="press-grp-body">
+<div class="press-sub"><a href="https://www.cna.com.tw/news/ahel/202311270028.aspx" rel="noopener" target="_blank"><span class="en">Taiwan Tech graduate awarded Swinburne PhD scholarship</span><span class="zh">台科大畢業生獲斯威本博士獎學金</span></a><span class="press-sub-pub"><span class="en">CNA</span><span class="zh">中央社</span></span></div>
+<div class="press-sub"><a href="https://www.chinatimes.com/realtimenews/20231127001133-260405" rel="noopener" target="_blank"><span class="en">From Taipei to Melbourne — design graduate's research path</span><span class="zh">從台北到墨爾本：設計畢業生的研究之路</span></a><span class="press-sub-pub"><span class="en">China Times</span><span class="zh">中國時報</span></span></div>
+<div class="press-sub"><a href="https://www.ettoday.net/news/20231127/2631451.htm" rel="noopener" target="_blank"><span class="en">Taiwan Tech to Swinburne — design researcher's overseas journey</span><span class="zh">從台科大到斯威本：設計研究者的海外之路</span></a><span class="press-sub-pub">ETtoday</span></div>
+<div class="press-sub"><a href="https://www.nownews.com/news/6309332" rel="noopener" target="_blank"><span class="en">Taiwan Tech student wins NT$4 million scholarship to study in Australia</span><span class="zh">台科大杜浩瑋獲澳洲400萬元獎學金</span></a><span class="press-sub-pub"><span class="en">NOWnews</span><span class="zh">今日新聞</span></span></div>
+<div class="press-sub"><a href="https://www.ctee.com.tw/news/20231127700540-431401" rel="noopener" target="_blank"><span class="en">Taiwan Tech graduate wins Swinburne PhD scholarship in Australia</span><span class="zh">台科大設計系杜浩瑋獲斯威本博士獎學金赴澳</span></a><span class="press-sub-pub"><span class="en">Commercial Times</span><span class="zh">工商時報</span></span></div>
+<div class="press-sub"><a href="https://udn.com/news/story/6928/7600964" rel="noopener" target="_blank"><span class="en">Hao Wei Tu wins NT$4 million PhD scholarship to study communication design</span><span class="zh">台科大杜浩瑋獲400萬博士獎學金，赴澳洲讀傳達設計</span></a><span class="press-sub-pub"><span class="en">UDN</span><span class="zh">聯合新聞網</span></span></div>
+<div class="press-sub"><a href="https://www.thehubnews.net/archives/313959" rel="noopener" target="_blank"><span class="en">Taiwan Tech design student wins full NT$4 million scholarship</span><span class="zh">臺科大設計所杜浩瑋獲全額獎學金，三年共四百萬赴澳洲深造</span></a><span class="press-sub-pub"><span class="en">The Hub News</span><span class="zh">新頭條</span></span></div>
+<div class="press-sub"><a href="https://www.cdns.com.tw/articles/915090" rel="noopener" target="_blank"><span class="en">He won a NT$4 million PhD scholarship to study in Australia</span><span class="zh">申請澳洲讀博，他獲獎學金400萬</span></a><span class="press-sub-pub"><span class="en">China Daily News</span><span class="zh">中華日報</span></span></div>
+<div class="press-sub"><a href="https://www.bo6s.com.tw/news_detail.php?NewsID=74366" rel="noopener" target="_blank"><span class="en">Taiwan Tech graduate wins full PhD scholarship at Swinburne University</span><span class="zh">台科大杜浩瑋獲澳洲斯威本大學博士全額獎學金</span></a><span class="press-sub-pub"><span class="en">Bo News</span><span class="zh">波新聞</span></span></div>
+<div class="press-sub"><a href="https://strategicstyle.org/scstyle-8368/20004/" rel="noopener" target="_blank"><span class="en">Young talent — Hao Wei Tu of Taiwan Tech leads in communication design</span><span class="zh">英雄出少年，臺科杜浩瑋創新傳達發光</span></a><span class="press-sub-pub"><span class="en">Strategic Style</span><span class="zh">策略風</span></span></div>
+<div class="press-sub"><a href="https://www.cna.com.tw/postwrite/chi/358003" rel="noopener" target="_blank"><span class="en">From graphic to communication design — full Swinburne PhD scholarship</span><span class="zh">從平面設計到傳達設計，臺科大設計系杜浩瑋獲澳洲創新設計博士全額獎學金</span></a><span class="press-sub-pub"><span class="en">CNA Platform</span><span class="zh">中央社訊息平台</span></span></div>
+<div class="press-sub"><a href="https://n.yam.com/Article/20231127764476" rel="noopener" target="_blank"><span class="en">From graphic to communication design — full Swinburne PhD scholarship</span><span class="zh">從平面設計到傳達設計，臺科大設計系杜浩瑋獲澳洲創新設計博士全額獎學金</span></a><span class="press-sub-pub"><span class="en">Yam News</span><span class="zh">蕃新聞</span></span></div>
+<div class="press-sub"><a href="https://pse.is/5dy5xz" rel="noopener" target="_blank"><span class="en">From graphic to communication design — full Swinburne PhD scholarship</span><span class="zh">從平面設計到傳達設計，臺科大設計系杜浩瑋獲澳洲創新設計博士全額獎學金</span></a><span class="press-sub-pub">MSN</span></div>
+<div class="press-sub"><a href="https://pse.is/5cvtj2" rel="noopener" target="_blank"><span class="en">Taiwan Tech student wins full NT$4 million PhD scholarship — 3 years in Australia</span><span class="zh">臺科大杜浩瑋獲澳洲設計博士全額獎學金，3年400萬元</span></a><span class="press-sub-pub"><span class="en">Yahoo News</span><span class="zh">Yahoo 新聞</span></span></div>
+<div class="press-sub"><a href="https://www.ntust.edu.tw/p/404-1000-119519.php?Lang=zh-tw" rel="noopener" target="_blank"><span class="en">From graphic to communication design — full Swinburne PhD scholarship</span><span class="zh">從平面設計到傳達設計，臺科大設計系同學杜浩瑋獲澳洲創新設計博士全額獎學金</span></a><span class="press-sub-pub">NTUST</span></div>
 </div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.ettoday.net/news/20231127/2631451.htm" rel="noopener" target="_blank"><span class="en">Taiwan Tech to Swinburne — design researcher's overseas journey</span><span class="zh">從台科大到斯威本：設計研究者的海外之路</span></a></p></div>
-<div class="pr-pub">ETtoday</div>
 </div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.nownews.com/news/6309332" rel="noopener" target="_blank"><span class="en">Taiwan Tech student wins NT$4 million scholarship to study in Australia</span><span class="zh">台科大杜浩瑋獲澳洲400萬元獎學金</span></a></p></div>
-<div class="pr-pub"><span class="en">NOWnews</span><span class="zh">今日新聞</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.ctee.com.tw/news/20231127700540-431401" rel="noopener" target="_blank"><span class="en">Taiwan Tech graduate wins Swinburne PhD scholarship in Australia</span><span class="zh">台科大設計系杜浩瑋獲斯威本博士獎學金赴澳</span></a></p></div>
-<div class="pr-pub"><span class="en">Commercial Times</span><span class="zh">工商時報</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://udn.com/news/story/6928/7600964" rel="noopener" target="_blank"><span class="en">Taiwan Tech's Hao Wei Tu wins NT$4 million PhD scholarship to study communication design</span><span class="zh">台科大杜浩瑋獲400萬博士獎學金，赴澳洲讀傳達設計</span></a></p></div>
-<div class="pr-pub"><span class="en">UDN</span><span class="zh">聯合新聞網</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.thehubnews.net/archives/313959" rel="noopener" target="_blank"><span class="en">Taiwan Tech design student wins full NT$4 million scholarship to study in Australia</span><span class="zh">臺科大設計所杜浩瑋獲全額獎學金，三年共四百萬赴澳洲深造</span></a></p></div>
-<div class="pr-pub"><span class="en">The Hub News</span><span class="zh">新頭條</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.cdns.com.tw/articles/915090" rel="noopener" target="_blank"><span class="en">He won a NT$4 million PhD scholarship to study in Australia</span><span class="zh">申請澳洲讀博，他獲獎學金400萬</span></a></p></div>
-<div class="pr-pub"><span class="en">China Daily News</span><span class="zh">中華日報</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.bo6s.com.tw/news_detail.php?NewsID=74366" rel="noopener" target="_blank"><span class="en">Taiwan Tech graduate wins full PhD scholarship at Swinburne University</span><span class="zh">台科大杜浩瑋獲澳洲斯威本大學博士全額獎學金</span></a></p></div>
-<div class="pr-pub"><span class="en">Bo News</span><span class="zh">波新聞</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://strategicstyle.org/scstyle-8368/20004/" rel="noopener" target="_blank"><span class="en">Young talent — Hao Wei Tu of Taiwan Tech leads in communication design innovation</span><span class="zh">英雄出少年，臺科杜浩瑋創新傳達發光</span></a></p></div>
-<div class="pr-pub"><span class="en">Strategic Style</span><span class="zh">策略風知識新聞網</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.cna.com.tw/postwrite/chi/358003" rel="noopener" target="_blank"><span class="en">From graphic to communication design — Taiwan Tech student wins full Swinburne PhD scholarship</span><span class="zh">從平面設計到傳達設計，臺科大設計系杜浩瑋獲澳洲創新設計博士全額獎學金</span></a></p></div>
-<div class="pr-pub"><span class="en">CNA Platform</span><span class="zh">中央社（訊息平台）</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://n.yam.com/Article/20231127764476" rel="noopener" target="_blank"><span class="en">From graphic to communication design — Taiwan Tech student wins full Swinburne PhD scholarship</span><span class="zh">從平面設計到傳達設計，臺科大設計系杜浩瑋獲澳洲創新設計博士全額獎學金</span></a></p></div>
-<div class="pr-pub"><span class="en">Yam News</span><span class="zh">蕃新聞</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://pse.is/5dy5xz" rel="noopener" target="_blank"><span class="en">From graphic to communication design — Taiwan Tech student wins Swinburne PhD scholarship</span><span class="zh">從平面設計到傳達設計，臺科大設計系杜浩瑋獲澳洲創新設計博士全額獎學金</span></a></p></div>
-<div class="pr-pub"><span class="en">MSN</span><span class="zh">MSN 新聞</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://pse.is/5cvtj2" rel="noopener" target="_blank"><span class="en">Taiwan Tech student wins full NT$4 million PhD scholarship in design — 3 years in Australia</span><span class="zh">臺科大杜浩瑋獲澳洲設計博士全額獎學金，3年400萬元</span></a></p></div>
-<div class="pr-pub"><span class="en">Yahoo News</span><span class="zh">Yahoo 新聞</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2023</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.ntust.edu.tw/p/404-1000-119519.php?Lang=zh-tw" rel="noopener" target="_blank"><span class="en">From graphic to communication design — Taiwan Tech student wins full Swinburne PhD scholarship</span><span class="zh">從平面設計到傳達設計，臺科大設計系同學杜浩瑋獲澳洲創新設計博士全額獎學金</span></a></p></div>
-<div class="pr-pub"><span class="en">NTUST</span><span class="zh">台灣科技大學</span></div>
-</div>
-<div class="press-row">
+<div class="press-group">
+<div class="press-row press-grp-hd" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open');var t=this.querySelector('.gallery-toggle');if(t)t.classList.toggle('open');">
+<button aria-label="Toggle" class="gallery-toggle"><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 <div class="pr-year">2022</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.ettoday.net/news/20220602/2264174.htm" rel="noopener" target="_blank"><span class="en">Taiwan + East Asia first: Hao Wei Tu wins international Young Ones Portfolio</span><span class="zh">台灣＋東亞首例！台科大杜浩瑋奪國際設計競賽青年作品集大獎</span></a></p></div>
-<div class="pr-pub">ETtoday</div>
+<div class="pr-head"><p class="pr-hl"><span class="en">First East Asian Winner of Young Ones Portfolio Award</span><span class="zh">東亞首位奪 Young Ones 作品集大獎</span></p><p class="pr-count"><span class="en">7 media outlets</span><span class="zh">7 家媒體</span></p></div>
 </div>
-<div class="press-row">
-<div class="pr-year">2022</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.chinatimes.com/realtimenews/20220602001719-260405" rel="noopener" target="_blank"><span class="en">Taiwan and East Asia first — Hao Wei Tu takes Young Ones Portfolio</span><span class="zh">台灣及東亞首位！台科大杜浩瑋獲國際設計青年大獎</span></a></p></div>
-<div class="pr-pub"><span class="en">China Times</span><span class="zh">中國時報</span></div>
+<div class="press-grp-body">
+<div class="press-sub"><a href="https://www.ettoday.net/news/20220602/2264174.htm" rel="noopener" target="_blank"><span class="en">Taiwan + East Asia first: Hao Wei Tu wins international Young Ones Portfolio</span><span class="zh">台灣＋東亞首例！台科大杜浩瑋奪國際設計競賽青年作品集大獎</span></a><span class="press-sub-pub">ETtoday</span></div>
+<div class="press-sub"><a href="https://www.chinatimes.com/realtimenews/20220602001719-260405" rel="noopener" target="_blank"><span class="en">Taiwan and East Asia first — Hao Wei Tu takes Young Ones Portfolio</span><span class="zh">台灣及東亞首位！台科大杜浩瑋獲國際設計青年大獎</span></a><span class="press-sub-pub"><span class="en">China Times</span><span class="zh">中國時報</span></span></div>
+<div class="press-sub"><a href="https://news.ltn.com.tw/news/life/breakingnews/3947322" rel="noopener" target="_blank"><span class="en">First East Asian designer to win international youth competition</span><span class="zh">東亞第一人！台科大生杜浩瑋奪國際青年創意競賽大獎</span></a><span class="press-sub-pub"><span class="en">Liberty Times</span><span class="zh">自由時報</span></span></div>
+<div class="press-sub"><a href="https://www.cna.com.tw/news/ahel/202206020056.aspx" rel="noopener" target="_blank"><span class="en">Taiwan first: Hao Wei Tu wins international design competition</span><span class="zh">台灣首位獲獎！台科大杜浩瑋獲國際設計競賽大獎</span></a><span class="press-sub-pub"><span class="en">CNA</span><span class="zh">中央社</span></span></div>
+<div class="press-sub"><a href="https://www.rti.org.tw/news/view/id/2134694" rel="noopener" target="_blank"><span class="en">Taiwan Tech student — first in East Asia to win international Young Ones Portfolio</span><span class="zh">國際個人青年作品集大獎，台科大生獲獎創東亞第一人</span></a><span class="press-sub-pub"><span class="en">Radio Taiwan International</span><span class="zh">中央廣播電臺</span></span></div>
+<div class="press-sub"><a href="https://www.ntust.edu.tw/p/404-1000-102376.php?Lang=zh-tw" rel="noopener" target="_blank"><span class="en">Hao Wei Tu wins international design award</span><span class="zh">臺科大杜浩瑋獲國際設計競賽青年作品集大獎媒體報導</span></a><span class="press-sub-pub">NTUST</span></div>
+<div class="press-sub"><a href="https://www.bizcommunity.com/Article/196/736/227894.html" rel="noopener" target="_blank"><span class="en">Young Ones Student Awards 2022 — All Winners</span><span class="zh">Young Ones 學生獎 2022 全部得獎者</span></a><span class="press-sub-pub">BizCommunity</span></div>
 </div>
-<div class="press-row">
-<div class="pr-year">2022</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://news.ltn.com.tw/news/life/breakingnews/3947322" rel="noopener" target="_blank"><span class="en">First East Asian designer to win international youth competition</span><span class="zh">東亞第一人！台科大生杜浩瑋奪國際青年創意競賽大獎</span></a></p></div>
-<div class="pr-pub"><span class="en">Liberty Times</span><span class="zh">自由時報</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2022</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.cna.com.tw/news/ahel/202206020056.aspx" rel="noopener" target="_blank"><span class="en">Taiwan first: Hao Wei Tu wins international design competition</span><span class="zh">台灣首位獲獎！台科大杜浩瑋獲國際設計競賽大獎</span></a></p></div>
-<div class="pr-pub"><span class="en">CNA</span><span class="zh">中央社</span></div>
 </div>
 <div class="press-row">
 <div class="pr-year">2022</div>
 <div class="pr-head"><p class="pr-hl"><a class="ul" href="https://campaignbriefasia.com/2022/02/22/inside-the-dad-pencil-taiwan-tech-hosts-dad-awards-annual-exhibition/" rel="noopener" target="_blank"><span class="en">Inside the D&amp;AD Pencil — Taiwan Tech hosts the Annual Exhibition</span><span class="zh">D&amp;AD 鉛筆獎內部 — 台科大舉辦年度設計展</span></a></p></div>
 <div class="pr-pub">Campaign Brief Asia</div>
 </div>
-<div class="press-row">
-<div class="pr-year">2022</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.rti.org.tw/news/view/id/2134694" rel="noopener" target="_blank"><span class="en">Taiwan Tech student — first in East Asia to win international Young Ones Portfolio</span><span class="zh">國際個人青年作品集大獎，台科大生獲獎創東亞第一人</span></a></p></div>
-<div class="pr-pub"><span class="en">Radio Taiwan International</span><span class="zh">中央廣播電臺</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2022</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.ntust.edu.tw/p/404-1000-102376.php?Lang=zh-tw" rel="noopener" target="_blank"><span class="en">Media coverage — Hao Wei Tu wins international design award</span><span class="zh">臺科大杜浩瑋獲國際設計競賽青年作品集大獎媒體報導</span></a></p></div>
-<div class="pr-pub"><span class="en">NTUST</span><span class="zh">台灣科技大學</span></div>
-</div>
-<div class="press-row">
-<div class="pr-year">2022</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.bizcommunity.com/Article/196/736/227894.html" rel="noopener" target="_blank"><span class="en">Young Ones Student Awards 2022 — All Winners</span><span class="zh">Young Ones 學生獎 2022 全部得獎者</span></a></p></div>
-<div class="pr-pub">BizCommunity</div>
-</div>
-<div class="press-row">
+<div class="press-group">
+<div class="press-row press-grp-hd" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open');var t=this.querySelector('.gallery-toggle');if(t)t.classList.toggle('open');">
+<button aria-label="Toggle" class="gallery-toggle"><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 <div class="pr-year">2018</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.chinatimes.com/newspapers/20181029000220-260301?chdtv" rel="noopener" target="_blank"><span class="en">Chinese Character Creative Works Exhibition — Showcasing Cultural Confidence</span><span class="zh">漢字文創作品展 彰顯文化自信</span></a></p></div>
-<div class="pr-pub"><span class="en">China Times</span><span class="zh">中國時報</span></div>
-<button aria-label="Toggle gallery" class="gallery-toggle" onclick='this.classList.toggle("open");var p=this.closest(".award-row,.press-row").querySelector(".gallery-panel");if(p)p.classList.toggle("open");'><svg width="10" height="7" viewBox="0 0 10 7" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-<div class="gallery-panel"><img alt="China Times · Chinese Character Creative Works Exhibition, 2018" loading="lazy" src="gallery/news-hanzi/chinatimes.jpg"/></div></div>
-<div class="press-row">
-<div class="pr-year">2018</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="https://www.sohu.com/a/271883618_100105130" rel="noopener" target="_blank"><span class="en">Cross-Strait Chinese Character Cultural Creativity Competition Award Exhibition</span><span class="zh">兩岸漢字文化創意競賽獲獎作品展</span></a></p></div>
-<div class="pr-pub"><span class="en">Sohu</span><span class="zh">搜狐</span></div>
+<div class="pr-head"><p class="pr-hl"><span class="en">Cross-Strait Chinese Character Creative Works Exhibition</span><span class="zh">兩岸漢字文化創意作品展</span></p><p class="pr-count"><span class="en">3 media outlets</span><span class="zh">3 家媒體</span></p></div>
 </div>
-<div class="press-row">
-<div class="pr-year">2018</div>
-<div class="pr-head"><p class="pr-hl"><a class="ul" href="http://www.hkcd.com/content_p/2018-12/17/content_67812.html" rel="noopener" target="_blank"><span class="en">LOHAS Chinese Characters — Cross-Strait Creative Competition Exhibition</span><span class="zh">樂活漢字 · 魅力文化 — 兩岸創意競賽獲獎作品展</span></a></p></div>
-<div class="pr-pub"><span class="en">Hong Kong Commercial Daily</span><span class="zh">香港商報</span></div>
+<div class="press-grp-body">
+<div class="press-sub"><a href="https://www.chinatimes.com/newspapers/20181029000220-260301?chdtv" rel="noopener" target="_blank"><span class="en">Chinese Character Creative Works Exhibition — Showcasing Cultural Confidence</span><span class="zh">漢字文創作品展 彰顯文化自信</span></a><span class="press-sub-pub"><span class="en">China Times</span><span class="zh">中國時報</span></span></div>
+<div class="press-sub"><a href="https://www.sohu.com/a/271883618_100105130" rel="noopener" target="_blank"><span class="en">Cross-Strait Chinese Character Cultural Creativity Competition Award Exhibition</span><span class="zh">兩岸漢字文化創意競賽獲獎作品展</span></a><span class="press-sub-pub"><span class="en">Sohu</span><span class="zh">搜狐</span></span></div>
+<div class="press-sub"><a href="http://www.hkcd.com/content_p/2018-12/17/content_67812.html" rel="noopener" target="_blank"><span class="en">LOHAS Chinese Characters — Cross-Strait Creative Competition Exhibition</span><span class="zh">樂活漢字 · 魅力文化 — 兩岸創意競賽獲獎作品展</span></a><span class="press-sub-pub"><span class="en">Hong Kong Commercial Daily</span><span class="zh">香港商報</span></span></div>
+</div>
+</div>
+
 </div>
 </div>
 </section>
@@ -1485,6 +1757,7 @@
 <div class="sec-header">
 <h2 class="sec-title"><span class="en">Connect</span><span class="zh">聯繫</span></h2>
 </div>
+<div class="cn-grid">
 <div class="cn-row"><span class="cn-label">Email</span><span class="cn-val"><a class="ul" href="mailto:sootr123a@gmail.com">sootr123a@gmail.com</a><button class="copy-btn" data-copy="sootr123a@gmail.com" aria-label="Copy email"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><rect x="4.5" y="4.5" width="7" height="8" rx="1" stroke="currentColor" stroke-width="1.1"/><path d="M1.5 8.5V2a1 1 0 011-1h6" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/></svg><span class="copy-tip">Copied!</span></button></span></div>
 <div class="cn-row"><span class="cn-label">LinkedIn</span><span class="cn-val"><a class="ul ext" href="https://www.linkedin.com/in/hao-wei-tu-3a7576250/" rel="noopener" target="_blank">/in/hao-wei-tu</a></span></div>
 <div class="cn-row"><span class="cn-label">Instagram</span><span class="cn-val"><a class="ul ext" href="https://www.instagram.com/haoweitu.info/" rel="noopener" target="_blank">@haoweitu.info</a></span></div>
@@ -1497,6 +1770,7 @@
 <div class="cn-row"><span class="cn-label">AGDA</span><span class="cn-val"><a class="ul ext" href="https://agda.com.au/directory/5499/" rel="noopener" target="_blank"><span class="en">AGDA Member Directory</span><span class="zh">AGDA 會員資料</span></a></span></div>
 <div class="cn-row"><span class="cn-label">The One Club</span><span class="cn-val"><a class="ul ext" href="https://www.oneclub.org/portfolio/-102955" rel="noopener" target="_blank"><span class="en">Member Portfolio</span><span class="zh">會員作品集</span></a></span></div>
 <div class="cn-row"><span class="cn-label">Swinburne</span><span class="cn-val"><a class="ul ext" href="https://www.swinburne.edu.au/news/2025/11/Hao-Wei-Tu/" rel="noopener" target="_blank"><span class="en">Researcher Profile</span><span class="zh">研究者頁面</span></a></span></div>
+</div>
 </div>
 </section>
 <!-- ══ FOOTER ══ -->
@@ -1539,6 +1813,15 @@
     nav.classList.toggle('scrolled', window.scrollY > 10);
   }, { passive: true });
 
+  // Group-title collapse toggle
+  document.querySelectorAll('.group-title.group-toggle').forEach(function(gt) {
+    gt.addEventListener('click', function() {
+      gt.classList.toggle('open');
+      var body = gt.nextElementSibling;
+      if (body && body.classList.contains('group-body')) body.classList.toggle('open');
+    });
+  });
+
   // Nav active section highlight
   const navLinks = document.querySelectorAll('.nav-links a');
   const sections = document.querySelectorAll('section[id]');
@@ -1561,7 +1844,9 @@
     if (row && !e.target.closest('.sub-row') && !e.target.closest('.gallery-toggle')) {
       const toggle = row.querySelector(':scope > .gallery-toggle');
       const panel  = row.querySelector(':scope > .gallery-panel');
+      const subList = row.querySelector('.sub-list');
       if (toggle && panel) { toggle.classList.toggle('open'); panel.classList.toggle('open'); }
+      else if (subList) { if (toggle) toggle.classList.toggle('open'); subList.classList.toggle('open'); }
     }
 
     const subRow = e.target.closest('.sub-row');
