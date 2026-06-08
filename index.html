@@ -861,6 +861,20 @@
   .reveal { opacity: 1; transform: none; transition: none; }
 }
 
+/* ── CURSOR-FOLLOWING THUMBNAIL ── */
+.hover-peek {
+  position: fixed; top: 0; left: 0; z-index: 150;
+  width: 320px; pointer-events: none;
+  opacity: 0; transform: scale(.94);
+  transition: opacity .2s ease, transform .2s ease;
+}
+.hover-peek.visible { opacity: 1; transform: scale(1); }
+.hover-peek img {
+  width: 100%; height: auto; display: block;
+  border-radius: 4px; background: var(--bg);
+  box-shadow: 0 10px 34px rgba(0,0,0,.20);
+}
+
 /* Section offset for sticky nav */
 .section { scroll-margin-top: 64px; }
 
@@ -999,9 +1013,7 @@
 <span class="ti">Red Dot Best of the Best</span><span class="ti-dot">·</span>
 <span class="ti">NY TDC 72 Winner</span><span class="ti-dot">·</span>
 <span class="ti">DFA Gold</span><span class="ti-dot">·</span>
-<span class="ti">Graphis Platinum</span><span class="ti-dot">·</span>
-<span class="ti">AIGA 365</span><span class="ti-dot">·</span>
-<span class="ti">D&amp;AD Shortlist</span><span class="ti-dot">·</span>
+<span class="ti">Graphis Platinum</span><span class="ti-dot">·</span><span class="ti">D&amp;AD Shortlist</span><span class="ti-dot">·</span>
 <span class="ti">Communication Arts</span><span class="ti-dot">·</span>
 <span class="ti">TEDxSwinburne Speaker</span><span class="ti-dot">·</span>
 <span class="ti">TiGDA Winner</span><span class="ti-dot">·</span>
@@ -1009,9 +1021,7 @@
 <span class="ti">Red Dot Best of the Best</span><span class="ti-dot">·</span>
 <span class="ti">NY TDC 72 Winner</span><span class="ti-dot">·</span>
 <span class="ti">DFA Gold</span><span class="ti-dot">·</span>
-<span class="ti">Graphis Platinum</span><span class="ti-dot">·</span>
-<span class="ti">AIGA 365</span><span class="ti-dot">·</span>
-<span class="ti">D&amp;AD Shortlist</span><span class="ti-dot">·</span>
+<span class="ti">Graphis Platinum</span><span class="ti-dot">·</span><span class="ti">D&amp;AD Shortlist</span><span class="ti-dot">·</span>
 <span class="ti">Communication Arts</span><span class="ti-dot">·</span>
 <span class="ti">TEDxSwinburne Speaker</span><span class="ti-dot">·</span>
 <span class="ti">TiGDA Winner</span><span class="ti-dot">·</span>
@@ -1784,6 +1794,7 @@
       document.getElementById('btn-en').classList.toggle('active', lang === 'en');
       document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
     };
+    try { localStorage.setItem('lang', lang); } catch (e) {}
     if (animate) {
       document.body.classList.add('lang-fade');
       setTimeout(() => { apply(); document.body.classList.remove('lang-fade'); }, 150);
@@ -1791,7 +1802,16 @@
       apply();
     }
   }
-  setLang('en');
+
+  // Pick initial language: saved choice → browser preference → English
+  (function () {
+    let initial;
+    try { initial = localStorage.getItem('lang'); } catch (e) {}
+    if (initial !== 'en' && initial !== 'zh') {
+      initial = (navigator.language || '').toLowerCase().startsWith('zh') ? 'zh' : 'en';
+    }
+    setLang(initial);
+  })();
 
   // Scroll progress bar
   const progressBar = document.getElementById('progress-bar');
@@ -1913,10 +1933,11 @@
   // Scroll reveal — only elements below the fold get animated
   (function () {
     const els = document.querySelectorAll(
-      '.sec-header, .about-sidebar, .about-main, .logo-strip, .group-title, .press-row'
+      '.sec-header, .about-sidebar, .about-main, .logo-strip, .group-title, .award-row, .press-row'
     );
     const vh = window.innerHeight;
     els.forEach(el => {
+      if (el.closest('.intl-scroll')) return; // rows inside scroll boxes stay put
       if (el.getBoundingClientRect().top > vh * 0.88) el.classList.add('reveal');
     });
     const obs = new IntersectionObserver(entries => {
@@ -1925,6 +1946,54 @@
       });
     }, { threshold: 0.1 });
     document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  })();
+
+  // Cursor-following thumbnail peek (desktop pointer + motion-ok only)
+  (function () {
+    const fine   = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!fine || reduce) return;
+
+    const peek = document.createElement('div');
+    peek.className = 'hover-peek';
+    peek.setAttribute('aria-hidden', 'true');
+    peek.innerHTML = '<img alt="">';
+    document.body.appendChild(peek);
+    const peekImg = peek.querySelector('img');
+    let current = null;
+
+    function srcFor(row) {
+      if (!row) return null;
+      // don't peek when the row's own gallery is already expanded
+      if (row.querySelector('.gallery-panel.open, .sub-gallery-panel.open')) return null;
+      const img = row.querySelector('.gallery-panel img, .sub-gallery-panel img');
+      return img ? img.getAttribute('src') : null;
+    }
+
+    document.addEventListener('mousemove', e => {
+      const row = e.target.closest('.award-row, .press-row, .sub-row');
+      const src = srcFor(row);
+      if (!src) {
+        if (current) { peek.classList.remove('visible'); current = null; }
+        return;
+      }
+      if (src !== current) { peekImg.src = src; current = src; }
+      const pad = 24;
+      const w = peek.offsetWidth  || 320;
+      const h = peek.offsetHeight || 210;
+      let x = e.clientX + pad;
+      let y = e.clientY + pad;
+      if (x + w > window.innerWidth - 8) x = e.clientX - pad - w;
+      if (y + h > window.innerHeight - 8) y = window.innerHeight - 8 - h;
+      if (y < 8) y = 8;
+      peek.style.left = x + 'px';
+      peek.style.top  = y + 'px';
+      peek.classList.add('visible');
+    }, { passive: true });
+
+    document.addEventListener('mouseleave', () => {
+      peek.classList.remove('visible'); current = null;
+    });
   })();
 
 </script>
