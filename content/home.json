@@ -1,0 +1,139 @@
+{
+  "_readme": "Editorial homepage copy. All visible strings are bilingual {en, zh} objects. Project IDs refer to content/projects.json; the research copy distinguishes the completed master's study from the current PhD.",
+  "intro": {
+    "eyebrow": {
+      "en": "Communication design & research",
+      "zh": "傳達設計與研究"
+    },
+    "heading": {
+      "en": "Hao Wei Tu.",
+      "zh": "杜浩瑋。"
+    },
+    "body": {
+      "en": "I’m a communication designer and researcher based in Melbourne and Taipei. I work across identities, books and exhibitions, exploring how an image can carry more than one idea.",
+      "zh": "我是杜浩瑋，在墨爾本與台北從事傳達設計與研究。從品牌識別、書籍到展覽，探索一個圖像如何容納不只一種想法。"
+    }
+  },
+  "themes": [
+    {
+      "id": "form",
+      "heading": {
+        "en": "Identity",
+        "zh": "識別設計"
+      },
+      "body": {
+        "en": "A letter becomes a structure. A structure becomes an identity.",
+        "zh": "字母成為結構，結構成為識別。"
+      },
+      "project_ids": [
+        "hnz-constructions",
+        "fishmonger"
+      ]
+    },
+    {
+      "id": "print",
+      "heading": {
+        "en": "Book covers",
+        "zh": "書籍封面"
+      },
+      "body": {
+        "en": "A book cover can pull you in before the first page.",
+        "zh": "書還沒翻開，故事已經開始。"
+      },
+      "project_ids": [
+        "a-crack-in-everything"
+      ]
+    },
+    {
+      "id": "space",
+      "heading": {
+        "en": "Exhibitions",
+        "zh": "展覽視覺"
+      },
+      "body": {
+        "en": "An identity takes on another life when you can walk through it.",
+        "zh": "當識別走進空間，就多了一種觀看的方式。"
+      },
+      "project_ids": [
+        "dad-exhibition-2021"
+      ]
+    }
+  ],
+  "selected_work": {
+    "label": {
+      "en": "Selected work",
+      "zh": "精選作品"
+    },
+    "link_label": {
+      "en": "View project",
+      "zh": "看作品"
+    },
+    "all_label": {
+      "en": "All work",
+      "zh": "全部作品"
+    },
+    "projects": [
+      {
+        "project_id": "dad-exhibition-2021",
+        "intro": {
+          "en": "Slice open a D&AD pencil and find a piece of fruit. An exhibition identity built around the pleasure of looking inside.",
+          "zh": "切開一枝 D&AD 鉛筆，裡面竟然是水果。從海報到展場，邀請觀眾往裡面多看一眼。"
+        }
+      },
+      {
+        "project_id": "hnz-constructions",
+        "intro": {
+          "en": "H, N and Z share one structure. Rotation and reflection turn it into an identity that works from a hard hat to a building site.",
+          "zh": "H、N、Z 共用一個結構。旋轉、鏡射之間，成為從安全帽到工地圍籬都能使用的品牌識別。"
+        }
+      },
+      {
+        "project_id": "fishmonger",
+        "intro": {
+          "en": "A tall, custom wordmark echoes the profile of a fish. Scales, water and rice become a graphic language for a seafood shop and restaurant in Melbourne.",
+          "zh": "修長的訂製字標，藏著魚身的側影。魚鱗、水與米，成為這間墨爾本海鮮鋪與餐廳的視覺語言。"
+        }
+      },
+      {
+        "project_id": "a-crack-in-everything",
+        "intro": {
+          "en": "A black hole pulls the whole cover towards its centre. Type and linework bend together, making gravity part of the composition.",
+          "zh": "黑洞把整張封面往中心拉。文字與線條一起彎曲，讓引力直接成為版面的一部分。"
+        }
+      }
+    ]
+  },
+  "research": {
+    "label": {
+      "en": "Practice / Research",
+      "zh": "實作／研究"
+    },
+    "heading": {
+      "en": "Design as an inquiry",
+      "zh": "從設計走進研究"
+    },
+    "question": {
+      "en": "What becomes the image? What becomes the background?",
+      "zh": "什麼成為圖像？什麼退到背景？"
+    },
+    "body": {
+      "en": "My master’s research used projection to turn figure–ground illusions into a repeatable design method. Today, I’m a PhD candidate in Design at Swinburne University of Technology, working with Design Factory Melbourne and ANSTO.",
+      "zh": "我的碩士研究透過投影，把圖地反轉發展成可以重複操作的設計方法。目前在斯威本科技大學攻讀設計博士，與墨爾本設計工廠及澳洲核能科學技術組織（ANSTO）合作研究。"
+    },
+    "project_id": "projection-method",
+    "link_label": {
+      "en": "Explore the study",
+      "zh": "看這項研究"
+    }
+  },
+  "contact": {
+    "heading": {
+      "en": "Have something in mind?",
+      "zh": "聊聊你的想法。"
+    },
+    "body": {
+      "en": "For design projects, collaborations and conversations.",
+      "zh": "設計委託、合作，或交換一些想法。"
+    }
+  }
+}

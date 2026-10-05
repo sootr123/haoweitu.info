@@ -1,0 +1,749 @@
+{
+  "pdf": "Por/HTU Portfolio.pdf",
+  "metadata": {
+    "creation": "2026-08-22T17:41:13+10:00",
+    "modified": "2026-08-22T17:43:23+10:00",
+    "pages": 15
+  },
+  "coordinate_system": "PDF points, origin top left; bbox=[x0,y0,x1,y1]",
+  "extraction": "Render exact page panel with Poppler. Preserve colour management, clip paths, masks, vector overlays and existing photographic backgrounds. Do not auto-trim.",
+  "projects": [
+    {
+      "id": "dad-exhibition-2021",
+      "page": 2,
+      "cover": "pdf-01",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 4,
+          "bbox": [
+            56.693,
+            56.694,
+            1133.858,
+            559.69
+          ],
+          "alt": "The D&AD fruit-pencil posters with a visitor walking past",
+          "current_match": "01"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 8,
+          "bbox": [
+            56.693,
+            575.433,
+            402.52,
+            785.197
+          ],
+          "alt": "The D&AD fruit-pencil posters lining the exhibition wall",
+          "current_match": "Por/_web/dad-exhibition-2021/02.png"
+        },
+        {
+          "file": "pdf-03",
+          "xref": 6,
+          "bbox": [
+            422.362,
+            575.433,
+            768.189,
+            785.197
+          ],
+          "alt": "The D&AD exhibition entrance with an oversized sliced pencil",
+          "current_match": "Por/_web/dad-exhibition-2021/03.png"
+        }
+      ],
+      "note": "",
+      "selected_for_site": true
+    },
+    {
+      "id": "hnz-constructions",
+      "page": 3,
+      "cover": "pdf-01",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 12,
+          "bbox": [
+            56.693,
+            56.694,
+            768.189,
+            559.69
+          ],
+          "alt": "HNZ presentation box resting on a construction ladder",
+          "current_match": "01"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 20,
+          "bbox": [
+            788.032,
+            328.819,
+            1133.858,
+            559.69
+          ],
+          "alt": "HNZ lettering on a ruler tucked into a pocket",
+          "current_match": "02"
+        },
+        {
+          "file": "pdf-03",
+          "xref": 14,
+          "bbox": [
+            56.693,
+            575.433,
+            402.52,
+            785.197
+          ],
+          "alt": "HNZ identity on a worker’s clothing",
+          "current_match": null
+        },
+        {
+          "file": "pdf-04",
+          "xref": 16,
+          "bbox": [
+            422.362,
+            575.433,
+            768.189,
+            785.197
+          ],
+          "alt": "The HNZ symbol on a construction helmet",
+          "current_match": "07"
+        },
+        {
+          "file": "pdf-05",
+          "xref": 18,
+          "bbox": [
+            788.032,
+            575.433,
+            1133.858,
+            785.197
+          ],
+          "alt": "HNZ identity on elevator signage and branded tape",
+          "current_match": "08"
+        }
+      ],
+      "note": "",
+      "selected_for_site": true
+    },
+    {
+      "id": "festival-of-arts",
+      "page": 4,
+      "cover": "pdf-01",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 46,
+          "bbox": [
+            56.693,
+            56.693,
+            768.189,
+            561.26
+          ],
+          "alt": "Dancers wearing black-and-white patterned fabric",
+          "current_match": "01"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 52,
+          "bbox": [
+            56.693,
+            575.433,
+            402.52,
+            785.197
+          ],
+          "alt": "Two models wrapped in the festival’s printed fabric",
+          "current_match": "02"
+        },
+        {
+          "file": "pdf-03",
+          "xref": 48,
+          "bbox": [
+            422.362,
+            575.433,
+            768.189,
+            785.197
+          ],
+          "alt": "Folded festival publications showing the split-square pattern",
+          "current_match": "Por/_web/festival-of-arts/03.png"
+        },
+        {
+          "file": "pdf-04",
+          "xref": 42,
+          "bbox": [
+            788.032,
+            575.433,
+            1133.858,
+            785.197
+          ],
+          "alt": "Festival stationery and printed objects",
+          "current_match": "Por/_web/festival-of-arts/04.png"
+        }
+      ],
+      "note": "Page 4 has DeviceN images and soft masks; render composed panels rather than extracting raw JPEGs.",
+      "selected_for_site": true
+    },
+    {
+      "id": "dad-exhibition-2023",
+      "page": 5,
+      "cover": "pdf-01",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 67,
+          "bbox": [
+            56.693,
+            56.694,
+            1133.858,
+            559.69
+          ],
+          "alt": "Insight, Angle, Vision and Ceiling posters with a visitor walking past",
+          "current_match": "01"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 69,
+          "bbox": [
+            56.693,
+            575.433,
+            402.52,
+            785.197
+          ],
+          "alt": "D&AD 2023 printed matter and poster details",
+          "current_match": "Por/_web/dad-exhibition-2023/02.png"
+        },
+        {
+          "file": "pdf-03",
+          "xref": 73,
+          "bbox": [
+            422.362,
+            575.433,
+            768.189,
+            785.197
+          ],
+          "alt": "A visitor holding an eye graphic within the exhibition",
+          "current_match": "Por/_web/dad-exhibition-2023/03.png"
+        }
+      ],
+      "note": "",
+      "selected_for_site": true
+    },
+    {
+      "id": "islanders-summer-homework",
+      "page": 6,
+      "cover": "toolkit-clean",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 81,
+          "bbox": [
+            56.693,
+            56.694,
+            768.189,
+            559.69
+          ],
+          "alt": "The Islander’s Summer Homework toolkit arranged with its open box",
+          "current_match": "01",
+          "selected_for_site": false,
+          "replaced_by": "toolkit-clean"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 97,
+          "bbox": [
+            788.032,
+            338.587,
+            1133.859,
+            559.69
+          ],
+          "alt": "Hands assembling a coastal landmark paper model",
+          "current_match": "Por/_web/islanders-summer-homework/02.png"
+        },
+        {
+          "file": "pdf-03",
+          "xref": 85,
+          "bbox": [
+            56.693,
+            575.433,
+            402.52,
+            785.197
+          ],
+          "alt": "Coastline map with sand samples and paper landmarks",
+          "current_match": "03"
+        },
+        {
+          "file": "pdf-04",
+          "xref": 89,
+          "bbox": [
+            422.362,
+            575.433,
+            768.189,
+            785.197
+          ],
+          "alt": "A grid of illustrated coastal postcards",
+          "current_match": "04"
+        },
+        {
+          "file": "pdf-05",
+          "xref": 93,
+          "bbox": [
+            788.032,
+            575.433,
+            1133.858,
+            785.197
+          ],
+          "alt": "A postcard held against the sea and sand",
+          "current_match": "05"
+        }
+      ],
+      "note": "The user-selected clean toolkit photo replaces PDF panel pdf-01 as both the case lead and index still; the case-preview video remains in the index. Other selected PDF panels are retained.",
+      "selected_for_site": true,
+      "supplemental_images": [
+        {
+          "file": "toolkit-clean",
+          "source": "Por/UserSelections/islanders-summer-homework/toolkit-clean.png",
+          "alt": "The Islander’s Summer Homework toolkit with its open box, sand samples, postcards and fieldwork objects",
+          "caption": {
+            "en": "The complete toolkit, ready for a summer by the coast",
+            "zh": "展開完整工具組，準備走訪夏日海岸"
+          }
+        }
+      ]
+    },
+    {
+      "id": "endoaware",
+      "page": 7,
+      "cover": "pdf-01",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 115,
+          "bbox": [
+            56.693,
+            57.754,
+            1133.858,
+            559.689
+          ],
+          "alt": "Three women framed by the EndoAware yellow ribbon identity",
+          "current_match": "01"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 111,
+          "bbox": [
+            56.693,
+            575.433,
+            402.52,
+            785.197
+          ],
+          "alt": "The EndoAware campaign poster with a flowing yellow ribbon",
+          "current_match": "02"
+        },
+        {
+          "file": "pdf-03",
+          "xref": 107,
+          "bbox": [
+            422.101,
+            575.433,
+            767.928,
+            785.197
+          ],
+          "alt": "The EndoAware mobile screening vehicle",
+          "current_match": "Por/_web/endoaware/03.png"
+        }
+      ],
+      "note": "Hero contains vector logo/ribbon overlays. Render PDF panel; raw image extraction would omit parts of the design.",
+      "selected_for_site": true
+    },
+    {
+      "id": "fishmonger",
+      "page": 8,
+      "cover": "pdf-01",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 123,
+          "bbox": [
+            56.693,
+            56.694,
+            768.189,
+            559.69
+          ],
+          "alt": "A chef holding a whole fish beside the vertical Fishmonger sign",
+          "current_match": "07"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 131,
+          "bbox": [
+            788.032,
+            345.827,
+            1133.858,
+            560.675
+          ],
+          "alt": "The Fishmonger wordmark on a dark green card",
+          "current_match": "05"
+        },
+        {
+          "file": "pdf-03",
+          "xref": 127,
+          "bbox": [
+            56.693,
+            575.433,
+            402.52,
+            785.197
+          ],
+          "alt": "The illuminated Fishmonger storefront sign",
+          "current_match": null
+        },
+        {
+          "file": "pdf-04",
+          "xref": 125,
+          "bbox": [
+            422.362,
+            575.433,
+            768.189,
+            785.197
+          ],
+          "alt": "The Fishmonger identity on a dark apron",
+          "current_match": "03"
+        },
+        {
+          "file": "pdf-05",
+          "xref": 129,
+          "bbox": [
+            788.032,
+            575.433,
+            1133.858,
+            785.197
+          ],
+          "alt": "The Fishmonger menu with a modular wave pattern",
+          "current_match": "01"
+        }
+      ],
+      "note": "",
+      "selected_for_site": true
+    },
+    {
+      "id": "innovation-twenty",
+      "page": 9,
+      "cover": "pdf-01",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 138,
+          "bbox": [
+            56.693,
+            56.693,
+            585.355,
+            785.197
+          ],
+          "alt": "Pink Innovation Twenty poster with metallic forms and cast shadows",
+          "current_match": "02"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 136,
+          "bbox": [
+            610.158,
+            56.693,
+            861.732,
+            410.682
+          ],
+          "alt": "Red Innovation Twenty poster with diagonally arranged metallic forms",
+          "current_match": "05"
+        },
+        {
+          "file": "pdf-03",
+          "xref": 142,
+          "bbox": [
+            882.284,
+            56.693,
+            1133.858,
+            410.682
+          ],
+          "alt": "Green Innovation Twenty poster with long shadows",
+          "current_match": "03"
+        },
+        {
+          "file": "pdf-04",
+          "xref": 140,
+          "bbox": [
+            610.158,
+            431.208,
+            861.732,
+            785.197
+          ],
+          "alt": "Orange Innovation Twenty poster with metallic forms",
+          "current_match": "04"
+        },
+        {
+          "file": "blue-paper-plane",
+          "source": "Por/CAFILES/Innovation Twenty1.tif",
+          "alt": "Blue Innovation Twenty poster: metallic spheres and their cast shadows form a paper plane, shown with the original black presentation background",
+          "supplemental": true,
+          "current_match": "Original blue communication-design / paper-plane poster",
+          "note": "Added at the user’s request to complete the five-discipline series. Absent from the latest PDF page 9. Original full raster retained with its black presentation background; no background removal or trim."
+        }
+      ],
+      "note": "The latest PDF page 9 selects four pink/red/green/orange poster panels without external black mats. The user requested the missing blue paper-plane poster, supplied from the matching original TIFF as a fifth image with its complete background.",
+      "selected_for_site": true
+    },
+    {
+      "id": "chinese-character-festival",
+      "page": 10,
+      "cover": "pdf-01",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 302,
+          "bbox": [
+            56.693,
+            56.694,
+            768.189,
+            515.906
+          ],
+          "alt": "A hand assembling Chinese character animal blocks",
+          "current_match": "Por/_web/chinese-character-festival/01.png"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 307,
+          "bbox": [
+            788.032,
+            56.694,
+            1133.858,
+            515.906
+          ],
+          "alt": "Character-animal illustrations on a sculptural display",
+          "current_match": "Por/_web/chinese-character-festival/02.png"
+        },
+        {
+          "file": "pdf-03",
+          "xref": 306,
+          "bbox": [
+            56.693,
+            530.079,
+            402.52,
+            785.197
+          ],
+          "alt": "Chinese Character Festival banners in the city",
+          "current_match": "Por/_web/chinese-character-festival/03.png"
+        },
+        {
+          "file": "pdf-04",
+          "xref": 308,
+          "bbox": [
+            422.362,
+            530.079,
+            768.189,
+            785.197
+          ],
+          "alt": "Blue festival publications featuring character-animal illustrations",
+          "current_match": "Por/_web/chinese-character-festival/04.png"
+        }
+      ],
+      "note": "Currently archived in content/archive.json; PDF includes this project. Hero has a title overlay that should be retained by rendering the PDF panel.",
+      "selected_for_site": false
+    },
+    {
+      "id": "projection-method",
+      "page": 11,
+      "cover": "pdf-01",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 325,
+          "bbox": [
+            56.693,
+            56.694,
+            768.189,
+            559.69
+          ],
+          "alt": "A participant experimenting with cast shadows, alongside the resulting figure–ground silhouettes",
+          "current_match": "01"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 329,
+          "bbox": [
+            56.693,
+            581.102,
+            393.071,
+            784.126
+          ],
+          "alt": "Participants exploring cast shadows in a figure–ground workshop",
+          "current_match": null
+        },
+        {
+          "file": "pdf-03",
+          "xref": 336,
+          "bbox": [
+            412.441,
+            581.102,
+            767.36,
+            784.529
+          ],
+          "alt": "Figure–ground silhouettes across illuminated panels",
+          "current_match": "03"
+        },
+        {
+          "file": "pdf-04",
+          "xref": 338,
+          "bbox": [
+            788.032,
+            581.102,
+            1134.567,
+            785.197
+          ],
+          "alt": "The projection research documented in an open book",
+          "current_match": null
+        }
+      ],
+      "note": "Hero is a composite of a large photograph and three inset stages; render the full panel. Optional standalone silhouette at [971.575,119.764,1134.567,330.236] is excluded because main composite already shows it.",
+      "selected_for_site": true
+    },
+    {
+      "id": "a-crack-in-everything",
+      "page": 12,
+      "cover": "pdf-01",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 350,
+          "bbox": [
+            56.693,
+            56.693,
+            768.189,
+            785.197
+          ],
+          "alt": "A Crack in Everything standing open, with its original dark-to-light photographic background",
+          "current_match": "01"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 352,
+          "bbox": [
+            788.032,
+            56.693,
+            1133.858,
+            545.615
+          ],
+          "alt": "Close-up of the book’s black-hole linework and typography",
+          "current_match": "02"
+        }
+      ],
+      "note": "Preserve full photographic gradient and shadow. No rembg, alpha crop or black-border trim.",
+      "selected_for_site": true
+    },
+    {
+      "id": "taiwan-tech-design-week",
+      "page": 13,
+      "cover": "pdf-01",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 356,
+          "bbox": [
+            56.693,
+            56.694,
+            1133.858,
+            559.69
+          ],
+          "alt": "Taiwan Tech Design Week invitations, badges and printed matter in bright geometric colours",
+          "current_match": "01"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 360,
+          "bbox": [
+            56.693,
+            575.433,
+            402.52,
+            785.197
+          ],
+          "alt": "Three hanging badges with faceted door-shaped designs",
+          "current_match": "02"
+        },
+        {
+          "file": "pdf-03",
+          "xref": 358,
+          "bbox": [
+            422.362,
+            575.433,
+            768.189,
+            785.197
+          ],
+          "alt": "Behance Portfolio Reviews printed objects",
+          "current_match": "Por/_web/taiwan-tech-design-week/03.png"
+        }
+      ],
+      "note": "",
+      "selected_for_site": true
+    },
+    {
+      "id": "with-the-wind",
+      "page": 14,
+      "cover": "pdf-02",
+      "images": [
+        {
+          "file": "pdf-01",
+          "xref": 364,
+          "bbox": [
+            56.693,
+            56.693,
+            768.189,
+            420.945
+          ],
+          "alt": "With the Wind lying flat, showing its cover and spine against the original black background",
+          "current_match": "03"
+        },
+        {
+          "file": "pdf-02",
+          "xref": 368,
+          "bbox": [
+            788.032,
+            56.693,
+            1133.858,
+            420.945
+          ],
+          "alt": "The front cover with drifting sand patterns and a white spine, on black",
+          "current_match": "02"
+        },
+        {
+          "file": "pdf-03",
+          "xref": 366,
+          "bbox": [
+            56.693,
+            442.205,
+            768.189,
+            785.197
+          ],
+          "alt": "Eight variations of the wind-blown sand cover on their original black background",
+          "current_match": "01"
+        }
+      ],
+      "note": "Bottom panel includes the original black rectangle surrounding image xref 366; render this wider panel, not its image bbox. No cutouts.",
+      "selected_for_site": true
+    }
+  ],
+  "unrepresented_current_projects": [
+    "downtown-grocer",
+    "under-alien-skies",
+    "graduation-exhibition"
+  ],
+  "notes": [
+    "PDF contains 13 projects on pages 2–14; first/last pages are contact covers.",
+    "12 currently published projects appear in PDF; Chinese Character Festival is archived but included in PDF.",
+    "Existing current standalone posters/extra photography on listed projects are frequently absent from the latest PDF and should be replaced by these selected panels."
+  ],
+  "site_selection": {
+    "active_pdf_projects": 12,
+    "active_pdf_panels": 43,
+    "supplemental_projects": [
+      "downtown-grocer",
+      "under-alien-skies",
+      "graduation-exhibition"
+    ],
+    "archived_pdf_projects": [
+      "chinese-character-festival"
+    ],
+    "supplemental_original_panels": 2
+  }
+}

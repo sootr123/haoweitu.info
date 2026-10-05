@@ -1,0 +1,2300 @@
+{
+  "_readme": "Order here = order on the site. Copy comes from the portfolio PDFs (Por/HTU Portfolio.pdf 2026, Howard_2024 portfolio), the CA Fresh entry, award entry forms and design notes in ~/Documents; older English text was lightly edited. Chinese copy is a translation. year: null = not stated in any source. images[].source: repo-relative or ~/Documents/... originals; scripts/build_images.py makes the WebP files.",
+  "projects": [
+    {
+      "id": "hnz-constructions",
+      "accent": "#8a8f94",
+      "title": {
+        "en": "HNZ Constructions",
+        "zh": "HNZ Constructions"
+      },
+      "discipline": {
+        "en": "Brand identity",
+        "zh": "品牌識別"
+      },
+      "filters": [
+        "identity"
+      ],
+      "client": {
+        "en": "HNZ Constructions, with D&D Creative",
+        "zh": "HNZ Constructions，與 D&D Creative 合作"
+      },
+      "year": null,
+      "cover": "pdf-01",
+      "summary": {
+        "en": "One engineered symbol that reads as H, N or Z.",
+        "zh": "一個符號，旋轉、鏡射後分別讀作 H、N、Z。"
+      },
+      "description": {
+        "en": [
+          "HNZ Constructions required a refreshed identity that would strengthen its position as a premium shopfitting specialist in Sydney and Melbourne while signalling its capacity to operate on a broader stage.",
+          "The identity is built around a single versatile symbol derived from the structural anatomy of the letters H, N and Z. By examining their underlying strokes, we identified a shared geometric framework reminiscent of the I-beams, joints and structural systems used in construction. Through rotation and reflection, the same abstract form can alternately be read as H, N or Z, creating a mark that feels both engineered and precise.",
+          "The symbol was designed to retain its clarity across scales, from hard-hat decals, stationery and digital proposals to vehicle liveries, site hoardings and large environmental applications. It can also be repeated as a modular pattern, evoking scaffolding and architectural grids.",
+          "A restrained palette of deep charcoal and light grey reinforces the identity’s sense of precision, reliability and professionalism while allowing the structural character of the symbol to remain the focus."
+        ],
+        "zh": [
+          "HNZ Constructions 需要一套更新的品牌識別，鞏固其作為雪梨與墨爾本高端商業空間工程專家的地位，同時展現走向更大舞台的能力。",
+          "識別的核心是一個從 H、N、Z 三個字母的結構拆解而來的符號。分析三者的基本筆畫後，我們找到一個共同的幾何骨架，令人聯想到營造工程中的工字鋼、接點與結構系統。透過旋轉與鏡射，同一個抽象形體可以分別被讀作 H、N 或 Z，成為一個兼具工程感與精準度的標誌。",
+          "這個符號在任何尺度下都保持清晰：從安全帽貼紙、事務用品、數位提案，到車體塗裝、工地圍籬與大型環境應用。它也能重複排列成模組化圖紋，呼應鷹架與建築格線。",
+          "深炭灰與淺灰的克制配色，強化了精準、可靠與專業的印象，也讓符號本身的結構性格成為焦點。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Design Director: Hao Wei Tu",
+          "zh": "設計總監：杜浩瑋"
+        },
+        {
+          "en": "Design Firm: Hao Wei Tu & D&D Creative",
+          "zh": "設計公司：杜浩瑋 & D&D Creative"
+        },
+        {
+          "en": "Client: HNZ Constructions",
+          "zh": "客戶：HNZ Constructions"
+        }
+      ],
+      "recognition": [
+        {
+          "year": "2026",
+          "en": "Type Directors Club, TDC 72 — Winner",
+          "zh": "紐約 Type Directors Club TDC 72 — 得獎",
+          "href": "https://enter.tdc.org/finalists/"
+        }
+      ],
+      "images": [
+        {
+          "file": "pdf-01",
+          "alt": "HNZ presentation box resting on a construction ladder",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 3,
+            "bbox": [
+              56.693,
+              56.694,
+              768.189,
+              559.69
+            ]
+          },
+          "caption": {
+            "en": "HNZ presentation box on a construction ladder",
+            "zh": "放在施工梯上的 HNZ 展示盒"
+          }
+        },
+        {
+          "file": "pdf-02",
+          "alt": "HNZ lettering on a ruler tucked into a pocket",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 3,
+            "bbox": [
+              788.032,
+              328.819,
+              1133.858,
+              559.69
+            ]
+          },
+          "caption": {
+            "en": "HNZ lettering on a pocket ruler",
+            "zh": "口袋尺上的 HNZ 字樣"
+          }
+        },
+        {
+          "file": "pdf-03",
+          "alt": "HNZ identity on a worker’s clothing",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 3,
+            "bbox": [
+              56.693,
+              575.433,
+              402.52,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "The HNZ identity on workwear",
+            "zh": "工作服上的 HNZ 識別"
+          }
+        },
+        {
+          "file": "pdf-04",
+          "alt": "The HNZ symbol on a construction helmet",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 3,
+            "bbox": [
+              422.362,
+              575.433,
+              768.189,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "The HNZ symbol on a construction helmet",
+            "zh": "工程安全帽上的 HNZ 標誌"
+          }
+        },
+        {
+          "file": "pdf-05",
+          "alt": "HNZ identity on elevator signage and branded tape",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 3,
+            "bbox": [
+              788.032,
+              575.433,
+              1133.858,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "Elevator signage and branded tape",
+            "zh": "電梯指標與品牌膠帶"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "03",
+          "alt": "HNZ graphic system on a sign and construction tape",
+          "source": "Por/CAFILES/JF27_FRESH_Hao Wei Tu/JF27_FRESH_Hao Wei Tu_Client Work/JF27_FRESH_HNZ Constructions_Client Work/HNZ03.tif"
+        },
+        {
+          "file": "04",
+          "alt": "Monochrome HNZ business cards on metal framing",
+          "source": "Por/CAFILES/JF27_FRESH_Hao Wei Tu/JF27_FRESH_Hao Wei Tu_Client Work/JF27_FRESH_HNZ Constructions_Client Work/HNZ04.tif"
+        },
+        {
+          "file": "05",
+          "alt": "HNZ symbol over a construction worker",
+          "source": "Por/CAFILES/JF27_FRESH_Hao Wei Tu/JF27_FRESH_Hao Wei Tu_Client Work/JF27_FRESH_HNZ Constructions_Client Work/HNZ05.tif"
+        },
+        {
+          "file": "09",
+          "source": "~/Documents/YG23/HNZ8.jpg",
+          "alt": "HNZ symbol printed on a takeaway bowl"
+        }
+      ],
+      "selected_pdf": true
+    },
+    {
+      "id": "dad-exhibition-2021",
+      "accent": "#f0532b",
+      "title": {
+        "en": "D&AD Exhibition in Taiwan 2021",
+        "zh": "D&AD 設計展在台灣 2021"
+      },
+      "discipline": {
+        "en": "Exhibition identity & campaign",
+        "zh": "展覽識別與宣傳"
+      },
+      "filters": [
+        "exhibition",
+        "identity"
+      ],
+      "client": {
+        "en": "Taiwan Tech",
+        "zh": "國立臺灣科技大學"
+      },
+      "year": 2021,
+      "cover": "pdf-01",
+      "summary": {
+        "en": "What’s inside the pencil? Oversized D&AD pencils, sliced open to reveal Taipei’s fruit.",
+        "zh": "鉛筆裡面有什麼？把 D&AD 鉛筆切開，裡面是台北的水果。"
+      },
+      "description": {
+        "en": [
+          "The coloured pencil is one of the most recognisable symbols of the D&AD Awards, with different colours representing different levels of recognition. Taipei, meanwhile, is widely associated with its variety of fruit. We brought these two ideas together by slicing open oversized pencils to reveal fruit inside.",
+          "The campaign extended this inside–outside relationship throughout the exhibition environment: from the exterior, visitors encountered pencil forms; as they moved through the space, those forms opened to reveal vivid fruit slices. The question “What’s inside the pencil?” became both the central visual idea and an invitation to explore the exhibition.",
+          "The campaign generated more than ten online media features, including Campaign Brief Asia, Poster Poster and Branding in Asia, and attracted 30 per cent more visitors than previous exhibitions."
+        ],
+        "zh": [
+          "彩色鉛筆是 D&AD 獎最具代表性的符號，不同顏色代表不同等級的榮譽；而台北則以種類豐富的水果聞名。我們將兩者結合：把巨大的鉛筆切開，露出裡面的水果。",
+          "這個「內與外」的關係延伸到整個展場：從外面看，觀眾先遇見鉛筆的形狀；走進空間後，鉛筆逐漸打開，露出鮮豔的水果切面。「鉛筆裡面有什麼？」既是主視覺的核心概念，也是邀請觀眾走進展覽的提問。",
+          "宣傳獲得十餘家線上媒體報導，包括 Campaign Brief Asia、Poster Poster 與 Branding in Asia，參觀人數較往屆成長三成。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Art / Creative Director: Ken Tsai Lee",
+          "zh": "藝術／創意總監：李根在"
+        },
+        {
+          "en": "Designer / Illustrator: Hao Wei Tu",
+          "zh": "設計／插畫：杜浩瑋"
+        },
+        {
+          "en": "3D Modeler: Chiao Chang",
+          "zh": "3D 建模：Chiao Chang"
+        },
+        {
+          "en": "Client: Taiwan Tech",
+          "zh": "客戶：國立臺灣科技大學"
+        }
+      ],
+      "recognition": [
+        {
+          "year": "2022",
+          "en": "Red Dot Design Award — Best of the Best",
+          "zh": "德國紅點設計獎 — 最佳設計獎",
+          "href": "https://www.red-dot.org/project/dad-exhibition-in-taiwan-75108"
+        },
+        {
+          "year": "2022",
+          "en": "The One Club ADC Annual Awards — Silver, 2× Bronze, Merit",
+          "zh": "紐約 ADC 年度設計獎 — 銀獎、兩座銅獎、Merit",
+          "href": "https://www.oneclub.org/awards/adcawards/-award/42564/dad-exhibition-in-taiwan-posters/"
+        },
+        {
+          "year": "2022",
+          "en": "iF Design Award — Winner",
+          "zh": "德國 iF 設計獎",
+          "href": "https://ifdesign.com/en/winner-ranking/project/dad-exhibition-in-taiwan/571705"
+        },
+        {
+          "year": "2022",
+          "en": "SEGD Global Design Awards — Finalist",
+          "zh": "SEGD 國際設計獎 — 決選",
+          "href": "https://segd.org/projects/dad-exhibition-in-taiwan/"
+        }
+      ],
+      "images": [
+        {
+          "file": "pdf-01",
+          "alt": "The D&AD fruit-pencil posters with a visitor walking past",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 2,
+            "bbox": [
+              56.693,
+              56.694,
+              1133.858,
+              559.69
+            ]
+          },
+          "caption": {
+            "en": "Fruit-pencil posters in the exhibition",
+            "zh": "水果鉛筆海報在展場中的呈現"
+          }
+        },
+        {
+          "file": "pdf-02",
+          "alt": "The D&AD fruit-pencil posters lining the exhibition wall",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 2,
+            "bbox": [
+              56.693,
+              575.433,
+              402.52,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "Fruit-pencil posters along the exhibition wall",
+            "zh": "沿展場牆面排列的水果鉛筆海報"
+          }
+        },
+        {
+          "file": "pdf-03",
+          "alt": "The D&AD exhibition entrance with an oversized sliced pencil",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 2,
+            "bbox": [
+              422.362,
+              575.433,
+              768.189,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "An oversized sliced pencil at the exhibition entrance",
+            "zh": "展覽入口處剖開的巨型鉛筆"
+          }
+        }
+      ],
+      "media": [
+        {
+          "kind": "film",
+          "name": "case-film",
+          "source": "Por/YG23/D&AD_English_small.mp4",
+          "watch_url": "https://youtu.be/JRli42-WHD4",
+          "poster_at": 26.5,
+          "title": {
+            "en": "Case film",
+            "zh": "介紹影片"
+          }
+        },
+        {
+          "kind": "loop",
+          "name": "case-preview",
+          "source": "Por/YG23/D&AD_English_small.mp4",
+          "start": 24,
+          "duration": 10,
+          "placement": "index",
+          "poster_at": 2.5,
+          "title": {
+            "en": "Project preview",
+            "zh": "作品動態預覽"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "07",
+          "source": "Por/英文作品集2024檔案夾/Links/19.jpg",
+          "alt": "Poster: a white pencil opening into layered yellow slices"
+        },
+        {
+          "file": "08",
+          "source": "Por/英文作品集2024檔案夾/Links/20.jpg",
+          "alt": "Poster: a wooden pencil with a red fruit core"
+        },
+        {
+          "file": "02",
+          "source": "Por/_web/dad-exhibition-2021/02.png",
+          "alt": "Exhibition entrance wall with giant pencil illustrations"
+        },
+        {
+          "file": "03",
+          "source": "Por/_web/dad-exhibition-2021/03.png",
+          "alt": "Illuminated exhibition banner with a sliced pencil opening into fruit"
+        },
+        {
+          "file": "04",
+          "source": "~/Documents/Tisdc/1.jpg",
+          "alt": "Pencil-shaped merchandise and stickers laid out in a grid"
+        },
+        {
+          "file": "11",
+          "source": "Por/英文作品集2024檔案夾/Links/8.jpg",
+          "alt": "Pencil-shaped tags hanging in a row"
+        },
+        {
+          "file": "12",
+          "source": "Por/英文作品集2024檔案夾/Links/S1.jpg",
+          "alt": "A visitor holding up a sheet of pencil stickers"
+        }
+      ],
+      "selected_pdf": true,
+      "index_media": "case-preview"
+    },
+    {
+      "id": "a-crack-in-everything",
+      "accent": "#a7adb4",
+      "title": {
+        "en": "A Crack in Everything",
+        "zh": "萬物之隙"
+      },
+      "discipline": {
+        "en": "Book cover",
+        "zh": "書籍封面"
+      },
+      "filters": [
+        "book"
+      ],
+      "client": {
+        "en": "Faces Publishing",
+        "zh": "Faces Publishing"
+      },
+      "year": null,
+      "cover": "pdf-01",
+      "summary": {
+        "en": "A black hole that pulls image and type towards its centre.",
+        "zh": "一個把圖像與文字都吸向中心的黑洞。"
+      },
+      "description": {
+        "en": [
+          "A Crack in Everything is a book cover design inspired by the paradox of the black hole: a boundary into which matter can fall but from which nothing can escape. Swirling linework visualises gravitational pull and the bending of space–time, while the composition appears to draw both image and typography towards a central void. The visual system turns an invisible astronomical force into a graphic experience of movement, distortion and depth.",
+          "The cover reflects the book’s theme, How Black Holes Came in from the Cold and Took Cosmic Centre Stage, by presenting the black hole not simply as an illustrated object but as a force that actively structures the page itself."
+        ],
+        "zh": [
+          "《萬物之隙》的封面設計，來自黑洞的悖論：一個物質可以落入、卻沒有任何東西能逃脫的邊界。旋轉的線條呈現引力的拉扯與時空的彎曲，整個構圖彷彿把圖像與文字一起吸向中央的空洞，讓一股看不見的天文力量，成為一種關於運動、扭曲與深度的視覺經驗。",
+          "封面呼應本書主題——黑洞如何從冷門題目走到宇宙舞台的中心——黑洞不只是被描繪的物件，而是一股主動決定版面結構的力量。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Designer: Hao Wei Tu",
+          "zh": "設計：杜浩瑋"
+        },
+        {
+          "en": "Editor: Ka Hung Wong",
+          "zh": "編輯：Ka Hung Wong"
+        },
+        {
+          "en": "Client: Faces Publishing LTD.",
+          "zh": "客戶：Faces Publishing LTD."
+        }
+      ],
+      "recognition": [],
+      "images": [
+        {
+          "file": "pdf-01",
+          "alt": "A Crack in Everything standing open, with its dark-to-light photographic background",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 12,
+            "bbox": [
+              56.693,
+              56.693,
+              768.189,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "The open book against a dark-to-light background",
+            "zh": "展開的書籍與深淺漸層背景"
+          }
+        },
+        {
+          "file": "pdf-02",
+          "alt": "Close-up of the book’s black-hole linework and typography",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 12,
+            "bbox": [
+              788.032,
+              56.693,
+              1133.858,
+              545.615
+            ]
+          },
+          "caption": {
+            "en": "Black-hole linework and typography in detail",
+            "zh": "黑洞線條與文字編排的細節"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "03",
+          "alt": "Angled detail of the black and silver cover"
+        }
+      ],
+      "selected_pdf": true
+    },
+    {
+      "id": "fishmonger",
+      "accent": "#b5713f",
+      "title": {
+        "en": "Fishmonger",
+        "zh": "Fishmonger"
+      },
+      "discipline": {
+        "en": "Brand identity",
+        "zh": "品牌識別"
+      },
+      "filters": [
+        "identity"
+      ],
+      "client": {
+        "en": "Fishmonger, with D&D Creative",
+        "zh": "Fishmonger，與 D&D Creative 合作"
+      },
+      "year": null,
+      "cover": "pdf-01",
+      "summary": {
+        "en": "A high-waisted wordmark shaped like the profile of a fish.",
+        "zh": "修長、高腰的字標，像一條魚的側影。"
+      },
+      "description": {
+        "en": [
+          "Fishmonger is a premium seafood purveyor and dining destination at Chadstone Shopping Centre in Melbourne. The identity needed to communicate refinement and quality while remaining appropriate to the intimate, timber-framed and dark-toned interior. The logotype also had to maintain a strong presence across a ten-metre shopfront while remaining legible in smaller digital and printed applications.",
+          "At the centre of the identity is a bespoke wordmark with elongated, high-waisted letterforms that subtly evoke the streamlined profile of a fish. The upward movement of the characters introduces elegance and fluidity while retaining enough visual weight to communicate permanence and quality.",
+          "A secondary graphic system abstracts three elements central to the brand — fish, water and rice — into modular motifs. Radiating arcs reference fish scales, waveforms suggest moving water, and compact oval forms evoke grains of rice.",
+          "These elements can operate subtly through embossing and tone-on-tone applications or expand into bold patterns across packaging, uniforms and environmental graphics, allowing the identity to remain coherent while adapting to different scales and contexts."
+        ],
+        "zh": [
+          "Fishmonger 是位於墨爾本 Chadstone 購物中心的高端海鮮鋪與餐廳。品牌識別必須傳達精緻與品質，也要契合店內私密、木質框架與深色調的空間；字標既要撐得起十公尺寬的店面，也要在小尺寸的數位與印刷物上保持清晰。",
+          "識別的核心是一組專門設計的字標：修長、高腰的字形，隱約呼應魚身流線的側影。字母向上的動勢帶來優雅與流動感，同時保留足夠的份量，傳達穩重與品質。",
+          "輔助圖形系統把品牌的三個核心元素——魚、水、米——抽象化為模組圖紋：放射狀的弧線取自魚鱗，波形暗示流動的水，緊湊的橢圓則像一粒粒米。",
+          "這些元素可以低調地以壓印、同色系方式出現，也可以放大成醒目的圖紋，延伸到包裝、制服與空間圖像，讓識別在不同尺度與情境中保持一致。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Design Director: Hao Wei Tu",
+          "zh": "設計總監：杜浩瑋"
+        },
+        {
+          "en": "Design Firm: Hao Wei Tu & D&D Creative",
+          "zh": "設計公司：杜浩瑋 & D&D Creative"
+        },
+        {
+          "en": "Client: Fishmonger",
+          "zh": "客戶：Fishmonger"
+        }
+      ],
+      "recognition": [],
+      "images": [
+        {
+          "file": "pdf-01",
+          "alt": "A chef holding a whole fish beside the vertical Fishmonger sign",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 8,
+            "bbox": [
+              56.693,
+              56.694,
+              768.189,
+              559.69
+            ]
+          },
+          "caption": {
+            "en": "A chef with a whole fish beside the vertical sign",
+            "zh": "廚師手持鮮魚，站在直式招牌旁"
+          }
+        },
+        {
+          "file": "pdf-02",
+          "alt": "The Fishmonger wordmark on a dark green card",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 8,
+            "bbox": [
+              788.032,
+              345.827,
+              1133.858,
+              560.675
+            ]
+          },
+          "caption": {
+            "en": "The Fishmonger wordmark on a dark green card",
+            "zh": "深綠色卡片上的 Fishmonger 字標"
+          }
+        },
+        {
+          "file": "pdf-03",
+          "alt": "The illuminated Fishmonger storefront sign",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 8,
+            "bbox": [
+              56.693,
+              575.433,
+              402.52,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "The illuminated storefront sign",
+            "zh": "店面的發光招牌"
+          }
+        },
+        {
+          "file": "pdf-04",
+          "alt": "The Fishmonger identity on a dark apron",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 8,
+            "bbox": [
+              422.362,
+              575.433,
+              768.189,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "The Fishmonger identity on an apron",
+            "zh": "圍裙上的 Fishmonger 識別"
+          }
+        },
+        {
+          "file": "pdf-05",
+          "alt": "The Fishmonger menu with a modular wave pattern",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 8,
+            "bbox": [
+              788.032,
+              575.433,
+              1133.858,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "A menu with the modular wave pattern",
+            "zh": "運用模組化波紋的菜單"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "02",
+          "alt": "Fishmonger illuminated signage and takeaway packaging",
+          "source": "Por/CAFILES/JF27_FRESH_Hao Wei Tu/JF27_FRESH_Hao Wei Tu_Client Work/JF27_FRESH_Fishmonger_Client Work/Fishmonger2.tif"
+        },
+        {
+          "file": "04",
+          "alt": "Fishmonger menus presented in the restaurant",
+          "source": "Por/CAFILES/JF27_FRESH_Hao Wei Tu/JF27_FRESH_Hao Wei Tu_Client Work/JF27_FRESH_Fishmonger_Client Work/Fishmonger4.tif"
+        },
+        {
+          "file": "06",
+          "alt": "Fishmonger bag and seafood photography",
+          "source": "Por/CAFILES/JF27_FRESH_Hao Wei Tu/JF27_FRESH_Hao Wei Tu_Client Work/JF27_FRESH_Fishmonger_Client Work/Fishmonger6.tif"
+        }
+      ],
+      "selected_pdf": true
+    },
+    {
+      "id": "innovation-twenty",
+      "accent": "#e0397f",
+      "title": {
+        "en": "Innovation Twenty",
+        "zh": "Innovation Twenty"
+      },
+      "discipline": {
+        "en": "Visual identity & posters",
+        "zh": "視覺識別與海報"
+      },
+      "filters": [
+        "identity",
+        "poster"
+      ],
+      "client": {
+        "en": "Self-initiated",
+        "zh": "自主計畫"
+      },
+      "year": null,
+      "cover": "pdf-01",
+      "summary": {
+        "en": "Five disciplines, five symbols, one family of metallic compositions.",
+        "zh": "五個領域、五個符號，一組金屬質感的構圖家族。"
+      },
+      "description": {
+        "en": [
+          "Innovation Twenty is an online cross-disciplinary workshop for twenty emerging designers. The identity needed to bring together several design disciplines within one coherent visual system while allowing each field to remain individually recognisable.",
+          "We developed a family of discipline-specific symbols: a paper plane for Communication Design, a needle for Fashion, the Double Diamond for Product Design, shifting viewpoints for Visual Design, and a house form for Architecture.",
+          "Rather than treating these as separate logos, the symbols share a common visual language and are translated into bold photographic compositions. The resulting system balances clarity with playfulness, giving each discipline a distinctive identity while maintaining the cohesion of the wider programme."
+        ],
+        "zh": [
+          "Innovation Twenty 是一個為二十位新銳設計師舉辦的線上跨領域工作坊。視覺識別需要把多個設計領域收進同一個系統，同時讓每個領域都能被單獨辨認。",
+          "我們為各領域設計了一組符號：紙飛機代表傳達設計、針代表服裝、雙鑽石模型代表產品設計、轉換的視角代表視覺設計，房屋的形體代表建築。",
+          "這些符號不是各自獨立的標誌，而是共用一套視覺語言，轉化為大膽的攝影構圖。整個系統在清晰與趣味之間取得平衡：每個領域各有個性，整體計畫依然一致。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Design Director: Hao Wei Tu",
+          "zh": "設計總監：杜浩瑋"
+        },
+        {
+          "en": "3D Designer: Chiao Chang",
+          "zh": "3D 設計：Chiao Chang"
+        },
+        {
+          "en": "Client: haoweitu.info (self-initiated)",
+          "zh": "客戶：haoweitu.info（自主計畫）"
+        }
+      ],
+      "recognition": [
+        {
+          "year": "2025",
+          "en": "Communication Arts Design Annual — Shortlist",
+          "zh": "美國《Communication Arts》設計年鑑 — 入圍",
+          "href": null
+        }
+      ],
+      "images": [
+        {
+          "file": "pdf-01",
+          "alt": "Pink Innovation Twenty poster with metallic forms and cast shadows",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 9,
+            "bbox": [
+              56.693,
+              56.693,
+              585.355,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "Metallic forms and cast shadows on pink",
+            "zh": "粉紅底色上的金屬形體與投影"
+          }
+        },
+        {
+          "file": "pdf-02",
+          "alt": "Red Innovation Twenty poster with diagonally arranged metallic forms",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 9,
+            "bbox": [
+              610.158,
+              56.693,
+              861.732,
+              410.682
+            ]
+          },
+          "caption": {
+            "en": "A diagonal arrangement of metallic forms on red",
+            "zh": "紅色底面上斜向排列的金屬形體"
+          }
+        },
+        {
+          "file": "pdf-03",
+          "alt": "Green Innovation Twenty poster with long shadows",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 9,
+            "bbox": [
+              882.284,
+              56.693,
+              1133.858,
+              410.682
+            ]
+          },
+          "caption": {
+            "en": "Long shadows across the green poster",
+            "zh": "綠色海報上拉長的影子"
+          }
+        },
+        {
+          "file": "pdf-04",
+          "alt": "Orange Innovation Twenty poster with metallic forms",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 9,
+            "bbox": [
+              610.158,
+              431.208,
+              861.732,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "Metallic forms on the orange poster",
+            "zh": "橘色海報上的金屬形體"
+          }
+        },
+        {
+          "file": "blue-paper-plane",
+          "source": "Por/CAFILES/Innovation Twenty1.tif",
+          "alt": "Blue Innovation Twenty poster: metallic spheres and their cast shadows form a paper plane",
+          "caption": {
+            "en": "A paper plane formed by metallic spheres and shadows on blue",
+            "zh": "金屬球與投影在藍色底面上構成紙飛機"
+          },
+          "display_crop": [
+            0.264,
+            0.032,
+            0.736,
+            0.971
+          ]
+        }
+      ],
+      "archived_images": [],
+      "selected_pdf": true
+    },
+    {
+      "id": "endoaware",
+      "accent": "#f2b81f",
+      "title": {
+        "en": "EndoAware",
+        "zh": "EndoAware"
+      },
+      "discipline": {
+        "en": "Brand identity",
+        "zh": "品牌識別"
+      },
+      "filters": [
+        "identity"
+      ],
+      "client": {
+        "en": "CBI A³, Design Factory Melbourne",
+        "zh": "CBI A³，墨爾本設計工廠"
+      },
+      "year": 2024,
+      "cover": "pdf-01",
+      "summary": {
+        "en": "A yellow ribbon that follows the long road to an endometriosis diagnosis.",
+        "zh": "一條黃色絲帶，陪著子宮內膜異位症患者走完漫長的確診之路。"
+      },
+      "description": {
+        "en": [
+          "EndoAware is a population-based screening programme designed to shorten the diagnostic journey for women with endometriosis while improving public understanding of reproductive health in Australia.",
+          "The yellow awareness ribbon becomes the central visual thread of the identity. Its fluid, hand-drawn line moves through photography, typography and the screening-bus livery, suggesting both the often-invisible nature of the condition and the continuing journey towards diagnosis and support.",
+          "Set against generous white space, the warm yellow palette communicates visibility, optimism and empowerment, while the streamlined logotype keeps information clear and approachable. Together, the organic movement of the ribbon and the restrained supporting graphics create a system designed to communicate care, recognition and accessibility across public-facing applications."
+        ],
+        "zh": [
+          "EndoAware 是一項以族群為基礎的篩檢計畫，目的是縮短子宮內膜異位症患者的確診歷程，並提升澳洲大眾對生殖健康的認識。",
+          "黃色的關懷絲帶是整套識別的主線。這條流動的手繪線條穿過攝影、字體與篩檢巴士的車身，既暗示這個疾病常常不被看見，也象徵走向診斷與支持的持續旅程。",
+          "溫暖的黃色搭配大量留白，傳達被看見、樂觀與賦權；簡潔的字標則讓資訊清楚、親切。絲帶的有機動態與克制的輔助圖形，組成一套在各種公共應用中傳達關懷、認同與可及性的系統。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Designer: Hao Wei Tu",
+          "zh": "設計：杜浩瑋"
+        },
+        {
+          "en": "Client: CBI A³, Design Factory Melbourne",
+          "zh": "客戶：CBI A³，墨爾本設計工廠"
+        }
+      ],
+      "recognition": [],
+      "images": [
+        {
+          "file": "pdf-01",
+          "alt": "Three women framed by the EndoAware yellow ribbon identity",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 7,
+            "bbox": [
+              56.693,
+              57.754,
+              1133.858,
+              559.689
+            ]
+          },
+          "caption": {
+            "en": "Three women framed by the yellow ribbon identity",
+            "zh": "黃色緞帶框起三位女性的身影"
+          }
+        },
+        {
+          "file": "pdf-02",
+          "alt": "The EndoAware campaign poster with a flowing yellow ribbon",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 7,
+            "bbox": [
+              56.693,
+              575.433,
+              402.52,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "A flowing yellow ribbon on the campaign poster",
+            "zh": "宣傳海報上流動的黃色緞帶"
+          }
+        },
+        {
+          "file": "pdf-03",
+          "alt": "The EndoAware mobile screening vehicle",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 7,
+            "bbox": [
+              422.101,
+              575.433,
+              767.928,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "The EndoAware mobile screening vehicle",
+            "zh": "EndoAware 行動篩檢車"
+          }
+        }
+      ],
+      "media": [
+        {
+          "kind": "loop",
+          "name": "bus",
+          "source": "~/Documents/EMER/AGDA2025 檔案夾/Links/Bus_anim_shot_05.gif",
+          "title": {
+            "en": "Animated screening-bus livery",
+            "zh": "篩檢巴士動畫"
+          }
+        },
+        {
+          "kind": "film",
+          "name": "case-film",
+          "source": "~/Documents/GLOBAL/Video/FINAL VIDEO/FINAL 0509 folder/FINAL 2024 (converted) copy_AME/2024/EndoAware2024subtitle.mp4",
+          "watch_url": "https://youtu.be/38dSQc1Lx2w",
+          "poster_at": 213.6,
+          "title": {
+            "en": "EndoAware film — CBI A³",
+            "zh": "EndoAware 影片 — CBI A³"
+          }
+        },
+        {
+          "kind": "loop",
+          "name": "line-preview",
+          "source": "~/Documents/GLOBAL/Video/FINAL VIDEO/FINAL 0509 folder/FINAL 2024 (converted) copy_AME/2024/EndoAware2024subtitle.mp4",
+          "start": 205,
+          "duration": 14,
+          "placement": "index",
+          "poster_at": 7.5,
+          "title": {
+            "en": "EndoAware identity: one continuous line",
+            "zh": "EndoAware 識別：連續線條動畫"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "03",
+          "source": "Por/_web/endoaware/03.png",
+          "alt": "White screening bus with the yellow EndoAware ribbon livery"
+        }
+      ],
+      "selected_pdf": true,
+      "index_media": "line-preview",
+      "index_media_secondary": "bus"
+    },
+    {
+      "id": "dad-exhibition-2023",
+      "accent": "#7d7d7d",
+      "title": {
+        "en": "D&AD Exhibition in Taiwan 2023",
+        "zh": "D&AD 設計展在台灣 2023"
+      },
+      "discipline": {
+        "en": "Exhibition key visual",
+        "zh": "展覽主視覺"
+      },
+      "filters": [
+        "exhibition",
+        "poster"
+      ],
+      "client": {
+        "en": "Taiwan Tech",
+        "zh": "國立臺灣科技大學"
+      },
+      "year": 2023,
+      "cover": "pdf-01",
+      "summary": {
+        "en": "Insight, angle, vision, ceiling: the pencil, seen from somewhere else.",
+        "zh": "洞見、角度、視野、邊界：換個位置看那支鉛筆。"
+      },
+      "description": {
+        "en": [
+          "The key visual for the D&AD International Tour Exhibition in Taipei takes the pencil — one of D&AD’s most recognisable objects — as a starting point for exploring how designers observe work from different perspectives.",
+          "The campaign uses a series of black-and-white images and typographic interventions to investigate ideas of insight, angle, vision and boundaries. Each composition encourages viewers to reconsider what initially appears familiar and to recognise how a shift in perspective can reveal new visual possibilities.",
+          "Across posters, printed matter and exhibition applications, the system combines optical transformation, typography and controlled monochrome imagery to frame design as an act of observation, questioning and continuous creative exploration."
+        ],
+        "zh": [
+          "D&AD 國際巡迴展台北站的主視覺，以 D&AD 最具代表性的物件——鉛筆——為起點，探討設計師如何從不同角度觀看作品。",
+          "宣傳以一系列黑白影像與字體介入，探問洞見、角度、視野與邊界。每一張構圖都邀請觀眾重新看待原本熟悉的事物，發現視角一轉，就會出現新的視覺可能。",
+          "從海報、印刷品到展場應用，系統結合光學變形、字體與精準控制的黑白影像，把設計定義為一種觀察、提問與持續探索的行動。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Designers: Ken Tsai Lee, Hao Wei Tu",
+          "zh": "設計：李根在、杜浩瑋"
+        },
+        {
+          "en": "Client: Taiwan Tech",
+          "zh": "客戶：國立臺灣科技大學"
+        }
+      ],
+      "recognition": [],
+      "images": [
+        {
+          "file": "pdf-01",
+          "alt": "Insight, Angle, Vision and Ceiling posters with a visitor walking past",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 5,
+            "bbox": [
+              56.693,
+              56.694,
+              1133.858,
+              559.69
+            ]
+          },
+          "caption": {
+            "en": "Insight, Angle, Vision and Ceiling in the exhibition",
+            "zh": "展場中的 Insight、Angle、Vision 與 Ceiling 海報"
+          }
+        },
+        {
+          "file": "pdf-02",
+          "alt": "D&AD 2023 printed matter and poster details",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 5,
+            "bbox": [
+              56.693,
+              575.433,
+              402.52,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "Printed matter and poster details",
+            "zh": "展覽印刷品與海報細節"
+          }
+        },
+        {
+          "file": "pdf-03",
+          "alt": "A visitor holding an eye graphic within the exhibition",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 5,
+            "bbox": [
+              422.362,
+              575.433,
+              768.189,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "A visitor holding an eye graphic in the exhibition",
+            "zh": "觀眾在展場中手持眼睛圖像"
+          }
+        }
+      ],
+      "media": [
+        {
+          "kind": "film",
+          "name": "case-film",
+          "source": "~/Documents/YG23/2023 D&AD 介紹影片Final_5.mp4",
+          "poster_at": 24,
+          "title": {
+            "en": "Case film",
+            "zh": "介紹影片"
+          }
+        },
+        {
+          "kind": "loop",
+          "name": "poster-insight",
+          "source": "~/Documents/YG23/drive-download-20250913T040001Z-1-001/POSTER_stair_7.mp4",
+          "title": {
+            "en": "Motion poster: Elevate Insight",
+            "zh": "動態海報：Elevate Insight"
+          }
+        },
+        {
+          "kind": "loop",
+          "name": "poster-ceiling",
+          "source": "~/Documents/YG23/drive-download-20250913T040001Z-1-001/POSTER_glass3.mp4",
+          "title": {
+            "en": "Motion poster: Broken Ceiling",
+            "zh": "動態海報：Broken Ceiling"
+          }
+        },
+        {
+          "kind": "loop",
+          "name": "poster-angle",
+          "source": "~/Documents/YG23/drive-download-20250913T040001Z-1-001/POSTER_eyes1.mp4",
+          "title": {
+            "en": "Motion poster: Diverse Angle",
+            "zh": "動態海報：Diverse Angle"
+          }
+        },
+        {
+          "kind": "loop",
+          "name": "poster-vision",
+          "source": "~/Documents/YG23/drive-download-20250913T040001Z-1-001/POSTER_big eye_7.mp4",
+          "title": {
+            "en": "Motion poster: Curious Vision",
+            "zh": "動態海報：Curious Vision"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "02",
+          "source": "Por/_web/dad-exhibition-2023/02.png",
+          "alt": "Printed matter and stickers from the D&AD 2023 exhibition identity"
+        },
+        {
+          "file": "03",
+          "source": "Por/_web/dad-exhibition-2023/03.png",
+          "alt": "A visitor holding a cut-out card in front of an exhibition wall with a large eye image"
+        },
+        {
+          "file": "04",
+          "source": "~/Documents/YG23/POSTER FINAL-LINKed-CS5-03.jpg",
+          "alt": "Poster: Elevate Insight, a black spiral staircase seen from below"
+        },
+        {
+          "file": "05",
+          "source": "~/Documents/YG23/POSTER FINAL-LINKed-CS5-04.jpg",
+          "alt": "Poster: Broken Ceiling, shattered glass around a pencil"
+        },
+        {
+          "file": "06",
+          "source": "~/Documents/YG23/POSTER FINAL-LINKed-CS5_工作區域 1.jpg",
+          "alt": "Poster: Diverse Angle, scattered googly eyes"
+        },
+        {
+          "file": "07",
+          "source": "~/Documents/YG23/POSTER FINAL-LINKed-CS5_工作區域 1 複本.jpg",
+          "alt": "Poster: Curious Vision, a large eye with long lashes"
+        },
+        {
+          "file": "09",
+          "source": "~/Documents/YG23/D23/D&AD23-05.jpg",
+          "alt": "Visitors at the exhibition opening under the Curious Vision banner"
+        },
+        {
+          "file": "10",
+          "source": "~/Documents/YG23/D23/D&AD23-02.jpg",
+          "alt": "Exhibition entrance seen through glass doors"
+        },
+        {
+          "file": "11",
+          "source": "~/Documents/YG23/D23/D&AD23-08.jpg",
+          "alt": "Printed programme with a grid of typographic statements"
+        }
+      ],
+      "selected_pdf": true,
+      "index_media": "poster-insight"
+    },
+    {
+      "id": "islanders-summer-homework",
+      "accent": "#3f9cc9",
+      "title": {
+        "en": "Islander’s Summer Homework",
+        "zh": "島民的暑假作業"
+      },
+      "discipline": {
+        "en": "Learning toolkit",
+        "zh": "教育工具包"
+      },
+      "filters": [
+        "object"
+      ],
+      "client": {
+        "en": "Taiwan Tech, with NTU Geology",
+        "zh": "國立臺灣科技大學，與臺大地質系合作"
+      },
+      "year": 2020,
+      "cover": "toolkit-clean",
+      "summary": {
+        "en": "A holiday homework kit for reading Taiwan’s coastline through its sand.",
+        "zh": "一份暑假作業，教你從沙子讀懂台灣的海岸。"
+      },
+      "description": {
+        "en": [
+          "Islander’s Summer Homework reframes the familiar idea of school holiday homework as an invitation to explore coastline. The project began with research into sands collected from different coastal areas, conducted in collaboration with National Taiwan University’s geology department.",
+          "Sand varies in colour and texture according to its geological composition and environmental conditions; for example, darker sands may contain materials associated with shale, mudstone or basalt, while oxidation and other external factors can further alter their appearance.",
+          "We translated this research into a swatch-based system and exploratory travel toolkit. A map, handbook, colour chips, glass tubes, postcards and a message-in-a-bottle component guide users to visit coastal locations, observe their environments and collect sand themselves.",
+          "Rather than presenting coastline only as information, the project turns travel, material collection and sand painting into a self-directed way of learning about the island’s geography and environment."
+        ],
+        "zh": [
+          "《島民的暑假作業》把大家熟悉的暑假作業，變成一份探索海岸線的邀請。計畫從研究各地海岸採集的沙開始，並與國立臺灣大學地質系合作。",
+          "沙的顏色與質地會隨地質組成與環境條件而不同：例如顏色較深的沙，可能含有頁岩、泥岩或玄武岩相關的成分；氧化等外在因素也會進一步改變它的樣貌。",
+          "我們把研究轉化為一套色票系統與探索旅行工具包。地圖、手冊、色卡、玻璃管、明信片與瓶中信，引導使用者親自走訪海岸、觀察環境、採集沙子。",
+          "海岸不只被當成資訊呈現；旅行、採集材料與沙畫，成為一種自主認識這座島嶼地理與環境的方法。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Designers: Hao Wei Tu, Jia Rong Liu",
+          "zh": "設計：杜浩瑋、Jia Rong Liu"
+        },
+        {
+          "en": "Supervisor: Szu Wei Cheng",
+          "zh": "指導：Szu Wei Cheng"
+        },
+        {
+          "en": "Client: Taiwan Tech",
+          "zh": "客戶：國立臺灣科技大學"
+        }
+      ],
+      "recognition": [
+        {
+          "year": "2022",
+          "en": "Red Dot Design Award — Design Concept",
+          "zh": "德國紅點設計概念獎",
+          "href": "https://www.red-dot.org/project/islanders-summer-homework-60227"
+        },
+        {
+          "year": "2020",
+          "en": "Communication Arts Design Annual — Excellence Award",
+          "zh": "美國《Communication Arts》設計年鑑 — 優秀獎",
+          "href": "https://www.commarts.com/project/33229/islander-s-summer-homework"
+        },
+        {
+          "year": "2020",
+          "en": "Golden Pin Concept Design Award — Winner",
+          "zh": "金點概念設計獎",
+          "href": "https://www2.goldenpin.org.tw/project/%E5%B3%B6%E6%B0%91%E7%9A%84%E6%9A%91%E5%81%87%E4%BD%9C%E6%A5%AD-2/"
+        }
+      ],
+      "images": [
+        {
+          "file": "toolkit-clean",
+          "source": "Por/UserSelections/islanders-summer-homework/toolkit-clean.png",
+          "alt": "The Islander’s Summer Homework toolkit with its open box, sand samples, postcards and fieldwork objects",
+          "caption": {
+            "en": "The complete toolkit, ready for a summer by the coast",
+            "zh": "展開完整工具組，準備走訪夏日海岸"
+          }
+        },
+        {
+          "file": "pdf-02",
+          "alt": "Applying coloured sand to a postcard",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 6,
+            "bbox": [
+              788.032,
+              338.587,
+              1133.859,
+              559.69
+            ]
+          },
+          "caption": {
+            "en": "Making a sand-art postcard",
+            "zh": "以砂土製作明信片"
+          }
+        },
+        {
+          "file": "pdf-03",
+          "alt": "Coastline map with sand samples and paper landmarks",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 6,
+            "bbox": [
+              56.693,
+              575.433,
+              402.52,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "A coastline map with sand samples and paper landmarks",
+            "zh": "海岸地圖、沙樣與地標紙模型"
+          }
+        },
+        {
+          "file": "pdf-04",
+          "alt": "A grid of illustrated coastal postcards",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 6,
+            "bbox": [
+              422.362,
+              575.433,
+              768.189,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "Illustrated coastal postcards",
+            "zh": "描繪海岸風景的明信片"
+          }
+        },
+        {
+          "file": "pdf-05",
+          "alt": "A postcard held against the sea and sand",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 6,
+            "bbox": [
+              788.032,
+              575.433,
+              1133.858,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "A postcard against the sea and sand",
+            "zh": "以沙灘與海面襯托的明信片"
+          }
+        }
+      ],
+      "media": [
+        {
+          "kind": "film",
+          "name": "case-film",
+          "source": "~/Documents/iislander Project folder/iislander Project_AME/islander's summer homework.mp4",
+          "watch_url": "https://youtu.be/kfifYRk4itg",
+          "poster_at": 89.4,
+          "title": {
+            "en": "Project film",
+            "zh": "作品影片"
+          }
+        },
+        {
+          "kind": "loop",
+          "name": "case-preview",
+          "source": "~/Documents/iislander Project folder/iislander Project_AME/islander's summer homework.mp4",
+          "start": 84,
+          "duration": 10,
+          "placement": "index",
+          "poster_at": 2.5,
+          "title": {
+            "en": "Project preview",
+            "zh": "作品動態預覽"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "02",
+          "source": "Por/_web/islanders-summer-homework/02.png",
+          "alt": "Hands peeling a sand-colour sticker from a postcard"
+        },
+        {
+          "file": "06",
+          "source": "Por/英文作品集2024檔案夾/Links/3O4A3477.png",
+          "alt": "Visitors exploring the Islander’s Summer Homework exhibition"
+        },
+        {
+          "file": "pdf-01",
+          "alt": "The Islander’s Summer Homework toolkit arranged with its open box",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 6,
+            "bbox": [
+              56.693,
+              56.694,
+              768.189,
+              559.69
+            ]
+          },
+          "caption": {
+            "en": "The toolkit and its open box",
+            "zh": "工具組與展開的盒裝"
+          }
+        }
+      ],
+      "selected_pdf": true,
+      "index_media": "case-preview"
+    },
+    {
+      "id": "projection-method",
+      "accent": "#9a9a9a",
+      "title": {
+        "en": "A Study of Projection Method Applied to Figure and Ground Illusion",
+        "zh": "A Study of Projection Method Applied to Figure and Ground Illusion"
+      },
+      "short": {
+        "en": "Projection & Figure–Ground",
+        "zh": "投影與圖地反轉"
+      },
+      "discipline": {
+        "en": "Design research",
+        "zh": "設計研究"
+      },
+      "filters": [
+        "research",
+        "poster"
+      ],
+      "client": {
+        "en": "Master’s research, Taiwan Tech",
+        "zh": "碩士研究，國立臺灣科技大學"
+      },
+      "year": 2022,
+      "cover": "pdf-01",
+      "summary": {
+        "en": "Turning an intuitive visual trick into a ten-step, teachable method.",
+        "zh": "把仰賴直覺的圖地反轉，變成可以教、可以重複的十個步驟。"
+      },
+      "description": {
+        "en": [
+          "This master’s research investigated how projection methods could support a more systematic process for creating figure–ground illusions in graphic design.",
+          "Because figure–ground images often depend heavily on individual experience and intuition, the study examined relationships between silhouette, positive and negative space, metaphor and projection. Front projection, rear projection and photogram-based approaches were explored, with rear projection combined with mind mapping identified as the most feasible method within the study.",
+          "The research developed a ten-step design process: defining a theme, breaking it down, developing associations, returning to source objects, considering metaphor, selecting appropriate forms, anticipating the image, projecting, observing and post-processing.",
+          "The method was applied to ten Sustainable Development Goal themes, producing fifteen posters, and was subsequently tested through a workshop in which participants produced eleven additional works. Post-workshop responses indicated improved understanding of the method, greater ability to apply it, and strong motivation to continue experimenting with figure–ground illusion. The study demonstrates how an intuitive visual technique can be investigated through an explicit and repeatable design process."
+        ],
+        "zh": [
+          "這項碩士研究探討投影方法如何讓平面設計中的「圖地反轉」創作，成為更有系統的流程。",
+          "圖地反轉的圖像往往高度依賴個人經驗與直覺，因此研究檢視了剪影、正負空間、隱喻與投影之間的關係。研究比較了前投影、背投影與實物投影（photogram）等方式，發現「背投影搭配心智圖」是研究範圍內最可行的方法。",
+          "研究發展出十個步驟的設計流程：定義主題、拆解主題、發展聯想、回到原始物件、思考隱喻、選擇合適形體、預想畫面、投影、觀察，以及後製。",
+          "這套方法應用於十個聯合國永續發展目標主題，產出十五張海報；之後再透過工作坊測試，參與者另外完成十一件作品。工作坊後的回饋顯示，參與者對方法的理解與應用能力都有提升，也有很強的意願繼續實驗圖地反轉。研究證明，一種仰賴直覺的視覺技巧，也能透過明確、可重複的設計流程來研究。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Designer & Researcher: Hao Wei Tu",
+          "zh": "設計與研究：杜浩瑋"
+        },
+        {
+          "en": "Supervisor: Ken Tsai Lee",
+          "zh": "指導教授：李根在"
+        }
+      ],
+      "recognition": [],
+      "images": [
+        {
+          "file": "pdf-01",
+          "alt": "A participant experimenting with cast shadows, alongside the resulting figure–ground silhouettes",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 11,
+            "bbox": [
+              56.693,
+              56.694,
+              768.189,
+              559.69
+            ]
+          },
+          "caption": {
+            "en": "Shadow experiments and the resulting figure–ground images",
+            "zh": "影子實驗與形成的圖地反轉圖像"
+          }
+        },
+        {
+          "file": "pdf-02",
+          "alt": "Participants exploring cast shadows in a figure–ground workshop",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 11,
+            "bbox": [
+              56.693,
+              581.102,
+              393.071,
+              784.126
+            ]
+          },
+          "caption": {
+            "en": "Exploring cast shadows in the workshop",
+            "zh": "工作坊中的影子探索"
+          }
+        },
+        {
+          "file": "pdf-03",
+          "alt": "Figure–ground silhouettes across illuminated panels",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 11,
+            "bbox": [
+              412.441,
+              581.102,
+              767.36,
+              784.529
+            ]
+          },
+          "caption": {
+            "en": "Figure–ground silhouettes on illuminated panels",
+            "zh": "發光面板上的圖地反轉剪影"
+          }
+        },
+        {
+          "file": "pdf-04",
+          "alt": "The projection research documented in an open book",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 11,
+            "bbox": [
+              788.032,
+              581.102,
+              1134.567,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "The projection research documented in a book",
+            "zh": "書籍中的投影研究紀錄"
+          }
+        }
+      ],
+      "media": [
+        {
+          "kind": "loop",
+          "name": "figure-ground-short",
+          "source": "Por/YG23/Comp 1_3.mp4",
+          "start": 4,
+          "duration": 8,
+          "placement": "index-and-case",
+          "poster_at": 3,
+          "title": {
+            "en": "A short study of hand, object and projected shadow",
+            "zh": "手、物件與投影形成的圖地關係"
+          }
+        },
+        {
+          "kind": "loop",
+          "name": "projection-session",
+          "source": "Por/YG23/9月12日.mov",
+          "placement": "index",
+          "poster_at": 8,
+          "title": {
+            "en": "A projection study in the studio",
+            "zh": "投影實驗現場"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "02",
+          "alt": "Research publication showing silhouettes and negative-space studies",
+          "source": "Por/CAFILES/JF27_FRESH_Hao Wei Tu/JF27_FRESH_Hao Wei Tu_Client Work/JF27_FRESH_Projection Method Applied to Figure and Ground Illusion_Client Work/Projection Method Applied to Figure and Ground Illusion2.tif"
+        },
+        {
+          "file": "04",
+          "alt": "Workshop participants experimenting with shadows on a projection screen",
+          "source": "Por/CAFILES/JF27_FRESH_Hao Wei Tu/JF27_FRESH_Hao Wei Tu_Client Work/JF27_FRESH_Projection Method Applied to Figure and Ground Illusion_Client Work/Projection Method Applied to Figure and Ground Illusion4.tif"
+        },
+        {
+          "file": "08",
+          "source": "~/Documents/bee/Taiwan_Tu _Hao Wei_ Not Killing.jpg",
+          "alt": "Figure–ground poster Shopping, Not Killing: a hand holding a plastic bag shaped like a fish"
+        },
+        {
+          "file": "09",
+          "source": "~/Documents/bee/Taiwan_Tu _Hao Wei_ Symbiosis1.jpg",
+          "alt": "Figure–ground poster Symbiosis: a figure and a dog sharing one silhouette"
+        },
+        {
+          "file": "10",
+          "source": "~/Documents/bee/Taiwan_Tu _Hao Wei_ Symbiosis3.jpg",
+          "alt": "Figure–ground poster Symbiosis: a person and a bird made of one shadow"
+        },
+        {
+          "file": "11",
+          "source": "Por/英文作品集2024檔案夾/Links/K02.jpg",
+          "alt": "A grid of black-and-white figure–ground posters"
+        },
+        {
+          "file": "12",
+          "source": "Por/英文作品集2024檔案夾/Links/K81_1423.jpg",
+          "alt": "Figure–ground posters exhibited on a wall"
+        }
+      ],
+      "selected_pdf": true,
+      "index_media": "projection-session",
+      "index_image": {
+        "src": "/assets/previews/projection-method.webp",
+        "w": 1599,
+        "h": 916,
+        "alt": "Figure–ground silhouettes across illuminated exhibition panels"
+      }
+    },
+    {
+      "id": "with-the-wind",
+      "accent": "#c3ae8f",
+      "title": {
+        "en": "With the Wind",
+        "zh": "With the Wind"
+      },
+      "discipline": {
+        "en": "Book cover",
+        "zh": "書籍封面"
+      },
+      "filters": [
+        "book"
+      ],
+      "client": {
+        "en": "Ka Hung Wong",
+        "zh": "Ka Hung Wong"
+      },
+      "year": null,
+      "cover": "pdf-02",
+      "summary": {
+        "en": "Wind, made visible as drifting sand.",
+        "zh": "把看不見的風，變成流動的沙。"
+      },
+      "description": {
+        "en": [
+          "With the Wind is a cover design for Ka Hung Wong’s selected poems, translating an invisible subject — wind — into a visible trace. The design uses drifting sand as a metaphor for movement, allowing soft dispersion and directional flow to shape the composition. Rather than illustrating wind directly, the cover records its imagined effect on material.",
+          "The restrained typography, muted surface and subtle movement of the sand create a quiet, tactile atmosphere that echoes the poems’ sense of transience and lingering emotion. The result treats the book as a physical object in which material, image and absence work together to suggest something that can be felt but not seen."
+        ],
+        "zh": [
+          "With the Wind 是 Ka Hung Wong 詩選的封面設計，把一個看不見的主題——風——轉化為看得見的痕跡。設計以飄移的沙作為運動的隱喻，讓柔和的散落與方向性的流動決定構圖。封面不直接描繪風，而是記錄風吹過物質時可能留下的樣子。",
+          "克制的字體、低彩度的表面與沙的細微動態，營造出安靜而有觸感的氛圍，呼應詩中的短暫與餘韻。這本書被當作一個實體物件：材質、圖像與留白一起暗示某種感覺得到、卻看不見的東西。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Designer: Hao Wei Tu",
+          "zh": "設計：杜浩瑋"
+        },
+        {
+          "en": "Client: Ka Hung Wong",
+          "zh": "客戶：Ka Hung Wong"
+        }
+      ],
+      "recognition": [],
+      "images": [
+        {
+          "file": "pdf-01",
+          "alt": "With the Wind lying flat, showing its cover and spine against the black background",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 14,
+            "bbox": [
+              56.693,
+              56.693,
+              768.189,
+              420.945
+            ]
+          },
+          "caption": {
+            "en": "The cover and spine of With the Wind",
+            "zh": "《With the Wind》的封面與書脊"
+          }
+        },
+        {
+          "file": "pdf-02",
+          "alt": "The front cover with drifting sand patterns and a white spine, on black",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 14,
+            "bbox": [
+              788.032,
+              56.693,
+              1133.858,
+              420.945
+            ]
+          },
+          "caption": {
+            "en": "Drifting sand patterns across the front cover",
+            "zh": "封面上隨風流動的沙紋"
+          }
+        },
+        {
+          "file": "pdf-03",
+          "alt": "Eight variations of the wind-blown sand cover on their black background",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 14,
+            "bbox": [
+              56.693,
+              442.205,
+              768.189,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "Eight variations of the wind-blown sand cover",
+            "zh": "風沙封面的八種變化"
+          }
+        }
+      ],
+      "archived_images": [],
+      "selected_pdf": true
+    },
+    {
+      "id": "taiwan-tech-design-week",
+      "accent": "#d4292b",
+      "title": {
+        "en": "Taiwan Tech Design Week",
+        "zh": "臺科大設計週"
+      },
+      "discipline": {
+        "en": "Event identity",
+        "zh": "活動識別"
+      },
+      "filters": [
+        "identity"
+      ],
+      "client": {
+        "en": "Taiwan Tech Design Week",
+        "zh": "臺科大設計週"
+      },
+      "year": 2019,
+      "cover": "pdf-01",
+      "summary": {
+        "en": "Knock knock: a door, a strike, and the colour of the sound it makes.",
+        "zh": "叩叩：一扇門、一次敲擊，和那個聲音的顏色。"
+      },
+      "description": {
+        "en": [
+          "Taiwan Tech Design Week is an inter-school design carnival encompassing exhibitions, workshops, performances, forums, talks and portfolio reviews. The identity uses the door as a metaphor for uncertainty, possibility and the desire to discover what exists on the other side. “Knock knock” becomes the central verbal and visual device: we try, touch and knock, then wait for a response.",
+          "A geometric door form establishes the basic structure of the system, while a white polygon marks the point at which the door is struck. Radiating shapes and bold fields of colour visualise the sound and energy produced by the knock.",
+          "Because Design Week encompasses many different activities, the identity was designed to be systematic yet flexible. The same core elements can be reorganised into varied compositions across invitations, badges, exhibition graphics, Behance Reviews and workshop materials while maintaining a consistent visual language."
+        ],
+        "zh": [
+          "臺科大設計週是一場跨校的設計嘉年華，包含展覽、工作坊、表演、論壇、講座與作品集評論。識別以「門」比喻未知、可能性，以及想知道門後有什麼的渴望。「叩叩」成為核心的語言與視覺手法：我們嘗試、觸碰、敲門，然後等待回應。",
+          "幾何化的門構成系統的基本結構，白色多邊形標示門被敲響的位置；放射狀的形體與大面積的色塊，則把敲門時發出的聲音與能量視覺化。",
+          "設計週的活動類型很多，因此識別必須有系統又有彈性。同一組核心元素可以重新組合，應用在邀請卡、識別證、展覽圖像、Behance Reviews 與工作坊物料上，並維持一致的視覺語言。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Art / Creative Director: Hao Wei Tu",
+          "zh": "藝術／創意總監：杜浩瑋"
+        },
+        {
+          "en": "Designers: Taiwan Tech Design Week Design Team",
+          "zh": "設計：臺科大設計週設計團隊"
+        },
+        {
+          "en": "Client: Taiwan Tech Design Week",
+          "zh": "客戶：臺科大設計週"
+        }
+      ],
+      "recognition": [
+        {
+          "year": "2021",
+          "en": "Taiwan International Graphic Design Awards — Distinction",
+          "zh": "台灣國際平面設計獎 — 優選",
+          "href": "https://www.tigda.org.tw/Post/180991"
+        }
+      ],
+      "images": [
+        {
+          "file": "pdf-01",
+          "alt": "Taiwan Tech Design Week invitations, badges and printed matter in bright geometric colours",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 13,
+            "bbox": [
+              56.693,
+              56.694,
+              1133.858,
+              559.69
+            ]
+          },
+          "caption": {
+            "en": "Invitations, badges and printed matter in geometric colours",
+            "zh": "幾何色塊構成的邀請函、識別證與印刷品"
+          }
+        },
+        {
+          "file": "pdf-02",
+          "alt": "Three hanging badges with faceted door-shaped designs",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 13,
+            "bbox": [
+              56.693,
+              575.433,
+              402.52,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "Three hanging badges with faceted door forms",
+            "zh": "三張以幾何門形構成的吊掛識別證"
+          }
+        },
+        {
+          "file": "pdf-03",
+          "alt": "Behance Portfolio Reviews trophies",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 13,
+            "bbox": [
+              422.362,
+              575.433,
+              768.189,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "Behance Portfolio Reviews trophies",
+            "zh": "Behance 作品集評圖活動獎座"
+          }
+        }
+      ],
+      "media": [
+        {
+          "kind": "youtube",
+          "id": "_anuvW75kpk",
+          "title": {
+            "en": "Design Week film",
+            "zh": "設計週影片"
+          }
+        },
+        {
+          "kind": "loop",
+          "name": "knock-knock",
+          "source": "~/Documents/YG23/11.gif",
+          "title": {
+            "en": "Animated banner: Knock Knock",
+            "zh": "動態橫幅：敲敲"
+          }
+        },
+        {
+          "kind": "loop",
+          "name": "portfolio-reviews",
+          "source": "Por/YG23/12.gif",
+          "poster_at": 1,
+          "title": {
+            "en": "Animated banner: Portfolio Reviews",
+            "zh": "動態橫幅：作品集評閱"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "03",
+          "source": "Por/_web/taiwan-tech-design-week/03.png",
+          "alt": "Crystal Behance Reviews trophies on a black surface"
+        },
+        {
+          "file": "04",
+          "source": "~/Documents/YG23/7.jpg",
+          "alt": "Behance Portfolio Reviews cards in faceted colours"
+        },
+        {
+          "file": "06",
+          "source": "Por/英文作品集2024檔案夾/Links/DESIGN WEEK A3 -03.jpg",
+          "alt": "Design workshop poster in red, orange and blue"
+        },
+        {
+          "file": "07",
+          "source": "Por/英文作品集2024檔案夾/Links/DESIGN WEEK A3 -06.jpg",
+          "alt": "Design workshop poster in purple and green"
+        }
+      ],
+      "selected_pdf": true,
+      "index_media": "knock-knock"
+    },
+    {
+      "id": "festival-of-arts",
+      "accent": "#5c5c5c",
+      "title": {
+        "en": "Taiwan International Festival of Arts",
+        "zh": "臺灣國際藝術節"
+      },
+      "discipline": {
+        "en": "Festival campaign",
+        "zh": "藝術節視覺"
+      },
+      "filters": [
+        "poster",
+        "identity"
+      ],
+      "client": null,
+      "year": 2017,
+      "cover": "pdf-01",
+      "summary": {
+        "en": "“Everlasting”: piano keys, posture and notation folded into one square.",
+        "zh": "「永恆」：琴鍵、舞姿與樂譜，摺進同一個方塊。"
+      },
+      "description": {
+        "en": [
+          "For the Taiwan International Festival of Arts, the theme “Everlasting” explored time and the enduring experience created through performance.",
+          "We developed a split-square module that can simultaneously evoke piano keys, a dancer’s posture and musical notation. By changing its scale, position and rhythm, the module generates different visual sequences in a manner analogous to musical markings such as ff, molto rit. and grad. The system therefore translates qualities of tempo, intensity and movement into visual form.",
+          "Through 3D modelling and photography, the graphic modules were transferred onto fabric so that the identity could become physical and move with the body. In the final imagery, swirling cloth suggests a dancer moving across piano keys, transforming the theme of “Everlasting” into an image of performance suspended in time."
+        ],
+        "zh": [
+          "臺灣國際藝術節以「永恆」為主題，探討時間，以及表演所創造的恆久經驗。",
+          "我們設計了一個分割方塊的模組，同時能讓人聯想到琴鍵、舞者的姿態與樂譜記號。改變它的大小、位置與節奏，模組就會產生不同的視覺序列，就像 ff、molto rit.、grad. 等音樂術語，把速度、強弱與動態轉化為視覺形式。",
+          "透過 3D 建模與攝影，圖形模組被轉印到布料上，讓識別成為實體、隨身體移動。最終影像中，翻飛的布料彷彿舞者掠過琴鍵，把「永恆」轉化為一個凝結在時間裡的表演畫面。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Designers: Hao Wei Tu, Jia Rong Liu",
+          "zh": "設計：杜浩瑋、Jia Rong Liu"
+        },
+        {
+          "en": "Supervisor: Ken Tsai Lee",
+          "zh": "指導：李根在"
+        }
+      ],
+      "recognition": [
+        {
+          "year": "2018",
+          "en": "Red Dot Design Award — Communication Design",
+          "zh": "德國紅點傳達設計獎",
+          "href": "https://www.red-dot.org/project/taiwan-international-festival-of-arts-25399"
+        },
+        {
+          "year": "2018",
+          "en": "Communication Arts Design Annual — Excellence Award",
+          "zh": "美國《Communication Arts》設計年鑑 — 優秀獎",
+          "href": "https://www.commarts.com/project/27683/taiwan-international-festival-of-arts"
+        }
+      ],
+      "images": [
+        {
+          "file": "pdf-01",
+          "alt": "Dancers wearing black-and-white patterned fabric",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 4,
+            "bbox": [
+              56.693,
+              56.693,
+              768.189,
+              561.26
+            ]
+          },
+          "caption": {
+            "en": "Dancers in black-and-white patterned fabric",
+            "zh": "舞者身上的黑白圖紋布料"
+          }
+        },
+        {
+          "file": "pdf-02",
+          "alt": "Two models wrapped in the festival’s printed fabric",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 4,
+            "bbox": [
+              56.693,
+              575.433,
+              402.52,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "Two models wrapped in the festival fabric",
+            "zh": "兩位模特兒裹著藝術節圖紋布料"
+          }
+        },
+        {
+          "file": "pdf-03",
+          "alt": "Folded festival publications showing the split-square pattern",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 4,
+            "bbox": [
+              422.362,
+              575.433,
+              768.189,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "Folded publications with the split-square pattern",
+            "zh": "運用分割方形圖紋的摺頁刊物"
+          }
+        },
+        {
+          "file": "pdf-04",
+          "alt": "Festival stationery and printed objects",
+          "source_pdf": {
+            "path": "Por/HTU Portfolio.pdf",
+            "page": 4,
+            "bbox": [
+              788.032,
+              575.433,
+              1133.858,
+              785.197
+            ]
+          },
+          "caption": {
+            "en": "Festival stationery and printed matter",
+            "zh": "藝術節事務用品與印刷品"
+          }
+        }
+      ],
+      "media": [
+        {
+          "kind": "youtube",
+          "id": "OPoWMceUng8",
+          "title": {
+            "en": "Festival film",
+            "zh": "藝術節影片"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "03",
+          "source": "Por/_web/festival-of-arts/03.png",
+          "alt": "Tote bags and boxes printed with the monochrome module pattern"
+        },
+        {
+          "file": "04",
+          "source": "Por/_web/festival-of-arts/04.png",
+          "alt": "Festival merchandise and printed matter laid out on white"
+        },
+        {
+          "file": "08",
+          "source": "Por/英文作品集2024檔案夾/Links/6.jpg",
+          "alt": "A model wrapped in pattern-printed fabric"
+        },
+        {
+          "file": "09",
+          "source": "Por/英文作品集2024檔案夾/Links/銀紙.jpg",
+          "alt": "A dancer in a patterned dress mid-turn"
+        }
+      ],
+      "selected_pdf": true
+    },
+    {
+      "id": "downtown-grocer",
+      "accent": "#1f3bff",
+      "title": {
+        "en": "Downtown Grocer",
+        "zh": "好鄰居 Downtown Grocer"
+      },
+      "discipline": {
+        "en": "Brand identity",
+        "zh": "品牌識別"
+      },
+      "filters": [
+        "identity"
+      ],
+      "client": {
+        "en": "Downtown Grocer, with D&D Creative",
+        "zh": "Downtown Grocer，與 D&D Creative 合作"
+      },
+      "year": null,
+      "cover": "01",
+      "summary": {
+        "en": "A smiling square mascot, and a store drawn in isometric that redraws itself for every festival.",
+        "zh": "一個微笑的方形吉祥物，和一座會隨節慶重新畫過的等角商店。"
+      },
+      "description": {
+        "en": [
+          "Downtown Grocer is a vibrant Asian supermarket at the heart of Melbourne’s Chinatown, where bright market energy meets modern convenience. The client wanted a bold, friendly identity: a smiling, square-bodied mascot paired with a clean, geometric wordmark that echoes traditional East Asian shop signs.",
+          "An electric-blue palette with neon-green accents evokes fresh produce under market lights. Central to the system is a modular isometric illustration of the store interior — aisles of rice sacks, fruit carts and friendly staff — that can be redrawn for seasonal events and tiled together into a large panorama on walls, packaging or digital screens.",
+          "This flexible approach keeps every festive promotion, from Lunar New Year to the Mid-Autumn Festival, cohesive and engaging."
+        ],
+        "zh": [
+          "好鄰居 Downtown Grocer 是位於墨爾本唐人街中心的亞洲超市，把市場的熱鬧和現代的便利放在一起。客戶想要一套大膽又親切的識別：一個微笑的方形吉祥物，搭配乾淨的幾何字標，呼應東亞傳統店招。",
+          "電光藍配上螢光綠，像市場燈光下的新鮮蔬果。系統的核心是一幅模組化的等角插畫，畫出店內的米袋、水果推車與熱情的店員；插畫可以隨活動重新繪製，也能拼成巨大的全景圖，用在牆面、包裝或數位螢幕上。",
+          "這種彈性讓從農曆新年到中秋節的每一檔促銷，都保持一致又吸睛。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Designers: Hao Wei Tu, Dawei Ding (D&D Creative)",
+          "zh": "設計：杜浩瑋、Dawei Ding（D&D Creative）"
+        },
+        {
+          "en": "Client: Downtown Grocer",
+          "zh": "客戶：Downtown Grocer"
+        }
+      ],
+      "recognition": [
+        {
+          "year": "2025",
+          "en": "Taiwan International Graphic Design Awards — Winner",
+          "zh": "台灣國際平面設計獎 — 得獎",
+          "href": "https://www.tigda.org.tw/Post/182676"
+        }
+      ],
+      "images": [
+        {
+          "file": "01",
+          "source": "~/Documents/TIGDA/DIGITAL/C-13838-Downtown Grocer-04.jpg",
+          "alt": "Checkout counter in front of a blue isometric mural of the store",
+          "caption": {
+            "en": "The checkout counter and blue isometric store mural",
+            "zh": "收銀台與描繪店面的藍色等角透視壁畫"
+          }
+        },
+        {
+          "file": "04",
+          "source": "~/Documents/TIGDA/DIGITAL/C-13838-Downtown Grocer-07.jpg",
+          "alt": "A staff member in a blue apron holding a branded shopping basket",
+          "caption": {
+            "en": "A staff apron and branded shopping basket",
+            "zh": "員工圍裙與品牌購物籃"
+          }
+        },
+        {
+          "file": "06",
+          "source": "~/Documents/TIGDA/DIGITAL/C-13838-Downtown Grocer-09.jpg",
+          "alt": "Blade sign with the smiling square mascot",
+          "caption": {
+            "en": "A blade sign with the smiling square mascot",
+            "zh": "側式招牌上的方形笑臉角色"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "05",
+          "source": "~/Documents/TIGDA/DIGITAL/C-13838-Downtown Grocer-05.jpg",
+          "alt": "Isometric mural wall beside the refrigerators"
+        },
+        {
+          "file": "07",
+          "source": "~/Documents/TIGDA/DIGITAL/C-13838-Downtown Grocer-10.jpg",
+          "alt": "Mascot enamel pins on a white bucket hat against neon green"
+        },
+        {
+          "file": "08",
+          "source": "~/Documents/TIGDA/DIGITAL/C-13838-Downtown Grocer-12.jpg",
+          "alt": "Trading hours on the glass door"
+        },
+        {
+          "file": "10",
+          "source": "~/Documents/TIGDA/DIGITAL/C-13838-Downtown Grocer-11.jpg",
+          "alt": "Branded tape across the store’s glass entrance"
+        },
+        {
+          "file": "11",
+          "source": "~/Documents/TIGDA/DIGITAL/C-13838-Downtown Grocer-08.jpg",
+          "alt": "Blue shopping trolley basket on the store floor"
+        },
+        {
+          "file": "12",
+          "source": "~/Documents/TIGDA/DIGITAL/C-13838-Downtown Grocer-02.jpg",
+          "alt": "The mascot logo on electric blue and neon green"
+        },
+        {
+          "file": "03",
+          "source": "~/Documents/TIGDA/DIGITAL/C-13838-Downtown Grocer-06.jpg",
+          "alt": "Illuminated round Downtown Grocer sign at night",
+          "caption": {
+            "en": "The illuminated round sign at night",
+            "zh": "夜晚發光的圓形招牌"
+          }
+        },
+        {
+          "file": "09",
+          "source": "~/Documents/TIGDA/DIGITAL/C-13838-Downtown Grocer-13.jpg",
+          "alt": "Gift box wrapped in the blue illustration",
+          "caption": {
+            "en": "A gift box wrapped in the blue illustration",
+            "zh": "包覆藍色插畫的禮盒"
+          }
+        }
+      ],
+      "selected_pdf": false
+    },
+    {
+      "id": "under-alien-skies",
+      "accent": "#8e8aa6",
+      "title": {
+        "en": "Under Alien Skies",
+        "zh": "在異星的天空下"
+      },
+      "discipline": {
+        "en": "Book cover",
+        "zh": "書籍封面"
+      },
+      "filters": [
+        "book"
+      ],
+      "client": {
+        "en": "Faces Publishing",
+        "zh": "Faces Publishing"
+      },
+      "year": null,
+      "cover": "01",
+      "summary": {
+        "en": "A guidebook for space travel, seen from the traveller’s side of the sky.",
+        "zh": "一本太空旅行指南，從旅人的視角仰望異星的天空。"
+      },
+      "description": {
+        "en": [
+          "Under Alien Skies is a space-travel guidebook imagined through awe, scale and the poetry of cosmic phenomena. The cover visualises a traveller’s perspective; the design positions the book as both a guide and an invitation to the sublime."
+        ],
+        "zh": [
+          "《在異星的天空下》是一本以敬畏、尺度與宇宙現象的詩意所想像的太空旅行指南。封面呈現旅人的視角，讓這本書既是指南，也是一封通往崇高之美的邀請。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Designer: Hao Wei Tu",
+          "zh": "設計：杜浩瑋"
+        },
+        {
+          "en": "Editor: Ka Hung Wong",
+          "zh": "編輯：Ka Hung Wong"
+        },
+        {
+          "en": "Client: Faces Publishing LTD.",
+          "zh": "客戶：Faces Publishing LTD."
+        }
+      ],
+      "recognition": [],
+      "images": [
+        {
+          "file": "01",
+          "alt": "Front cover and spine with a star-filled sky above mountains",
+          "caption": {
+            "en": "The cover and spine with a star-filled mountain sky",
+            "zh": "封面與書脊上的群山星空"
+          }
+        },
+        {
+          "file": "03",
+          "alt": "Angled book showing cover, spine and silver page edges",
+          "caption": {
+            "en": "The cover, spine and silver page edges",
+            "zh": "書封、書脊與銀色書口"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "02",
+          "alt": "Close-up of the star field and Chinese cover typography"
+        }
+      ],
+      "selected_pdf": false
+    },
+    {
+      "id": "graduation-exhibition",
+      "accent": "#4fd1e8",
+      "title": {
+        "en": "Taiwan Tech Design Graduation Exhibition",
+        "zh": "臺科大設計系畢業展"
+      },
+      "discipline": {
+        "en": "Exhibition identity",
+        "zh": "展覽識別"
+      },
+      "filters": [
+        "exhibition",
+        "identity"
+      ],
+      "client": {
+        "en": "Taiwan Tech",
+        "zh": "國立臺灣科技大學"
+      },
+      "year": 2020,
+      "cover": "poster-main",
+      "summary": {
+        "en": "Type, read like an X-ray: Ming characters as skeletons.",
+        "zh": "把字當 X 光片看：明體的骨架。"
+      },
+      "description": {
+        "en": [
+          "“Back to the start, in search of the future” was the theme of the exhibition. We drew seven different typefaces to talk about the comparisons designers constantly make, and used the look of X-ray film to suggest that design, like medicine, is about finding what lies beneath the surface.",
+          "Ming, the classic Chinese text typeface, became the base of the identity because its strokes resemble a skeleton. The system develops through three transformations, two characters and a single magnified detail, repeated and varied across posters, passes, badges and street banners."
+        ],
+        "zh": [
+          "展覽的主題是「回到原點，尋找未來」。我們繪製七種不同的字體，談設計中不斷進行的比較；並借用 X 光片的質感，暗示設計就像醫生找出潛在的傷口，是在看見表面底下的東西。",
+          "識別以明體為基礎，因為它的筆畫很像骨骼。系統以三種變化、兩個字與一處局部放大延伸，在海報、識別證、徽章與街旗上反覆變化。"
+        ]
+      },
+      "credits": [
+        {
+          "en": "Design team leader: Hao Wei Tu",
+          "zh": "設計組長：杜浩瑋"
+        },
+        {
+          "en": "Designers: Chen Ruojie, Zhuang Xinru",
+          "zh": "設計：Chen Ruojie、Zhuang Xinru"
+        }
+      ],
+      "recognition": [
+        {
+          "year": "2022",
+          "en": "Communication Arts Typography Annual — Excellence Award (Graduation Moment)",
+          "zh": "美國《Communication Arts》字體設計年鑑 — 優秀獎（Graduation Moment）",
+          "href": "https://www.commarts.com/project/33729/graduation-moment"
+        }
+      ],
+      "images": [
+        {
+          "file": "poster-main",
+          "source": "Por/UserSelections/graduation-exhibition/poster-grid.png",
+          "alt": "Nine X-ray-inspired typographic posters for the Taiwan Tech Design Graduation Exhibition",
+          "caption": {
+            "en": "Nine typographic posters reveal the skeletal forms of Ming characters.",
+            "zh": "九張海報以 X 光片般的質感，呈現明體字的筆畫骨架。"
+          }
+        },
+        {
+          "file": "01",
+          "source": "Por/_web/graduation-exhibition/01.png",
+          "alt": "Posters and printed matter with X-ray-like Ming characters",
+          "caption": {
+            "en": "Posters and printed matter with X-ray-like Ming characters",
+            "zh": "呈現 X 光效果明體字的海報與印刷品"
+          }
+        },
+        {
+          "file": "02",
+          "source": "Por/_web/graduation-exhibition/02.png",
+          "alt": "Lanyards and passes with glowing character fragments",
+          "caption": {
+            "en": "Lanyards and passes with glowing character fragments",
+            "zh": "掛繩與識別證上的發光字形碎片"
+          }
+        }
+      ],
+      "archived_images": [
+        {
+          "file": "03",
+          "source": "Por/_web/graduation-exhibition/03.png",
+          "alt": "Badges and a street banner with the X-ray characters",
+          "caption": {
+            "en": "Badges and a street banner with the X-ray characters",
+            "zh": "徽章與街道布旗上的 X 光效果字形"
+          }
+        }
+      ],
+      "selected_pdf": false
+    }
+  ]
+}

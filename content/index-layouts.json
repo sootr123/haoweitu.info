@@ -1,0 +1,224 @@
+{
+  "projects": {
+    "hnz-constructions": {
+      "width": 1.0,
+      "items": [
+        {
+          "kind": "image",
+          "file": "pdf-01"
+        },
+        {
+          "kind": "image",
+          "file": "pdf-02"
+        },
+        {
+          "kind": "image",
+          "file": "pdf-04"
+        }
+      ]
+    },
+    "dad-exhibition-2021": {
+      "width": 0.88,
+      "items": [
+        {
+          "kind": "loop",
+          "name": "case-preview"
+        },
+        {
+          "kind": "image",
+          "file": "pdf-03"
+        }
+      ]
+    },
+    "a-crack-in-everything": {
+      "width": 0.46,
+      "items": [
+        {
+          "kind": "image",
+          "file": "pdf-01"
+        },
+        {
+          "kind": "image",
+          "file": "pdf-02"
+        }
+      ]
+    },
+    "fishmonger": {
+      "width": 0.88,
+      "items": [
+        {
+          "kind": "image",
+          "file": "pdf-01"
+        },
+        {
+          "kind": "image",
+          "file": "pdf-03"
+        }
+      ]
+    },
+    "innovation-twenty": {
+      "width": 1.0,
+      "items": [
+        {
+          "kind": "image",
+          "file": "pdf-01"
+        },
+        {
+          "kind": "image",
+          "file": "pdf-02"
+        },
+        {
+          "kind": "image",
+          "file": "pdf-03"
+        },
+        {
+          "kind": "image",
+          "file": "pdf-04"
+        },
+        {
+          "kind": "image",
+          "file": "blue-paper-plane"
+        }
+      ]
+    },
+    "endoaware": {
+      "width": 0.88,
+      "items": [
+        {
+          "kind": "loop",
+          "name": "line-preview"
+        },
+        {
+          "kind": "loop",
+          "name": "bus"
+        }
+      ]
+    },
+    "dad-exhibition-2023": {
+      "width": 1.0,
+      "items": [
+        {
+          "kind": "loop",
+          "name": "poster-insight"
+        },
+        {
+          "kind": "loop",
+          "name": "poster-ceiling"
+        },
+        {
+          "kind": "image",
+          "file": "pdf-01"
+        }
+      ]
+    },
+    "islanders-summer-homework": {
+      "width": 0.88,
+      "items": [
+        {
+          "kind": "loop",
+          "name": "case-preview"
+        },
+        {
+          "kind": "image",
+          "file": "toolkit-clean"
+        }
+      ]
+    },
+    "projection-method": {
+      "width": 1.0,
+      "items": [
+        {
+          "kind": "loop",
+          "name": "projection-session"
+        },
+        {
+          "kind": "custom"
+        }
+      ]
+    },
+    "with-the-wind": {
+      "width": 0.78,
+      "items": [
+        {
+          "kind": "image",
+          "file": "pdf-02"
+        },
+        {
+          "kind": "image",
+          "file": "pdf-03"
+        }
+      ]
+    },
+    "taiwan-tech-design-week": {
+      "width": 0.88,
+      "items": [
+        {
+          "kind": "custom",
+          "src": "/assets/previews/knock-knock-1.webp",
+          "w": 1599,
+          "h": 746,
+          "alt": "Knock Knock design workshop invitations and printed matter"
+        },
+        {
+          "kind": "custom",
+          "src": "/assets/previews/knock-knock-2.webp",
+          "w": 1599,
+          "h": 969,
+          "alt": "Knock Knock Behance Portfolio Reviews trophies"
+        }
+      ]
+    },
+    "festival-of-arts": {
+      "width": 1.0,
+      "items": [
+        {
+          "kind": "image",
+          "file": "pdf-01"
+        },
+        {
+          "kind": "image",
+          "file": "pdf-03"
+        },
+        {
+          "kind": "image",
+          "file": "pdf-04"
+        }
+      ]
+    },
+    "downtown-grocer": {
+      "width": 1.0,
+      "items": [
+        {
+          "kind": "image",
+          "file": "01"
+        },
+        {
+          "kind": "image",
+          "file": "06"
+        }
+      ]
+    },
+    "under-alien-skies": {
+      "width": 0.78,
+      "items": [
+        {
+          "kind": "image",
+          "file": "01"
+        },
+        {
+          "kind": "image",
+          "file": "03"
+        }
+      ]
+    },
+    "graduation-exhibition": {
+      "width": 0.34,
+      "items": [
+        {
+          "kind": "image",
+          "file": "poster-main"
+        }
+      ]
+    }
+  }
+}

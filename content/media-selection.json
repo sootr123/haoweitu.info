@@ -1,0 +1,115 @@
+{
+  "selected_on": "2026-10-05",
+  "method": "Visual frame review, source dimensions and durations, final-version filenames, filesystem timestamps, and SHA-256 duplicate checks. A copied file timestamp is not a project date or evidence of a new edit.",
+  "projects": {
+    "dad-exhibition-2021": {
+      "source": "Por/YG23/D&AD_English_small.mp4",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "source_seconds": 95.38,
+      "selection": "Finished English case film. SHA-256 matches the copy in Documents dated August 2026; that date is not a newer edit.",
+      "watch_url": "https://youtu.be/JRli42-WHD4",
+      "index_excerpt": {
+        "start": 24,
+        "duration": 10,
+        "reason": "Pencil-led identity animation and applications, after the text opening."
+      }
+    },
+    "islanders-summer-homework": {
+      "source": "~/Documents/iislander Project folder/iislander Project_AME/islander's summer homework.mp4",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "source_seconds": 116.15,
+      "source_modified": "2022-01-30 22:47:07",
+      "selection": "Later project export with revised explanatory opening copy. The Documents file dated August 2026 is byte-identical to the earlier January 29 Comp 2_5 export.",
+      "watch_url": "https://youtu.be/kfifYRk4itg",
+      "index_excerpt": {
+        "start": 84,
+        "duration": 10,
+        "reason": "Close views of the physical project and interaction with its materials."
+      }
+    },
+    "endoaware": {
+      "source": "~/Documents/GLOBAL/Video/FINAL VIDEO/FINAL 0509 folder/FINAL 2024 (converted) copy_AME/2024/EndoAware2024subtitle.mp4",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "source_seconds": 218.99,
+      "source_modified": "2024-01-11 22:09:18",
+      "selection": "Latest found finished subtitled 2024 export, preferred to January 7 and January 8 revisions. Subtitles verified in rendered frames.",
+      "watch_url": "https://youtu.be/38dSQc1Lx2w",
+      "index_motion": {
+        "primary": "line-preview",
+        "secondary": "bus",
+        "primary_excerpt": {
+          "start": 205,
+          "requested_duration": 14,
+          "source_end": 218.99,
+          "reason": "User-selected closing identity animation: a continuous yellow line becomes the EndoBot, Wellness Wheels, and EndoAware figures. Preserve the requested 3:25–3:39 segment through source EOF, including final partner marks.",
+          "poster_at_in_excerpt": 7.5,
+          "encoded_duration": 13.97
+        },
+        "secondary_reason": "Keep the existing wind-farm screening-bus loop as the second moving thumbnail; its source matches the GLOBAL/AWARE original."
+      },
+      "poster_at": 213.6,
+      "poster_selection": "Case-film preview selected from the closing identity animation: the EndoAware wordmark and seated-woman yellow line symbol on the group photograph, before narration subtitles or partner credits appear. Index excerpts and full film remain unchanged."
+    },
+    "dad-exhibition-2023": {
+      "source": "~/Documents/YG23/2023 D&AD 介紹影片Final_5.mp4",
+      "source_dimensions": [
+        3840,
+        2160
+      ],
+      "source_seconds": 85.03,
+      "selection": "Existing finished 4K case film. Keep 2112×3004 source poster MP4s, which are higher quality than the 576px MP4 or 600px GIF duplicates.",
+      "poster_at": 24,
+      "index_motion": "poster-insight"
+    },
+    "taiwan-tech-design-week": {
+      "index_motion": "knock-knock",
+      "additional_case_motion": "Por/YG23/12.gif",
+      "additional_source_dimensions": [
+        1400,
+        546
+      ],
+      "additional_source_seconds": 3.21,
+      "selection": "Existing main identity banner plus a distinct Portfolio Reviews banner, both from the project archive."
+    },
+    "projection-method": {
+      "selection": "Full research films excluded at user request. ADC2026 folders checked: only HNZ still images were present; no ADC2026 motion source was identified. The selected eight-second silent excerpt comes from the actual YG23 source archive; its source modification date is 2022, not a claimed ADC2026 release.",
+      "source": "Por/YG23/Comp 1_3.mp4",
+      "source_modified": "2022-04-21 18:18:54",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "source_seconds": 24.89,
+      "excerpt": {
+        "start": 4,
+        "duration": 8,
+        "placement": "index-and-case",
+        "reason": "Hands and utensils demonstrate the figure-ground relationship without opening titles or explanatory film."
+      },
+      "index_preview": {
+        "name": "projection-session",
+        "source": "Por/YG23/9月12日.mov",
+        "source_modified": "2025-09-13 11:11:09",
+        "source_dimensions": [
+          1920,
+          1080
+        ],
+        "source_seconds": 14.3,
+        "source_sha256": "88df0cd637037190463aab5f1ae2b40cc2e55342be1350b6b968340351d5020a",
+        "selection": "User requested the film named 9月12日. Targeted filename search found one unique 14.30-second studio demonstration, with identical copies in Por/YG23 and Documents/YG23. Use the whole short source as a muted index-only loop. Keep the existing eight-second figure-ground-short case demonstration unchanged; no full research film is restored.",
+        "poster_at": 8
+      }
+    }
+  },
+  "youtube_provenance": "URLs are supplied by the user and match the existing project mapping; this audit did not independently verify YouTube upload dates or online availability.",
+  "originals": "All original source files are retained. Previous generated media were backed up to _archive/before-motion-curation-20261005/media."
+}

@@ -1,0 +1,286 @@
+{
+ "dad-exhibition-2021": {
+  "case-film": {
+   "w": 1280,
+   "h": 720,
+   "duration": 95.38,
+   "bytes": 11840892,
+   "poster_at": 26.5,
+   "source": {
+    "path": "Por/YG23/D&AD_English_small.mp4",
+    "bytes": 116961760,
+    "mtime_ns": 1757643001311744928,
+    "sha256": "891feb6548af3b70fedec2b261eca56f3db396efeeb3eee087884c5e5cdc84f9"
+   },
+   "trim": {
+    "start": 0.0,
+    "duration": null
+   }
+  },
+  "case-preview": {
+   "w": 1200,
+   "h": 676,
+   "duration": 10.0,
+   "bytes": 1179639,
+   "poster_at": 2.5,
+   "source": {
+    "path": "Por/YG23/D&AD_English_small.mp4",
+    "bytes": 116961760,
+    "mtime_ns": 1757643001311744928,
+    "sha256": "891feb6548af3b70fedec2b261eca56f3db396efeeb3eee087884c5e5cdc84f9"
+   },
+   "trim": {
+    "start": 24.0,
+    "duration": 10
+   }
+  }
+ },
+ "endoaware": {
+  "bus": {
+   "w": 1200,
+   "h": 676,
+   "duration": 1.17,
+   "bytes": 136202,
+   "poster_at": 1.0,
+   "source": {
+    "path": "~/Documents/EMER/AGDA2025 \u6a94\u6848\u593e/Links/Bus_anim_shot_05.gif",
+    "bytes": 9156608,
+    "mtime_ns": 1680581010172108506,
+    "sha256": "fc5b8f44872a9c7f03d9f42bb8d5a986437d81a3cf3dc4ac7f25216c39e2881a"
+   },
+   "trim": {
+    "start": 0.0,
+    "duration": null
+   }
+  },
+  "case-film": {
+   "w": 1280,
+   "h": 720,
+   "duration": 218.99,
+   "bytes": 29464245,
+   "poster_at": 213.6,
+   "source": {
+    "path": "~/Documents/GLOBAL/Video/FINAL VIDEO/FINAL 0509 folder/FINAL 2024 (converted) copy_AME/2024/EndoAware2024subtitle.mp4",
+    "bytes": 388475307,
+    "mtime_ns": 1704971358048844037,
+    "sha256": "e43a74e5de8c69414ddee2a812091e7a7ab21ef068ce5fe2f19360dd6f3b54e9"
+   },
+   "trim": {
+    "start": 0.0,
+    "duration": null
+   }
+  },
+  "line-preview": {
+   "w": 1200,
+   "h": 676,
+   "duration": 13.97,
+   "bytes": 1236153,
+   "poster_at": 7.5,
+   "source": {
+    "path": "~/Documents/GLOBAL/Video/FINAL VIDEO/FINAL 0509 folder/FINAL 2024 (converted) copy_AME/2024/EndoAware2024subtitle.mp4",
+    "bytes": 388475307,
+    "mtime_ns": 1704971358048844037,
+    "sha256": "e43a74e5de8c69414ddee2a812091e7a7ab21ef068ce5fe2f19360dd6f3b54e9"
+   },
+   "trim": {
+    "start": 205.0,
+    "duration": 14
+   }
+  }
+ },
+ "dad-exhibition-2023": {
+  "case-film": {
+   "w": 1280,
+   "h": 720,
+   "duration": 85.03,
+   "bytes": 9075211,
+   "poster_at": 24.0,
+   "source": {
+    "path": "~/Documents/YG23/2023 D&AD \u4ecb\u7d39\u5f71\u7247Final_5.mp4",
+    "bytes": 790331484,
+    "mtime_ns": 1757736169237524767,
+    "sha256": "5a250bb5c3526cc40faf27de8d3baaeb51caaa5a1b8adf3d56be562d1097b88e"
+   },
+   "trim": {
+    "start": 0.0,
+    "duration": null
+   }
+  },
+  "poster-insight": {
+   "w": 844,
+   "h": 1200,
+   "duration": 10.0,
+   "bytes": 2521883,
+   "poster_at": 1.0,
+   "source": {
+    "path": "~/Documents/YG23/drive-download-20250913T040001Z-1-001/POSTER_stair_7.mp4",
+    "bytes": 18000966,
+    "mtime_ns": 1706621753000000000,
+    "sha256": "87bc76267a49b3a9b1551c2e8d16aba2be543c6ba6fab7956d0154ae2a412515"
+   },
+   "trim": {
+    "start": 0.0,
+    "duration": null
+   }
+  },
+  "poster-ceiling": {
+   "w": 844,
+   "h": 1200,
+   "duration": 9.97,
+   "bytes": 1036015,
+   "poster_at": 1.0,
+   "source": {
+    "path": "~/Documents/YG23/drive-download-20250913T040001Z-1-001/POSTER_glass3.mp4",
+    "bytes": 18883200,
+    "mtime_ns": 1705256378000000000,
+    "sha256": "316b8a3101ab927dd440ebd8b5e8656315e404837fcab056c552e5ea660ca4ef"
+   },
+   "trim": {
+    "start": 0.0,
+    "duration": null
+   }
+  },
+  "poster-angle": {
+   "w": 844,
+   "h": 1200,
+   "duration": 9.97,
+   "bytes": 600040,
+   "poster_at": 1.0,
+   "source": {
+    "path": "~/Documents/YG23/drive-download-20250913T040001Z-1-001/POSTER_eyes1.mp4",
+    "bytes": 16636657,
+    "mtime_ns": 1705594623000000000,
+    "sha256": "d849631c64992c5d39e340918882af3c47e1a46f4e104c8be58d40e3fe723605"
+   },
+   "trim": {
+    "start": 0.0,
+    "duration": null
+   }
+  },
+  "poster-vision": {
+   "w": 844,
+   "h": 1200,
+   "duration": 14.97,
+   "bytes": 3075932,
+   "poster_at": 1.0,
+   "source": {
+    "path": "~/Documents/YG23/drive-download-20250913T040001Z-1-001/POSTER_big eye_7.mp4",
+    "bytes": 27559180,
+    "mtime_ns": 1705844374000000000,
+    "sha256": "f6f2119b27fe308fd8c1d1dc1c6790d3b1cc3ebc8a9c66d923451cce2e238539"
+   },
+   "trim": {
+    "start": 0.0,
+    "duration": null
+   }
+  }
+ },
+ "islanders-summer-homework": {
+  "case-film": {
+   "w": 1280,
+   "h": 720,
+   "duration": 116.16,
+   "bytes": 24514644,
+   "poster_at": 89.4,
+   "source": {
+    "path": "~/Documents/iislander Project folder/iislander Project_AME/islander's summer homework.mp4",
+    "bytes": 91597049,
+    "mtime_ns": 1643543227000000000,
+    "sha256": "8c7cab1caa6a5985220fd9aad444747d10c7ce46e1bfd3f9d549b86c86d04aa1"
+   },
+   "trim": {
+    "start": 0.0,
+    "duration": null
+   }
+  },
+  "case-preview": {
+   "w": 1200,
+   "h": 676,
+   "duration": 9.97,
+   "bytes": 1682587,
+   "poster_at": 2.5,
+   "source": {
+    "path": "~/Documents/iislander Project folder/iislander Project_AME/islander's summer homework.mp4",
+    "bytes": 91597049,
+    "mtime_ns": 1643543227000000000,
+    "sha256": "8c7cab1caa6a5985220fd9aad444747d10c7ce46e1bfd3f9d549b86c86d04aa1"
+   },
+   "trim": {
+    "start": 84.0,
+    "duration": 10
+   }
+  }
+ },
+ "projection-method": {
+  "figure-ground-short": {
+   "w": 1200,
+   "h": 676,
+   "duration": 8.0,
+   "bytes": 712276,
+   "poster_at": 3.0,
+   "source": {
+    "path": "Por/YG23/Comp 1_3.mp4",
+    "bytes": 20391303,
+    "mtime_ns": 1650529134224154711,
+    "sha256": "19a84fcfc8599527116fa8113c9dd05554c1bf549f4956e2128dbedc5c49d33c"
+   },
+   "trim": {
+    "start": 4.0,
+    "duration": 8
+   }
+  },
+  "projection-session": {
+   "w": 1200,
+   "h": 676,
+   "duration": 14.27,
+   "bytes": 1084398,
+   "poster_at": 8.0,
+   "source": {
+    "path": "Por/YG23/9\u670812\u65e5.mov",
+    "bytes": 21243451,
+    "mtime_ns": 1757725869291675806,
+    "sha256": "88df0cd637037190463aab5f1ae2b40cc2e55342be1350b6b968340351d5020a"
+   },
+   "trim": {
+    "start": 0.0,
+    "duration": null
+   }
+  }
+ },
+ "taiwan-tech-design-week": {
+  "knock-knock": {
+   "w": 1200,
+   "h": 456,
+   "duration": 5.03,
+   "bytes": 544082,
+   "poster_at": 1.0,
+   "source": {
+    "path": "~/Documents/YG23/11.gif",
+    "bytes": 14715997,
+    "mtime_ns": 1757660607597447292,
+    "sha256": "fc8017fc626e3a28df1920e76f1cb7310672d31fffc4ecfbd80e15dbe06b82e8"
+   },
+   "trim": {
+    "start": 0.0,
+    "duration": null
+   }
+  },
+  "portfolio-reviews": {
+   "w": 1200,
+   "h": 468,
+   "duration": 3.17,
+   "bytes": 901284,
+   "poster_at": 1.0,
+   "source": {
+    "path": "Por/YG23/12.gif",
+    "bytes": 42339610,
+    "mtime_ns": 1757660571530760288,
+    "sha256": "d8ae4a29055d18f7f422534157d111111e3611b69e2942ccbeabb6ac4592d1c6"
+   },
+   "trim": {
+    "start": 0.0,
+    "duration": null
+   }
+  }
+ }
+}

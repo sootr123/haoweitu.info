@@ -1,0 +1,1742 @@
+{
+ "_readme": "Projects taken off the site on 2026-10-05. Move an entry back into projects.json (and rerun the build scripts) to publish it again.",
+ "projects": [
+  {
+   "id": "celestial-dragons-house",
+   "accent": "#e8261c",
+   "title": {
+    "en": "Celestial Dragons House",
+    "zh": "天龍房屋"
+   },
+   "discipline": {
+    "en": "Public-interest campaign",
+    "zh": "公共議題倡議"
+   },
+   "filters": [
+    "campaign"
+   ],
+   "client": {
+    "en": "TSUEI MA MA Foundation",
+    "zh": "崔媽媽基金會"
+   },
+   "year": 2021,
+   "cover": "01",
+   "summary": {
+    "en": "A fake real-estate agency that sold Taipei its own housing crisis — and helped pass a vacant-house tax.",
+    "zh": "一間假的房仲店，把台北的居住困境賣回給大家——也推動了空屋稅修法。"
+   },
+   "description": {
+    "en": [
+     "Taiwan’s house prices are among the least affordable in the world relative to income. Builders hoard newly completed homes during downturns and release them when prices rise, leaving properties empty while ordinary people are priced out. Working with the TSUEI MA MA Foundation, an NGO for housing justice, we looked for a way to put the public and policymakers in the same room.",
+     "We opened an imitation real-estate agency — named after “celestial dragons”, the slang for wealthy Taipei residents who know nothing of ordinary hardship — on Roosevelt Road near Taipower Building Station. Its windows and walls were covered in posters made from people’s real stories of buying and renting, and politicians were invited to serve as one-day managers.",
+     "Within a month the agency hosted eleven talks on housing justice, online and offline. At the closing event, cross-party legislators established Ours 2.0 in front of the Legislative Yuan; in April and May the government passed the House and Land Transactions Income Tax and a vacant-house tax amendment. Run on a zero budget, the campaign raised NT$400,000, drove more than 200 million related searches and over ten media reports."
+    ],
+    "zh": [
+     "台灣的房價所得比名列世界前茅。建商在景氣低迷時囤房、景氣回溫再拉高價格，造成大量空屋，一般人卻買不起。我們與推動居住正義的崔媽媽基金會合作，想找一個方法，讓大眾與決策者坐到同一張桌子前。",
+     "我們在羅斯福路、台電大樓站附近開了一間「天龍房屋」——取自形容不知人間疾苦的台北有錢人的「天龍人」。店面櫥窗和牆上貼滿由民眾真實買房、租屋經驗做成的海報，並邀請政治人物擔任一日店長。",
+     "一個月內，房仲店舉辦了十一場線上線下的居住正義講座；閉幕時，跨黨派立委在立法院前成立「Ours 2.0」。同年四月與五月，政府分別通過房地合一稅與空屋稅修法。整個活動零預算，募得新台幣 40 萬元，帶動超過兩億次相關搜尋與十餘則媒體報導。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Creative and Art Director: Ken Tsai Lee",
+     "zh": "創意與藝術總監：李根在"
+    },
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    },
+    {
+     "en": "Client: TSUEI MA MA Foundation",
+     "zh": "客戶：崔媽媽基金會"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "~/Documents/天龍比賽/three.jpg",
+     "alt": "The Celestial Dragons House storefront covered in red and yellow property posters"
+    },
+    {
+     "file": "02",
+     "source": "~/Documents/天龍比賽/one_頁面_01.jpg",
+     "alt": "Celestial Dragons House poster with layered signage typography"
+    },
+    {
+     "file": "03",
+     "source": "~/Documents/天龍比賽/three-02.jpg",
+     "alt": "Inside the agency: walls of posters and a painted floor reading “no conscience prices, only high prices”"
+    },
+    {
+     "file": "04",
+     "source": "~/Documents/天龍比賽/three-03.jpg",
+     "alt": "A sign-holder outside the agency on a busy Taipei street"
+    },
+    {
+     "file": "05",
+     "source": "~/Documents/天龍比賽/sdff.jpg",
+     "alt": "Posters made from people’s bad house-buying experiences"
+    },
+    {
+     "file": "06",
+     "source": "~/Documents/天龍比賽/one_頁面_08.jpg",
+     "alt": "Eleven seminars held to raise public awareness"
+    },
+    {
+     "file": "07",
+     "source": "~/Documents/天龍比賽/one_頁面_09.jpg",
+     "alt": "Bringing demands to the legislature: the vacant-house tax amendment passed"
+    },
+    {
+     "file": "08",
+     "source": "~/Documents/天龍比賽/one_頁面_10.jpg",
+     "alt": "Impact: NT$400,000 raised, 200M+ searches, 10+ media reports"
+    }
+   ],
+   "media": [
+    {
+     "kind": "youtube",
+     "id": "B3ofB00C35w",
+     "title": {
+      "en": "Case film",
+      "zh": "介紹影片"
+     }
+    }
+   ]
+  },
+  {
+   "id": "the-genesis-machine",
+   "accent": "#f4a51c",
+   "title": {
+    "en": "The Genesis Machine",
+    "zh": "未來的造物者"
+   },
+   "discipline": {
+    "en": "Book cover",
+    "zh": "書籍封面"
+   },
+   "filters": [
+    "book"
+   ],
+   "client": {
+    "en": "Faces Publishing",
+    "zh": "臉譜出版"
+   },
+   "year": 2023,
+   "cover": "01",
+   "summary": {
+    "en": "Circles that divide like cells until they become a body.",
+    "zh": "像細胞一樣分裂的圓，慢慢長成一個身體。"
+   },
+   "description": {
+    "en": [
+     "Cover design for the Traditional Chinese edition of The Genesis Machine: Our Quest to Rewrite Life in the Age of Synthetic Biology by Amy Webb and Andrew Hessel — a book about how synthetic biology may change the way we feed ourselves, treat disease and define family.",
+     "Overlapping circles in yellow, orange and red behave like dividing cells, gradually assembling into a living figure drawn in a single continuous line. Several directions were developed alongside the final cover, from bold blocks of colour to a floating embryo, each testing a different balance between science and life."
+    ],
+    "zh": [
+     "艾美．韋伯（Amy Webb）與安德魯．海瑟（Andrew Hessel）《未來的造物者：從消滅癌症、設計嬰兒到製造猛瑪象肉排，合成生物學將如何改寫我們與全球生物的未來？》繁體中文版封面設計。",
+     "黃、橙、紅的圓彼此重疊，像正在分裂的細胞，最後以一條連續的線長成一個生命的形體。定稿之外，也發展了多個方向，從大面積色塊到漂浮的胚胎，測試科學與生命之間不同的平衡。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    },
+    {
+     "en": "Client: Faces Publishing",
+     "zh": "客戶：臉譜出版"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "~/Documents/未來書/000000000dddddd.jpg",
+     "alt": "Final cover: overlapping yellow and red circles forming a figure, with the title in Chinese and English"
+    },
+    {
+     "file": "02",
+     "source": "~/Documents/未來書/1000003.jpg",
+     "alt": "Four colourways of the cover side by side"
+    },
+    {
+     "file": "03",
+     "source": "~/Documents/未來書/00000.jpg",
+     "alt": "The finished book standing at an angle"
+    },
+    {
+     "file": "04",
+     "source": "~/Documents/未來書/A_工作區域 1 複本 7.png",
+     "alt": "Alternative direction: icons of flasks and eyes in bold colour blocks"
+    },
+    {
+     "file": "05",
+     "source": "~/Documents/未來書/0dd.png",
+     "alt": "Alternative direction: a floating embryo over red and ultramarine"
+    },
+    {
+     "file": "06",
+     "source": "~/Documents/未來書/A_工作區域 1 複本 9.png",
+     "alt": "Alternative direction: line-drawn cells on black"
+    },
+    {
+     "file": "07",
+     "source": "~/Documents/未來書/cdc.jpg",
+     "alt": "Black edition of the cover with a red belly band"
+    }
+   ]
+  },
+  {
+   "id": "midcity-centre",
+   "accent": "#ef5a2a",
+   "title": {
+    "en": "Midcity Centre",
+    "zh": "Midcity Centre"
+   },
+   "discipline": {
+    "en": "Brand identity",
+    "zh": "品牌識別"
+   },
+   "filters": [
+    "identity"
+   ],
+   "client": {
+    "en": "Midcity Centre, with D&D Creative",
+    "zh": "Midcity Centre，與 D&D Creative 合作"
+   },
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "A historic arcade in Melbourne’s Chinatown, refreshed — and given a Chinese name.",
+    "zh": "為墨爾本唐人街的老商場換上新形象，也取了中文名字。"
+   },
+   "description": {
+    "en": [
+     "Midcity is a historic shopping centre in Melbourne’s city centre whose brand image no longer matched contemporary shoppers or the market around it. We were asked to reshape its identity for today’s audience while respecting its long history.",
+     "After an in-depth study of market trends and competitors, and working closely with Midcity’s team, we positioned the centre as a fashionable, diverse and modern destination. The refresh covers a new logo and visual identity, the interior environment, advertising, and the introduction of a Chinese name that brings Midcity closer to the culture of Chinatown while clearly conveying its values."
+    ],
+    "zh": [
+     "Midcity 是墨爾本市中心一座歷史悠久的購物中心，多年下來的品牌形象已經跟不上現代消費者與市場。我們的任務是在尊重它歷史的前提下，為今天的客群重塑品牌。",
+     "深入研究市場趨勢與競爭環境、並與 Midcity 團隊密切合作後，我們把它定位為時尚、多元而現代的購物目的地。更新範圍包含新標誌與視覺識別、室內環境、廣告策略，以及一個新的中文名字——讓 Midcity 更貼近唐人街的在地文化，也清楚傳達品牌價值。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Studio: D&D Creative",
+     "zh": "工作室：D&D Creative"
+    },
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    },
+    {
+     "en": "Client: Midcity Centre",
+     "zh": "客戶：Midcity Centre"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "Por/_web/midcity-centre/01.png",
+     "alt": "A wall of Midcity Centre posters in orange, blue and black"
+    },
+    {
+     "file": "02",
+     "source": "Por/_web/midcity-centre/02.png",
+     "alt": "Patterned Midcity shopping bags"
+    },
+    {
+     "file": "03",
+     "source": "Por/_web/midcity-centre/03.png",
+     "alt": "Midcity business cards in orange and blue"
+    },
+    {
+     "file": "04",
+     "source": "Por/_web/midcity-centre/04.png",
+     "alt": "Midcity billboard with fashion photography"
+    },
+    {
+     "file": "05",
+     "source": "Por/_web/midcity-centre/05.png",
+     "alt": "Midcity storefront with the new Chinese character mark"
+    }
+   ]
+  },
+  {
+   "id": "pork-floss-for-hulk",
+   "accent": "#f07f9a",
+   "title": {
+    "en": "Pork Floss for Hulk",
+    "zh": "肉鬆壯起來"
+   },
+   "discipline": {
+    "en": "Packaging",
+    "zh": "包裝設計"
+   },
+   "filters": [
+    "packaging"
+   ],
+   "client": null,
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "Three cans, more than ten bodybuilders: rotate to mix and match.",
+    "zh": "三款罐子，轉一轉就能拼出十幾種健身猛男。"
+   },
+   "description": {
+    "en": [
+     "Meat floss is rich in protein and minerals, so this packaging targets customers who are passionate about sport and fitness. Based on a customer survey, we drew a cast of funny characters holding dumbbells and wearing gym gear.",
+     "A tight budget shaped the idea. The illustrations were developed to run across the curved surfaces of stacked cans, so the manufacturer only produces three types of packaging while customers can create more than ten combinations by rotating them. The stacks make an eye-catching display in store, and a card inside lists the ingredients clearly. Compared with a conventional range, the design is expected to save about 63 per cent in costs."
+    ],
+    "zh": [
+     "肉鬆富含蛋白質與礦物質，因此這次鎖定熱愛運動與健身的消費者。根據問卷調查，我們畫了一群拿著啞鈴、穿著運動服的逗趣角色。",
+     "有限的預算反而成了點子的來源：插畫沿著堆疊罐身的曲面發展，廠商只需生產三款包裝，消費者旋轉罐子就能組合出十種以上的造型。堆疊起來在店頭也很搶眼，盒內附卡清楚列出成分。與傳統做法相比，預計可節省約 63% 的成本。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    },
+    {
+     "en": "Instructor: Wang Weiyao",
+     "zh": "指導：Wang Weiyao"
+    }
+   ],
+   "recognition": [
+    {
+     "year": "2021",
+     "en": "Red Dot Design Award — Packaging",
+     "zh": "德國紅點設計獎 — 包裝",
+     "href": "https://www.red-dot.org/project/pork-floss-for-hulk-54701"
+    },
+    {
+     "year": "2021",
+     "en": "The Young Ones ADC — Merit",
+     "zh": "紐約 ADC 青年設計獎 — Merit",
+     "href": "https://www.oneclub.org/awards/youngones/-award/41255/pork-floss-for-hulk/"
+    }
+   ],
+   "images": [
+    {
+     "file": "01",
+     "source": "Por/_web/pork-floss-for-hulk/01.png",
+     "alt": "Stacked cans forming muscular cartoon bodies"
+    },
+    {
+     "file": "02",
+     "source": "Por/_web/pork-floss-for-hulk/02.png",
+     "alt": "Three gift boxes of bodybuilder characters"
+    },
+    {
+     "file": "03",
+     "source": "Por/_web/pork-floss-for-hulk/03.png",
+     "alt": "Three boxes with orange, pink and blue torsos"
+    },
+    {
+     "file": "04",
+     "source": "Por/_web/pork-floss-for-hulk/04.png",
+     "alt": "Packaging set with a can of pork floss and spoon"
+    },
+    {
+     "file": "05",
+     "source": "Por/_web/pork-floss-for-hulk/05.png",
+     "alt": "Box sleeve with characters in blue and orange"
+    },
+    {
+     "file": "06",
+     "source": "Por/_web/pork-floss-for-hulk/06.png",
+     "alt": "A can lying on its side with a grimacing face"
+    },
+    {
+     "file": "07",
+     "source": "Por/_web/pork-floss-for-hulk/07.png",
+     "alt": "Opened box showing the stacked cans"
+    },
+    {
+     "file": "08",
+     "source": "~/Documents/Tisdc/REDDOT2021/OOO-10.jpg",
+     "alt": "The full range of boxes photographed on white"
+    },
+    {
+     "file": "09",
+     "source": "~/Documents/Tisdc/REDDOT2021/OOO-2.jpg",
+     "alt": "Three stacked cans mixing different heads and bodies"
+    }
+   ],
+   "media": [
+    {
+     "kind": "behance",
+     "id": "TG9JTICotBJ",
+     "title": {
+      "en": "Project film",
+      "zh": "作品影片"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rebuild-taiwans-traditional-culture",
+   "accent": "#ff5a1f",
+   "title": {
+    "en": "Rebuild Taiwan’s Traditional Culture",
+    "zh": "重建台灣傳統文化"
+   },
+   "discipline": {
+    "en": "Poster series",
+    "zh": "海報系列"
+   },
+   "filters": [
+    "poster"
+   ],
+   "client": null,
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "Temple craft, turned up loud.",
+    "zh": "把廟宇工藝的音量開到最大。"
+   },
+   "description": {
+    "en": [
+     "A poster series that brings traditional Taiwanese craft objects into a contemporary visual language. Rendered in saturated orange, ultramarine and magenta and wrapped in hand-drawn lettering, familiar temple and folk objects are reframed as something bold, playful and worth carrying forward.",
+     "A second set extends the series under the line “Move Taiwan”."
+    ],
+    "zh": [
+     "一組把台灣傳統工藝物件帶進當代視覺語言的海報。飽和的橘、群青與桃紅，加上手寫字體的包圍，讓熟悉的廟宇與民俗物件被重新看見——大膽、好玩，而且值得被傳下去。",
+     "第二組以「Move Taiwan」為標語延伸整個系列。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    }
+   ],
+   "recognition": [
+    {
+     "year": "2021",
+     "en": "Red Dot Design Award — Posters",
+     "zh": "德國紅點設計獎 — 海報",
+     "href": "https://www.red-dot.org/project/rebuild-taiwans-traditional-culture-54798"
+    },
+    {
+     "year": "2021",
+     "en": "Taiwan International Graphic Design Awards — Distinction",
+     "zh": "台灣國際平面設計獎 — 優選",
+     "href": null
+    }
+   ],
+   "images": [
+    {
+     "file": "01",
+     "source": "~/Documents/bee/Taiwan_Tu _Hao Wei_ Rebuild Taiwan1.jpg",
+     "alt": "Poster: a carved column in blue over orange, lettered Rebuild Taiwan’s Traditional Culture"
+    },
+    {
+     "file": "02",
+     "source": "~/Documents/bee/Taiwan_Tu _Hao Wei_ Rebuild Taiwan2.jpg",
+     "alt": "Poster: two pink carved lion heads hanging on chains over ultramarine"
+    },
+    {
+     "file": "03",
+     "source": "~/Documents/Tisdc/MOVE TAIWAN-1.jpg",
+     "alt": "Move Taiwan poster with the carved column"
+    },
+    {
+     "file": "04",
+     "source": "~/Documents/Tisdc/MOVE TAIWAN -2.jpg",
+     "alt": "Move Taiwan poster with the lion heads"
+    }
+   ]
+  },
+  {
+   "id": "taipei-zoo",
+   "accent": "#2fb34a",
+   "title": {
+    "en": "Taipei Zoo",
+    "zh": "臺北市立動物園"
+   },
+   "discipline": {
+    "en": "Visual identity",
+    "zh": "視覺識別"
+   },
+   "filters": [
+    "identity"
+   ],
+   "client": {
+    "en": "Taipei Zoo (concept)",
+    "zh": "臺北市立動物園（概念）"
+   },
+   "year": 2018,
+   "cover": "01",
+   "summary": {
+    "en": "A whole zoo drawn from the oldest Chinese writing.",
+    "zh": "用最古老的漢字，畫出一整座動物園。"
+   },
+   "description": {
+    "en": [
+     "This identity for Taipei Zoo is inspired by oracle bone script, the earliest form of Chinese writing — an image record of how our ancestors saw the world. The symbol is transformed from the oracle bone character for “animal”, and the system extends the same logic to animals, plants and the zoo environment.",
+     "Because the ancient characters are already pictures, the system can keep growing: the staff and media passes, for example, are drawn from the characters for “person” (人) and “big” (大), both depicting a human figure. The work includes guide signs, a redesigned map, reusable sticker tickets that adults and children assemble themselves, and souvenirs such as silk-screened T-shirts and backpacks in bright red, yellow, green and blue.",
+     "Animal and facility signs, the guide map and environmental graphics — from building walls to elevator doors — share one vocabulary, so the whole zoo reads as a single illustrated world."
+    ],
+    "zh": [
+     "這套臺北市立動物園識別以甲骨文為靈感——那是最早的漢字，也是先人看世界的影像紀錄。標誌由甲骨文的「動物」轉化而來，系統再以同樣的邏輯延伸到動物、植物與園區環境。",
+     "古文字本身就是圖，所以系統能一直長下去：例如工作人員與媒體證，取自同樣描繪人形的「人」與「大」。整套設計包含指標、重新設計的導覽地圖、大人小孩都能自己拼貼的貼紙門票，以及以絹印印上紅、黃、綠、藍的 T 恤與背包等紀念品。",
+     "動物與設施標示、導覽地圖到建築牆面、電梯門的環境圖像，都使用同一套語彙，讓整座動物園像一個完整的插畫世界。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designers: Hao Wei Tu, Jia Rong Liu, Chen Ruojie",
+     "zh": "設計：杜浩瑋、Jia Rong Liu、Chen Ruojie"
+    },
+    {
+     "en": "Instructor: Ken Tsai Lee",
+     "zh": "指導：李根在"
+    }
+   ],
+   "recognition": [
+    {
+     "year": "2019",
+     "en": "The Young Ones ADC — Merit",
+     "zh": "紐約 ADC 青年設計獎 — Merit",
+     "href": "https://www.oneclub.org/awards/youngones/-award/34337/taipei-zoo/"
+    },
+    {
+     "year": "2019",
+     "en": "Taiwan International Graphic Design Awards — Youth Award",
+     "zh": "台灣國際平面設計獎 — 青年獎",
+     "href": "https://www.tigda.org.tw/Post/80623"
+    },
+    {
+     "year": "2019",
+     "en": "Taiwan International Graphic Design Awards — TADA Award",
+     "zh": "台灣國際平面設計獎 — TADA 獎",
+     "href": "https://www.tigda.org.tw/Post/80621"
+    }
+   ],
+   "images": [
+    {
+     "file": "01",
+     "source": "Por/_web/taipei-zoo/01.png",
+     "alt": "Stationery, tickets and souvenirs with colourful oracle-bone animals"
+    },
+    {
+     "file": "02",
+     "source": "Por/_web/taipei-zoo/02.png",
+     "alt": "The Taipei Zoo symbol on a bridge in the zoo"
+    },
+    {
+     "file": "03",
+     "source": "Por/_web/taipei-zoo/03.png",
+     "alt": "Crocodile warning sign: Danger! Keep off"
+    },
+    {
+     "file": "04",
+     "source": "Por/_web/taipei-zoo/04.png",
+     "alt": "Do-not-feed sign in the forest"
+    },
+    {
+     "file": "05",
+     "source": "Por/_web/taipei-zoo/05.png",
+     "alt": "Staff and media passes drawn from the characters 人 and 大"
+    },
+    {
+     "file": "06",
+     "source": "Por/_web/taipei-zoo/06.png",
+     "alt": "Sticker tickets in bright colours"
+    },
+    {
+     "file": "07",
+     "source": "Por/_web/taipei-zoo/07.png",
+     "alt": "A hand assembling a sticker ticket"
+    },
+    {
+     "file": "08",
+     "source": "Por/_web/taipei-zoo/08.png",
+     "alt": "Two visitors in silk-screened animal T-shirts"
+    },
+    {
+     "file": "09",
+     "source": "Por/_web/taipei-zoo/09.png",
+     "alt": "A visitor in a straw hat and giraffe T-shirt"
+    },
+    {
+     "file": "10",
+     "source": "Por/_web/taipei-zoo/10.png",
+     "alt": "Redesigned zoo map and guide"
+    },
+    {
+     "file": "11",
+     "source": "Por/_web/taipei-zoo/11.png",
+     "alt": "The guide map on a zoo noticeboard"
+    },
+    {
+     "file": "12",
+     "source": "Por/_web/taipei-zoo/12.png",
+     "alt": "Elevator doors painted with a giraffe and deer"
+    },
+    {
+     "file": "13",
+     "source": "Por/_web/taipei-zoo/13.png",
+     "alt": "Directional signage among the trees"
+    },
+    {
+     "file": "14",
+     "source": "Por/_web/taipei-zoo/14.png",
+     "alt": "A father and child reading an illustrated panel"
+    }
+   ],
+   "media": [
+    {
+     "kind": "youtube",
+     "id": "UJGqtHjkZ2Y",
+     "title": {
+      "en": "Identity film",
+      "zh": "識別影片"
+     }
+    }
+   ]
+  },
+  {
+   "id": "nice-nice",
+   "accent": "#16b45a",
+   "title": {
+    "en": "Nice! Nice!",
+    "zh": "Nice! Nice!"
+   },
+   "discipline": {
+    "en": "Typographic posters",
+    "zh": "字體海報"
+   },
+   "filters": [
+    "poster"
+   ],
+   "client": null,
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "One swollen, rubbery character, in every colour it could take.",
+    "zh": "一個膨脹、有彈性的字，換上所有它撐得住的顏色。"
+   },
+   "description": {
+    "en": [
+     "A typographic poster series for “Nice! Nice!”, a one-day art museum event. A single swollen, rubbery character is drawn large enough to fill the sheet, then repeated, cropped and recoloured — black, green, cyan, navy and magenta — so that one letterform becomes a whole family of posters.",
+     "The small line set beside it, “Everything will be better”, carries the mood of the series."
+    ],
+    "zh": [
+     "為一日美術館活動「Nice! Nice!」設計的字體海報系列。一個膨脹、有彈性的字被放大到填滿整張紙，再經過重複、裁切與換色——黑、綠、青、藏青與桃紅——讓一個字形長成一整個海報家族。",
+     "旁邊一行小字「Everything will be better」，就是這組海報的心情。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "~/Documents/TDC2023/6GOOD-02.jpg",
+     "alt": "Green poster with two large rubbery characters"
+    },
+    {
+     "file": "02",
+     "source": "~/Documents/TDC2023/6GOOD-01.jpg",
+     "alt": "Black and white poster with the Nice! Nice! badge"
+    },
+    {
+     "file": "03",
+     "source": "~/Documents/TDC2023/6GOOD-03.jpg",
+     "alt": "Cyan and lime poster"
+    },
+    {
+     "file": "04",
+     "source": "~/Documents/TDC2023/6GOOD-09.jpg",
+     "alt": "Magenta poster with repeated characters"
+    },
+    {
+     "file": "05",
+     "source": "~/Documents/TDC2023/6GOOD-04.jpg",
+     "alt": "Navy poster with the character repeated in a grid"
+    },
+    {
+     "file": "06",
+     "source": "~/Documents/TDC2023/6GOOD-05.jpg",
+     "alt": "White characters on black"
+    }
+   ]
+  },
+  {
+   "id": "getting-to-zero",
+   "accent": "#22c3e6",
+   "title": {
+    "en": "Getting to Zero",
+    "zh": "衝突歸零"
+   },
+   "discipline": {
+    "en": "Book cover",
+    "zh": "書籍封面"
+   },
+   "filters": [
+    "book"
+   ],
+   "client": {
+    "en": "Zhitian Publishing",
+    "zh": "知田出版"
+   },
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "Two rings that keep crossing, until the conflict goes back to zero.",
+    "zh": "兩個不斷交錯的圓，直到衝突歸零。"
+   },
+   "description": {
+    "en": [
+     "Cover design for the Traditional Chinese edition of Jayson Gaddis’s Getting to Zero: How to Work Through Conflict in Your High-Stakes Relationships.",
+     "Interlocking cyan and orange rings stand for two people caught in a loop, while the title characters 衝突 (conflict) fade into embossed white and 歸零 (back to zero) stays solid. Alternative directions explored counting down, scattered shapes and bright circles in blue and yellow."
+    ],
+    "zh": [
+     "傑森．蓋迪斯（Jayson Gaddis）《衝突歸零：如何化解重要人際關係的衝突》繁體中文版封面設計。",
+     "青色與橘色的圓環互相交扣，像兩個人困在循環裡；書名的「衝突」退成白色壓紋，「歸零」則保持清楚。另外也發展了倒數、散落形狀、藍黃圓點等不同方向。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    },
+    {
+     "en": "Client: Zhitian Publishing",
+     "zh": "客戶：知田出版"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "~/Documents/book/0_工作區域 1 複本 10.jpg",
+     "alt": "Final cover: cyan and orange rings with the title 歸零"
+    },
+    {
+     "file": "02",
+     "source": "~/Documents/book/Book_ddddd010.png",
+     "alt": "The finished book standing at an angle"
+    },
+    {
+     "file": "03",
+     "source": "~/Documents/book/ppt-25.jpg",
+     "alt": "Four cover directions shown as book mockups"
+    },
+    {
+     "file": "04",
+     "source": "~/Documents/book/0_工作區域 1.jpg",
+     "alt": "Alternative direction: yellow circles on cyan"
+    },
+    {
+     "file": "05",
+     "source": "~/Documents/book/0_工作區域 1 複本 4.jpg",
+     "alt": "Alternative direction: orange shapes and a circular arrow"
+    },
+    {
+     "file": "06",
+     "source": "~/Documents/book/0_工作區域 1 複本 7.jpg",
+     "alt": "Alternative direction: a countdown drawn in pencil"
+    }
+   ]
+  },
+  {
+   "id": "unify",
+   "accent": "#9a9a9a",
+   "title": {
+    "en": "Unify Hospitality Solutions",
+    "zh": "Unify Hospitality Solutions"
+   },
+   "discipline": {
+    "en": "Brand identity",
+    "zh": "品牌識別"
+   },
+   "filters": [
+    "identity"
+   ],
+   "client": {
+    "en": "Unify Hospitality Solutions, with D&D Creative",
+    "zh": "Unify Hospitality Solutions，與 D&D Creative 合作"
+   },
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "A parent brand designed to stay in the background.",
+    "zh": "一個刻意退居幕後的母品牌。"
+   },
+   "description": {
+    "en": [
+     "UNIFY is a hospitality management company that operates behind the scenes. It wanted a corporate identity that would quietly complement its subsidiary brands without overshadowing them.",
+     "The identity is built from the company’s initials — U, H and S — expressing its character and sense of stability in the simplest form. Scaled up, the three letters become supporting graphics that instantly signal a venue’s connection to the group."
+    ],
+    "zh": [
+     "UNIFY 是一家在幕後運作的餐旅管理公司，希望企業識別能低調地襯托旗下品牌，而不是搶走它們的光彩。",
+     "識別以公司名稱的字首 U、H、S 為基礎，用最簡單的形式表現它的個性與穩定感；三個字母放大後也能成為輔助圖形，讓人一眼看出場館與集團的關係。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Studio: D&D Creative",
+     "zh": "工作室：D&D Creative"
+    },
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    },
+    {
+     "en": "Client: Unify Hospitality Solutions",
+     "zh": "客戶：Unify Hospitality Solutions"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "Por/_web/unify/01.png",
+     "alt": "A kiosk on a city street branded with the UNIFY mark"
+    },
+    {
+     "file": "02",
+     "source": "Por/_web/unify/02.png",
+     "alt": "The UNIFY logo on a glass window"
+    },
+    {
+     "file": "03",
+     "source": "Por/_web/unify/03.png",
+     "alt": "UNIFY sign framed in black and white photography"
+    },
+    {
+     "file": "04",
+     "source": "Por/_web/unify/04.png",
+     "alt": "Black UNIFY stationery and pens"
+    }
+   ]
+  },
+  {
+   "id": "power-malt",
+   "accent": "#c8a03a",
+   "title": {
+    "en": "Power Malt",
+    "zh": "Power Malt"
+   },
+   "discipline": {
+    "en": "Packaging",
+    "zh": "包裝設計"
+   },
+   "filters": [
+    "packaging"
+   ],
+   "client": null,
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "Malt beverage bottles, dressed like royalty.",
+    "zh": "穿上貴族禮服的麥芽飲料。"
+   },
+   "description": {
+    "en": [
+     "Power Malt is a malt beverage produced by a brewery with Danish royal approval and sold around the world. The bottle design is inspired by noble dress, bringing a sense of ceremony to an everyday drink.",
+     "The outer box is drawn as a sketch of a palace, deliberately draft-like so that the dressed bottles inside stand out. A book-like tag carries the nutrition facts and reinforces the noble style, and a derivative series explores the same idea through Chinese culture."
+    ],
+    "zh": [
+     "Power Malt 是一款經丹麥皇室認可的酒廠所生產、行銷全球的麥芽飲料。瓶身設計以貴族服飾為靈感，為日常飲品帶來一點儀式感。",
+     "外盒畫成宮殿的速寫，刻意保留草稿感，好讓盒內盛裝打扮的瓶子更突出；書本造型的吊牌標示營養成分，也強化貴族風格。另外也以中華文化為主題，發展了衍生系列。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    },
+    {
+     "en": "Instructor: Wang Weiyao",
+     "zh": "指導：Wang Weiyao"
+    }
+   ],
+   "recognition": [
+    {
+     "year": "2019",
+     "en": "Red Dot Design Award — Communication Design",
+     "zh": "德國紅點傳達設計獎",
+     "href": "https://www.red-dot.org/project/power-malt-40825"
+    }
+   ],
+   "images": [
+    {
+     "file": "01",
+     "source": "Por/_web/power-malt/01.png",
+     "alt": "Close-up of bottles dressed in printed royal uniforms"
+    },
+    {
+     "file": "02",
+     "source": "Por/_web/power-malt/02.png",
+     "alt": "Gift boxes drawn as palace sketches"
+    },
+    {
+     "file": "03",
+     "source": "Por/_web/power-malt/03.png",
+     "alt": "Three bottles in red, green and blue uniforms"
+    },
+    {
+     "file": "04",
+     "source": "Por/_web/power-malt/04.png",
+     "alt": "Bottle variations in orange, purple and red"
+    },
+    {
+     "file": "05",
+     "source": "Por/_web/power-malt/05.png",
+     "alt": "The book-like nutrition tag hanging from a bottle"
+    },
+    {
+     "file": "06",
+     "source": "Por/_web/power-malt/06.png",
+     "alt": "Three bottles lined up on white"
+    }
+   ]
+  },
+  {
+   "id": "woven-stories",
+   "accent": "#e8742a",
+   "title": {
+    "en": "Woven Stories",
+    "zh": "Woven Stories"
+   },
+   "discipline": {
+    "en": "Exhibition identity",
+    "zh": "展覽識別"
+   },
+   "filters": [
+    "exhibition",
+    "identity"
+   ],
+   "client": {
+    "en": "Swinburne University of Technology (course project)",
+    "zh": "斯威本科技大學（課程專案）"
+   },
+   "year": 2023,
+   "cover": "01",
+   "summary": {
+    "en": "Two textile artists, tied together by one knot.",
+    "zh": "兩位織品藝術家，被一個結繫在一起。"
+   },
+   "description": {
+    "en": [
+     "An identity for “Woven Stories”, an exhibition imagined around the textile artists Anni Albers and Lucy Simpson. The concept uses thread and the knot to stand for both artists’ challenges and identities as women working in textiles.",
+     "A single orange knot becomes the logo and the thread that runs across posters, tote bags, umbrellas, coffee cups, wayfinding and the exhibition catalogue."
+    ],
+    "zh": [
+     "為想像中的展覽「Woven Stories」所做的識別，主角是織品藝術家 Anni Albers 與 Lucy Simpson。以線與結，象徵兩位藝術家作為織品創作者所面對的挑戰與身分。",
+     "一個橘色的結成為標誌，也像一條線，貫穿海報、托特包、雨傘、咖啡杯、指標與展覽專刊。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designers: Hao Wei Tu, Haw Chien Chen",
+     "zh": "設計：杜浩瑋、Haw Chien Chen"
+    },
+    {
+     "en": "Convener: Dr Jane Connory",
+     "zh": "課程召集人：Dr Jane Connory"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "~/Documents/dmd/p2_0005_327025659_190812390199172_2772731617787659883_n.jpg",
+     "alt": "Woven Stories banners on a café shopfront"
+    },
+    {
+     "file": "02",
+     "source": "~/Documents/dmd/p2_0002_rm389-s86-b45-google-mockup.jpg",
+     "alt": "White tote bag with an orange knot logo"
+    },
+    {
+     "file": "03",
+     "source": "~/Documents/dmd/p2_0003_ooooDP.jpg",
+     "alt": "Exhibition panels and a tablet showing the artists’ work"
+    },
+    {
+     "file": "04",
+     "source": "~/Documents/dmd/p2_0004_d.jpg",
+     "alt": "White umbrella printed with the Woven Stories knot"
+    },
+    {
+     "file": "05",
+     "source": "~/Documents/dmd/p2_0006_33333.jpg",
+     "alt": "Orange coffee cup with the knot logo held in two hands"
+    },
+    {
+     "file": "06",
+     "source": "~/Documents/dmd/0510/0-02.jpg",
+     "alt": "Exhibition space with textile works and a timeline"
+    },
+    {
+     "file": "07",
+     "source": "~/Documents/dmd/0510/0-03.jpg",
+     "alt": "The exhibition catalogue held open"
+    }
+   ]
+  },
+  {
+   "id": "chinese-character-festival",
+   "accent": "#2c46a0",
+   "title": {
+    "en": "Chinese Character Festival",
+    "zh": "漢字動物節"
+   },
+   "discipline": {
+    "en": "Festival identity",
+    "zh": "活動識別"
+   },
+   "filters": [
+    "identity"
+   ],
+   "client": {
+    "en": "Taipei Zoo (concept)",
+    "zh": "臺北市立動物園（概念）"
+   },
+   "year": 2018,
+   "cover": "01",
+   "summary": {
+    "en": "Animals drawn the way oracle bone script draws the world.",
+    "zh": "用甲骨文看世界的方式，畫動物。"
+   },
+   "description": {
+    "en": [
+     "The Chinese Character Festival was developed alongside a renewal of Taipei Zoo’s visual identity. The project introduces Chinese culture through the relationship between animals and ancient character forms, using guided interpretation and interactive activities to connect language, image and observation.",
+     "Oracle bone script often transforms recognisable objects into simplified pictographic forms. Characters such as sun (日) and moon (月) demonstrate how physical forms can gradually become abstract visual signs.",
+     "We applied this principle to animals, translating their characteristic silhouettes into a contemporary linear graphic language. The resulting identity creates a dialogue between ancient writing and modern visual communication, allowing visitors to recognise both the animal form and its cultural reference. Across signage, printed matter and interactive applications, the system uses visual reduction to make the history and structure of Chinese characters more immediate and approachable."
+    ],
+    "zh": [
+     "漢字動物節與臺北市立動物園的視覺識別更新一同發展。計畫透過動物與古文字形體之間的關係介紹漢字文化，以導覽解說與互動活動串連語言、圖像與觀察。",
+     "甲骨文常把可辨認的物體簡化成象形符號，例如「日」與「月」，展現具體的形體如何逐漸成為抽象的視覺符號。",
+     "我們把這個原則套用在動物身上，將牠們的特徵輪廓轉譯為當代的線性圖像語言。這套識別讓古老文字與現代視覺傳達對話，讓觀眾同時認出動物的樣子與背後的文化典故。從指標、印刷品到互動應用，系統以視覺的簡化，讓漢字的歷史與結構變得更直接、更親近。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designers: Hao Wei Tu, Jia Rong Liu",
+     "zh": "設計：杜浩瑋、Jia Rong Liu"
+    },
+    {
+     "en": "Supervisor: Ken Tsai Lee",
+     "zh": "指導：李根在"
+    }
+   ],
+   "recognition": [
+    {
+     "year": "2019",
+     "en": "The Young Ones ADC — Merit",
+     "zh": "紐約 ADC 青年設計獎 — Merit",
+     "href": "https://www.oneclub.org/awards/youngones/-award/34340/chinese-character-festival/"
+    },
+    {
+     "year": "2018",
+     "en": "Cross-Strait Chinese Character Creative Competition — Gold",
+     "zh": "兩岸漢字文化創意競賽 — 金獎",
+     "href": null
+    }
+   ],
+   "images": [
+    {
+     "file": "01",
+     "source": "Por/_web/chinese-character-festival/01.png",
+     "alt": "Wooden animal puzzle pieces in oracle-bone-inspired outlines"
+    },
+    {
+     "file": "02",
+     "source": "Por/_web/chinese-character-festival/02.png",
+     "alt": "A porcelain vase printed with blue linear animal characters"
+    },
+    {
+     "file": "03",
+     "source": "Por/_web/chinese-character-festival/03.png",
+     "alt": "Street banner for the festival at the zoo entrance"
+    },
+    {
+     "file": "04",
+     "source": "Por/_web/chinese-character-festival/04.png",
+     "alt": "Dark blue printed matter with white linear animal characters"
+    }
+   ],
+   "media": [
+    {
+     "kind": "youtube",
+     "id": "SChNSRIDcMY",
+     "title": {
+      "en": "Festival film",
+      "zh": "活動影片"
+     }
+    },
+    {
+     "kind": "youtube",
+     "id": "1-467SGhc00",
+     "title": {
+      "en": "Motion posters",
+      "zh": "動態海報"
+     }
+    }
+   ]
+  },
+  {
+   "id": "the-bund",
+   "accent": "#f3b0cd",
+   "title": {
+    "en": "The Bund",
+    "zh": "The Bund"
+   },
+   "discipline": {
+    "en": "Brand identity",
+    "zh": "品牌識別"
+   },
+   "filters": [
+    "identity"
+   ],
+   "client": {
+    "en": "The Bund, with D&D Creative",
+    "zh": "The Bund，與 D&D Creative 合作"
+   },
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "One oval for every shape of bao.",
+    "zh": "一個橢圓，裝下所有包子的形狀。"
+   },
+   "description": {
+    "en": [
+     "The Bund is a Chinese fast-food restaurant at Queen Victoria Market specialising in dumplings, baozi and gua bao. Named after Shanghai’s famous waterfront, it serves tourists, students and market shoppers looking for a younger atmosphere.",
+     "The identity uses an oval to stand for the many forms of baozi — a shape flexible enough to build patterns, frames and illustrations. An off-white, pink and near-black palette keeps it warm, light and contemporary."
+    ],
+    "zh": [
+     "The Bund 是維多利亞女王市場裡的中式速食店，主打餃子、包子與刈包。店名取自上海著名的外灘，客群是觀光客、學生與來市場採買的人，他們想要更年輕的氛圍。",
+     "識別以橢圓代表各種包子的形狀，能靈活組成圖紋、框架與插畫；米白、粉紅與近黑的配色，讓整體溫暖、輕盈又現代。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Studio: D&D Creative",
+     "zh": "工作室：D&D Creative"
+    },
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    },
+    {
+     "en": "Client: The Bund",
+     "zh": "客戶：The Bund"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "Por/_web/the-bund/01.png",
+     "alt": "The Bund window graphics with oval patterns"
+    },
+    {
+     "file": "02",
+     "source": "Por/_web/the-bund/02.png",
+     "alt": "Takeaway bags and boxes with oval line drawings"
+    },
+    {
+     "file": "03",
+     "source": "Por/_web/the-bund/03.png",
+     "alt": "Poster of pink baozi on a tiled wall"
+    }
+   ]
+  },
+  {
+   "id": "bodhi",
+   "accent": "#b9b9b9",
+   "title": {
+    "en": "Bodhi and a Clear Reflecting Plane",
+    "zh": "菩提與明鏡"
+   },
+   "discipline": {
+    "en": "Posters",
+    "zh": "海報"
+   },
+   "filters": [
+    "poster"
+   ],
+   "client": null,
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "Two Zen verses, and a mirror with nothing on it to polish.",
+    "zh": "兩首禪偈，和一面沒有東西可以擦拭的鏡子。"
+   },
+   "description": {
+    "en": [
+     "Posters for an exhibition on one of Zen Buddhism’s most famous exchanges: the verses of the monks Shenxiu and Huineng. Shenxiu wrote that the body is a bodhi tree and the mind a bright mirror that must be polished so no dust can gather; Huineng replied that there was never a tree, never a mirror — so where could dust fall?",
+     "Brush-written characters are torn, smeared and rendered in silver, so that the image itself seems to dissolve as you read it — a visual answer to the question of whether anything was ever there."
+    ],
+    "zh": [
+     "為禪宗最有名的一段對話所做的展覽海報：神秀與惠能的偈語。神秀寫「身是菩提樹，心如明鏡臺，時時勤拂拭，勿使惹塵埃」；惠能回應「菩提本無樹，明鏡亦非臺，本來無一物，何處惹塵埃」。",
+     "書法字被撕裂、抹開，並轉成銀色，讀著讀著，畫面像是要消散——用視覺回答「本來無一物」。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "~/Documents/TDC2023/Taiwan_Tu _Hao Wei_ Bodhi.jpg",
+     "alt": "Silver brush strokes swirling on black, with the verses of Shenxiu and Huineng"
+    },
+    {
+     "file": "02",
+     "source": "~/Documents/TDC2023/FINAL.jpg",
+     "alt": "Grey poster with a large torn brush character and the title 菩提與明鏡"
+    }
+   ]
+  },
+  {
+   "id": "jsy-tea",
+   "accent": "#d23a2a",
+   "title": {
+    "en": "JSY Tea Gift Boxes",
+    "zh": "JSY Tea 禮盒"
+   },
+   "discipline": {
+    "en": "Packaging",
+    "zh": "包裝設計"
+   },
+   "filters": [
+    "packaging"
+   ],
+   "client": {
+    "en": "Tea1825 Pty Ltd (JSY Tea), with D&D Creative",
+    "zh": "Tea1825 Pty Ltd（JSY Tea），與 D&D Creative 合作"
+   },
+   "year": 2023,
+   "cover": "01",
+   "summary": {
+    "en": "Torn-paper mountains and gold-foiled ornaments.",
+    "zh": "撕紙堆疊的山，與燙金的聖誕飾品。"
+   },
+   "description": {
+    "en": [
+     "A Taiwanese tea brand with a branch in Australia launched its first festive gift box with a torn-paper pattern that mimics the layered silhouettes of mountains, using special printing techniques to bring out a sense of luxury.",
+     "A second box, for the Christmas season, draws on the ornaments of a Christmas tree, with gold foiling to create a festive atmosphere."
+    ],
+    "zh": [
+     "一個在澳洲設有分店的台灣茶品牌，推出第一款節慶禮盒：以撕紙圖紋模仿層層山巒，並用特殊印刷工藝強調質感。",
+     "第二款為聖誕季設計，靈感來自聖誕樹上的各式飾品，以燙金工藝營造節慶氣氛。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Studio: D&D Creative",
+     "zh": "工作室：D&D Creative"
+    },
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    },
+    {
+     "en": "Client: Tea1825 Pty Ltd (JSY Tea)",
+     "zh": "客戶：Tea1825 Pty Ltd（JSY Tea）"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "Por/_web/jsy-tea/01.png",
+     "alt": "Red gift boxes with layered torn-paper mountains and gold details"
+    }
+   ]
+  },
+  {
+   "id": "fengcai",
+   "accent": "#f2a33a",
+   "title": {
+    "en": "FengCai Dried Fruit",
+    "zh": "豐采果乾"
+   },
+   "discipline": {
+    "en": "Brand identity & packaging",
+    "zh": "品牌識別與包裝"
+   },
+   "filters": [
+    "identity",
+    "packaging"
+   ],
+   "client": null,
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "Real fruit, pressed straight onto the page.",
+    "zh": "把真的水果，直接壓印在紙上。"
+   },
+   "description": {
+    "en": [
+     "FengCai is a Taiwanese dried-fruit brand built on seasonal harvests and handmade, traditional methods. The rebrand set out to give it a new brand spirit and more points of contact with customers, and to stand apart in a crowded market without losing its local, home-made sincerity.",
+     "Positioned between the classic and the modern, the identity pairs an elegant, fresh logotype with patterns printed directly from real fruit, conveying both the handmade process and the quality of the produce. The prints use low-chroma, high-value colours for a fresh, healthy feel, and the text colour changes by product so the range is easy to tell apart."
+    ],
+    "zh": [
+     "豐采是一個以四季收成與古法手作為本的台灣果乾品牌。這次品牌重塑希望建立新的品牌精神、增加與顧客的接觸點，並在競爭激烈的市場中做出區隔，同時保留在地手作的誠意。",
+     "定位介於傳統與現代之間：典雅清新的標準字，搭配用真實水果直接壓印的圖紋，同時傳達手作精神與水果品質。壓印使用低彩度、高明度的顏色，呈現清新健康的感覺；文字顏色依產品更換，讓消費者一眼分辨。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    },
+    {
+     "en": "Instructor: Cocreatebrand Design",
+     "zh": "指導：Cocreatebrand Design"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "Por/_web/fengcai/01.png",
+     "alt": "Framed poster: Summer FengCai, with pressed fruit prints"
+    },
+    {
+     "file": "02",
+     "source": "Por/_web/fengcai/02.png",
+     "alt": "The FengCai logo over apples on a tree"
+    },
+    {
+     "file": "03",
+     "source": "Por/_web/fengcai/03.png",
+     "alt": "A pouch of dried tomatoes with a pink fruit print"
+    },
+    {
+     "file": "04",
+     "source": "Por/_web/fengcai/04.png",
+     "alt": "Black-and-white fruit print pattern"
+    },
+    {
+     "file": "05",
+     "source": "Por/_web/fengcai/05.png",
+     "alt": "White shopping bag with orange fruit prints"
+    },
+    {
+     "file": "06",
+     "source": "Por/_web/fengcai/06.png",
+     "alt": "Business cards with fruit prints on green"
+    }
+   ]
+  },
+  {
+   "id": "skywalker",
+   "accent": "#f5b335",
+   "title": {
+    "en": "Skywalker",
+    "zh": "Skywalker"
+   },
+   "discipline": {
+    "en": "App design",
+    "zh": "App 設計"
+   },
+   "filters": [
+    "digital"
+   ],
+   "client": null,
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "An app for swapping skies with strangers during lockdown.",
+    "zh": "疫情期間，和陌生人交換天空的 App。"
+   },
+   "description": {
+    "en": [
+     "Skywalker is an app for sharing photos and videos of the sky. During the pandemic, it encouraged people to share what they could see from their windows — clouds, light, passing birds — and to open a window onto someone else’s world.",
+     "Users create a paper-doll character, choose a direction with the compass and send their “skywalker” off. Skies can be exchanged through a small game, saved, answered with messages and browsed on a map showing where each one was sent and received. A postcard tool turns any sky into something to print and send to friends and family."
+    ],
+    "zh": [
+     "Skywalker 是一個分享天空照片與影片的 App。疫情期間，它鼓勵大家分享從窗口看見的天空——雲、光、飛過的鳥——也打開一扇窗，看看別人眼中的世界。",
+     "使用者用紙娃娃系統打造自己的角色，用指南針選擇方向，把自己的「天空旅人」送出去。天空可以透過小遊戲交換、收藏、留言回覆，也能在地圖上看到每一片天空寄出與收到的位置；明信片功能則能把任何一片天空印出來，寄給親朋好友。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    },
+    {
+     "en": "Instructor: Yang Zuhuai",
+     "zh": "指導：Yang Zuhuai"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "Por/_web/skywalker/01.png",
+     "alt": "A hand holding a phone with the Skywalker app outside"
+    },
+    {
+     "file": "02",
+     "source": "Por/_web/skywalker/02.png",
+     "alt": "Skywalker title card: Share Sky, Share Your Life"
+    },
+    {
+     "file": "03",
+     "source": "Por/_web/skywalker/03.png",
+     "alt": "App screens on a yellow gradient"
+    },
+    {
+     "file": "04",
+     "source": "Por/_web/skywalker/04.png",
+     "alt": "Phones showing shared skies"
+    },
+    {
+     "file": "05",
+     "source": "Por/_web/skywalker/05.png",
+     "alt": "Create postcards feature"
+    },
+    {
+     "file": "06",
+     "source": "Por/_web/skywalker/06.png",
+     "alt": "Fun little game screens"
+    },
+    {
+     "file": "07",
+     "source": "Por/_web/skywalker/07.png",
+     "alt": "Map system for sent and received skies"
+    },
+    {
+     "file": "08",
+     "source": "Por/_web/skywalker/08.png",
+     "alt": "Sent sky list"
+    },
+    {
+     "file": "09",
+     "source": "Por/_web/skywalker/09.png",
+     "alt": "Paper doll character builder"
+    }
+   ]
+  },
+  {
+   "id": "more-book-covers",
+   "accent": "#7a5cff",
+   "title": {
+    "en": "More Book Covers",
+    "zh": "其他書封"
+   },
+   "discipline": {
+    "en": "Book covers",
+    "zh": "書籍封面"
+   },
+   "filters": [
+    "book"
+   ],
+   "client": null,
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "Covers for self-help, writing and science titles.",
+    "zh": "心理勵志、寫作與科普書的封面。"
+   },
+   "description": {
+    "en": [
+     "A selection of further cover designs for Taiwanese publishers, including Rangan Chatterjee’s Happy Mind, Happy Life (你要快樂，才能好好生活) for Zhitian Publishing, drawn with a single joyful line, and a three-volume series of writing-vocabulary guides with stacked-book illustrations in purple, green and pink."
+    ],
+    "zh": [
+     "為台灣出版社設計的其他封面，包括知田出版的冉甘．查特吉（Rangan Chatterjee）《你要快樂，才能好好生活》——以一條快樂的線條畫成；以及三冊一套的寫作詞彙工具書，以紫、綠、粉紅三色的疊書插畫區分。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "~/Documents/未來書/234567890.png",
+     "alt": "Cover of 你要快樂，才能好好生活 with a jumping figure drawn in one line"
+    },
+    {
+     "file": "02",
+     "source": "~/Documents/未來書/立體書封03.png",
+     "alt": "Writing vocabulary guide with a purple stacked-books illustration"
+    },
+    {
+     "file": "03",
+     "source": "~/Documents/未來書/立體書封04.png",
+     "alt": "Writing vocabulary guide in green"
+    },
+    {
+     "file": "04",
+     "source": "~/Documents/未來書/立體書封05.png",
+     "alt": "Writing vocabulary guide in pink"
+    }
+   ]
+  },
+  {
+   "id": "design-practice-course",
+   "accent": "#8fb8c9",
+   "title": {
+    "en": "Visual Communication Design Practice",
+    "zh": "視覺傳達設計實務課"
+   },
+   "discipline": {
+    "en": "Course identity",
+    "zh": "課程視覺"
+   },
+   "filters": [
+    "poster",
+    "identity"
+   ],
+   "client": {
+    "en": "Self-initiated online course",
+    "zh": "自主線上課程"
+   },
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "Six online lessons, drawn as the Double Diamond.",
+    "zh": "六堂線上課，畫成雙鑽石模型。"
+   },
+   "description": {
+    "en": [
+     "Posters for a six-week online course I run for designers in Taiwan, sharing overseas practice through design thinking, human-centred design and visual identity systems.",
+     "The Double Diamond — a common diagram of the design process — is rendered as two faceted, textured cones that open out and narrow down, giving the course a single, recognisable image."
+    ],
+    "zh": [
+     "為我開設的六週線上課程所設計的海報。課程對象是台灣的設計師，以設計思考、以人為本的設計與視覺識別系統實務，分享海外的工作經驗。",
+     "設計流程中常見的「雙鑽石模型」，被畫成兩個帶有質感的多面錐體，一開一合，成為課程好記的單一形象。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "~/Documents/EMER/AGDA2025 檔案夾/Links/CAA1.jpg",
+     "alt": "Course poster with two faceted cones in muted greens, blues and browns"
+    },
+    {
+     "file": "02",
+     "source": "~/Documents/EMER/AGDA2025 檔案夾/Links/CAA2.jpg",
+     "alt": "Monochrome version of the course poster"
+    }
+   ]
+  },
+  {
+   "id": "bauhaus-workshop",
+   "accent": "#e6407d",
+   "title": {
+    "en": "Bauhaus Visual Experiment Workshop",
+    "zh": "包浩斯視覺實驗工作坊"
+   },
+   "discipline": {
+    "en": "Experimental image",
+    "zh": "實驗影像"
+   },
+   "filters": [
+    "poster"
+   ],
+   "client": null,
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "Images made without a computer: pigment, mirror paper and water.",
+    "zh": "不用電腦做出的影像：顏料、鏡面紙與水。"
+   },
+   "description": {
+    "en": [
+     "A three-day workshop with Markus Weisbeck (AGI), whose work treats the act of recording as the subject of the image: the picture is made by colliding objects and materials in front of the camera rather than by software.",
+     "Following the Bauhaus idea that point, line, plane and volume can be extended into endless possibilities, I sprayed pigment, placed mirror paper and drew beneath water, photographing the physical changes as they happened. The resulting images later became posters for novels I had read."
+    ],
+    "zh": [
+     "與 AGI 會員 Markus Weisbeck 一起進行的三天工作坊。他的創作把「記錄」本身當成影像的主體：畫面來自鏡頭前物件與材料的碰撞，而不是軟體。",
+     "依循包浩斯以點、線、面、體延伸出無限可能的觀念，我噴灑顏料、放置鏡面紙、在水面下作畫，並把物理變化的過程拍下來。這些影像後來成為我讀過的小說的海報。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    },
+    {
+     "en": "Instructor: Markus Weisbeck",
+     "zh": "指導：Markus Weisbeck"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "Por/_web/bauhaus-workshop/01.png",
+     "alt": "Bright pigment bursting across a white surface"
+    },
+    {
+     "file": "02",
+     "source": "Por/_web/bauhaus-workshop/02.png",
+     "alt": "A glowing green-and-pink ring on purple"
+    },
+    {
+     "file": "03",
+     "source": "Por/_web/bauhaus-workshop/03.png",
+     "alt": "Marbled pigment in pink, yellow and blue"
+    },
+    {
+     "file": "04",
+     "source": "Por/英文作品集2024檔案夾/Links/DU.HAO.WEI-FIRST DAY 13.jpg",
+     "alt": "Magenta and cyan pigment swirling on a light surface"
+    },
+    {
+     "file": "05",
+     "source": "Por/英文作品集2024檔案夾/Links/DU.HAO.WEI-FIRST DAY 15.jpg",
+     "alt": "Red droplets scattered over a green-to-black gradient"
+    },
+    {
+     "file": "06",
+     "source": "Por/英文作品集2024檔案夾/Links/K20D9767 拷貝.jpg",
+     "alt": "Two glowing orange circles on neon green"
+    },
+    {
+     "file": "07",
+     "source": "Por/英文作品集2024檔案夾/Links/K20D9779 2.jpg",
+     "alt": "Molten yellow, orange and red pigment"
+    }
+   ]
+  },
+  {
+   "id": "poster-studies",
+   "accent": "#f2c200",
+   "title": {
+    "en": "Poster Studies",
+    "zh": "海報練習"
+   },
+   "discipline": {
+    "en": "Posters & type experiments",
+    "zh": "海報與字體實驗"
+   },
+   "filters": [
+    "poster"
+   ],
+   "client": null,
+   "year": null,
+   "cover": "01",
+   "summary": {
+    "en": "Biennale entries, chrome letters and other things made between projects.",
+    "zh": "雙年展投件、鍍鉻字母，以及專案之間做的事。"
+   },
+   "description": {
+    "en": [
+     "A running collection of posters made for international biennales and competitions, alongside self-initiated type experiments: chrome-like 3D letterforms spelling Forever, November and Infinity; a carrier bag that reads Global Warming; and a pair of hand-lettered posters asking “Do you see the woman or the merchandise?”."
+    ],
+    "zh": [
+     "一路累積的海報作品：為國際雙年展與競賽所做的投件，以及自主的字體實驗——拼出 Forever、November、Infinity 的鍍鉻立體字；寫著 Global Warming 的塑膠袋；以及兩張手寫字海報，問「你看見的是女人，還是商品？」。"
+    ]
+   },
+   "credits": [
+    {
+     "en": "Designer: Hao Wei Tu",
+     "zh": "設計：杜浩瑋"
+    }
+   ],
+   "recognition": [],
+   "images": [
+    {
+     "file": "01",
+     "source": "~/Documents/bee/Taiwan_Tu _Hao Wei_Golden Bee.jpg",
+     "alt": "A chrome flower and a small golden bee"
+    },
+    {
+     "file": "02",
+     "source": "~/Documents/bee/Taiwan_Tu _Hao Wei_ golden bee.jpg",
+     "alt": "Orange line drawing of a flower on green"
+    },
+    {
+     "file": "03",
+     "source": "~/Documents/bee/Taiwan_Tu _Hao Wei_100 colors.jpg",
+     "alt": "Red and blue squares crossed by a diagonal line"
+    },
+    {
+     "file": "04",
+     "source": "~/Documents/bee/Taiwan_Tu _Hao Wei_100th.jpg",
+     "alt": "Symmetrical red and black geometric frame"
+    },
+    {
+     "file": "05",
+     "source": "~/Documents/bee/Taiwan_Tu _Hao Wei_City and Sun.jpg",
+     "alt": "A city skyline glowing orange"
+    },
+    {
+     "file": "06",
+     "source": "~/Documents/bee/Taiwan_Tu _Hao Wei_Another Life.jpg",
+     "alt": "Green brush strokes curling around a black line"
+    },
+    {
+     "file": "07",
+     "source": "~/Documents/bee/Taiwan_Tu _Hao Wei_30th.jpg",
+     "alt": "Red flowers and a bee on cyan"
+    },
+    {
+     "file": "08",
+     "source": "~/Documents/bee/30TH.jpg",
+     "alt": "Black-and-white bee and a sunflower on green"
+    },
+    {
+     "file": "09",
+     "source": "~/Documents/bee/0000000001_工作區域 1 複本 4.jpg",
+     "alt": "Engraved bee in flight with gold lettering"
+    },
+    {
+     "file": "10",
+     "source": "~/Documents/Tisdc/rr3.png",
+     "alt": "Chrome 3D letters spelling Forever"
+    },
+    {
+     "file": "11",
+     "source": "~/Documents/Tisdc/u6t.png",
+     "alt": "Chrome 3D letters spelling November"
+    },
+    {
+     "file": "12",
+     "source": "~/Documents/Tisdc/kkk'.png",
+     "alt": "Chrome 3D letters spelling Infinity"
+    },
+    {
+     "file": "13",
+     "source": "~/Documents/Tisdc/5mb.jpg",
+     "alt": "A blue plastic bag with Global Warming written on it"
+    },
+    {
+     "file": "14",
+     "source": "~/Documents/Tisdc/woman.jpg",
+     "alt": "Hand-lettered poster: Do you see the woman or the merchandise?"
+    },
+    {
+     "file": "15",
+     "source": "~/Documents/Tisdc/woman1.jpg",
+     "alt": "Second hand-lettered poster from the same pair"
+    }
+   ]
+  }
+ ]
+}

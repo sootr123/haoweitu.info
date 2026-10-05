@@ -1,0 +1,2033 @@
+{
+ "bio": {
+  "facts": [
+   {
+    "label": {
+     "en": "Role",
+     "zh": "職稱"
+    },
+    "value": {
+     "en": "Communication Designer<br/>PhD Candidate<br/>Design Director (Contract)",
+     "zh": "傳達設計師<br/>博士候選人<br/>設計總監（合約制）"
+    }
+   },
+   {
+    "label": {
+     "en": "Affiliation",
+     "zh": "所屬機構"
+    },
+    "value": {
+     "en": "Swinburne University<br/>D&amp;D Creative",
+     "zh": "斯威本科技大學<br/>D&amp;D Creative"
+    }
+   },
+   {
+    "label": {
+     "en": "Based",
+     "zh": "所在地"
+    },
+    "value": {
+     "en": "Melbourne<br/>Taipei",
+     "zh": "Melbourne<br/>Taipei"
+    }
+   }
+  ],
+  "lede": {
+   "en": "Hao Wei Tu is a communication designer and researcher — a PhD candidate in Design at <strong>Swinburne University of Technology</strong>, working in collaboration with Design Factory Melbourne and the Australian Nuclear Science and Technology Organisation (ANSTO) — and a Design Director (Contract) at Melbourne studio <strong>D&amp;D Creative</strong>, where he has led major rebrand projects across the CBD including Midcity Centre and Downtown Grocer. He specialises in brand strategy, visual storytelling and identity systems for both commercial and cultural clients, balancing aesthetics with strategic communication.",
+   "zh": "杜浩瑋是一位傳達設計師暨研究者，<strong>斯威本科技大學設計博士候選人</strong>，與墨爾本設計工廠（SDFM）及澳洲核能科學技術組織（ANSTO）合作進行研究。同時擔任墨爾本設計工作室 <strong>D&amp;D Creative</strong> 設計總監（合約制），主導墨爾本市中心多項品牌重塑專案，包含 Midcity Centre 與 Downtown Grocer。專精於商業與文化機構的品牌策略、視覺敘事與識別系統，於美學與策略性溝通之間取得平衡。"
+  },
+  "paragraphs": [
+   {
+    "en": "In 2022, Hao Wei made history as <strong>the first designer from Taiwan and East Asia to receive The One Club's Young Ones Portfolio Award</strong> in New York. His work has earned multiple international honours, including six Red Dot Design Awards, a Gold at Design for Asia, Silver, Bronze and Merit at The One Club ADC, the AIGA 365 Design Awards, shortlist recognition at D&amp;AD, and Excellence Awards across Communication Arts. His work has been featured multiple times in Communication Arts Magazine and exhibited internationally in Taiwan, Macau, Germany, Japan, and Poland.",
+    "zh": "2022 年，浩瑋創下歷史，成為<strong>台灣與東亞首位獲得紐約 The One Club 青年作品集大獎（Young Ones Portfolio）的設計師</strong>。作品先後榮獲六座德國紅點傳達設計獎、香港 DFA 亞洲最具影響力設計金獎、紐約 The One Club ADC 銀、銅與 Merit 多項殊榮、美國 AIGA 365 設計獎、英國 D&amp;AD 入選，以及《Communication Arts》多項 Excellence Awards。作品曾多次刊載於《Communication Arts》雜誌，並於台灣、澳門、德國、日本、波蘭等地展出。"
+   },
+   {
+    "en": "More recently, his portfolio has been recognised as a Winner at the New York Type Directors Club's TDC 72 (2026), at the Taiwan International Graphic Design Awards (2025), shortlisted in Communication Arts Design (2025), and selected for the Golden Bee Global Biennale.",
+    "zh": "近期，作品入選紐約 Type Directors Club TDC 72（2026）、2025 年台灣國際平面設計獎，於 Communication Arts Design（2025）入圍，並入選莫斯科金蜂海報雙年展。"
+   },
+   {
+    "en": "In 2025, he served as a mentor for the AGDA Professional Mentorship Program, was a finalist for Emerging Designer of the Year at the AGDA Awards, and spoke at TEDxSwinburne. He was a juror for the Design Institute of Australia's Graduate of the Year Awards in both 2025 and 2026. In 2026, he was invited to mentor Master's students through the Sint Lucas Antwerp – Karel de Grote-Hogeschool Internship Program.",
+    "zh": "2025 年，浩瑋擔任澳洲設計師協會（AGDA）專業導師計畫導師，入圍 AGDA Awards 年度新銳設計師，並於 TEDxSwinburne 擔任講者。他於 2025 與 2026 年擔任澳洲設計協會（DIA）Graduate of the Year Awards 評審。2026 年受邀擔任比利時 Sint Lucas Antwerp – Karel de Grote-Hogeschool 碩士生實習導師。"
+   }
+  ],
+  "video": "https://www.youtube.com/embed/79GARATpVJs"
+ },
+ "recognition": [
+  {
+   "title": {
+    "en": "Major International Honours",
+    "zh": "主要國際獎項"
+   },
+   "credit": null,
+   "rows": [
+    {
+     "year": "2026",
+     "title": {
+      "en": "Communication Arts — Feature &amp; Interview",
+      "zh": "美國《Communication Arts》傳達藝術 — 專訪及專文報導"
+     },
+     "href": "https://www.commarts.com/fresh/hao-wei-tu",
+     "sub": {
+      "en": "Invited feature published on website and across platforms · Communication Arts",
+      "zh": "受邀專訪，專文刊登於官網及各平台 · Communication Arts"
+     },
+     "result": "Feature",
+     "items": [],
+     "gallery": [
+      {
+       "src": "CA1.png",
+       "alt": "Communication Arts · Online Feature, 2026"
+      },
+      {
+       "src": "CA2.png",
+       "alt": "Communication Arts · Online Feature, 2026"
+      }
+     ]
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "The One Club Young Ones Portfolio Award",
+      "zh": "紐約 The One Club 青年作品集大獎"
+     },
+     "href": "https://www.oneclub.org/awards/youngones/-award/42419/tu-hao-wei/",
+     "sub": {
+      "en": "First recipient from Taiwan and East Asia · The One Club for Creativity, New York",
+      "zh": "台灣與東亞首位得主 · 紐約 The One Club for Creativity"
+     },
+     "result": "Winner ★",
+     "items": [],
+     "gallery": [
+      {
+       "src": "gallery/young-ones/portfolio-winner.jpg",
+       "alt": "The One Club Young Ones Portfolio Award, 2022 · New York"
+      }
+     ]
+    },
+    {
+     "year": "2025",
+     "title": {
+      "en": "Design Institute of Australia Graduate of the Year Awards",
+      "zh": "澳洲設計協會 年度新銳獎"
+     },
+     "href": "https://www.awards.design.org.au/gotya-jurors-2025",
+     "sub": {
+      "en": "Design Institute of Australia",
+      "zh": "澳洲設計協會"
+     },
+     "result": "Juror",
+     "items": [],
+     "gallery": [
+      {
+       "src": "gallery/dia/1.jpg",
+       "alt": "Design Institute of Australia Graduate of the Year Awards · Juror, 2025"
+      }
+     ]
+    },
+    {
+     "year": "2026",
+     "title": {
+      "en": "NY TDC 72 — Type Directors Club",
+      "zh": "紐約 TDC 字體設計大獎 第 72 屆"
+     },
+     "href": "https://enter.tdc.org/finalists/",
+     "sub": {
+      "en": "Type Directors Club, New York",
+      "zh": "紐約字體指導俱樂部"
+     },
+     "result": "Winner",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "Red Dot Design Award — Best of the Best",
+      "zh": "德國紅點傳達設計獎 — 最佳設計獎"
+     },
+     "href": "https://www.red-dot.org/project/dad-exhibition-in-taiwan-75108",
+     "sub": {
+      "en": "Brands &amp; Communication Design · D&amp;AD Exhibition in Taiwan",
+      "zh": "品牌與傳達設計類 · 作品「D&amp;AD 設計展在台灣」"
+     },
+     "result": "Best of the Best",
+     "items": [],
+     "gallery": [
+      {
+       "src": "gallery/dad-exhibition/red-dot-team.jpg",
+       "alt": "Red Dot Best of the Best · D&AD Exhibition in Taiwan, 2022"
+      }
+     ]
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "D&amp;AD Awards",
+      "zh": "英國 D&amp;AD 設計與廣告大獎"
+     },
+     "href": "https://www.dandad.org/annual/2022/entry/professional/235740",
+     "sub": {
+      "en": "D&amp;AD, London",
+      "zh": "英國倫敦"
+     },
+     "result": "Shortlist",
+     "items": [],
+     "gallery": []
+    }
+   ]
+  },
+  {
+   "title": {
+    "en": "Design Work in Melbourne",
+    "zh": "墨爾本設計作品"
+   },
+   "credit": "Designed at D&amp;D Creative · Melbourne, 2022–present",
+   "rows": []
+  },
+  {
+   "title": {
+    "en": "Recognition by Programme",
+    "zh": "各獎項多次獲獎"
+   },
+   "credit": null,
+   "rows": [
+    {
+     "year": "2018–2022",
+     "title": {
+      "en": "Red Dot Design Award",
+      "zh": "德國紅點設計獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "Six wins across Brands &amp; Communication Design and Concept",
+      "zh": "品牌、傳達設計與概念設計類，共六項獲獎"
+     },
+     "result": "×6 Wins",
+     "items": [
+      {
+       "year": "2022",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.red-dot.org/project/dad-exhibition-in-taiwan-75108\" rel=\"noopener\" target=\"_blank\">D&amp;AD Exhibition in Taiwan</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.red-dot.org/project/dad-exhibition-in-taiwan-75108\" rel=\"noopener\" target=\"_blank\">D&amp;AD Exhibition in Taiwan</a>"
+       },
+       "href": "https://www.red-dot.org/project/dad-exhibition-in-taiwan-75108",
+       "result": "Best of the Best"
+      },
+      {
+       "year": "2022",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.red-dot.org/project/islanders-summer-homework-60227\" rel=\"noopener\" target=\"_blank\">Islander's Summer Homework</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.red-dot.org/project/islanders-summer-homework-60227\" rel=\"noopener\" target=\"_blank\">Islander's Summer Homework</a>"
+       },
+       "href": "https://www.red-dot.org/project/islanders-summer-homework-60227",
+       "result": "Concept Award"
+      },
+      {
+       "year": "2021",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.red-dot.org/project/pork-floss-for-hulk-54701\" rel=\"noopener\" target=\"_blank\">Pork Floss for Hulk</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.red-dot.org/project/pork-floss-for-hulk-54701\" rel=\"noopener\" target=\"_blank\">Pork Floss for Hulk</a>"
+       },
+       "href": "https://www.red-dot.org/project/pork-floss-for-hulk-54701",
+       "result": "Packaging"
+      },
+      {
+       "year": "2021",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.red-dot.org/project/rebuild-taiwans-traditional-culture-54798\" rel=\"noopener\" target=\"_blank\">Rebuild Taiwan's Traditional Culture</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.red-dot.org/project/rebuild-taiwans-traditional-culture-54798\" rel=\"noopener\" target=\"_blank\">Rebuild Taiwan's Traditional Culture</a>"
+       },
+       "href": "https://www.red-dot.org/project/rebuild-taiwans-traditional-culture-54798",
+       "result": "Posters"
+      },
+      {
+       "year": "2019",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.red-dot.org/project/power-malt-40825\" rel=\"noopener\" target=\"_blank\">Power Malt</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.red-dot.org/project/power-malt-40825\" rel=\"noopener\" target=\"_blank\">Power Malt</a>"
+       },
+       "href": "https://www.red-dot.org/project/power-malt-40825",
+       "result": "Communication"
+      },
+      {
+       "year": "2018",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.red-dot.org/project/taiwan-international-festival-of-arts-25399\" rel=\"noopener\" target=\"_blank\">Taiwan International Festival of Arts</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.red-dot.org/project/taiwan-international-festival-of-arts-25399\" rel=\"noopener\" target=\"_blank\">Taiwan International Festival of Arts</a>"
+       },
+       "href": "https://www.red-dot.org/project/taiwan-international-festival-of-arts-25399",
+       "result": "Communication"
+      }
+     ],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "The One Club ADC Annual Awards",
+      "zh": "紐約 ADC 年度設計獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "The One Club for Creativity, New York · all for D&amp;AD Exhibition in Taiwan",
+      "zh": "紐約 The One Club · 全為作品「D&amp;AD 設計展在台灣」"
+     },
+     "result": "Silver / 2× Bronze / Merit",
+     "items": [
+      {
+       "year": "2022",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/adcawards/-award/42564/dad-exhibition-in-taiwan-posters/\" rel=\"noopener\" target=\"_blank\">D&amp;AD Exhibition in Taiwan · Posters</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/adcawards/-award/42564/dad-exhibition-in-taiwan-posters/\" rel=\"noopener\" target=\"_blank\">D&amp;AD Exhibition in Taiwan · Posters</a>"
+       },
+       "href": "https://www.oneclub.org/awards/adcawards/-award/42564/dad-exhibition-in-taiwan-posters/",
+       "result": "Silver"
+      },
+      {
+       "year": "2022",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/adcawards/-award/42573/dad-exhibition-in-taiwan/\" rel=\"noopener\" target=\"_blank\">D&amp;AD Exhibition in Taiwan</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/adcawards/-award/42573/dad-exhibition-in-taiwan/\" rel=\"noopener\" target=\"_blank\">D&amp;AD Exhibition in Taiwan</a>"
+       },
+       "href": "https://www.oneclub.org/awards/adcawards/-award/42573/dad-exhibition-in-taiwan/",
+       "result": "Bronze"
+      },
+      {
+       "year": "2022",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/adcawards/-award/42571/dad-exhibition-in-taiwan/\" rel=\"noopener\" target=\"_blank\">D&amp;AD Exhibition in Taiwan</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/adcawards/-award/42571/dad-exhibition-in-taiwan/\" rel=\"noopener\" target=\"_blank\">D&amp;AD Exhibition in Taiwan</a>"
+       },
+       "href": "https://www.oneclub.org/awards/adcawards/-award/42571/dad-exhibition-in-taiwan/",
+       "result": "Bronze"
+      },
+      {
+       "year": "2022",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/adcawards/-award/42876/dad-exhibition-in-taiwan/\" rel=\"noopener\" target=\"_blank\">D&amp;AD Exhibition in Taiwan</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/adcawards/-award/42876/dad-exhibition-in-taiwan/\" rel=\"noopener\" target=\"_blank\">D&amp;AD Exhibition in Taiwan</a>"
+       },
+       "href": "https://www.oneclub.org/awards/adcawards/-award/42876/dad-exhibition-in-taiwan/",
+       "result": "Merit"
+      }
+     ],
+     "gallery": []
+    },
+    {
+     "year": "2019–2022",
+     "title": {
+      "en": "The Young Ones ADC",
+      "zh": "紐約 ADC 青年設計獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "The One Club for Creativity, New York",
+      "zh": "紐約 The One Club"
+     },
+     "result": "Portfolio Winner + 3× Merit",
+     "items": [
+      {
+       "year": "2022",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/youngones/-award/42419/tu-hao-wei/\" rel=\"noopener\" target=\"_blank\">Tu Hao-Wei (Portfolio)</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/youngones/-award/42419/tu-hao-wei/\" rel=\"noopener\" target=\"_blank\">Tu Hao-Wei (Portfolio)</a>"
+       },
+       "href": "https://www.oneclub.org/awards/youngones/-award/42419/tu-hao-wei/",
+       "result": "Winner ★"
+      },
+      {
+       "year": "2021",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/youngones/-award/41255/pork-floss-for-hulk/\" rel=\"noopener\" target=\"_blank\">Pork Floss for Hulk</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/youngones/-award/41255/pork-floss-for-hulk/\" rel=\"noopener\" target=\"_blank\">Pork Floss for Hulk</a>"
+       },
+       "href": "https://www.oneclub.org/awards/youngones/-award/41255/pork-floss-for-hulk/",
+       "result": "Merit"
+      },
+      {
+       "year": "2019",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/youngones/-award/34337/taipei-zoo/\" rel=\"noopener\" target=\"_blank\">Taipei Zoo</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/youngones/-award/34337/taipei-zoo/\" rel=\"noopener\" target=\"_blank\">Taipei Zoo</a>"
+       },
+       "href": "https://www.oneclub.org/awards/youngones/-award/34337/taipei-zoo/",
+       "result": "Merit"
+      },
+      {
+       "year": "2019",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/youngones/-award/34340/chinese-character-festival/\" rel=\"noopener\" target=\"_blank\">Chinese Character Festival</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.oneclub.org/awards/youngones/-award/34340/chinese-character-festival/\" rel=\"noopener\" target=\"_blank\">Chinese Character Festival</a>"
+       },
+       "href": "https://www.oneclub.org/awards/youngones/-award/34340/chinese-character-festival/",
+       "result": "Merit"
+      }
+     ],
+     "gallery": []
+    },
+    {
+     "year": "2018–2025",
+     "title": {
+      "en": "Communication Arts",
+      "zh": "美國《Communication Arts》傳達藝術"
+     },
+     "href": null,
+     "sub": {
+      "en": "Magazine features and competition recognition",
+      "zh": "雜誌專訪與競賽肯定"
+     },
+     "result": "7× Recognition",
+     "items": [
+      {
+       "year": "2022",
+       "name": {
+        "en": "Personal Interview · Interaction Annual 28, p. 64",
+        "zh": "個人專訪 · Interaction Annual 28，第 64 頁"
+       },
+       "href": null,
+       "result": "<span class=\"en\">Print</span><span class=\"zh\">實體</span>"
+      },
+      {
+       "year": "2022",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.commarts.com/project/33729/graduation-moment\" rel=\"noopener\" target=\"_blank\">Graduation Moment</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.commarts.com/project/33729/graduation-moment\" rel=\"noopener\" target=\"_blank\">Graduation Moment</a>"
+       },
+       "href": "https://www.commarts.com/project/33729/graduation-moment",
+       "result": "Typography Annual · Excellence Award"
+      },
+      {
+       "year": "2020",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.commarts.com/project/33229/islander-s-summer-homework\" rel=\"noopener\" target=\"_blank\">Islander's Summer Homework</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.commarts.com/project/33229/islander-s-summer-homework\" rel=\"noopener\" target=\"_blank\">Islander's Summer Homework</a>"
+       },
+       "href": "https://www.commarts.com/project/33229/islander-s-summer-homework",
+       "result": "Design Annual · Excellence Award"
+      },
+      {
+       "year": "2018",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.commarts.com/project/27683/taiwan-international-festival-of-arts\" rel=\"noopener\" target=\"_blank\">Taiwan International Festival of Arts</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.commarts.com/project/27683/taiwan-international-festival-of-arts\" rel=\"noopener\" target=\"_blank\">Taiwan International Festival of Arts</a>"
+       },
+       "href": "https://www.commarts.com/project/27683/taiwan-international-festival-of-arts",
+       "result": "Design Annual · Excellence Award"
+      },
+      {
+       "year": "2025",
+       "name": {
+        "en": "Innovation 20",
+        "zh": "Innovation 20"
+       },
+       "href": null,
+       "result": "Design Annual · Shortlist"
+      }
+     ],
+     "gallery": []
+    },
+    {
+     "year": "2019–2025",
+     "title": {
+      "en": "Taiwan International Graphic Design Awards (TiGDA)",
+      "zh": "台灣國際平面設計獎 TiGDA"
+     },
+     "href": null,
+     "sub": {
+      "en": "Taiwan Design Research Institute · Ministry of Economic Affairs",
+      "zh": "台灣設計研究院 · 經濟部"
+     },
+     "result": "4 Years / 6× Wins",
+     "items": [
+      {
+       "year": "2025",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.tigda.org.tw/Post/182676\" rel=\"noopener\" target=\"_blank\">Downtown Grocer</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.tigda.org.tw/Post/182676\" rel=\"noopener\" target=\"_blank\">Downtown Grocer</a>"
+       },
+       "href": "https://www.tigda.org.tw/Post/182676",
+       "result": "Winner"
+      },
+      {
+       "year": "2023",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.tigda.org.tw/Post/181769\" rel=\"noopener\" target=\"_blank\">D&amp;AD Taiwan Exhibition</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.tigda.org.tw/Post/181769\" rel=\"noopener\" target=\"_blank\">D&amp;AD Taiwan Exhibition</a>"
+       },
+       "href": "https://www.tigda.org.tw/Post/181769",
+       "result": "Silver · Judge Panel Special"
+      },
+      {
+       "year": "2021",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.tigda.org.tw/Post/180991\" rel=\"noopener\" target=\"_blank\">Taiwan Tech Design Week</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.tigda.org.tw/Post/180991\" rel=\"noopener\" target=\"_blank\">Taiwan Tech Design Week</a>"
+       },
+       "href": "https://www.tigda.org.tw/Post/180991",
+       "result": "Distinction"
+      },
+      {
+       "year": "2021",
+       "name": {
+        "en": "Rebuild Taiwan's Traditional Culture",
+        "zh": "重建台灣傳統文化"
+       },
+       "href": null,
+       "result": "Distinction"
+      },
+      {
+       "year": "2019",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.tigda.org.tw/Post/80623\" rel=\"noopener\" target=\"_blank\">Taipei Zoo</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.tigda.org.tw/Post/80623\" rel=\"noopener\" target=\"_blank\">Taipei Zoo</a>"
+       },
+       "href": "https://www.tigda.org.tw/Post/80623",
+       "result": "Youth Award"
+      },
+      {
+       "year": "2019",
+       "name": {
+        "en": "<a class=\"ul\" href=\"https://www.tigda.org.tw/Post/80621\" rel=\"noopener\" target=\"_blank\">Taipei Zoo</a>",
+        "zh": "<a class=\"ul\" href=\"https://www.tigda.org.tw/Post/80621\" rel=\"noopener\" target=\"_blank\">Taipei Zoo</a>"
+       },
+       "href": "https://www.tigda.org.tw/Post/80621",
+       "result": "TADA Award"
+      }
+     ],
+     "gallery": []
+    },
+    {
+     "year": "2018–2023",
+     "title": {
+      "en": "Taiwan International Student Design / Creative Competition (TISDC)",
+      "zh": "台灣國際學生設計（創意）競賽 TISDC"
+     },
+     "href": null,
+     "sub": {
+      "en": "Ministry of Education, Taiwan",
+      "zh": "中華民國教育部"
+     },
+     "result": "Bronze · 2× Finalist · 3× HM/Nom",
+     "items": [
+      {
+       "year": "2023",
+       "name": {
+        "en": "—",
+        "zh": "—"
+       },
+       "href": null,
+       "result": "Finalist"
+      },
+      {
+       "year": "2022",
+       "name": {
+        "en": "—",
+        "zh": "—"
+       },
+       "href": null,
+       "result": "Finalist"
+      },
+      {
+       "year": "2020",
+       "name": {
+        "en": "—",
+        "zh": "—"
+       },
+       "href": null,
+       "result": "Honourable Mention"
+      },
+      {
+       "year": "2018",
+       "name": {
+        "en": "—",
+        "zh": "—"
+       },
+       "href": null,
+       "result": "Bronze"
+      },
+      {
+       "year": "2018",
+       "name": {
+        "en": "—",
+        "zh": "—"
+       },
+       "href": null,
+       "result": "Honourable Mention"
+      },
+      {
+       "year": "2018",
+       "name": {
+        "en": "—",
+        "zh": "—"
+       },
+       "href": null,
+       "result": "Finalist"
+      }
+     ],
+     "gallery": []
+    }
+   ]
+  },
+  {
+   "title": {
+    "en": "International Exhibitions &amp; Competitions",
+    "zh": "國際展覽與競賽"
+   },
+   "credit": null,
+   "rows": [
+    {
+     "year": "2022",
+     "title": {
+      "en": "iF Design Award",
+      "zh": "德國 iF 設計獎"
+     },
+     "href": "https://ifdesign.com/en/winner-ranking/project/dad-exhibition-in-taiwan/571705",
+     "sub": {
+      "en": "iF Design, Hanover · D&amp;AD Exhibition in Taiwan",
+      "zh": "德國 iF Design · 作品「D&amp;AD 設計展在台灣」"
+     },
+     "result": "Winner",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "Taipei Design Award",
+      "zh": "台北設計獎"
+     },
+     "href": "https://taipeidaward.taipei/Post/181448",
+     "sub": {
+      "en": "Taipei City Government",
+      "zh": "台北市政府"
+     },
+     "result": "Bronze",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "Korea MAD Award",
+      "zh": "韓國 MAD 獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "Korea",
+      "zh": "韓國"
+     },
+     "result": "3× Bronze + Crystal",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "Taiwan 4A Creative Award",
+      "zh": "台灣 4A 廣告創意獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "4A Association of Taiwan",
+      "zh": "台灣廣告主協會 4A"
+     },
+     "result": "Best Poster Gold · Branding Silver",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "Design Week Awards",
+      "zh": "英國 Design Week 獎"
+     },
+     "href": "https://www.designweek.co.uk/design-week-awards-2022-the-shortlist-in-full/",
+     "sub": {
+      "en": "Design Week, London",
+      "zh": "英國 Design Week，倫敦"
+     },
+     "result": "Highly Commended",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "Drum Design Awards",
+      "zh": "Drum 設計獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "The Drum, UK",
+      "zh": "英國 The Drum"
+     },
+     "result": "Winner",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "The One Show",
+      "zh": "紐約 The One Show"
+     },
+     "href": null,
+     "sub": {
+      "en": "Creative Effectiveness Design · The One Club for Creativity, New York",
+      "zh": "創意效益設計類 · 紐約 The One Club for Creativity"
+     },
+     "result": "Shortlist",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "Longxi Creative Award",
+      "zh": "龍璽獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "Design",
+      "zh": "設計類"
+     },
+     "result": "Bronze",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "Golden Bee Global Biennale",
+      "zh": "莫斯科金蜂海報雙年展"
+     },
+     "href": null,
+     "sub": {
+      "en": "Moscow, Russia",
+      "zh": "俄羅斯莫斯科"
+     },
+     "result": "Selected",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "SEGD Global Design Awards",
+      "zh": "SEGD 國際設計獎"
+     },
+     "href": "https://segd.org/projects/dad-exhibition-in-taiwan/",
+     "sub": {
+      "en": "Society for Experiential Graphic Design",
+      "zh": "體驗式平面設計協會"
+     },
+     "result": "Finalist",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "Communication Arts Typography Annual",
+      "zh": "美國《Communication Arts》字體設計年鑑"
+     },
+     "href": null,
+     "sub": {
+      "en": "Communication Arts, USA",
+      "zh": "美國 Communication Arts"
+     },
+     "result": "Excellence Award · Shortlist",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "Communication Arts Student Showcase",
+      "zh": "美國《Communication Arts》學生作品展"
+     },
+     "href": null,
+     "sub": {
+      "en": "Communication Arts, USA",
+      "zh": "美國 Communication Arts"
+     },
+     "result": "Selected",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2022",
+     "title": {
+      "en": "Graphis Magazine",
+      "zh": "美國 Graphis 雜誌"
+     },
+     "href": null,
+     "sub": {
+      "en": "Graphis, New York",
+      "zh": "紐約 Graphis"
+     },
+     "result": "Platinum",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2021",
+     "title": {
+      "en": "London International Awards",
+      "zh": "倫敦國際廣告獎 LIA"
+     },
+     "href": null,
+     "sub": {
+      "en": "Chinese Creativity Show · London",
+      "zh": "中文創意類 · 倫敦"
+     },
+     "result": "Bronze",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2021",
+     "title": {
+      "en": "HKDA Global Design Awards",
+      "zh": "香港設計師協會全球設計獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "Hong Kong Designers Association",
+      "zh": "香港設計師協會"
+     },
+     "result": "Judges Choice · Excellence",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2021",
+     "title": {
+      "en": "Taiwan 4A Creative Award",
+      "zh": "台灣 4A 廣告創意獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "4A Association of Taiwan",
+      "zh": "台灣廣告主協會 4A"
+     },
+     "result": "Silver · Bronze · Excellent Work",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2021",
+     "title": {
+      "en": "Longxi Creative Award",
+      "zh": "龍璽獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "Public Welfare · Outdoor · Design",
+      "zh": "公益 · 戶外 · 設計類"
+     },
+     "result": "Gold · 2× Silver",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2021",
+     "title": {
+      "en": "Lahti International Poster Triennial",
+      "zh": "芬蘭拉赫第國際海報三年展"
+     },
+     "href": null,
+     "sub": {
+      "en": "Lahti, Finland · Two posters selected",
+      "zh": "芬蘭拉赫第 · 兩件作品入選"
+     },
+     "result": "Selected",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2021",
+     "title": {
+      "en": "JAGDA International Student Poster Award",
+      "zh": "日本 JAGDA 國際學生海報獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "Japan Graphic Designers Association, Tokyo",
+      "zh": "日本平面設計協會"
+     },
+     "result": "Selected",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2021",
+     "title": {
+      "en": "4A Golden Seal Award",
+      "zh": "4A 金印獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "Creative Integration Communication · 4A Association of Taiwan",
+      "zh": "創意整合傳播類 · 台灣廣告主協會 4A"
+     },
+     "result": "Silver",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2021",
+     "title": {
+      "en": "China 4A Creative Award",
+      "zh": "中國4A創意獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "China Business Advertisement Association",
+      "zh": "中國商務廣告協會"
+     },
+     "result": "Winner",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2021",
+     "title": {
+      "en": "iF Social Impact Prize",
+      "zh": "德國 iF 社會影響力獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "iF Design, Hanover",
+      "zh": "德國 iF Design，漢諾威"
+     },
+     "result": "Shortlist",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2020",
+     "title": {
+      "en": "Golden Pin Concept Design Award",
+      "zh": "金點概念設計獎"
+     },
+     "href": "https://www2.goldenpin.org.tw/project/%E5%B3%B6%E6%B0%91%E7%9A%84%E6%9A%91%E5%81%87%E4%BD%9C%E6%A5%AD-2/",
+     "sub": {
+      "en": "Taiwan Design Research Institute · Islander's Summer Homework",
+      "zh": "台灣設計研究院 · 作品「島民的暑假作業」"
+     },
+     "result": "Winner",
+     "items": [],
+     "gallery": [
+      {
+       "src": "gallery/islanders/1.jpg",
+       "alt": "Golden Pin Concept Design Award · Islander's Summer Homework, 2020"
+      }
+     ]
+    },
+    {
+     "year": "2020",
+     "title": {
+      "en": "Golden Pin Design Award",
+      "zh": "金點設計獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "Taiwan Design Research Institute · Islander's Summer Homework",
+      "zh": "台灣設計研究院 · 作品「島民的暑假作業」"
+     },
+     "result": "Selected",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2020",
+     "title": {
+      "en": "Golden Pin Young Designer Award",
+      "zh": "金點新秀設計獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "Taiwan Design Research Institute · Packaging Design + Sponsor Award + 6× Shortlist",
+      "zh": "台灣設計研究院 · 包裝設計類獲獎 · 廠商贊助獎 · 六項入圍"
+     },
+     "result": "Gold · Sponsor Award · 6× Shortlist",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2020",
+     "title": {
+      "en": "Ministry of Culture — Cultural Heritage Creative Season Exhibition",
+      "zh": "文化部文資創意季設計展"
+     },
+     "href": null,
+     "sub": {
+      "en": "Ministry of Culture, Taiwan",
+      "zh": "中華民國文化部"
+     },
+     "result": "Visual Communication Gold · 2× Nomination",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2020",
+     "title": {
+      "en": "TCIYDC — Confederation of Indian Industry",
+      "zh": "TCIYDC — 印度工業聯合會"
+     },
+     "href": null,
+     "sub": {
+      "en": "Confederation of Indian Industry Special Award",
+      "zh": "印度工業聯合會特別獎"
+     },
+     "result": "Special Award",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2019",
+     "title": {
+      "en": "Macau Design Biennial",
+      "zh": "澳門設計雙年展"
+     },
+     "href": null,
+     "sub": {
+      "en": "Identity Design category · Macau",
+      "zh": "活動識別類 · 澳門"
+     },
+     "result": "Winner",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2019",
+     "title": {
+      "en": "Hiiibrand International Design Competition",
+      "zh": "Hiiibrand 國際設計大賽"
+     },
+     "href": null,
+     "sub": {
+      "en": "Packaging Design",
+      "zh": "包裝設計類"
+     },
+     "result": "Bronze",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2019",
+     "title": {
+      "en": "Adobe Award",
+      "zh": "Adobe 獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "Adobe Inc., USA",
+      "zh": "美國 Adobe Inc."
+     },
+     "result": "Top Talent",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2018",
+     "title": {
+      "en": "Cross-Strait Chinese Character Creative Competition",
+      "zh": "兩岸漢字文化創意競賽"
+     },
+     "href": null,
+     "sub": {
+      "en": "Taiwan · Cross-Strait cultural exchange competition",
+      "zh": "兩岸文化交流競賽"
+     },
+     "result": "Gold · Excellence Award",
+     "items": [],
+     "gallery": []
+    }
+   ]
+  },
+  {
+   "title": {
+    "en": "Practice, Service &amp; Speaking",
+    "zh": "實務、服務與演講"
+   },
+   "credit": null,
+   "rows": [
+    {
+     "year": "2026",
+     "title": {
+      "en": "Design Institute of Australia Graduate of the Year Awards",
+      "zh": "澳洲設計協會 年度新銳獎"
+     },
+     "href": null,
+     "sub": {
+      "en": "Design Institute of Australia",
+      "zh": "澳洲設計協會"
+     },
+     "result": "Juror",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2026",
+     "title": {
+      "en": "The One Club for Creativity — Creative Week · Online Portfolio Review",
+      "zh": "紐約 The One Club for Creativity — 創意週 · 線上作品集評審"
+     },
+     "href": null,
+     "sub": {
+      "en": "Online Portfolio Review · Reviewer · The One Club for Creativity, New York",
+      "zh": "線上作品集評審 · Reviewer · 紐約 The One Club for Creativity"
+     },
+     "result": "Reviewer",
+     "items": [],
+     "gallery": [
+      {
+       "src": "Portfolio1.jpg",
+       "alt": "The One Club Creative Week · Online Portfolio Review, 2026"
+      },
+      {
+       "src": "Portfolio2.jpg",
+       "alt": "The One Club Creative Week · Online Portfolio Review, 2026"
+      }
+     ]
+    },
+    {
+     "year": "2026",
+     "title": {
+      "en": "Sint Lucas Antwerp – Karel de Grote-Hogeschool",
+      "zh": "比利時 Sint Lucas Antwerp – Karel de Grote-Hogeschool"
+     },
+     "href": null,
+     "sub": {
+      "en": "Mentor for Master of Fine Arts Internship Program, Antwerp, Belgium",
+      "zh": "藝術碩士實習計畫導師，比利時安特衛普"
+     },
+     "result": "Mentor",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2026",
+     "title": {
+      "en": "RMIT University Taiwanese Students Association — Speaker",
+      "zh": "墨爾本皇家理工學院台灣學生會（RMIT TSA）— 講者"
+     },
+     "href": null,
+     "sub": {
+      "en": "Invited speaker · RMIT TSA, Melbourne",
+      "zh": "受邀講者 · RMIT TSA，墨爾本"
+     },
+     "result": "Speaker",
+     "items": [],
+     "gallery": [
+      {
+       "src": "RTSA2026.JPG",
+       "alt": "RMIT TSA · Speaker, 2026"
+      }
+     ]
+    },
+    {
+     "year": "2025",
+     "title": {
+      "en": "Design Institute of Australia Graduate of the Year Awards",
+      "zh": "澳洲設計協會 年度新銳獎"
+     },
+     "href": "https://www.awards.design.org.au/gotya-jurors-2025",
+     "sub": {
+      "en": "Design Institute of Australia",
+      "zh": "澳洲設計協會"
+     },
+     "result": "Juror",
+     "items": [],
+     "gallery": [
+      {
+       "src": "gallery/dia/1.jpg",
+       "alt": "Design Institute of Australia Graduate of the Year Awards · Juror, 2025"
+      }
+     ]
+    },
+    {
+     "year": "2025",
+     "title": {
+      "en": "AGDA Awards · Emerging Designer of the Year",
+      "zh": "澳洲設計師協會 年度新銳設計師"
+     },
+     "href": "https://agda.com.au/awards/results/8488/",
+     "sub": {
+      "en": "Australian Graphic Design Association",
+      "zh": "澳洲設計師協會"
+     },
+     "result": "Finalist",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2025",
+     "title": {
+      "en": "AGDA Professional Mentorship Program",
+      "zh": "AGDA 專業導師計畫"
+     },
+     "href": null,
+     "sub": {
+      "en": "Australian Graphic Design Association · portfolio mentoring for recent graduates",
+      "zh": "澳洲設計師協會 · 為畢業生提供作品集指導"
+     },
+     "result": "Mentor",
+     "items": [],
+     "gallery": [
+      {
+       "src": "gallery/agda/1.jpg",
+       "alt": "AGDA Professional Mentorship Program · Mentor, 2025"
+      }
+     ]
+    },
+    {
+     "year": "2025",
+     "title": {
+      "en": "TEDxSwinburne University",
+      "zh": "TEDxSwinburne 講座"
+     },
+     "href": "https://www.ted.com/tedx/events/65699",
+     "sub": {
+      "en": "Melbourne, Australia",
+      "zh": "澳洲墨爾本"
+     },
+     "result": "Speaker",
+     "items": [],
+     "gallery": []
+    },
+    {
+     "year": "2025",
+     "title": {
+      "en": "IASDR 2025 — International Association of Societies of Design Research",
+      "zh": "IASDR 2025 國際設計研究學會大會"
+     },
+     "href": "https://doi.org/10.21606/iasdr.2025.1007",
+     "sub": {
+      "en": "Conference paper presented in Taipei",
+      "zh": "於台北發表完整論文"
+     },
+     "result": "Paper",
+     "items": [],
+     "gallery": [
+      {
+       "src": "gallery/iasdr/presentation.jpg",
+       "alt": "IASDR 2025 · Conference Paper, Taipei"
+      }
+     ]
+    },
+    {
+     "year": "2025",
+     "title": {
+      "en": "Taiwan Tech Department of Design Student Association — Invited Speaker",
+      "zh": "國立臺灣科技大學設計系學會講座 — 講者"
+     },
+     "href": null,
+     "sub": {
+      "en": "Invited speaker by student association · Taiwan Tech Department of Design, Taipei",
+      "zh": "受邀系學會講座講者 · 國立臺灣科技大學設計系，台北"
+     },
+     "result": "Speaker",
+     "items": [],
+     "gallery": [
+      {
+       "src": "Taiwan Tech 2025.jpg",
+       "alt": "Taiwan Tech Department of Design · Guest Lecture, 2025"
+      }
+     ]
+    },
+    {
+     "year": "2025",
+     "title": {
+      "en": "Taiwan Tech Design Week — Portfolio Reviewer",
+      "zh": "國立臺灣科技大學設計系設計週（Taiwan Tech Design Week）— 作品集初審查者"
+     },
+     "href": null,
+     "sub": {
+      "en": "Portfolio reviewer · Taiwan Tech Design Week, Taipei",
+      "zh": "作品集初審查者 · 台灣科大設計週，台北"
+     },
+     "result": "Reviewer",
+     "items": [],
+     "gallery": [
+      {
+       "src": "Taiwan Tech Design Week2025.png",
+       "alt": "Taiwan Tech Design Week · Portfolio Reviewer, 2025"
+      }
+     ]
+    },
+    {
+     "year": "2023",
+     "title": {
+      "en": "Taiwan Tech Department of Design Student Association — Invited Speaker",
+      "zh": "國立臺灣科技大學設計系學會講座 — 講者"
+     },
+     "href": null,
+     "sub": {
+      "en": "Invited speaker by student association · Taiwan Tech Department of Design, Taipei",
+      "zh": "受邀系學會講座講者 · 國立臺灣科技大學設計系，台北"
+     },
+     "result": "Speaker",
+     "items": [],
+     "gallery": []
+    }
+   ]
+  }
+ ],
+ "clients": [
+  {
+   "name": "Midcity Centre",
+   "work": "Brand Identity Redesign",
+   "list": [
+    "Brand Guideline",
+    "Website Redesign"
+   ]
+  },
+  {
+   "name": "JSY Tea",
+   "work": "Tea Packaging Series",
+   "list": []
+  },
+  {
+   "name": "Attakai",
+   "work": "Brand Identity Design",
+   "list": [
+    "Brand Guideline"
+   ]
+  },
+  {
+   "name": "EST",
+   "work": null,
+   "list": [
+    "Brand Identity Redesign — EST Clinic",
+    "Website Redesign — EST Skinlab"
+   ]
+  },
+  {
+   "name": "Bake Stand",
+   "work": "Brand Identity Extension",
+   "list": [
+    "Website Design"
+   ]
+  },
+  {
+   "name": "Rainbow Town",
+   "work": null,
+   "list": [
+    "Brand Identity Redesign",
+    "Website Redesign"
+   ]
+  },
+  {
+   "name": "J&amp;G Fried Chicken",
+   "work": "Website Design",
+   "list": []
+  },
+  {
+   "name": "Pisell",
+   "work": "Brand Identity Redesign",
+   "list": []
+  },
+  {
+   "name": "Downtown Grocer",
+   "work": "Brand Identity Redesign",
+   "list": []
+  },
+  {
+   "name": "Forge Group",
+   "work": "Brand Identity Extending",
+   "list": []
+  },
+  {
+   "name": "HNZ Constructions",
+   "work": "Brand Identity Redesign",
+   "list": []
+  },
+  {
+   "name": "Propis",
+   "work": "Website Redesign",
+   "list": []
+  },
+  {
+   "name": "Fishmonger",
+   "work": "Brand Identity Design",
+   "list": []
+  },
+  {
+   "name": "Good Boys Deli",
+   "work": "Brand Identity Design",
+   "list": []
+  },
+  {
+   "name": "Upstairs Cafe",
+   "work": "Brand Identity Design",
+   "list": []
+  },
+  {
+   "name": "Lulu's Char Kway Teow",
+   "work": "Brand Identity Redesign",
+   "list": []
+  },
+  {
+   "name": "Melball",
+   "work": "Website Redesign",
+   "list": []
+  },
+  {
+   "name": "'Pantrē",
+   "work": "Brand Identity Redesign",
+   "list": []
+  },
+  {
+   "name": "Yo-Mo Frozen Yogurt",
+   "work": "Brand Identity Design",
+   "list": []
+  },
+  {
+   "name": "The Bund",
+   "work": "Brand Identity Design",
+   "list": []
+  }
+ ],
+ "recognition_logos": [
+  {
+   "alt": "D&AD",
+   "href": "https://www.dandad.org/annual/2022/entry/professional/235740"
+  },
+  {
+   "alt": "Red Dot",
+   "href": "https://www.red-dot.org/project/dad-exhibition-in-taiwan-75108"
+  },
+  {
+   "alt": "The One Club",
+   "href": "https://www.oneclub.org/awards/youngones/-award/42419/tu-hao-wei/"
+  },
+  {
+   "alt": "ADC",
+   "href": "https://www.oneclub.org/awards/adcawards/-award/42564/dad-exhibition-in-taiwan-posters/"
+  },
+  {
+   "alt": "LA",
+   "href": "https://www.malvamuseo.fi/en/lahti-international-poster-triennial/if-your-poster-is-selected-to-the-exhibition/"
+  },
+  {
+   "alt": "AIGA",
+   "href": "https://aiga-365-design-competition.secure-platform.com/a/gallery/rounds/236/details/52825"
+  },
+  {
+   "alt": "DFA Awards",
+   "href": "https://dfaa.dfaawards.com/en/winner/"
+  },
+  {
+   "alt": "Graphis",
+   "href": "https://graphis.com/entry/a2bf0df3-7a54-4a2f-b9cf-3bfb6aa30d3e"
+  },
+  {
+   "alt": "Communication Arts",
+   "href": "https://www.commarts.com/project/33729/graduation-moment"
+  },
+  {
+   "alt": "Golden Pin",
+   "href": "https://www2.goldenpin.org.tw/project/%E5%B3%B6%E6%B0%91%E7%9A%84%E6%9A%91%E5%81%87%E4%BD%9C%E6%A5%AD-2/"
+  },
+  {
+   "alt": "Golden Bee",
+   "href": "https://goldenbee.design/"
+  },
+  {
+   "alt": "JAGDA",
+   "href": "https://www.jagda.or.jp/"
+  },
+  {
+   "alt": "SEGD",
+   "href": "https://segd.org/projects/dad-exhibition-in-taiwan/"
+  },
+  {
+   "alt": "AGDA",
+   "href": "https://agda.com.au/awards/results/8488/"
+  },
+  {
+   "alt": "TEDx",
+   "href": "https://www.ted.com/tedx/events/65699"
+  },
+  {
+   "alt": "IASDR",
+   "href": "https://doi.org/10.21606/iasdr.2025.1007"
+  },
+  {
+   "alt": "DIA",
+   "href": "https://www.awards.design.org.au/gotya-jurors-2025"
+  },
+  {
+   "alt": "DRS",
+   "href": "https://www.designresearchsociety.org/"
+  },
+  {
+   "alt": "Young Ones",
+   "href": "https://www.oneclub.org/awards/youngones/-award/42419/tu-hao-wei/"
+  },
+  {
+   "alt": "iF Design",
+   "href": "https://ifdesign.com/en/winner-ranking/project/dad-exhibition-in-taiwan/571705"
+  },
+  {
+   "alt": "LIA",
+   "href": "https://www.liaawards.com/"
+  },
+  {
+   "alt": "The One Show",
+   "href": "https://www.oneclub.org/portfolio/-102955"
+  },
+  {
+   "alt": "Swinburne",
+   "href": "https://www.swinburne.edu.au/news/2025/11/Hao-Wei-Tu/"
+  },
+  {
+   "alt": "Taiwan Tech",
+   "href": "https://www.ntust.edu.tw/p/404-1000-105419.php?Lang=en"
+  }
+ ],
+ "press": [
+  {
+   "year": "2026",
+   "title": {
+    "en": "Communication Arts — Feature &amp; Interview",
+    "zh": "美國《Communication Arts》傳達藝術 — 專訪及專文報導"
+   },
+   "href": "https://www.commarts.com/fresh/hao-wei-tu",
+   "pub": {
+    "en": "Communication Arts",
+    "zh": "Communication Arts"
+   },
+   "items": [],
+   "gallery": [
+    {
+     "src": "CA1.png",
+     "alt": "Communication Arts · Online Feature, 2026"
+    },
+    {
+     "src": "CA2.png",
+     "alt": "Communication Arts · Online Feature, 2026"
+    }
+   ]
+  },
+  {
+   "year": "2026",
+   "title": {
+    "en": "Australia scores three finalists at NY TDC 72",
+    "zh": "澳洲三件作品入圍紐約 TDC 72 大獎"
+   },
+   "href": "https://campaignbrief.com/australia-scores-three-finalists-at-shortlist-stage-of-type-directors-club-tdc72-competition/",
+   "pub": {
+    "en": "Campaign Brief",
+    "zh": "Campaign Brief"
+   },
+   "items": [],
+   "gallery": []
+  },
+  {
+   "year": "2025",
+   "title": {
+    "en": "Hao Wei Tu — PhD Researcher Profile",
+    "zh": "杜浩瑋 — 博士研究員介紹"
+   },
+   "href": "https://www.swinburne.edu.au/news/2025/11/Hao-Wei-Tu/",
+   "pub": {
+    "en": "Swinburne",
+    "zh": "Swinburne"
+   },
+   "items": [],
+   "gallery": [
+    {
+     "src": "gallery/swinburne/1.jpg",
+     "alt": "Swinburne University · PhD Researcher Profile, 2025"
+    }
+   ]
+  },
+  {
+   "year": "2023",
+   "title": {
+    "en": "Swinburne University PhD in Design, Innovation and Technology",
+    "zh": "斯威本大學博士全額獎學金 — 各媒體報導"
+   },
+   "href": null,
+   "pub": null,
+   "count": {
+    "en": "15 media outlets",
+    "zh": "15 家媒體"
+   },
+   "items": [
+    {
+     "title": {
+      "en": "Taiwan Tech graduate awarded Swinburne PhD scholarship",
+      "zh": "台科大畢業生獲斯威本博士獎學金"
+     },
+     "href": "https://www.cna.com.tw/news/ahel/202311270028.aspx",
+     "pub": {
+      "en": "CNA",
+      "zh": "中央社"
+     }
+    },
+    {
+     "title": {
+      "en": "From Taipei to Melbourne — design graduate's research path",
+      "zh": "從台北到墨爾本：設計畢業生的研究之路"
+     },
+     "href": "https://www.chinatimes.com/realtimenews/20231127001133-260405",
+     "pub": {
+      "en": "China Times",
+      "zh": "中國時報"
+     }
+    },
+    {
+     "title": {
+      "en": "Taiwan Tech to Swinburne — design researcher's overseas journey",
+      "zh": "從台科大到斯威本：設計研究者的海外之路"
+     },
+     "href": "https://www.ettoday.net/news/20231127/2631451.htm",
+     "pub": {
+      "en": "ETtoday",
+      "zh": "ETtoday"
+     }
+    },
+    {
+     "title": {
+      "en": "Taiwan Tech student wins NT$4 million scholarship to study in Australia",
+      "zh": "台科大杜浩瑋獲澳洲400萬元獎學金"
+     },
+     "href": "https://www.nownews.com/news/6309332",
+     "pub": {
+      "en": "NOWnews",
+      "zh": "今日新聞"
+     }
+    },
+    {
+     "title": {
+      "en": "Taiwan Tech graduate wins Swinburne PhD scholarship in Australia",
+      "zh": "台科大設計系杜浩瑋獲斯威本博士獎學金赴澳"
+     },
+     "href": "https://www.ctee.com.tw/news/20231127700540-431401",
+     "pub": {
+      "en": "Commercial Times",
+      "zh": "工商時報"
+     }
+    },
+    {
+     "title": {
+      "en": "Hao Wei Tu wins NT$4 million PhD scholarship to study communication design",
+      "zh": "台科大杜浩瑋獲400萬博士獎學金，赴澳洲讀傳達設計"
+     },
+     "href": "https://udn.com/news/story/6928/7600964",
+     "pub": {
+      "en": "UDN",
+      "zh": "聯合新聞網"
+     }
+    },
+    {
+     "title": {
+      "en": "Taiwan Tech design student wins full NT$4 million scholarship",
+      "zh": "臺科大設計所杜浩瑋獲全額獎學金，三年共四百萬赴澳洲深造"
+     },
+     "href": "https://www.thehubnews.net/archives/313959",
+     "pub": {
+      "en": "The Hub News",
+      "zh": "新頭條"
+     }
+    },
+    {
+     "title": {
+      "en": "He won a NT$4 million PhD scholarship to study in Australia",
+      "zh": "申請澳洲讀博，他獲獎學金400萬"
+     },
+     "href": "https://www.cdns.com.tw/articles/915090",
+     "pub": {
+      "en": "China Daily News",
+      "zh": "中華日報"
+     }
+    },
+    {
+     "title": {
+      "en": "Taiwan Tech graduate wins full PhD scholarship at Swinburne University",
+      "zh": "台科大杜浩瑋獲澳洲斯威本大學博士全額獎學金"
+     },
+     "href": "https://www.bo6s.com.tw/news_detail.php?NewsID=74366",
+     "pub": {
+      "en": "Bo News",
+      "zh": "波新聞"
+     }
+    },
+    {
+     "title": {
+      "en": "Young talent — Hao Wei Tu of Taiwan Tech leads in communication design",
+      "zh": "英雄出少年，臺科杜浩瑋創新傳達發光"
+     },
+     "href": "https://strategicstyle.org/scstyle-8368/20004/",
+     "pub": {
+      "en": "Strategic Style",
+      "zh": "策略風"
+     }
+    },
+    {
+     "title": {
+      "en": "From graphic to communication design — full Swinburne PhD scholarship",
+      "zh": "從平面設計到傳達設計，臺科大設計系杜浩瑋獲澳洲創新設計博士全額獎學金"
+     },
+     "href": "https://www.cna.com.tw/postwrite/chi/358003",
+     "pub": {
+      "en": "CNA Platform",
+      "zh": "中央社訊息平台"
+     }
+    },
+    {
+     "title": {
+      "en": "From graphic to communication design — full Swinburne PhD scholarship",
+      "zh": "從平面設計到傳達設計，臺科大設計系杜浩瑋獲澳洲創新設計博士全額獎學金"
+     },
+     "href": "https://n.yam.com/Article/20231127764476",
+     "pub": {
+      "en": "Yam News",
+      "zh": "蕃新聞"
+     }
+    },
+    {
+     "title": {
+      "en": "From graphic to communication design — full Swinburne PhD scholarship",
+      "zh": "從平面設計到傳達設計，臺科大設計系杜浩瑋獲澳洲創新設計博士全額獎學金"
+     },
+     "href": "https://pse.is/5dy5xz",
+     "pub": {
+      "en": "MSN",
+      "zh": "MSN"
+     }
+    },
+    {
+     "title": {
+      "en": "Taiwan Tech student wins full NT$4 million PhD scholarship — 3 years in Australia",
+      "zh": "臺科大杜浩瑋獲澳洲設計博士全額獎學金，3年400萬元"
+     },
+     "href": "https://pse.is/5cvtj2",
+     "pub": {
+      "en": "Yahoo News",
+      "zh": "Yahoo 新聞"
+     }
+    },
+    {
+     "title": {
+      "en": "From graphic to communication design — full Swinburne PhD scholarship",
+      "zh": "從平面設計到傳達設計，臺科大設計系同學杜浩瑋獲澳洲創新設計博士全額獎學金"
+     },
+     "href": "https://www.ntust.edu.tw/p/404-1000-119519.php?Lang=zh-tw",
+     "pub": {
+      "en": "NTUST",
+      "zh": "NTUST"
+     }
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "year": "2022",
+   "title": {
+    "en": "First East Asian Winner of Young Ones Portfolio Award",
+    "zh": "東亞首位奪 Young Ones 作品集大獎"
+   },
+   "href": null,
+   "pub": null,
+   "count": {
+    "en": "7 media outlets",
+    "zh": "7 家媒體"
+   },
+   "items": [
+    {
+     "title": {
+      "en": "Taiwan + East Asia first: Hao Wei Tu wins international Young Ones Portfolio",
+      "zh": "台灣＋東亞首例！台科大杜浩瑋奪國際設計競賽青年作品集大獎"
+     },
+     "href": "https://www.ettoday.net/news/20220602/2264174.htm",
+     "pub": {
+      "en": "ETtoday",
+      "zh": "ETtoday"
+     }
+    },
+    {
+     "title": {
+      "en": "Taiwan and East Asia first — Hao Wei Tu takes Young Ones Portfolio",
+      "zh": "台灣及東亞首位！台科大杜浩瑋獲國際設計青年大獎"
+     },
+     "href": "https://www.chinatimes.com/realtimenews/20220602001719-260405",
+     "pub": {
+      "en": "China Times",
+      "zh": "中國時報"
+     }
+    },
+    {
+     "title": {
+      "en": "First East Asian designer to win international youth competition",
+      "zh": "東亞第一人！台科大生杜浩瑋奪國際青年創意競賽大獎"
+     },
+     "href": "https://news.ltn.com.tw/news/life/breakingnews/3947322",
+     "pub": {
+      "en": "Liberty Times",
+      "zh": "自由時報"
+     }
+    },
+    {
+     "title": {
+      "en": "Taiwan first: Hao Wei Tu wins international design competition",
+      "zh": "台灣首位獲獎！台科大杜浩瑋獲國際設計競賽大獎"
+     },
+     "href": "https://www.cna.com.tw/news/ahel/202206020056.aspx",
+     "pub": {
+      "en": "CNA",
+      "zh": "中央社"
+     }
+    },
+    {
+     "title": {
+      "en": "Taiwan Tech student — first in East Asia to win international Young Ones Portfolio",
+      "zh": "國際個人青年作品集大獎，台科大生獲獎創東亞第一人"
+     },
+     "href": "https://www.rti.org.tw/news/view/id/2134694",
+     "pub": {
+      "en": "Radio Taiwan International",
+      "zh": "中央廣播電臺"
+     }
+    },
+    {
+     "title": {
+      "en": "Hao Wei Tu wins international design award",
+      "zh": "臺科大杜浩瑋獲國際設計競賽青年作品集大獎媒體報導"
+     },
+     "href": "https://www.ntust.edu.tw/p/404-1000-102376.php?Lang=zh-tw",
+     "pub": {
+      "en": "NTUST",
+      "zh": "NTUST"
+     }
+    },
+    {
+     "title": {
+      "en": "Young Ones Student Awards 2022 — All Winners",
+      "zh": "Young Ones 學生獎 2022 全部得獎者"
+     },
+     "href": "https://www.bizcommunity.com/Article/196/736/227894.html",
+     "pub": {
+      "en": "BizCommunity",
+      "zh": "BizCommunity"
+     }
+    }
+   ],
+   "gallery": []
+  },
+  {
+   "year": "2022",
+   "title": {
+    "en": "Inside the D&amp;AD Pencil — Taiwan Tech hosts the Annual Exhibition",
+    "zh": "D&amp;AD 鉛筆獎內部 — 台科大舉辦年度設計展"
+   },
+   "href": "https://campaignbriefasia.com/2022/02/22/inside-the-dad-pencil-taiwan-tech-hosts-dad-awards-annual-exhibition/",
+   "pub": {
+    "en": "Campaign Brief Asia",
+    "zh": "Campaign Brief Asia"
+   },
+   "items": [],
+   "gallery": []
+  },
+  {
+   "year": "2018",
+   "title": {
+    "en": "Cross-Strait Chinese Character Creative Works Exhibition",
+    "zh": "兩岸漢字文化創意作品展"
+   },
+   "href": null,
+   "pub": null,
+   "count": {
+    "en": "3 media outlets",
+    "zh": "3 家媒體"
+   },
+   "items": [
+    {
+     "title": {
+      "en": "Chinese Character Creative Works Exhibition — Showcasing Cultural Confidence",
+      "zh": "漢字文創作品展 彰顯文化自信"
+     },
+     "href": "https://www.chinatimes.com/newspapers/20181029000220-260301?chdtv",
+     "pub": {
+      "en": "China Times",
+      "zh": "中國時報"
+     }
+    },
+    {
+     "title": {
+      "en": "Cross-Strait Chinese Character Cultural Creativity Competition Award Exhibition",
+      "zh": "兩岸漢字文化創意競賽獲獎作品展"
+     },
+     "href": "https://www.sohu.com/a/271883618_100105130",
+     "pub": {
+      "en": "Sohu",
+      "zh": "搜狐"
+     }
+    },
+    {
+     "title": {
+      "en": "LOHAS Chinese Characters — Cross-Strait Creative Competition Exhibition",
+      "zh": "樂活漢字 · 魅力文化 — 兩岸創意競賽獲獎作品展"
+     },
+     "href": "http://www.hkcd.com/content_p/2018-12/17/content_67812.html",
+     "pub": {
+      "en": "Hong Kong Commercial Daily",
+      "zh": "香港商報"
+     }
+    }
+   ],
+   "gallery": []
+  }
+ ],
+ "links": [
+  {
+   "label": "Email",
+   "href": "mailto:haowei@haoweitu.info",
+   "text": {
+    "en": "haowei@haoweitu.info",
+    "zh": "haowei@haoweitu.info"
+   }
+  },
+  {
+   "label": "LinkedIn",
+   "href": "https://www.linkedin.com/in/hao-wei-tu-3a7576250/",
+   "text": {
+    "en": "/in/hao-wei-tu",
+    "zh": "/in/hao-wei-tu"
+   }
+  },
+  {
+   "label": "Instagram",
+   "href": "https://www.instagram.com/haoweitu.info/",
+   "text": {
+    "en": "@haoweitu.info",
+    "zh": "@haoweitu.info"
+   }
+  },
+  {
+   "label": "Threads",
+   "href": "https://www.threads.net/@haoweitu.info",
+   "text": {
+    "en": "@haoweitu.info",
+    "zh": "@haoweitu.info"
+   }
+  },
+  {
+   "label": "Behance",
+   "href": "https://www.behance.net/otonami-du",
+   "text": {
+    "en": "behance.net/otonami-du",
+    "zh": "behance.net/otonami-du"
+   }
+  },
+  {
+   "label": "Medium",
+   "href": "https://medium.com/@sootr123",
+   "text": {
+    "en": "medium.com/@sootr123",
+    "zh": "medium.com/@sootr123"
+   }
+  },
+  {
+   "label": "Wikidata",
+   "href": "https://www.wikidata.org/wiki/Q139601784",
+   "text": {
+    "en": "Q139601784",
+    "zh": "Q139601784"
+   }
+  },
+  {
+   "label": "ORCID",
+   "href": "https://orcid.org/0009-0007-0686-778X",
+   "text": {
+    "en": "0009-0007-0686-778X",
+    "zh": "0009-0007-0686-778X"
+   }
+  },
+  {
+   "label": "Google Scholar",
+   "href": "https://scholar.google.com/citations?user=0Kw4z9sAAAAJ",
+   "text": {
+    "en": "Google Scholar",
+    "zh": "Google Scholar"
+   }
+  },
+  {
+   "label": "AGDA",
+   "href": "https://agda.com.au/directory/5499/",
+   "text": {
+    "en": "AGDA Member Directory",
+    "zh": "AGDA 會員資料"
+   }
+  },
+  {
+   "label": "The One Club",
+   "href": "https://www.oneclub.org/portfolio/-102955",
+   "text": {
+    "en": "Member Portfolio",
+    "zh": "會員作品集"
+   }
+  },
+  {
+   "label": "Swinburne",
+   "href": "https://www.swinburne.edu.au/news/2025/11/Hao-Wei-Tu/",
+   "text": {
+    "en": "Researcher Profile",
+    "zh": "研究者頁面"
+   }
+  }
+ ],
+ "editorial": {
+  "intro": {
+   "en": "I’m Hao Wei Tu, a communication designer and researcher working between Melbourne and Taipei.",
+   "zh": "我是杜浩瑋，在墨爾本與台北從事傳達設計與研究。"
+  },
+  "practice": {
+   "en": "My practice spans identities, books and exhibitions for commercial and cultural clients. At D&D Creative in Melbourne, I work as a contract Design Director on projects including the rebrands of Midcity Centre and Downtown Grocer.",
+   "zh": "我的設計涵蓋商業與文化領域的品牌識別、書籍與展覽。目前以合約制設計總監身分參與墨爾本 D&D Creative 的專案，包括 Midcity Centre 與 Downtown Grocer 的品牌重塑。"
+  },
+  "research": {
+   "en": "I’m a PhD candidate in Design at Swinburne University of Technology, working with Design Factory Melbourne and ANSTO. My research explores how generated images can support communication and collaboration in science.",
+   "zh": "我目前在斯威本科技大學攻讀設計博士，與墨爾本設計工廠及 ANSTO 合作，研究生成圖像如何支持科學領域的溝通與協作。"
+  },
+  "talk": {
+   "en": "How can an image help us discuss an idea we cannot yet see? In this TEDx talk, I explore generative AI as a tool for visual communication and conversation.",
+   "zh": "圖像如何幫助我們討論還看不見的概念？這場 TEDx 演講分享我如何看待生成式 AI，以及圖像在視覺溝通與對話中的角色。"
+  },
+  "selected_recognition": [
+   {
+    "group": 0,
+    "row": 3
+   },
+   {
+    "group": 4,
+    "row": 5
+   },
+   {
+    "group": 0,
+    "row": 1
+   },
+   {
+    "group": 0,
+    "row": 4
+   },
+   {
+    "group": 2,
+    "row": 1
+   },
+   {
+    "group": 0,
+    "row": 5
+   }
+  ],
+  "selected_press": [
+   0,
+   2
+  ]
+ }
+}

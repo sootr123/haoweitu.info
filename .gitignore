@@ -1,0 +1,9 @@
+# Original design files stay on this computer; publish only web exports.
+Por/
+.DS_Store
+**/.DS_Store
+__pycache__/
+.claude/
+
+# Earlier drafts kept locally only
+_archive/

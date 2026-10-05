@@ -1,0 +1,48 @@
+{
+  "articles": [
+    {
+      "id": "communication-arts",
+      "publisher": "Communication Arts",
+      "url": "https://www.commarts.com/fresh/hao-wei-tu",
+      "title": {
+        "en": "Hao Wei Tu",
+        "zh": "Hao Wei Tu"
+      },
+      "description": {
+        "en": "A profile of my design practice, from visual symbols and unexpected associations to the research and decisions behind the work. The conversation also touches on moving between Taiwan and Australia, and sharing experience with younger designers.",
+        "zh": "從視覺符號與意想不到的聯想，談到作品背後的研究和判斷。這篇人物介紹也記錄了我在台灣與澳洲之間的設計經驗，以及與年輕設計師分享方法的想法。"
+      },
+      "images": [
+        {
+          "src": "/assets/press/ca1.webp",
+          "width": 1026,
+          "height": 1435,
+          "alt": "Communication Arts — CA1, supplied website capture"
+        },
+        {
+          "src": "/assets/press/ca2.webp",
+          "width": 1262,
+          "height": 1644,
+          "alt": "Communication Arts — CA2, supplied website capture"
+        }
+      ]
+    },
+    {
+      "id": "swinburne",
+      "publisher": "Swinburne",
+      "url": "https://www.swinburne.edu.au/news/2025/11/Hao-Wei-Tu/",
+      "title": {
+        "en": "How Hao Wei is uniting design and technology to solve problems",
+        "zh": "以設計與科技回應問題"
+      },
+      "description": {
+        "en": "Swinburne traces my path from an overseas study program to doctoral research. It looks at how human-centred design changed my practice, and why I am exploring generated images as a way to support communication and collaboration in science.",
+        "zh": "Swinburne 記錄了我從海外研修到博士研究的路徑：以人為本的設計如何改變我的實踐，以及我為何開始研究生成圖像在科學溝通與協作中的可能性。"
+      },
+      "date": "2025-11-20",
+      "image": "/assets/press/swinburne.webp",
+      "width": 1280,
+      "height": 720
+    }
+  ]
+}

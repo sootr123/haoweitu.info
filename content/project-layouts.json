@@ -1,0 +1,619 @@
+{
+  "projects": {
+    "hnz-constructions": {
+      "lead": {
+        "image": "pdf-01",
+        "width": "wide"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "A shared structure",
+            "zh": "三個字母，共用一個結構"
+          },
+          "text": {
+            "en": "The strokes of H, N and Z share a geometric framework. Rotation and reflection allow the same form to move between a single symbol and a complete wordmark.",
+            "zh": "H、N、Z 的筆畫共用一個幾何骨架。透過旋轉與鏡射，同一個形體可以組成獨立符號，也可以排列成完整字標。"
+          },
+          "layout": "pair",
+          "equal_height": true,
+          "images": [
+            "pdf-02",
+            "pdf-03"
+          ]
+        },
+        {
+          "heading": {
+            "en": "On site",
+            "zh": "進入施工現場"
+          },
+          "text": {
+            "en": "The mark keeps a clear outline on a helmet, then expands into cropped shapes and repeated lettering for signage and tape. These applications connect the identity to the tools and surfaces of construction.",
+            "zh": "標誌在安全帽上保留清楚的輪廓，也能放大、局部取用，或重複排列成指標與膠帶。識別因此直接進入工程現場的工具與物件。"
+          },
+          "layout": "pair",
+          "images": [
+            "pdf-04",
+            "pdf-05"
+          ]
+        }
+      ]
+    },
+    "dad-exhibition-2021": {
+      "lead": {
+        "image": "pdf-01",
+        "width": "wide"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Inside the pencil",
+            "zh": "鉛筆裡面"
+          },
+          "text": {
+            "en": "D&AD’s coloured pencils meet the fruit associated with Taipei. Slicing the familiar award symbol open creates the exhibition’s central image and its invitation to look closer.",
+            "zh": "D&AD 的彩色鉛筆與台北的水果相遇。把熟悉的獎項符號剖開，成為展覽的主視覺，也邀請觀眾再往裡面看。"
+          },
+          "layout": "film",
+          "media": [
+            "case-film"
+          ]
+        },
+        {
+          "heading": {
+            "en": "From poster to entrance",
+            "zh": "從海報走進展場"
+          },
+          "text": {
+            "en": "A sequence of fruit-pencil posters runs along the exhibition wall. At the entrance, one sliced pencil grows to architectural scale, carrying the same inside–outside idea into the visitor’s route.",
+            "zh": "一整列水果鉛筆海報沿著展場牆面展開；到了入口，同樣的切面被放大成空間中的主角，讓內與外的概念延伸到觀眾的行進路徑。"
+          },
+          "layout": "pair",
+          "images": [
+            "pdf-02",
+            "pdf-03"
+          ]
+        }
+      ]
+    },
+    "a-crack-in-everything": {
+      "lead": {
+        "image": "pdf-01",
+        "width": "book"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Type under gravity",
+            "zh": "引力之中的文字"
+          },
+          "text": {
+            "en": "Fine lines curve towards a central void while the title stretches across the cover. The black hole becomes a force shaping the composition, drawing typography and image into the same movement.",
+            "zh": "細線向中央的空洞彎曲，書名則延展至整個封面。黑洞成為組織版面的力量，讓文字與圖像一起被捲入相同的動勢。"
+          },
+          "layout": "book",
+          "images": [
+            "pdf-02"
+          ]
+        }
+      ]
+    },
+    "fishmonger": {
+      "lead": {
+        "image": "pdf-01",
+        "width": "wide"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "The wordmark at two scales",
+            "zh": "字標的兩種尺度"
+          },
+          "text": {
+            "en": "Elongated, high-waisted letters suggest the streamlined profile of a fish. The same proportions give the wordmark a distinct presence on a small card and across the illuminated shopfront.",
+            "zh": "修長、高腰的字形呼應魚身的流線。同一組比例，讓字標在小卡片與店面發光招牌上都保有鮮明的輪廓。"
+          },
+          "layout": "pair",
+          "images": [
+            "pdf-02",
+            "pdf-03"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Material and pattern",
+            "zh": "材質與圖紋"
+          },
+          "text": {
+            "en": "On an apron, the wordmark works on its own. On the menu, modular lines drawn from fish, water and rice add a second layer to the identity without competing with the lettering.",
+            "zh": "圍裙上只留下字標；菜單則加入取自魚、水與米的模組線條。輔助圖紋提供另一層細節，同時讓文字保持清楚。"
+          },
+          "layout": "pair",
+          "images": [
+            "pdf-04",
+            "pdf-05"
+          ]
+        }
+      ]
+    },
+    "innovation-twenty": {
+      "lead": {
+        "image": "pdf-01",
+        "width": "poster"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "A family of forms",
+            "zh": "共用光影的符號家族"
+          },
+          "text": {
+            "en": "Symbols for different design disciplines are built from metallic forms and directional light. A shared photographic treatment brings the posters together, while colour, silhouette and the arrangement of shadows distinguish each composition.",
+            "zh": "不同設計領域的符號，透過金屬形體與定向光線形成。共同的攝影方式讓海報成為一個系列，色彩、輪廓與影子的排列則保留各自的差異。"
+          },
+          "layout": "four",
+          "images": [
+            "pdf-02",
+            "pdf-03",
+            "pdf-04",
+            "blue-paper-plane"
+          ]
+        }
+      ]
+    },
+    "endoaware": {
+      "lead": {
+        "image": "pdf-01",
+        "width": "wide"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "A continuous yellow line",
+            "zh": "一條持續流動的黃線"
+          },
+          "text": {
+            "en": "The awareness ribbon connects the identity to EndoAware’s aim of shortening the journey to an endometriosis diagnosis. Its hand-drawn movement carries through the programme’s film, portraits and public-facing graphics.",
+            "zh": "關懷絲帶連結 EndoAware 縮短子宮內膜異位症確診歷程的目標。手繪線條的動勢貫穿影片、人物攝影與面向大眾的宣傳圖像。"
+          },
+          "layout": "film",
+          "media": [
+            "case-film"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Campaign and screening vehicle",
+            "zh": "從宣傳到篩檢車"
+          },
+          "text": {
+            "en": "The ribbon frames people in the campaign image and opens into a larger drawing across the screening vehicle. Yellow and white keep both applications recognisable while leaving room for information.",
+            "zh": "緞帶在宣傳圖像中框起人物，也在篩檢車上展開為更大的線條。黃色與白色建立共同的辨識度，並為資訊保留清楚的空間。"
+          },
+          "layout": "pair",
+          "images": [
+            "pdf-02",
+            "pdf-03"
+          ]
+        },
+        {
+          "heading": {
+            "en": "The livery in motion",
+            "zh": "車身上的動態線條"
+          },
+          "text": {
+            "en": "The animated vehicle study shows how the ribbon extends along the body of the bus. The long, uninterrupted surface gives the line room to change direction and scale.",
+            "zh": "車身動畫呈現緞帶沿著巴士延伸的方式。連續的長形表面，讓線條能在不同尺度之間轉向、展開。"
+          },
+          "layout": "loops",
+          "media": [
+            "bus"
+          ]
+        }
+      ]
+    },
+    "dad-exhibition-2023": {
+      "lead": {
+        "image": "pdf-01",
+        "width": "wide"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Looking from another angle",
+            "zh": "換一個角度觀看"
+          },
+          "text": {
+            "en": "The D&AD pencil becomes a way to explore insight, angle, vision and boundaries. Black-and-white imagery and typography turn these ideas into four related compositions for the Taipei exhibition.",
+            "zh": "D&AD 鉛筆成為探討洞見、角度、視野與邊界的起點。黑白影像與文字把這些想法轉化為四組構圖，形成台北展覽的視覺系統。"
+          },
+          "layout": "film",
+          "media": [
+            "case-film"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Four moving posters",
+            "zh": "四張動態海報"
+          },
+          "text": {
+            "en": "Motion makes the changes of perspective unfold over time. Seen together, the four posters show how optical transformation can give each theme its own behaviour within a shared monochrome system.",
+            "zh": "動態讓視角的變化隨著時間展開。四張海報並列時，可以看見不同的光學變形如何在同一套黑白系統中，形成各自的動作。"
+          },
+          "layout": "loops",
+          "media": [
+            "poster-insight",
+            "poster-angle",
+            "poster-vision",
+            "poster-ceiling"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Print and participation",
+            "zh": "印刷物與觀眾"
+          },
+          "text": {
+            "en": "The imagery carries into exhibition print and objects that visitors can hold. Moving an eye graphic from the poster into a person’s hands turns the act of looking into part of the exhibition experience.",
+            "zh": "海報圖像延伸到展覽印刷物，以及觀眾可以拿起的物件。當眼睛圖像從海報移到手中，觀看本身也成為展覽體驗的一部分。"
+          },
+          "layout": "pair",
+          "images": [
+            "pdf-02",
+            "pdf-03"
+          ]
+        }
+      ]
+    },
+    "islanders-summer-homework": {
+      "lead": {
+        "image": "toolkit-clean",
+        "width": "wide"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "A toolkit for the coastline",
+            "zh": "帶著工具組走向海岸"
+          },
+          "text": {
+            "en": "Research into coastal sand becomes a set of maps, samples, postcards and collection tools. The project film introduces how this reworked summer homework connects travel with observation and making.",
+            "zh": "海岸沙樣的研究，轉化成地圖、樣本、明信片與採集工具。影片介紹這份重新設計的暑假作業，如何把旅行、觀察與動手製作串在一起。"
+          },
+          "layout": "film",
+          "media": [
+            "case-film"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Collect, compare, make",
+            "zh": "採集、比較、製作"
+          },
+          "text": {
+            "en": "The map places sand samples alongside the coastline they came from. Using the material to make a sand picture gives differences in colour and texture a practical, hands-on role.",
+            "zh": "地圖把沙樣放回它們來自的海岸。再把材料用於沙畫，讓顏色與質地的差異成為可以親手比較、操作的內容。"
+          },
+          "layout": "pair",
+          "images": [
+            "pdf-03",
+            "pdf-02"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Postcards from the shore",
+            "zh": "海岸明信片"
+          },
+          "text": {
+            "en": "Illustrated landmarks form a set of coastal postcards. Taken back to the shore, the cards connect the printed image with the sand, water and landscape around it.",
+            "zh": "海岸地標的插畫組成一套明信片。把卡片帶回岸邊，印刷圖像便與眼前的沙、水與地景重新連在一起。"
+          },
+          "layout": "pair",
+          "images": [
+            "pdf-04",
+            "pdf-05"
+          ]
+        }
+      ]
+    },
+    "projection-method": {
+      "lead": {
+        "image": "pdf-01",
+        "width": "wide"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Making with projection",
+            "zh": "透過投影製作圖像"
+          },
+          "text": {
+            "en": "The research tests how objects, bodies and projected light can produce figure–ground images. Workshop participants adjust physical forms and observe the silhouettes they create, moving between an object and the image around it.",
+            "zh": "研究測試物件、身體與投影光線如何產生圖地反轉圖像。工作坊參與者調整實際形體，觀察投出的剪影，在物件與周圍形成的圖像之間來回確認。"
+          },
+          "layout": "wide",
+          "images": [
+            "pdf-02"
+          ]
+        },
+        {
+          "heading": {
+            "en": "A short projection study",
+            "zh": "投影實驗片段"
+          },
+          "text": {
+            "en": "This short study presents figure and ground in motion, alongside the still images of the finished work below.",
+            "zh": "短片呈現投影實驗中的圖地關係，與下方的靜態成果相互對照。"
+          },
+          "layout": "loops",
+          "media": [
+            "figure-ground-short"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Reading the space between",
+            "zh": "閱讀形體之間的空間"
+          },
+          "text": {
+            "en": "The illuminated panels place several figure–ground results side by side. Each image asks the viewer to shift attention between the dark silhouette and the light space it defines.",
+            "zh": "發光面板將多件圖地反轉成果並列。觀看時，注意力在深色剪影與它所界定的亮部之間切換，讀出不同的形象。"
+          },
+          "layout": "wide",
+          "images": [
+            "pdf-03"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Recording a repeatable process",
+            "zh": "記錄可重複操作的流程"
+          },
+          "text": {
+            "en": "The publication records the relationship between the setup, projected image and finished graphic. These stages sit within a ten-step method developed to make figure–ground experiments easier to plan, observe and repeat.",
+            "zh": "書籍記錄實驗配置、投影影像與完成圖像之間的關係。這些階段被納入十步驟的方法，讓圖地反轉實驗更容易規劃、觀察與重複操作。"
+          },
+          "layout": "wide",
+          "images": [
+            "pdf-04"
+          ]
+        }
+      ]
+    },
+    "with-the-wind": {
+      "lead": {
+        "image": "pdf-02",
+        "width": "book"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "The cover as a surface",
+            "zh": "封面作為一個表面"
+          },
+          "text": {
+            "en": "Drifting sand provides a visible trace for the poems’ invisible subject: wind. Restrained typography leaves the cover’s texture in view, while the spine gives the book a quiet, clear edge.",
+            "zh": "流動的沙，為詩集裡看不見的風留下痕跡。克制的文字讓封面紋理保持完整，書脊則形成安靜、清楚的邊界。"
+          },
+          "layout": "wide",
+          "images": [
+            "pdf-01"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Eight variations",
+            "zh": "八種變化"
+          },
+          "text": {
+            "en": "Across eight covers, the sand shifts in density and direction while the book’s format remains constant. Together they show the range of movement possible within the same restrained composition.",
+            "zh": "八個封面之中，沙的密度與流向持續改變，書本的形式則保持一致。並列後，可以看見同一種克制構圖所容納的不同動勢。"
+          },
+          "layout": "wide",
+          "images": [
+            "pdf-03"
+          ]
+        }
+      ]
+    },
+    "taiwan-tech-design-week": {
+      "lead": {
+        "image": "pdf-01",
+        "width": "wide"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Giving a knock a shape",
+            "zh": "讓敲門聲有形狀"
+          },
+          "text": {
+            "en": "A geometric door and a white point of contact form the identity’s basic elements. In motion, radiating shapes and colour turn the energy of a knock into a visual sequence.",
+            "zh": "幾何化的門與白色敲擊點，構成識別的基本元素。在動態中，放射的形體與色彩把敲門的能量轉成連續畫面。"
+          },
+          "layout": "loops",
+          "media": [
+            "knock-knock"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Badges and objects",
+            "zh": "識別證與活動物件"
+          },
+          "text": {
+            "en": "The door form becomes a faceted badge, while the same colour system carries into the Portfolio Reviews objects. A small set of elements connects the different activities within Design Week.",
+            "zh": "門的形體轉化成多面向的識別證，同一套色彩也延伸到 Portfolio Reviews 的活動物件。少量的共同元素，連結起設計週裡不同類型的活動。"
+          },
+          "layout": "pair",
+          "images": [
+            "pdf-02",
+            "pdf-03"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Portfolio Reviews in motion",
+            "zh": "Portfolio Reviews 的動態延伸"
+          },
+          "text": {
+            "en": "The Portfolio Reviews animation reorganises the same geometric and colour elements for another part of the programme. The identity changes composition while retaining its connection to the wider event.",
+            "zh": "Portfolio Reviews 動畫重新組合幾何與色彩元素，對應設計週中的另一項活動。構圖可以改變，與整體活動的關係仍然清楚。"
+          },
+          "layout": "loops",
+          "media": [
+            "portfolio-reviews"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Design Week film",
+            "zh": "設計週影片"
+          },
+          "text": {
+            "en": "The event brings exhibitions, workshops, talks and portfolio reviews into one programme. The film provides a wider view of the setting in which the identity was used.",
+            "zh": "展覽、工作坊、講座與作品集評論共同構成設計週。影片提供更完整的活動情境，呈現這套識別如何進入其中。"
+          },
+          "layout": "film",
+          "media": [
+            "_anuvW75kpk"
+          ]
+        }
+      ]
+    },
+    "festival-of-arts": {
+      "lead": {
+        "image": "pdf-01",
+        "width": "wide"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "A graphic rhythm",
+            "zh": "圖形的節奏"
+          },
+          "text": {
+            "en": "A split-square module draws on piano keys, dance and musical notation. Changes in scale, position and rhythm translate the festival’s theme, Everlasting, into a visual sequence.",
+            "zh": "分割方塊的模組取自琴鍵、舞姿與樂譜記號。藉由尺度、位置與節奏的改變，藝術節的「永恆」主題被轉化成視覺序列。"
+          },
+          "layout": "film",
+          "media": [
+            "OPoWMceUng8"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Pattern on the body",
+            "zh": "身體上的圖紋"
+          },
+          "text": {
+            "en": "Printed on fabric, the flat module takes on folds, depth and the movement of the body. The photograph brings those changes back into the campaign image.",
+            "zh": "平面的模組印上布料後，出現摺痕、深度與身體帶來的動勢。攝影再把這些變化帶回藝術節的宣傳圖像。"
+          },
+          "layout": "wide",
+          "images": [
+            "pdf-02"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Across the printed programme",
+            "zh": "延伸到印刷物"
+          },
+          "text": {
+            "en": "The same black-and-white pattern runs through folded publications, stationery and other printed objects. Repetition and changes of scale let each format retain a recognisable part of the festival identity.",
+            "zh": "同一組黑白圖紋延伸到摺頁、事務用品與其他印刷物。透過重複與尺度變化，每一種形式都保留藝術節識別中容易辨認的部分。"
+          },
+          "layout": "pair",
+          "images": [
+            "pdf-03",
+            "pdf-04"
+          ]
+        }
+      ]
+    },
+    "downtown-grocer": {
+      "lead": {
+        "image": "01",
+        "width": "wide"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "From the street to the shop floor",
+            "zh": "從街道到店內"
+          },
+          "text": {
+            "en": "The smiling square mascot and geometric lettering make the supermarket recognisable from the street. The same electric blue continues across staff aprons and shopping baskets, connecting the shopfront to the everyday experience inside.",
+            "zh": "微笑的方形角色與幾何字標，讓超市從街上就容易辨認。相同的電光藍延伸到員工圍裙與購物籃，串連店面招牌和店內的日常使用。"
+          },
+          "layout": "pair",
+          "images": [
+            "06",
+            "04"
+          ]
+        }
+      ]
+    },
+    "under-alien-skies": {
+      "lead": {
+        "image": "01",
+        "width": "book"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "The image as an object",
+            "zh": "從圖像到書本"
+          },
+          "text": {
+            "en": "The mountain horizon gives the star field a traveller’s point of view. Seen at an angle, the cover, spine and reflective page edge bring that distant scene into the physical scale of a book.",
+            "zh": "群山的地平線，讓星空有了旅人仰望的視角。從斜角觀看，封面、書脊與反光書口一起把遙遠的景象帶回一本書的實體尺度。"
+          },
+          "layout": "book",
+          "images": [
+            "03"
+          ]
+        }
+      ]
+    },
+    "graduation-exhibition": {
+      "lead": {
+        "image": "poster-main",
+        "width": "poster"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "A visual system in print",
+            "zh": "字形延伸成印刷系統"
+          },
+          "text": {
+            "en": "The same luminous character fragments connect the poster series with the exhibition’s printed material. Shifts in scale bring the lettering from a full composition into smaller details.",
+            "zh": "同一組發光的字形碎片，串連海報與展覽印刷品。透過尺度的轉換，文字既能形成完整構圖，也能成為小面積物件上的視覺細節。"
+          },
+          "layout": "wide",
+          "images": [
+            "01"
+          ]
+        },
+        {
+          "heading": {
+            "en": "Reading the character’s structure",
+            "zh": "閱讀字的骨架"
+          },
+          "text": {
+            "en": "Ming letterforms are treated as structures that can be enlarged, fragmented and examined. On passes and lanyards, the glowing strokes carry the exhibition’s X-ray reference into objects worn by visitors.",
+            "zh": "明體被視為可以放大、拆解與檢視的結構。發光的筆畫延伸到識別證與掛繩，讓 X 光片的視覺意象進入觀眾配戴的物件。"
+          },
+          "layout": "wide",
+          "images": [
+            "02"
+          ]
+        }
+      ]
+    }
+  }
+}

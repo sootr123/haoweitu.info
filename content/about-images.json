@@ -1,0 +1,107 @@
+{
+  "CA1.png": {
+    "preview": "/assets/about/301274db7096-480.webp",
+    "full": "/assets/about/301274db7096-1200.webp",
+    "w": 858,
+    "h": 1200,
+    "source_key": "bc85f73b04cd722cd27f"
+  },
+  "CA2.png": {
+    "preview": "/assets/about/9a4f0372fde0-480.webp",
+    "full": "/assets/about/9a4f0372fde0-1200.webp",
+    "w": 921,
+    "h": 1200,
+    "source_key": "f23533a256c203cef330"
+  },
+  "Portfolio1.jpg": {
+    "preview": "/assets/about/411282824405-480.webp",
+    "full": "/assets/about/411282824405-1200.webp",
+    "w": 960,
+    "h": 1200,
+    "source_key": "a20bf953b068651ca2ed"
+  },
+  "Portfolio2.jpg": {
+    "preview": "/assets/about/616cb6eddca4-480.webp",
+    "full": "/assets/about/616cb6eddca4-1200.webp",
+    "w": 927,
+    "h": 1200,
+    "source_key": "687c079b9d3fbc347da4"
+  },
+  "RTSA2026.JPG": {
+    "preview": "/assets/about/7cf6435c48c1-480.webp",
+    "full": "/assets/about/7cf6435c48c1-1200.webp",
+    "w": 769,
+    "h": 1200,
+    "source_key": "89dd853a35739ebf95dd"
+  },
+  "Taiwan Tech 2025.jpg": {
+    "preview": "/assets/about/ac2d52d1c7a7-480.webp",
+    "full": "/assets/about/ac2d52d1c7a7-1200.webp",
+    "w": 1200,
+    "h": 800,
+    "source_key": "acea294c9d2a3d9390ad"
+  },
+  "Taiwan Tech Design Week2025.png": {
+    "preview": "/assets/about/b1e3a2101ce4-480.webp",
+    "full": "/assets/about/b1e3a2101ce4-1200.webp",
+    "w": 1200,
+    "h": 850,
+    "source_key": "b02e2635d7e56f46000f"
+  },
+  "gallery/agda/1.jpg": {
+    "preview": "/assets/about/4349b1c08a44-480.webp",
+    "full": "/assets/about/4349b1c08a44-1200.webp",
+    "w": 1200,
+    "h": 881,
+    "source_key": "9af5b132dbc370e38340"
+  },
+  "gallery/dad-exhibition/red-dot-team.jpg": {
+    "preview": "/assets/about/2c79b5b8185c-480.webp",
+    "full": "/assets/about/2c79b5b8185c-1200.webp",
+    "w": 1200,
+    "h": 661,
+    "source_key": "5c0fa67d693f7c567f66"
+  },
+  "gallery/dia/1.jpg": {
+    "preview": "/assets/about/628c294cd5c0-480.webp",
+    "full": "/assets/about/628c294cd5c0-1200.webp",
+    "w": 1200,
+    "h": 1159,
+    "source_key": "3043cc6c57850f4774e7"
+  },
+  "gallery/iasdr/presentation.jpg": {
+    "preview": "/assets/about/ae23bfffc806-480.webp",
+    "full": "/assets/about/ae23bfffc806-1200.webp",
+    "w": 1200,
+    "h": 800,
+    "source_key": "f1a5d6434809d84b14d6"
+  },
+  "gallery/islanders/1.jpg": {
+    "preview": "/assets/about/3ddda87dd019-480.webp",
+    "full": "/assets/about/3ddda87dd019-1200.webp",
+    "w": 930,
+    "h": 1076,
+    "source_key": "f2a8ae2c435b556ac035"
+  },
+  "gallery/swinburne/1.jpg": {
+    "preview": "/assets/about/c00dfac0f741-480.webp",
+    "full": "/assets/about/c00dfac0f741-1200.webp",
+    "w": 960,
+    "h": 1200,
+    "source_key": "b894cab37a874ace9def"
+  },
+  "gallery/young-ones/portfolio-winner.jpg": {
+    "preview": "/assets/about/fced348c8d3e-480.webp",
+    "full": "/assets/about/fced348c8d3e-1200.webp",
+    "w": 1200,
+    "h": 945,
+    "source_key": "f538037c5e1ed33850a0"
+  },
+  "me.jpg": {
+    "preview": "/assets/about/3e770289f3db-480.webp",
+    "full": "/assets/about/3e770289f3db-1200.webp",
+    "w": 1200,
+    "h": 1200,
+    "source_key": "681f0ddbb8c680159d9f"
+  }
+}
