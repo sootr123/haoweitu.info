@@ -310,7 +310,7 @@ html[data-lang="zh"] .w-hd .zh { letter-spacing: 0; font-weight: 400; }
 .w-strip video { width: 100%; height: auto; }
 .w-row { scroll-margin-top: 112px; }
 .w-tags { display: block; margin-top: 6px; }
-.w-description { display: block; max-width: 380px; margin-top: 14px; font-size: 13px; line-height: 1.6; text-wrap: pretty; }
+.w-description { display: block; max-width: 380px; margin-top: 12px; font-size: 12px; line-height: 1.6; text-wrap: pretty; }
 html[data-lang="zh"] .w-description { line-height: 1.7; }
 .w-thumbs { display: flex; gap: 8px; width: 100%; align-items: center; }
 .w-thumbs img { flex-basis: 0; min-width: 0; width: 0; height: auto; }
@@ -521,7 +521,7 @@ html[data-lang="zh"] .ab-bio-text p { line-height: 1.95; letter-spacing: .03em; 
   .w-list .w-row:nth-child(even) { grid-column: 3 / -1; }
   .w-list[data-view="index"] .w-row a { grid-template-columns: 1fr; gap: 16px; }
   .w-list[data-view="index"] .w-text { padding-right: 0; }
-  .w-description { font-size: 14px; }
+  .w-description { font-size: 13px; }
   .w-list[data-view="index"] .w-strip { grid-column: 1; grid-row: 2; }
   .w-list[data-view="index"] .w-strip { width: 100%; }
   .w-thumbs { height: auto; }
