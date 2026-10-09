@@ -30,6 +30,8 @@ python3 -m http.server 8765 --bind 127.0.0.1
 
 `projects.json` 保留作品的基準順序，供產生頁面與作品內頁導覽使用。作品 index 每次進入時重新隨機排列；切換分類只篩選當次順序，不會重新洗牌。
 
+每件作品的 `index_description.en`／`index_description.zh` 是作品總覽的短敘述，顯示於名稱、類別與年份下方。短文介紹專案背景及具體設計做法；作品內頁的完整說明仍使用 `description`。
+
 下架的作品（含說明和圖片來源）都存在 `content/archive.json`，要放回網站就把那一筆搬回 `projects.json`，並在 `project-layouts.json` 補上版面，再跑一次下面的三個指令。重建時，已下架作品的頁面、圖片和影片會自動從網站資料夾移除；原始素材不會修改。
 
 ## 新增或修改作品

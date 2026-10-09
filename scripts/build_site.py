@@ -292,7 +292,7 @@ def build_home():
 
 # ── work index ─────────────────────────────────────────
 def work_row(p):
-    """An authored group of two to four previews, preserving each image's ratio."""
+    """A short project introduction beside an authored group of previews."""
     plan = INDEX_LAYOUTS[p["id"]]
     panels = []
     for item in plan["items"]:
@@ -312,7 +312,8 @@ def work_row(p):
     tags_zh = "，".join(x for x in [p["discipline"]["zh"], year(p)] if x)
     return (f'<li class="w-row" id="{p["id"]}" data-filters="{" ".join(p["filters"])}"><a href="/work/{p["id"]}/">'
             f'<span class="w-text"><span class="w-title">{bi(short(p))}</span>'
-            f'<span class="w-tags mono">{bi({"en": tags, "zh": tags_zh})}</span></span>'
+            f'<span class="w-tags mono">{bi({"en": tags, "zh": tags_zh})}</span>'
+            f'<span class="w-description">{bi(p["index_description"])}</span></span>'
             f'<span class="w-strip" data-count="{len(panels)}" style="--group-width:{plan["width"] * 100:g}%;--group-max:{plan.get("max_width",300)}px">{"".join(panels)}</span></a></li>')
 
 
