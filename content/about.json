@@ -1394,99 +1394,195 @@
  "recognition_logos": [
   {
    "alt": "D&AD",
-   "href": "https://www.dandad.org/annual/2022/entry/professional/235740"
+   "href": "https://www.dandad.org/annual/2022/entry/professional/235740",
+   "src": "/assets/logos/recognition/d-ad.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "Red Dot",
-   "href": "https://www.red-dot.org/project/dad-exhibition-in-taiwan-75108"
+   "href": "https://www.red-dot.org/project/dad-exhibition-in-taiwan-75108",
+   "src": "/assets/logos/recognition/red-dot.png",
+   "width": 238,
+   "height": 237,
+   "display_width": 46
   },
   {
    "alt": "The One Club",
-   "href": "https://www.oneclub.org/awards/youngones/-award/42419/tu-hao-wei/"
+   "href": "https://www.oneclub.org/awards/youngones/-award/42419/tu-hao-wei/",
+   "src": "/assets/logos/recognition/the-one-club.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "ADC",
-   "href": "https://www.oneclub.org/awards/adcawards/-award/42564/dad-exhibition-in-taiwan-posters/"
+   "href": "https://www.oneclub.org/awards/adcawards/-award/42564/dad-exhibition-in-taiwan-posters/",
+   "src": "/assets/logos/recognition/adc.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "LA",
-   "href": "https://www.malvamuseo.fi/en/lahti-international-poster-triennial/if-your-poster-is-selected-to-the-exhibition/"
+   "href": "https://www.malvamuseo.fi/en/lahti-international-poster-triennial/if-your-poster-is-selected-to-the-exhibition/",
+   "src": "/assets/logos/recognition/la.png",
+   "width": 172,
+   "height": 304,
+   "display_width": 38
   },
   {
    "alt": "AIGA",
-   "href": "https://aiga-365-design-competition.secure-platform.com/a/gallery/rounds/236/details/52825"
+   "href": "https://aiga-365-design-competition.secure-platform.com/a/gallery/rounds/236/details/52825",
+   "src": "/assets/logos/recognition/aiga.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 88
   },
   {
    "alt": "DFA Awards",
-   "href": "https://dfaa.dfaawards.com/en/winner/"
+   "href": "https://dfaa.dfaawards.com/en/winner/",
+   "src": "/assets/logos/recognition/dfa-awards.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "Graphis",
-   "href": "https://graphis.com/entry/a2bf0df3-7a54-4a2f-b9cf-3bfb6aa30d3e"
+   "href": "https://graphis.com/entry/a2bf0df3-7a54-4a2f-b9cf-3bfb6aa30d3e",
+   "src": "/assets/logos/recognition/graphis.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "Communication Arts",
-   "href": "https://www.commarts.com/project/33729/graduation-moment"
+   "href": "https://www.commarts.com/project/33729/graduation-moment",
+   "src": "/assets/logos/recognition/communication-arts.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "Golden Pin",
-   "href": "https://www2.goldenpin.org.tw/project/%E5%B3%B6%E6%B0%91%E7%9A%84%E6%9A%91%E5%81%87%E4%BD%9C%E6%A5%AD-2/"
+   "href": "https://www2.goldenpin.org.tw/project/%E5%B3%B6%E6%B0%91%E7%9A%84%E6%9A%91%E5%81%87%E4%BD%9C%E6%A5%AD-2/",
+   "src": "/assets/logos/recognition/golden-pin.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "Golden Bee",
-   "href": "https://goldenbee.design/"
+   "href": "https://goldenbee.design/",
+   "src": "/assets/logos/recognition/golden-bee.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "JAGDA",
-   "href": "https://www.jagda.or.jp/"
+   "href": "https://www.jagda.or.jp/",
+   "src": "/assets/logos/recognition/jagda.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 84
   },
   {
    "alt": "SEGD",
-   "href": "https://segd.org/projects/dad-exhibition-in-taiwan/"
+   "href": "https://segd.org/projects/dad-exhibition-in-taiwan/",
+   "src": "/assets/logos/recognition/segd.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 88
   },
   {
    "alt": "AGDA",
-   "href": "https://agda.com.au/awards/results/8488/"
+   "href": "https://agda.com.au/awards/results/8488/",
+   "src": "/assets/logos/recognition/agda.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 96
   },
   {
    "alt": "TEDx",
-   "href": "https://www.ted.com/tedx/events/65699"
+   "href": "https://www.ted.com/tedx/events/65699",
+   "src": "/assets/logos/recognition/tedx.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 86
   },
   {
    "alt": "IASDR",
-   "href": "https://doi.org/10.21606/iasdr.2025.1007"
+   "href": "https://doi.org/10.21606/iasdr.2025.1007",
+   "src": "/assets/logos/recognition/iasdr.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 82
   },
   {
    "alt": "DIA",
-   "href": "https://www.awards.design.org.au/gotya-jurors-2025"
+   "href": "https://www.awards.design.org.au/gotya-jurors-2025",
+   "src": "/assets/logos/recognition/dia.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "DRS",
-   "href": "https://www.designresearchsociety.org/"
+   "href": "https://www.designresearchsociety.org/",
+   "src": "/assets/logos/recognition/drs.png",
+   "width": 431,
+   "height": 257,
+   "display_width": 110
   },
   {
    "alt": "Young Ones",
-   "href": "https://www.oneclub.org/awards/youngones/-award/42419/tu-hao-wei/"
+   "href": "https://www.oneclub.org/awards/youngones/-award/42419/tu-hao-wei/",
+   "src": "/assets/logos/recognition/young-ones.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "iF Design",
-   "href": "https://ifdesign.com/en/winner-ranking/project/dad-exhibition-in-taiwan/571705"
+   "href": "https://ifdesign.com/en/winner-ranking/project/dad-exhibition-in-taiwan/571705",
+   "src": "/assets/logos/recognition/if-design.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "LIA",
-   "href": "https://www.liaawards.com/"
+   "href": "https://www.liaawards.com/",
+   "src": "/assets/logos/recognition/lia.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "The One Show",
-   "href": "https://www.oneclub.org/portfolio/-102955"
+   "href": "https://www.oneclub.org/portfolio/-102955",
+   "src": "/assets/logos/recognition/the-one-show.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "Swinburne",
-   "href": "https://www.swinburne.edu.au/news/2025/11/Hao-Wei-Tu/"
+   "href": "https://www.swinburne.edu.au/news/2025/11/Hao-Wei-Tu/",
+   "src": "/assets/logos/recognition/swinburne.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 110
   },
   {
    "alt": "Taiwan Tech",
-   "href": "https://www.ntust.edu.tw/p/404-1000-105419.php?Lang=en"
+   "href": "https://www.ntust.edu.tw/p/404-1000-105419.php?Lang=en",
+   "src": "/assets/logos/recognition/taiwan-tech.png",
+   "width": 140,
+   "height": 64,
+   "display_width": 84
   }
  ],
  "press": [

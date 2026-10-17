@@ -266,6 +266,20 @@ def desktop_window(key, title, url, content):
 </article>'''
 
 
+def home_logos():
+    logos = []
+    for logo in ABOUT["recognition_logos"]:
+        logos.append(
+            f'<li><a href="{esc(logo["href"])}" target="_blank" rel="noopener" title="{esc(logo["alt"])}">'
+            f'<img src="{esc(logo["src"])}" alt="{esc(logo["alt"])}" width="{logo["width"]}" height="{logo["height"]}" '
+            f'style="--logo-width:{logo["display_width"]}px" loading="lazy" decoding="async"></a></li>')
+    return f'''<section class="home-logos" aria-labelledby="home-logos-heading">
+<header class="home-logos-heading"><h2 class="lbl" id="home-logos-heading">{bi({"en":"Awards, talks & research", "zh":"獎項、演講與研究"})}</h2>
+<a href="/about/#recognition">{bi({"en":"View profile ↗", "zh":"查看簡歷 ↗"})}</a></header>
+<ul class="home-logos-list">{"".join(logos)}</ul>
+</section>'''
+
+
 def build_home():
     home = C("home.json")
     body = f"""
@@ -274,6 +288,7 @@ def build_home():
 <h1 class="mark" aria-label="HTU. — Hao Wei Tu 杜浩瑋"><span class="mark-type" aria-hidden="true">HTU<span class="mark-point"></span></span><span class="ground-lens" aria-hidden="true"></span></h1>
 <div class="hero-bar grid"><span class="lbl"><span class="en">Melbourne / Taipei</span><span class="zh">墨爾本／台北</span></span><a class="hero-down" href="/work/"><span class="en">View selected work</span><span class="zh">瀏覽作品選輯</span><span aria-hidden="true">↗</span></a></div>
 </section>
+{home_logos()}
 <section class="home-note grid" aria-label="About the practice">
 <p><span class="en">Identity, books, exhibitions and design research. From the construction of a letter to the way an image is read in space.</span><span class="zh">品牌識別、書籍、展覽與設計研究。從一個字母的結構，到圖像在空間中被觀看的方式。</span></p>
 <a href="/about/"><span class="en">About Hao Wei Tu<br>Biography, awards &amp; research ↗</span><span class="zh">關於杜浩瑋<br>簡歷、獎項與研究 ↗</span></a>

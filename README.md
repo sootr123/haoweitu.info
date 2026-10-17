@@ -17,6 +17,7 @@ python3 -m http.server 8765 --bind 127.0.0.1
 | 作品（標題、說明、團隊、獎項、圖片、影片、順序） | `content/projects.json` |
 | 每件作品的主圖、段落、圖片組合與版型 | `content/project-layouts.json` |
 | 首頁介紹 | `content/home.json` |
+| 首頁 HTU 下方的獎項、演講與研究 Logo | `content/about.json` 的 `recognition_logos`、`assets/logos/recognition/` |
 | 首頁文章與演講浮動視窗、網站截圖 | `content/press.json`、`assets/press/` |
 | index 每列的選圖、動畫與圖組寬度 | `content/index-layouts.json` |
 | 簡介、獎項、媒體報導、聯絡連結 | `content/about.json` |
@@ -76,6 +77,7 @@ python3 scripts/build_site.py     # 重新產生所有頁面、sitemap、llms.tx
 ## 設計說明
 
 - 首頁以 HTU. 識別與簡短介紹開場，不放散落的作品圖片。字樣只等比例調整字級，保留字型原始比例；句點為正方形。滑鼠掠過字樣時，小圓形局部反轉黑白；手機與偏好減少動態的裝置使用靜態構圖。
+- HTU 下方保留舊版的 24 個獎項、演講與研究機構 Logo，桌面六欄、手機三欄。圖檔由 `7d860d3` 版首頁內嵌的原始 PNG 直接取出，順序與原有連結保留；每個標誌使用原有的個別顯示寬度，不拉伸圖形。
 - 首頁的 Communication Arts、Swinburne 與 TEDx 是三個直式浮動視窗，直接覆在 HTU. 主視覺上，沒有獨立的文章區塊。初始位置在右側隨機交疊；視窗固定於畫面，可拖曳標題列、從角落調整尺寸、按 × 關閉，再由底部工具列開啟。□ 按鈕會在新分頁開啟各自的原網站，不會放大視窗。
 - Communication Arts 使用指定的 `CA1.png`、`CA2.png` 接續顯示；Swinburne 使用網頁截圖與介紹。兩者均可在視窗內捲動，內容是本機預覽，原文連結保留。TEDx 採直式 YouTube 閱讀介面，影片由訪客點擊播放。
 - 字體：Archivo、思源黑體（Noto Sans TC）。分類與正文保持正常層級，以留白、欄寬與段落節奏安排資訊。
