@@ -21,7 +21,6 @@ python3 -m http.server 8765 --bind 127.0.0.1
 | 首頁文章與演講浮動視窗、網站截圖 | `content/press.json`、`assets/press/` |
 | index 每列的選圖、動畫與圖組寬度 | `content/index-layouts.json` |
 | 簡介、獎項、媒體報導、聯絡連結 | `content/about.json` |
-| RISING 專屬精選頁的選圖、職缺對應與角色說明 | `content/rising.json` |
 | 版面與樣式 | `assets/site.css` |
 | 互動（中英切換、圖地圓形、作品亂序與篩選、影片） | `assets/site.js` |
 | 首頁視窗（初始交疊、拖曳、縮放、關閉與重新開啟） | `assets/windows.js` |
@@ -93,11 +92,11 @@ python3 scripts/build_site.py     # 重新產生所有頁面、sitemap、llms.tx
 - About 有照片的獎項、經歷與報導，滑鼠移入時顯示跟隨游標的預覽；展開照片時不重複浮出，離開、捲動或按 Escape 即收起。手機以展開按鈕看照片。圖片來源在各項 `gallery`，預覽與展開圖由 `build_about_images.py` 壓縮，不改動原始照片。
 - HNZ「共同的結構」雙圖設定 `equal_height: true`，桌面依原圖比例分配欄寬，讓兩張照片等高、圖說對齊；手機維持直向閱讀。
 
-## RISING 申請精選頁
+## 申請文件（僅本機）
 
-`/rising/` 集中展示六件與職缺相關的作品，縮圖、標題與「查看專案」皆連到現有專案頁。內容維持中英切換，並直接標示各專案角色；概念提案與學生作品的性質保留在說明中。每筆 `image` 對應該作品現有的圖片檔名，`project_date` 不明確時可設為 `null`。
+申請表與 PDF 的作品集連結統一使用 `/work/`，不另外建立職缺專屬網頁。求職信為一頁純文字信件，履歷為兩頁，不附加作品頁。
 
-修改 `content/rising.json` 後執行 `python3 scripts/build_site.py`。也可用 `python3 scripts/build_rising.py` 單獨重建此頁；專屬樣式位於 `assets/rising.css`。此頁不加入主導覽或 sitemap，並設定 `noindex, follow`；這不是存取限制，取得網址的人仍能閱讀。求職信與履歷 PDF 不放在公開網站中。
+求職信、履歷與內容來源放在已忽略的 `output/pdf/` 中。`scripts/build_rising_application.py` 使用本機的 `output/pdf/source/application.json` 與 `fonts/` 重建 PDF；需要 ReportLab、pypdf。這些文件不會發佈到網站。
 
 ## 發佈
 

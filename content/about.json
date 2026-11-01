@@ -27,14 +27,14 @@
      "zh": "所在地"
     },
     "value": {
-     "en": "Melbourne<br/>Taipei",
-     "zh": "Melbourne<br/>Taipei"
+     "en": "Naarm (Melbourne, Australia)<br/>Taipei",
+     "zh": "Naarm (Melbourne, Australia)<br/>Taipei"
     }
    }
   ],
   "lede": {
-   "en": "Hao Wei Tu is a communication designer and researcher — a PhD candidate in Design at <strong>Swinburne University of Technology</strong>, working in collaboration with Design Factory Melbourne and the Australian Nuclear Science and Technology Organisation (ANSTO) — and a Design Director (Contract) at Melbourne studio <strong>D&amp;D Creative</strong>, where he has led major rebrand projects across the CBD including Midcity Centre and Downtown Grocer. He specialises in brand strategy, visual storytelling and identity systems for both commercial and cultural clients, balancing aesthetics with strategic communication.",
-   "zh": "杜浩瑋是一位傳達設計師暨研究者，<strong>斯威本科技大學設計博士候選人</strong>，與墨爾本設計工廠（SDFM）及澳洲核能科學技術組織（ANSTO）合作進行研究。同時擔任墨爾本設計工作室 <strong>D&amp;D Creative</strong> 設計總監（合約制），主導墨爾本市中心多項品牌重塑專案，包含 Midcity Centre 與 Downtown Grocer。專精於商業與文化機構的品牌策略、視覺敘事與識別系統，於美學與策略性溝通之間取得平衡。"
+   "en": "Hao Wei Tu is a communication designer and researcher — a PhD candidate in Design at <strong>Swinburne University of Technology</strong>, working in collaboration with Design Factory Melbourne and the Australian Nuclear Science and Technology Organisation (ANSTO) — and a Design Director (Contract) at <strong>D&amp;D Creative</strong>, a studio based in Naarm (Melbourne, Australia), where he has led major rebrand projects across the CBD including Midcity Centre and Downtown Grocer. He specialises in brand strategy, visual storytelling and identity systems for both commercial and cultural clients, balancing aesthetics with strategic communication.",
+   "zh": "杜浩瑋是一位傳達設計師暨研究者，<strong>斯威本科技大學設計博士候選人</strong>，與墨爾本設計工廠（SDFM）及澳洲核能科學技術組織（ANSTO）合作進行研究。同時擔任位於 Naarm (Melbourne, Australia) 的設計工作室 <strong>D&amp;D Creative</strong> 設計總監（合約制），主導市中心多項品牌重塑專案，包含 Midcity Centre 與 Downtown Grocer。專精於商業與文化機構的品牌策略、視覺敘事與識別系統，於美學與策略性溝通之間取得平衡。"
   },
   "paragraphs": [
    {
@@ -178,10 +178,10 @@
   },
   {
    "title": {
-    "en": "Design Work in Melbourne",
-    "zh": "墨爾本設計作品"
+    "en": "Design Work in Naarm (Melbourne, Australia)",
+    "zh": "Naarm (Melbourne, Australia) 設計作品"
    },
-   "credit": "Designed at D&amp;D Creative · Melbourne, 2022–present",
+   "credit": "Designed at D&amp;D Creative · Naarm (Melbourne, Australia), 2022–present",
    "rows": []
   },
   {
@@ -1116,8 +1116,8 @@
      },
      "href": null,
      "sub": {
-      "en": "Invited speaker · RMIT TSA, Melbourne",
-      "zh": "受邀講者 · RMIT TSA，墨爾本"
+      "en": "Invited speaker · RMIT TSA, Naarm (Melbourne, Australia)",
+      "zh": "受邀講者 · RMIT TSA，Naarm (Melbourne, Australia)"
      },
      "result": "Speaker",
      "items": [],
@@ -1191,8 +1191,8 @@
      },
      "href": "https://www.ted.com/tedx/events/65699",
      "sub": {
-      "en": "Melbourne, Australia",
-      "zh": "澳洲墨爾本"
+      "en": "Naarm (Melbourne, Australia)",
+      "zh": "Naarm (Melbourne, Australia)"
      },
      "result": "Speaker",
      "items": [],
@@ -1668,8 +1668,8 @@
     },
     {
      "title": {
-      "en": "From Taipei to Melbourne — design graduate's research path",
-      "zh": "從台北到墨爾本：設計畢業生的研究之路"
+      "en": "From Taipei to Naarm (Melbourne, Australia) — design graduate's research path",
+      "zh": "從台北到 Naarm (Melbourne, Australia)：設計畢業生的研究之路"
      },
      "href": "https://www.chinatimes.com/realtimenews/20231127001133-260405",
      "pub": {
@@ -2080,12 +2080,12 @@
  ],
  "editorial": {
   "intro": {
-   "en": "I’m Hao Wei Tu, a communication designer and researcher working between Melbourne and Taipei.",
-   "zh": "我是杜浩瑋，在墨爾本與台北從事傳達設計與研究。"
+   "en": "I’m Hao Wei Tu, a communication designer and researcher working between Naarm (Melbourne, Australia) and Taipei.",
+   "zh": "我是杜浩瑋，在 Naarm (Melbourne, Australia) 與台北從事傳達設計與研究。"
   },
   "practice": {
-   "en": "My practice spans identities, books and exhibitions for commercial and cultural clients. At D&D Creative in Melbourne, I work as a contract Design Director on projects including the rebrands of Midcity Centre and Downtown Grocer.",
-   "zh": "我的設計涵蓋商業與文化領域的品牌識別、書籍與展覽。目前以合約制設計總監身分參與墨爾本 D&D Creative 的專案，包括 Midcity Centre 與 Downtown Grocer 的品牌重塑。"
+   "en": "My practice spans identities, books and exhibitions for commercial and cultural clients. At D&D Creative in Naarm (Melbourne, Australia), I work as a contract Design Director on projects including the rebrands of Midcity Centre and Downtown Grocer.",
+   "zh": "我的設計涵蓋商業與文化領域的品牌識別、書籍與展覽。目前以合約制設計總監身分參與位於 Naarm (Melbourne, Australia) 的 D&D Creative 專案，包括 Midcity Centre 與 Downtown Grocer 的品牌重塑。"
   },
   "research": {
    "en": "I’m a PhD candidate in Design at Swinburne University of Technology, working with Design Factory Melbourne and ANSTO. My research explores how generated images can support communication and collaboration in science.",

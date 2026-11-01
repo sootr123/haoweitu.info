@@ -1,18 +1,15 @@
 """Build the two private RISING application PDFs from output/pdf/source/application.json.
 
-Requires reportlab, Pillow and pypdf. Fonts are the static Archivo instances in
+Requires reportlab and pypdf. Fonts are the static Archivo instances in
 output/pdf/source/fonts (OFL licensed). Outputs and personal source stay local.
 """
 import html
-import io
 import json
 from pathlib import Path
 
-from PIL import Image
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
-from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas
@@ -21,7 +18,6 @@ from reportlab.platypus import Paragraph
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'output/pdf'
 DATA = json.loads((OUT / 'source/application.json').read_text())
-WORK = json.loads((ROOT / 'content/rising.json').read_text())['projects']
 W, H = A4
 M = 43
 INK = colors.HexColor('#111111')
@@ -61,10 +57,10 @@ def link(c, label, url, x, y, size=9):
     rule(c,y+size+2,x,width,INK)
 
 
-def page(c, label, number):
+def page(c, label, number, total=2):
     text(c,'HTU.',M,30,17,'Black')
     text(c,label,M+119,35,8,'Medium')
-    text(c,f'{number:02d} / 02',W-M-33,35,8)
+    text(c,f'{number:02d} / {total:02d}',W-M-33,35,8)
     rule(c,63,color=INK)
     rule(c,H-43)
     text(c,'Hao Wei Tu',M,H-31,8,'Medium')
@@ -83,11 +79,11 @@ def new_pdf(filename,title):
 
 
 def cover_letter():
-    c=new_pdf('Hao_Wei_Tu_RISING_Cover_Letter.pdf','Hao Wei Tu | RISING | Cover letter & selected work')
-    page(c,'RISING 2027 / SENIOR DESIGNER',1)
+    c=new_pdf('Hao_Wei_Tu_RISING_Cover_Letter.pdf','Hao Wei Tu | RISING | Cover letter')
+    page(c,'RISING 2027 / SENIOR DESIGNER',1,total=1)
     text(c,'HAO WEI TU',M,86,43,'Black')
     text(c,'Communication designer / Design Director',M,141,13)
-    text(c,'Melbourne, Australia',M,164,9,color=GREY)
+    text(c,'Naarm (Melbourne, Australia)',M,164,9,color=GREY)
     rule(c,192,color=INK)
     text(c,'COVER LETTER',M,212,8,'Medium')
     text(c,'RISING',M,235,9)
@@ -97,43 +93,7 @@ def cover_letter():
     for p in DATA['letter']:
         y=para(c,html.escape(p),x,y+11,W-M-x,10.2,14.1)
     y=para(c,'Kind regards,<br/><b>Hao Wei Tu</b>',x,y+15,W-M-x,10.2,14.1)
-    link(c,'Selected portfolio: haoweitu.info/rising/',DATA['portfolio'],x,y+14,9)
-    c.showPage()
-    page(c,'SELECTED WORK FOR RISING',2)
-    text(c,'Selected work',M,84,34,'Black')
-    text(c,'for RISING.',M,121,34,'Black')
-    text(c,'Six projects across identity, print, motion and space.',M,166,10)
-    text(c,'Click an image or title to open the full project.',M,183,8.5,color=GREY)
-    gap=20
-    cw=(W-2*M-gap)/2
-    for i,p in enumerate(WORK):
-        x=M+(i%2)*(cw+gap)
-        top=216+(i//2)*184
-        im=Image.open(ROOT/f'assets/work/{p["id"]}/{p["image"]}-1600.webp').convert('RGB')
-        im.thumbnail((1100,700),Image.Resampling.LANCZOS)
-        ih=112
-        scale=min(cw/im.width,ih/im.height)
-        dw,dh=im.width*scale,im.height*scale
-        c.setFillColor(colors.HexColor('#f4f4f4'))
-        c.rect(x,H-top-ih,cw,ih,fill=1,stroke=0)
-        encoded=io.BytesIO()
-        im.save(encoded,format='JPEG',quality=94,subsampling=0)
-        encoded.seek(0)
-        c.drawImage(ImageReader(encoded),x+(cw-dw)/2,H-top-ih+(ih-dh)/2,dw,dh)
-        url=f'https://haoweitu.info/work/{p["id"]}/'
-        c.linkURL(url,(x,H-top-ih,x+cw,H-top),relative=0,thickness=0)
-        title=p['title']['en']
-        fs=10.7
-        while pdfmetrics.stringWidth(title,'Archivo-Bold',fs)>cw:
-            fs-=.1
-        text(c,title,x,top+121,fs,'Bold')
-        c.linkURL(url,(x,H-top-137,x+cw,H-top-119),relative=0,thickness=0)
-        caption=DATA['pdf_captions'][p['id']]
-        fs=8.4
-        while pdfmetrics.stringWidth(caption,'Archivo-Regular',fs)>cw:
-            fs-=.1
-        text(c,caption,x,top+138,fs)
-        para(c,html.escape(p['role']['en']),x,top+153,cw,8,10.2,color=GREY)
+    link(c,'Portfolio: haoweitu.info/work/',DATA['portfolio'],x,y+14,9)
     c.save()
 
 
@@ -148,8 +108,8 @@ def resume():
     page(c,'RESUME / DESIGN PRACTICE',1)
     text(c,'HAO WEI TU',M,86,43,'Black')
     text(c,'Communication designer / Design Director',M,141,13)
-    text(c,'Melbourne, Australia',M,165,9,color=GREY)
-    link(c,'haoweitu.info/rising/',DATA['portfolio'],W-M-99,165,9)
+    text(c,'Naarm (Melbourne, Australia)',M,165,9,color=GREY)
+    link(c,'haoweitu.info/work/',DATA['portfolio'],W-M-99,165,9)
     y=para(c,html.escape(DATA['profile']),M,198,W-2*M,10.5,14.5)+22
     y=section(c,'DESIGN EXPERIENCE',y)
     for e in DATA['experience']:
@@ -191,7 +151,9 @@ if __name__=='__main__':
     cover_letter()
     resume()
     from pypdf import PdfReader
-    for path in sorted(OUT.glob('*.pdf')):
+    expected_pages = {'Hao_Wei_Tu_RISING_Cover_Letter.pdf': 1, 'Hao_Wei_Tu_RISING_Resume.pdf': 2}
+    for filename, expected in expected_pages.items():
+        path=OUT / filename
         reader=PdfReader(path)
-        assert len(reader.pages)==2, path
-        print(f'{path.name}: 2 pages, {path.stat().st_size:,} bytes')
+        assert len(reader.pages)==expected, path
+        print(f'{path.name}: {expected} page(s), {path.stat().st_size:,} bytes')

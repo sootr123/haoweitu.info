@@ -100,6 +100,7 @@ html[data-lang="zh"] .title .zh { letter-spacing: .06em; font-weight: 300; line-
 .mark-point { display: inline-block; width: .115em; height: .115em; margin-left: .025em; background: currentColor; vertical-align: .008em; }
 .ground-lens { position: absolute; left: 43%; top: 18%; width: 15vw; height: 15vw; border-radius: 50%; background: #fff; mix-blend-mode: difference; pointer-events: none; transition: left .35s var(--ease), top .35s var(--ease); }
 .hero-bar > .lbl { grid-column: 1 / 7; }
+.hero-bar .place-label { text-transform: none; }
 .hero-bar { position: relative; z-index: 3; align-items: center; font-size: 13px; margin-top: 46px; }
 .hero-down { grid-column: 9 / 13; justify-self: end; display: inline-flex; gap: 8px; }
 .hero-down:hover { color: var(--accent); }
@@ -274,7 +275,7 @@ html[data-lang="zh"] .teaser-text { line-height: 1.55; letter-spacing: .02em; fo
 .ft > a { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
 .ft-links { display: flex; gap: 18px; }
 .ft-links a:hover, .ft > a:hover { color: var(--ink-2); }
-.ft-clock { display: flex; gap: 18px; color: var(--ink-2); }
+.ft-clock { display: flex; flex-wrap: wrap; gap: 6px 18px; color: var(--ink-2); }
 .ft > span:last-child { margin-left: auto; color: var(--ink-2); }
 
 /* ── work page: rows, each with a small strip of pictures ── */

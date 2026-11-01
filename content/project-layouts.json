@@ -183,17 +183,16 @@
         },
         {
           "heading": {
-            "en": "Campaign and screening vehicle",
-            "zh": "從宣傳到篩檢車"
+            "en": "The campaign image",
+            "zh": "宣傳圖像"
           },
           "text": {
-            "en": "The ribbon frames people in the campaign image and opens into a larger drawing across the screening vehicle. Yellow and white keep both applications recognisable while leaving room for information.",
-            "zh": "緞帶在宣傳圖像中框起人物，也在篩檢車上展開為更大的線條。黃色與白色建立共同的辨識度，並為資訊保留清楚的空間。"
+            "en": "The yellow ribbon forms a seated figure over the campaign photograph, connecting the identity to the people at the centre of the project.",
+            "zh": "黃色緞帶在宣傳照片上形成坐姿人物，將識別連回專案所關注的人。"
           },
-          "layout": "pair",
+          "layout": "wide",
           "images": [
-            "pdf-02",
-            "pdf-03"
+            "pdf-02"
           ]
         },
         {

@@ -16,6 +16,7 @@ from urllib.parse import quote, urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://haoweitu.info"
+PLACE = "Naarm (Melbourne, Australia)"
 CSS_V = JS_V = None  # filled with file mtimes so browsers pick up new versions
 
 C = lambda name: json.loads((ROOT / "content" / name).read_text(encoding="utf-8"))
@@ -172,7 +173,7 @@ def page(path, title, desc, body, *, image=None, jsonld=None, current=None, og_t
 <footer class="ft" id="contact">
 <a href="mailto:{EMAIL}">{EMAIL}</a>
 <span class="ft-links">{foot_links}</span>
-<span class="ft-clock num"><span><span class="en">Melbourne</span><span class="zh">墨爾本</span> <time data-tz="Australia/Melbourne"></time></span> <span><span class="en">Taipei</span><span class="zh">台北</span> <time data-tz="Asia/Taipei"></time></span></span>
+<span class="ft-clock num"><span><span>{PLACE}</span> <time data-tz="Australia/Melbourne"></time></span> <span><span class="en">Taipei</span><span class="zh">台北</span> <time data-tz="Asia/Taipei"></time></span></span>
 <span>© {dt.date.today().year} HTU.</span>
 </footer>
 <div class="peek" aria-hidden="true"><img alt=""></div>
@@ -286,7 +287,7 @@ def build_home():
 <section class="hero" aria-label="HTU.">
 <div class="hero-top"><div class="hero-intro"><span class="lbl">{bi(home['intro']['eyebrow'])}</span><p class="lede">{bi(home['intro']['body'])}</p></div></div>
 <h1 class="mark" aria-label="HTU. — Hao Wei Tu 杜浩瑋"><span class="mark-type" aria-hidden="true">HTU<span class="mark-point"></span></span><span class="ground-lens" aria-hidden="true"></span></h1>
-<div class="hero-bar grid"><span class="lbl"><span class="en">Melbourne / Taipei</span><span class="zh">墨爾本／台北</span></span><a class="hero-down" href="/work/"><span class="en">View selected work</span><span class="zh">瀏覽作品選輯</span><span aria-hidden="true">↗</span></a></div>
+<div class="hero-bar grid"><span class="lbl place-label"><span class="en">{PLACE} / Taipei</span><span class="zh">{PLACE}／台北</span></span><a class="hero-down" href="/work/"><span class="en">View selected work</span><span class="zh">瀏覽作品選輯</span><span aria-hidden="true">↗</span></a></div>
 </section>
 {home_logos()}
 <section class="home-note grid" aria-label="About the practice">
@@ -301,7 +302,7 @@ def build_home():
             node["dateModified"] = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
     write("index.html", page(
         "/", "HTU. — Hao Wei Tu 杜浩瑋, communication designer & researcher",
-        "Portfolio of Hao Wei Tu (杜浩瑋): identities, books, exhibitions and research between Melbourne and Taipei.",
+        f"Portfolio of Hao Wei Tu (杜浩瑋): identities, books, exhibitions and research between {PLACE} and Taipei.",
         body, jsonld=ld, og_type="profile", body_cls="home"))
 
 
@@ -608,7 +609,7 @@ def build_about():
 <a href="#profile">{bi({"en":"Profile", "zh":"簡介"})}</a><a href="#practice">{bi({"en":"Practice", "zh":"實務"})}</a><a href="#recognition">{bi({"en":"Recognition", "zh":"獲獎"})}</a><a href="#press">{bi({"en":"Press", "zh":"報導"})}</a>
 </div></nav>
 <section class="ab-profile grid" id="profile" aria-labelledby="profile-name">
-<aside class="ab-profile-aside"><figure><img src="{esc(about_asset('me.jpg'))}" alt="Portrait of Hao Wei Tu" width="1306" height="1306" fetchpriority="high"><figcaption><span>Melbourne ↔ Taipei</span><a href="mailto:{EMAIL}">{EMAIL} ↗</a></figcaption></figure></aside>
+<aside class="ab-profile-aside"><figure><img src="{esc(about_asset('me.jpg'))}" alt="Portrait of Hao Wei Tu" width="1306" height="1306" fetchpriority="high"><figcaption><span>{PLACE} ↔ Taipei</span><a href="mailto:{EMAIL}">{EMAIL} ↗</a></figcaption></figure></aside>
 <div class="ab-profile-copy"><h1 id="profile-name">Hao Wei Tu <span lang="zh-Hant">杜浩瑋</span></h1>
 <p class="ab-intro">{bi(ed["intro"])}</p>
 <div class="ab-practice-copy"><div><h2 class="lbl mute">{bi({"en":"Design practice", "zh":"設計實務"})}</h2><p>{bi(ed["practice"])}</p></div><div><h2 class="lbl mute">{bi({"en":"Research", "zh":"研究"})}</h2><p>{bi(ed["research"])}</p></div></div>
@@ -620,7 +621,7 @@ def build_about():
 <header class="ab-section-heading"><h2 id="practice-h">{bi({"en":"In practice", "zh":"設計與對話"})}</h2><p class="mute">{bi({"en":"From the studio to the conversation.","zh":"從工作室到交流現場。"})}</p></header>
 <div class="ab-section-content">
 <div class="ab-talk">{video}<div class="ab-talk-copy"><p class="lbl mute">TEDxSwinburne · 2025</p><h3>Generative AI as a human-centered visualisation tool</h3><p>{bi(ed["talk"])}</p><a class="ab-text-link" href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noopener">YouTube ↗</a></div></div>
-<div class="ab-client-section"><h3>{bi({"en":"Selected clients", "zh":"合作品牌"})}</h3><p class="ab-credit">D&amp;D Creative · Melbourne · 2022–{bi({"en":"present", "zh":"至今"})}</p><ul class="ab-client-list">{"".join(clients)}</ul></div>
+<div class="ab-client-section"><h3>{bi({"en":"Selected clients", "zh":"合作品牌"})}</h3><p class="ab-credit">D&amp;D Creative · {PLACE} · 2022–{bi({"en":"present", "zh":"至今"})}</p><ul class="ab-client-list">{"".join(clients)}</ul></div>
 </div></section>
 
 <section class="ab-section grid" id="recognition" aria-labelledby="rec-h">
@@ -646,7 +647,7 @@ def build_about():
 """
     write("about/index.html", page(
         "/about/", "About — HTU. Hao Wei Tu 杜浩瑋",
-        "Biography, design practice, research, awards and conversations with Hao Wei Tu, a communication designer working between Melbourne and Taipei.",
+        f"Biography, design practice, research, awards and conversations with Hao Wei Tu, a communication designer working between {PLACE} and Taipei.",
         body, current="about", body_cls="about"))
 
 
@@ -700,9 +701,7 @@ def main():
     build_404()
     build_sitemap()
     build_llms()
-    from build_rising import build as build_rising
-    build_rising(page, PROJECTS)
-    print(f"built home, work, {len(PROJECTS)} projects, about, rising, 404, sitemap")
+    print(f"built home, work, {len(PROJECTS)} projects, about, 404, sitemap")
 
 
 if __name__ == "__main__":

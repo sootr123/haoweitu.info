@@ -6,7 +6,7 @@
    "@id": "https://haoweitu.info/#website",
    "url": "https://haoweitu.info/",
    "name": "Hao Wei Tu 杜浩瑋",
-   "description": "Communication designer and PhD candidate at Swinburne University of Technology, Melbourne, in collaboration with Design Factory Melbourne and the Australian Nuclear Science and Technology Organisation (ANSTO). Senior Graphic Designer at D&D Creative. The first designer from Taiwan and East Asia to win The One Club Young Ones Portfolio Award.",
+   "description": "Communication designer and PhD candidate at Swinburne University of Technology in Naarm (Melbourne, Australia), in collaboration with Design Factory Melbourne and the Australian Nuclear Science and Technology Organisation (ANSTO). Senior Graphic Designer at D&D Creative. The first designer from Taiwan and East Asia to win The One Club Young Ones Portfolio Award.",
    "publisher": {
     "@id": "https://haoweitu.info/#person"
    }
@@ -43,7 +43,7 @@
     "Howard Tu",
     "Hao Wei (Howard) Tu"
    ],
-   "description": "Communication designer and PhD candidate at Swinburne University of Technology, Melbourne, in collaboration with Design Factory Melbourne and the Australian Nuclear Science and Technology Organisation (ANSTO). Senior Graphic Designer at D&D Creative. The first designer from Taiwan and East Asia to win The One Club Young Ones Portfolio Award.",
+   "description": "Communication designer and PhD candidate at Swinburne University of Technology in Naarm (Melbourne, Australia), in collaboration with Design Factory Melbourne and the Australian Nuclear Science and Technology Organisation (ANSTO). Senior Graphic Designer at D&D Creative. The first designer from Taiwan and East Asia to win The One Club Young Ones Portfolio Award.",
    "url": "https://haoweitu.info/",
    "image": "https://haoweitu.info/Horizental.jpg",
    "email": "haowei@haoweitu.info",
@@ -63,7 +63,7 @@
    },
    "homeLocation": {
     "@type": "Place",
-    "name": "Melbourne, Victoria, Australia",
+    "name": "Naarm (Melbourne, Australia)",
     "address": {
      "@type": "PostalAddress",
      "addressLocality": "Hawthorn",
