@@ -700,7 +700,9 @@ def main():
     build_404()
     build_sitemap()
     build_llms()
-    print(f"built home, work, {len(PROJECTS)} projects, about, 404, sitemap")
+    from build_rising import build as build_rising
+    build_rising(page, PROJECTS)
+    print(f"built home, work, {len(PROJECTS)} projects, about, rising, 404, sitemap")
 
 
 if __name__ == "__main__":

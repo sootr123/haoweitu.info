@@ -7,3 +7,7 @@ __pycache__/
 
 # Earlier drafts kept locally only
 _archive/
+
+# Private application documents and render previews stay local.
+output/
+tmp/
