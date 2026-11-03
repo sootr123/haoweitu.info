@@ -48,7 +48,7 @@ def numbered(items):
 def build(page_func):
     c = json.loads((ROOT / "content/mentorship.json").read_text(encoding="utf-8"))
     mailto = f'mailto:{EMAIL}?subject={quote(c["subject"])}'
-    title = bi(c["title"]).replace("2027 Mentorship", "2027<br>Mentorship").replace("2027 輔導", "2027<br>輔導")
+    title = bi(c["title"]).replace("2027 Mentorship", "2027<br>Mentorship").replace("2027 指導", "2027<br>指導")
     timeline = "".join(
         f'<li><span class="mt-date num">{bi(t["date"])}</span><p>{bi(t["text"])}</p></li>' for t in c["timeline"])
     apply = f"""{numbered(c["materials"])}
@@ -63,7 +63,7 @@ def build(page_func):
 
     body = f"""
 <section class="mt-intro" aria-labelledby="mt-heading">
-  <div class="mt-kicker"><span>{bi({"en": "Mentorship by HTU.", "zh": "HTU. 設計輔導"})}</span><span>{bi({"en": "Online / Mandarin, English materials", "zh": "線上 / 中文授課・英文資料"})}</span></div>
+  <div class="mt-kicker"><span>{bi({"en": "Mentorship by HTU.", "zh": "HTU. 設計指導"})}</span><span>{bi({"en": "Online / Mandarin, English materials", "zh": "線上 / 中文授課・英文資料"})}</span></div>
   <div class="mt-heading-row">
     <h1 id="mt-heading">{title}</h1>
     <div class="mt-intro-copy">
