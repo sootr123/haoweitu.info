@@ -701,7 +701,9 @@ def main():
     build_404()
     build_sitemap()
     build_llms()
-    print(f"built home, work, {len(PROJECTS)} projects, about, 404, sitemap")
+    from build_mentorship import build as build_mentorship
+    build_mentorship(page)
+    print(f"built home, work, {len(PROJECTS)} projects, about, mentorship, 404, sitemap")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,64 @@
+/* Unlisted D&AD New Blood mentorship call. Shares the HTU. frame and bilingual controls. */
+.mt-intro { padding: calc(var(--head) + 58px) var(--g) clamp(56px, 7vw, 110px); }
+.mt-kicker { display: flex; justify-content: space-between; gap: 24px; font-size: 12px; line-height: 1.4; }
+.mt-heading-row { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); column-gap: clamp(36px, 6vw, 100px); align-items: end; margin-top: clamp(40px, 5vw, 76px); }
+.mt-heading-row h1 { font-size: clamp(44px, 6.4vw, 108px); font-weight: 550; line-height: .98; letter-spacing: -.045em; }
+.mt-intro-copy { max-width: 30em; padding-bottom: 6px; font-size: clamp(15px, 1.2vw, 18px); line-height: 1.5; }
+.mt-deadline { margin-top: 22px; padding-top: 12px; border-top: 1px solid var(--rule); font-size: 13px; }
+.mt-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 28px; margin-top: 24px; }
+.mt-button { display: inline-flex; align-items: center; gap: 28px; padding: 12px 18px; background: var(--ink); color: var(--paper); font-size: 13px; }
+.mt-button:hover { background: #333; }
+.mt-text-link { display: inline-flex; gap: 20px; padding-bottom: 3px; border-bottom: 1px solid var(--ink); font-size: 12px; }
+.mt-text-link:hover { color: var(--ink-2); }
+
+.mt-body { margin: 0 var(--g); }
+.mt-section { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); column-gap: clamp(36px, 6vw, 100px); padding: 16px 0 clamp(48px, 6vw, 88px); border-top: 1px solid var(--ink); }
+.mt-section h2 { font-size: clamp(22px, 2vw, 32px); font-weight: 500; line-height: 1.2; letter-spacing: -.03em; }
+.mt-section-body { max-width: 46em; padding-top: 6px; }
+.mt-list { list-style: none; }
+.mt-list li { display: flex; gap: 20px; padding: 16px 0; border-top: 1px solid var(--rule); font-size: 16px; line-height: 1.55; }
+.mt-list li:first-child { border-top: 0; padding-top: 0; }
+.mt-num { flex: 0 0 2em; padding-top: 3px; color: var(--ink-2); font-size: 11px; }
+.mt-list h3 { font-size: 16px; font-weight: 500; }
+.mt-list h3 + p { margin-top: 4px; color: #444; font-size: 15px; }
+
+.mt-send { margin-top: 28px; padding: 22px 24px 24px; background: var(--panel); font-size: 13px; line-height: 1.5; }
+.mt-email { display: inline-block; margin: 4px 0 16px; font-size: clamp(20px, 1.9vw, 28px); letter-spacing: -.02em; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+.mt-email:hover { color: var(--ink-2); }
+.mt-subject { margin-top: 6px; padding: 10px 12px; background: var(--paper); font-size: 13px; overflow-wrap: anywhere; user-select: all; }
+
+.mt-timeline { list-style: none; }
+.mt-timeline li { display: grid; grid-template-columns: 9em minmax(0, 1fr); gap: 20px; padding: 14px 0; border-top: 1px solid var(--rule); font-size: 16px; line-height: 1.55; }
+.mt-timeline li:first-child { border-top: 0; padding-top: 0; }
+.mt-date { padding-top: 2px; font-size: 13px; }
+
+.mt-section-body > p { font-size: 16px; line-height: 1.55; }
+.mt-links { display: grid; gap: 12px; margin-top: 20px; }
+.mt-links a { display: flex; justify-content: space-between; gap: 24px; max-width: 26em; padding-bottom: 6px; border-bottom: 1px solid var(--rule); font-size: 15px; }
+.mt-links a:hover { border-color: var(--ink); }
+
+.mt-note { padding: 16px 0 64px; border-top: 1px solid var(--ink); color: var(--ink-2); font-size: 12px; line-height: 1.6; }
+.mentorship-page .ft { margin-top: 0; }
+
+html[data-lang="zh"] .mt-heading-row h1 { font-size: clamp(40px, 5.6vw, 92px); line-height: 1.12; letter-spacing: -.02em; font-weight: 500; }
+html[data-lang="zh"] .mt-section h2 { letter-spacing: 0; }
+html[data-lang="zh"] .mt-list li, html[data-lang="zh"] .mt-timeline li, html[data-lang="zh"] .mt-section-body > p { line-height: 1.8; }
+
+@media (min-width: 1700px) {
+  .mentorship-page main { max-width: 1760px; margin-inline: auto; }
+}
+@media (max-width: 950px) {
+  .mt-heading-row { grid-template-columns: 1fr; row-gap: 32px; }
+  .mt-section { grid-template-columns: 1fr; row-gap: 20px; }
+}
+@media (max-width: 700px) {
+  .mt-intro { padding-top: calc(var(--head) + 32px); }
+  .mt-kicker { font-size: 10px; gap: 12px; }
+  .mt-kicker > :last-child { text-align: right; max-width: 16em; }
+  .mt-heading-row { margin-top: 36px; }
+  .mt-heading-row h1 { font-size: clamp(38px, 10.5vw, 64px); }
+  html[data-lang="zh"] .mt-heading-row h1 { font-size: clamp(34px, 9.4vw, 56px); }
+  .mt-list li, .mt-timeline li, .mt-section-body > p { font-size: 15px; }
+  .mt-timeline li { grid-template-columns: 1fr; gap: 2px; }
+  .mt-send { padding: 18px 16px 20px; }
+}

@@ -1,0 +1,107 @@
+{
+  "path": "/dad-mentorship-2027/",
+  "subject": "Application: D&AD New Blood Awards Mentorship Programme 2027",
+  "briefs": "https://www.dandad.org/awards/new-blood-awards/briefs-2027",
+  "title": {
+    "en": "D&AD New Blood Awards 2027 Mentorship Programme",
+    "zh": "D&AD New Blood Awards 2027 輔導計畫"
+  },
+  "summary": {
+    "en": "A free online mentorship for university design students in Taiwan who want to take on a D&AD New Blood Awards 2027 brief. Weekly sessions run in Mandarin, with materials in English.",
+    "zh": "為台灣熱愛設計的大學生與研究生而設的免費線上輔導，陪你挑戰 D&AD New Blood Awards 2027 的競賽題目。每週線上會議以中文進行，搭配英文資料。"
+  },
+  "note": {
+    "en": "Free and run on a voluntary basis by HTU. This is an independent programme and is not organised by D&AD.",
+    "zh": "本計畫完全免費，由 HTU. 自發舉辦，並非 D&AD 官方活動。"
+  },
+  "provide": [
+    {
+      "title": {"en": "Design guidance", "zh": "專業設計指導"},
+      "text": {
+        "en": "Weekly feedback on your idea, process and craft, from first concept to final piece.",
+        "zh": "每週針對概念、過程與執行細節給予回饋，從發想一路到完稿。"
+      }
+    },
+    {
+      "title": {"en": "Competition guidance", "zh": "競賽策略"},
+      "text": {
+        "en": "Choosing a brief, reading what it really asks for, and presenting the work so it reads clearly.",
+        "zh": "挑選適合的題目、讀懂題目真正的要求，並讓作品的呈現清楚有力。"
+      }
+    },
+    {
+      "title": {"en": "Portfolio advice", "zh": "作品集建議"},
+      "text": {
+        "en": "Turning the project into a strong portfolio piece, with advice on your wider portfolio.",
+        "zh": "把這次的作品整理成作品集的亮點，並給予整體作品集的建議。"
+      }
+    }
+  ],
+  "eligibility": [
+    {
+      "en": "You are currently studying for a bachelor's or master's degree.",
+      "zh": "目前就讀大學部或碩士班。"
+    },
+    {
+      "en": "You can join weekly online meetings from 15 December 2026, spend 1–2 hours a week on the project, and submit your entry before 11 March 2027.",
+      "zh": "可以從 2026 年 12 月 15 日起每週參加線上會議，每週投入 1–2 小時，並在 2027 年 3 月 11 日前完成投件。"
+    },
+    {
+      "en": "You may apply as a team of two, as long as both members meet the criteria above.",
+      "zh": "可兩人組隊報名，兩位成員都需符合上述資格。"
+    }
+  ],
+  "materials": [
+    {
+      "title": {"en": "Short cover letter", "zh": "簡短自我介紹信"},
+      "text": {
+        "en": "Who you are and why you want to join. Include your email, school, programme and year.",
+        "zh": "你是誰、為什麼想參加。請附上 Email、學校、科系與年級。"
+      }
+    },
+    {
+      "title": {"en": "Simple CV", "zh": "簡易履歷"},
+      "text": {
+        "en": "One page is enough.",
+        "zh": "一頁即可。"
+      }
+    },
+    {
+      "title": {"en": "Selected work", "zh": "作品選集"},
+      "text": {
+        "en": "Any format: a website, PDF or link.",
+        "zh": "格式不限：網站、PDF 或連結皆可。"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": {"en": "30 Nov 2026", "zh": "2026.11.30"},
+      "text": {
+        "en": "First-round applications close, end of day",
+        "zh": "第一階段報名截止（當日 23:59）"
+      }
+    },
+    {
+      "date": {"en": "Before 15 Dec", "zh": "12.15 前"},
+      "text": {
+        "en": "Selected applicants receive further details. We will try to let every applicant know the result.",
+        "zh": "入選者將收到進一步資訊；我們會盡量通知每位申請者結果。"
+      }
+    },
+    {
+      "date": {"en": "15 Dec 2026", "zh": "2026.12.15"},
+      "text": {
+        "en": "Weekly online mentorship begins",
+        "zh": "每週線上輔導開始"
+      }
+    },
+    {
+      "date": {"en": "11 Mar 2027", "zh": "2027.03.11"},
+      "text": {
+        "en": "Entries submitted",
+        "zh": "完成投件"
+      }
+    }
+  ]
+}
