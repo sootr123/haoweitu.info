@@ -1,0 +1,7 @@
+/*! Tailwind CSS v2.2.19 | MIT License | https://tailwindcss.com */
+.flex{display:flex}
+.items-center{align-items:center}
+.gap-1{gap:.25rem}
+.gap-2{gap:.5rem}
+.gap-3{gap:.75rem}
+.justify-between{justify-content:space-between}

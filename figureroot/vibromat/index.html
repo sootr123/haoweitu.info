@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" data-site-base="/figureroot/" data-citation-path="CSIRO-VM96/" data-page-entry="vibromat">
+<head>
+  <base href="/figureroot/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#164e3e">
+  <title>VibroMat studio · FigureRoot</title>
+  <meta name="description" content="Collect research figures, reference sketches, prompts and earlier versions into a FigureRoot citation package.">
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/tailwind.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="export.css">
+  <link rel="stylesheet" href="collect.css">
+  <script defer src="assets/icons.js"></script>
+  <script defer src="data.js"></script>
+  <link rel="stylesheet" href="plans.css">
+  <script defer src="schema.js"></script>
+  <script defer src="export.js"></script>
+  <script defer src="collect.js"></script>
+  <script defer src="app.js"></script>
+  <script defer src="plans.js"></script>
+  <script defer src="root.js"></script>
+</head>
+<body data-view="collect">
+  <a class="skip" href="#collect">Skip to content</a>
+  <header class="topbar">
+    <div class="nav-inner">
+      <button type="button" class="brand" data-home aria-label="FigureRoot home"><img width="32" height="34" src="assets/mark.svg" alt=""><span>Figure<span>Root</span></span></button>
+      <nav class="site-nav" aria-label="FigureRoot pages">
+        <a href="?" data-page="upload" aria-current="page">Upload</a>
+        <a href="/figureroot/vibromat/" data-page="vibromat">VibroMat demo</a>
+        <a href="/figureroot/CSIRO-VM96/" data-page="reviewer">Reviewer demo</a>
+        <a href="?view=plans" data-page="plans" data-plans>Plans</a>
+      </nav>
+      <nav class="mode-tabs flex items-center gap-1" aria-label="Workspace mode" id="mode-tabs"></nav>
+      <div class="head-actions flex items-center gap-3">
+        <button class="button primary export-btn" id="export"><i data-icon="share-2"></i><span>Export &amp; cite</span></button>
+        <button class="avatar" title="Package author and source" aria-label="Package author and source" data-action="details">HT</button>
+      </div>
+    </div>
+  </header>
+  <main id="plans" hidden tabindex="-1"></main>
+  <main id="collect" tabindex="-1" hidden></main>
+  <main id="studio" hidden>
+    <div class="crumb flex items-center gap-2"><i data-icon="layers"></i><span>Workspace</span><i data-icon="chevron-right"></i><button class="crumb-home" type="button" data-home>Citation packages</button><i data-icon="chevron-right"></i><span class="mono">CSIRO-VM96</span></div>
+    <section class="hero" aria-labelledby="package-title">
+      <div>
+        <div class="hero-kicker flex items-center gap-2"><span class="figure-kicker">FIGURE 01</span><span class="small-line"></span><span>CITATION PACKAGE</span></div>
+        <div class="title-row flex items-center gap-3"><h1 id="package-title">CSIRO VibroMat</h1><span class="trl">TRL 5–7</span></div>
+        <p class="subtitle">Wearable tactile sensory substitution system</p>
+      </div>
+      <div class="hero-source"><span class="meta-label">PACKAGE AUTHOR</span><strong>Howard Tu</strong><button class="text-btn" data-action="details">Package details <i data-icon="arrow-up-right"></i></button></div>
+    </section>
+    <div id="review-alert"></div>
+    <div class="workspace-grid" id="workspace" tabindex="-1">
+      <section class="panel figure-panel" aria-label="Figure viewer" id="viewer"></section>
+      <div class="inspector">
+        <aside class="panel annotation-panel" id="notes" aria-label="Circle notes"></aside>
+        <a class="source-card" href="https://www.csiro.au/en/work-with-us/ip-commercialisation/marketplace/vibromat" target="_blank" rel="noopener">
+          <span class="source-icon"><i data-icon="book-open-text"></i></span>
+          <span><span class="version-label">REFERENCE SOURCE</span><strong>CSIRO Commercialisation Marketplace</strong><small>VibroMat · 96-motor tactile display</small></span>
+          <i data-icon="arrow-up-right"></i>
+        </a>
+      </div>
+    </div>
+    <section class="history" aria-labelledby="history-title">
+      <div class="section-heading flex justify-between items-center">
+        <div class="flex items-center gap-3"><span class="section-icon"><i data-icon="git-branch"></i></span><h2 id="history-title">Iteration history</h2><span class="counter" id="versions-count">3</span></div>
+        <div id="reorder-control"></div>
+      </div>
+      <div class="version-list" id="history"></div>
+    </section>
+    <section id="review-section"></section>
+    <footer><div class="flex items-center gap-2"><img src="assets/mark.svg" width="18" height="18" alt="">FigureRoot</div><span class="mono">CSIRO-VM96 <span class="slash">/</span> Demo citation package</span></footer>
+  </main>
+  <dialog id="dialog" class="fr-dialog"><div id="dialog-inner"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <input type="file" id="upload" accept="image/png,image/jpeg" hidden>
+</body>
+</html>
